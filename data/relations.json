@@ -1,0 +1,874 @@
+[
+  {
+    "id": "R001",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "childhood_acquaintance",
+    "statement_zh": "祥子与初华从小相识。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "childhood",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R002",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "recruited",
+    "statement_zh": "祥子邀请初华加入Ave Mujica。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R003",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "uika",
+    "object_id": "sakiko",
+    "predicate": "accepted_invitation_from",
+    "statement_zh": "初华爽快答应祥子的邀请。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R004",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "bandmate",
+    "statement_zh": "祥子与初华在Ave Mujica共同活动。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_early",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E03",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R005",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "childhood_friend",
+    "statement_zh": "祥子与睦为青梅竹马。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "childhood",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E04"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R006",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "former_bandmate",
+    "statement_zh": "祥子与睦曾同属CRYCHIC。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": "crychic",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E02",
+      "E22"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R007",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "bandmate",
+    "statement_zh": "祥子与睦在Ave Mujica共同活动。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_early",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E04",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R008",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "responded_to_performance_crisis",
+    "statement_zh": "睦演出失误时，祥子临场化解危机。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "supportive_action",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_ep03_context",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E09"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R009",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "bandmate",
+    "statement_zh": "祥子与海铃在Ave Mujica共同活动。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_early",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E05",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R010",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "bandmate",
+    "statement_zh": "祥子与喵梦在Ave Mujica共同活动。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_mujica_early",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R011",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "nyamu",
+    "object_id": "sakiko",
+    "predicate": "unmasking_conflict",
+    "statement_zh": "喵梦的摘面具策划使祥子措手不及。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "conflict",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_ep02_context",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E08"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "定位为第2话梗概所概述的事件，摘面具动作发生时间须另看原片。"
+  },
+  {
+    "id": "R012",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "tomori",
+    "predicate": "former_bandmate",
+    "statement_zh": "祥子与灯曾同属CRYCHIC。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": "crychic",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R013",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "soyo",
+    "predicate": "former_bandmate",
+    "statement_zh": "祥子与爽世曾同属CRYCHIC。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": "crychic",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R014",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "taki",
+    "predicate": "former_bandmate",
+    "statement_zh": "祥子与立希曾同属CRYCHIC。",
+    "direction": "symmetric",
+    "relation_kind": "interpersonal",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": "crychic",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R015",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "father",
+    "predicate": "daughter_of",
+    "statement_zh": "祥子是这位父亲的女儿。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "kinship",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R016",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mother",
+    "predicate": "daughter_of",
+    "statement_zh": "祥子是这位已故母亲的女儿。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "kinship",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R017",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "ave_mujica",
+    "predicate": "founded",
+    "statement_zh": "祥子组建Ave Mujica。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E07"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R018",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "ave_mujica",
+    "predicate": "keyboardist_of",
+    "statement_zh": "祥子担任Ave Mujica键盘手。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R019",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "crychic",
+    "predicate": "former_member_of",
+    "statement_zh": "祥子曾是CRYCHIC成员。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R020",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "haneoka",
+    "predicate": "student_at",
+    "statement_zh": "公开档案中祥子就读羽丘。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01",
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R021",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "togawa_group",
+    "predicate": "family_affiliation",
+    "statement_zh": "祥子具有丰川集团千金的家族背景。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "公司职位、股权与继承权各为独立待核验属性。"
+  },
+  {
+    "id": "R022",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "kanon",
+    "object_id": "sakiko",
+    "predicate": "voices",
+    "statement_zh": "高尾奏音为祥子配音。",
+    "direction": "directed",
+    "relation_kind": "production",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "production",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "real_world_production",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R023",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "object_id": "ave_mujica",
+    "predicate": "coordinates_schedules",
+    "statement_zh": "海铃协调Ave Mujica成员日程。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E05"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R024",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "called_to_meet",
+    "statement_zh": "MyGO第8话梗概中，祥子叫出初华。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep08_context",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E12"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R025",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "sadaharu",
+    "predicate": "grandchild_of",
+    "statement_zh": "声优原访谈明确祥子与丰川定治为祖孙。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "kinship",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E32"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "出处为冈田梦以对已播剧情的复述；未标母系或父系。"
+  },
+  {
+    "id": "R026",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "uika",
+    "object_id": "sadaharu",
+    "predicate": "daughter_of",
+    "statement_zh": "声优原访谈明确初华（乐队成员）与丰川定治为父女。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "kinship",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E32"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": null
+  },
+  {
+    "id": "R027",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "object_id": "sakiko",
+    "predicate": "emotional_phone_appeal",
+    "statement_zh": "海铃在第11话通过电话向祥子表达强烈情绪。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "emotional_appeal",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "ave_ep11",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E33"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": null
+  },
+  {
+    "id": "R028",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "ave_mujica",
+    "predicate": "composer_of",
+    "statement_zh": "剧场版官方人物档案明确祥子为乐队作曲。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E38"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": null
+  },
+  {
+    "id": "R029",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "togawa_group",
+    "predicate": "maintains_distance_from",
+    "statement_zh": "剧场版官方简介描述祥子与丰川集团保持距离。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E38"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "档案快照；具体决裂事件与法律关系不在此条展开。"
+  },
+  {
+    "id": "R030",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "uika",
+    "object_id": "sakiko",
+    "predicate": "supports",
+    "statement_zh": "剧场版官方档案描述初华支持祥子。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "supportive_action",
+    "group_context": null,
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E49"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+  },
+  {
+    "id": "R031",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "entrusts_band_management_to",
+    "statement_zh": "祥子全权委托海铃处理乐队管理业务。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E51"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+  },
+  {
+    "id": "R032",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "object_id": "ave_mujica",
+    "predicate": "manages",
+    "statement_zh": "海铃承担受祥子委托的Ave Mujica管理业务。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": "ave_mujica",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E51"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+  },
+  {
+    "id": "R033",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "nyamu",
+    "object_id": "mutsumi",
+    "predicate": "some_actor_work_paired_with",
+    "statement_zh": "喵梦的部分演员机会包含与睦搭配的安排。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E52"
+    ],
+    "evidence_status": "official_explicit",
+    "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+  }
+]

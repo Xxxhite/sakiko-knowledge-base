@@ -1,0 +1,133 @@
+[
+  {
+    "id": "Q01",
+    "topic": "身高",
+    "candidate_value": "155 cm",
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E21"
+    ],
+    "status": "needs_primary_confirmation",
+    "reason": "已读英文社区档案；待官方角色设定、官方游戏档案或可定位原始公告。",
+    "next_action": "追溯社区身高字段的官方引文，记录页面或书页。"
+  },
+  {
+    "id": "Q02",
+    "topic": "父母、祖父姓名及家庭事件细节",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E14",
+      "E32"
+    ],
+    "status": "needs_primary_confirmation",
+    "reason": "新增祖父丰川定治的一手访谈姓名与亲属复述；父母姓名、金额和继承安排继续待原作核验。",
+    "next_action": "核对Ave Mujica第1、7及后续相关集，记录官方播放URL、字幕版本、时间码与说话人。"
+  },
+  {
+    "id": "Q03",
+    "topic": "初华/初音身份与亲属关系",
+    "candidate_value": {
+      "display_names": [
+        "三角初華",
+        "三角初音"
+      ],
+      "pending_claim_ids": [
+        "K001",
+        "K002",
+        "K003",
+        "K004"
+      ],
+      "scene_review_ids": [
+        "V001",
+        "V002",
+        "V003",
+        "V006"
+      ]
+    },
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E28",
+      "E32",
+      "E37"
+    ],
+    "status": "partially_resolved",
+    "reason": "官方显示名与一手亲属复述保留；出生名、姐妹长幼和冒名方向新增逐项二手线索，等待原片复核。",
+    "next_action": "按V001—V003/V006读取同版第11—12话；解决SC001后再拆分姐妹实体。"
+  },
+  {
+    "id": "Q04",
+    "topic": "Ave Mujica后段复团与结局关系状态",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E34",
+      "E33",
+      "E41"
+    ],
+    "status": "partially_resolved",
+    "reason": "已补授权目录链接与片长，后段原片复核拆成V004—V010；剧场版官方管理职责和支持关系独立入库。",
+    "next_action": "逐项完成scene_reviews，保留角色知情阶段、行为/请求/回应及关系有效阶段。"
+  },
+  {
+    "id": "Q05",
+    "topic": "年龄、身高、血型、MBTI、星座及外观数值",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E01",
+      "E21"
+    ],
+    "status": "needs_primary_confirmation",
+    "reason": "本版只录已核验档案字段；年龄需要具体生日与剧情日期，性格分类需要独立来源或另立推断。",
+    "next_action": "按字段查原始设定；未取得证据时保留null，不用生日反推年龄。"
+  },
+  {
+    "id": "Q06",
+    "topic": "2026年电影、游戏剧情与迷你动画",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E38",
+      "E49",
+      "E50",
+      "E51",
+      "E52"
+    ],
+    "status": "partially_resolved",
+    "reason": "已补五人剧场版现实档案，新增职责、支持与演员活动。舞台神话与现实人物分开。",
+    "next_action": "后续影片剧情与游戏剧情分别建设独立continuity；电影档案不自动定位TV集数。"
+  },
+  {
+    "id": "Q07",
+    "topic": "逐集对白、称呼与时间码证据",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E44",
+      "E45",
+      "E46",
+      "E47"
+    ],
+    "status": "partially_resolved",
+    "reason": "第9—13话授权目录链接已核验。第12话正文需登录，ABEMA入口显示地区限制；时间码与字幕版本仍为空。",
+    "next_action": "具备合法原片访问条件后按scene_reviews填写字幕版本与时间码。"
+  },
+  {
+    "id": "Q08",
+    "topic": "官方指南正文与附录广播剧",
+    "candidate_value": {
+      "title": "TVアニメ「BanG Dream! Ave Mujica」official guidebook Fatiscriptum",
+      "announced_release_date": "2025-09-30",
+      "page_count": 112,
+      "publisher_page_url": "https://gekkan-bushi.com/topics/avemujica-fatiscriptum/"
+    },
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E48"
+    ],
+    "status": "needs_primary_confirmation",
+    "reason": "发行新闻稿已核验；角色设定正文和附录CD尚未读取。",
+    "next_action": "获取具体书页后记录页码；优先核对父母姓名、家系和身高等档案。CD以独立作品和时间码记录。"
+  }
+]

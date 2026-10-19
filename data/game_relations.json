@@ -1,0 +1,302 @@
+[
+  {
+    "id": "AKR002",
+    "subject_id": "sakiko",
+    "object_id": "ak_ann",
+    "predicate": "apologizes_and_reassures",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK002"
+    ],
+    "evidence_ids": [
+      "E57"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR003",
+    "subject_id": "sakiko",
+    "object_id": "ak_ann",
+    "predicate": "plays_birthday_music_for",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK003"
+    ],
+    "evidence_ids": [
+      "E57"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR004",
+    "subject_id": "sakiko",
+    "object_id": "ak_morpheus",
+    "predicate": "accepts_waking_companions_bet",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-1",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK004"
+    ],
+    "evidence_ids": [
+      "E58"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR007",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "affirms_drummer_effort",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-6",
+    "segment": "BEG",
+    "narrative_level": "dream_memory_replay",
+    "basis_record_ids": [
+      "AK007"
+    ],
+    "evidence_ids": [
+      "E63"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR008",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "urges_to_leave_exploitation",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-3",
+    "segment": "END",
+    "narrative_level": "umiri_dream",
+    "basis_record_ids": [
+      "AK008"
+    ],
+    "evidence_ids": [
+      "E60"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR009",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "searches_and_attempts_to_follow",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-4",
+    "segment": "END",
+    "narrative_level": "uika_dream",
+    "basis_record_ids": [
+      "AK009"
+    ],
+    "evidence_ids": [
+      "E61"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR019",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "describes_as_comrade",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "basis_record_ids": [
+      "AK019"
+    ],
+    "evidence_ids": [
+      "E65"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR020",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "expresses_professional_trust",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "basis_record_ids": [
+      "AK020"
+    ],
+    "evidence_ids": [
+      "E65"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR021",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "acknowledges_support",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "basis_record_ids": [
+      "AK021"
+    ],
+    "evidence_ids": [
+      "E65"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR022",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "recalls_childhood_companionship",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "basis_record_ids": [
+      "AK022"
+    ],
+    "evidence_ids": [
+      "E65"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR027",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "requests_necklace_help",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "second_sakiko_dream",
+    "basis_record_ids": [
+      "AK027"
+    ],
+    "evidence_ids": [
+      "E66"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR035",
+    "subject_id": "sakiko",
+    "object_id": "ak_morpheus",
+    "predicate": "expresses_sorrow_and_considers_motive",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK035"
+    ],
+    "evidence_ids": [
+      "E67"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR043",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "leaves_party_choice_to",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "basis_record_ids": [
+      "AK043"
+    ],
+    "evidence_ids": [
+      "E70"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR051",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "defends_professional_integrity",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-3",
+    "segment": "BEG",
+    "narrative_level": "umiri_dream",
+    "basis_record_ids": [
+      "AK051"
+    ],
+    "evidence_ids": [
+      "E72"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR056",
+    "subject_id": "sakiko",
+    "object_id": "uika",
+    "predicate": "promises_to_rescue_from_nightmare",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "basis_record_ids": [
+      "AK056"
+    ],
+    "evidence_ids": [
+      "E73"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  }
+]

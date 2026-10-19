@@ -1,0 +1,40 @@
+# Local editor settings
+.idea/
+.vscode/
+*.iml
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# Generated reports, working files and release archives
+/validation/
+/work/
+/outputs/
+/releases/
+/dist/
+/build/
+*.zip
+*.log
+*.tmp
+*.bak
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

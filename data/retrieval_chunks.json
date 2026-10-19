@@ -1,0 +1,3854 @@
+[
+  {
+    "id": "C_F001",
+    "record_id": "F001",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "日文姓名为豊川祥子。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F002",
+    "record_id": "F002",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "英文官方姓名采用Sakiko Togawa。",
+    "evidence_ids": [
+      "E13"
+    ],
+    "source_ids": [
+      "S09"
+    ],
+    "source_urls": [
+      "https://en.bang-dream.com/anime/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F003",
+    "record_id": "F003",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "Ave Mujica舞台名为Oblivionis（オブリビオニス）。",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "source_ids": [
+      "S01",
+      "S09"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://en.bang-dream.com/anime/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F004",
+    "record_id": "F004",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "由高尾奏音配音。",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "source_ids": [
+      "S01",
+      "S09"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://en.bang-dream.com/anime/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "kanon"
+    ],
+    "continuity": "production_metadata"
+  },
+  {
+    "id": "C_F005",
+    "record_id": "F005",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "公开角色档案列其就读羽丘女子学园。",
+    "evidence_ids": [
+      "E01",
+      "E18"
+    ],
+    "source_ids": [
+      "S01",
+      "S14"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "haneoka"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F006",
+    "record_id": "F006",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "电视动画角色介绍中为高中一年级。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F007",
+    "record_id": "F007",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "Our Notes公开档案班级为1-B。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "official_game_profile"
+  },
+  {
+    "id": "C_F008",
+    "record_id": "F008",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "生日为2月14日。",
+    "evidence_ids": [
+      "E18",
+      "E19"
+    ],
+    "source_ids": [
+      "S14",
+      "S15"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/",
+      "https://bushiroad-store.com/pages/february_birthday"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "cross_media_profile"
+  },
+  {
+    "id": "C_F009",
+    "record_id": "F009",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方游戏档案的喜好栏包括红茶。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "official_game_profile"
+  },
+  {
+    "id": "C_F010",
+    "record_id": "F010",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方游戏档案的喜好栏包括巧克力。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "official_game_profile"
+  },
+  {
+    "id": "C_F011",
+    "record_id": "F011",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方游戏档案列兴趣为艺术鉴赏。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "official_game_profile"
+  },
+  {
+    "id": "C_F012",
+    "record_id": "F012",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方游戏档案列兴趣为阅读。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "source_urls": [
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "official_game_profile"
+  },
+  {
+    "id": "C_F013",
+    "record_id": "F013",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方简介称其为丰川集团的千金。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F014",
+    "record_id": "F014",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方简介描述她的说话方式具有气品。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F015",
+    "record_id": "F015",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "在Ave Mujica担当键盘。",
+    "evidence_ids": [
+      "E01",
+      "E06"
+    ],
+    "source_ids": [
+      "S01",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F016",
+    "record_id": "F016",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "曾为CRYCHIC成员。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F017",
+    "record_id": "F017",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "在CRYCHIC负责键盘。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F018",
+    "record_id": "F018",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "在CRYCHIC负责作曲。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F019",
+    "record_id": "F019",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "MyGO角色页描述她经常在学校音乐室弹钢琴。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "mygo_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F020",
+    "record_id": "F020",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "祥子组建Ave Mujica。",
+    "evidence_ids": [
+      "E01",
+      "E07"
+    ],
+    "source_ids": [
+      "S01",
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F021",
+    "record_id": "F021",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方简介以承担全体成员人生的决心描述她的组团姿态。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F022",
+    "record_id": "F022",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "祥子构建并投入维护Ave Mujica的舞台世界观。",
+    "evidence_ids": [
+      "E01",
+      "E24"
+    ],
+    "source_ids": [
+      "S01",
+      "S20"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://bang-dream.com/artist/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F023",
+    "record_id": "F023",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方新闻稿确认祥子的母亲已经去世。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F024",
+    "record_id": "F024",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方新闻稿确认祥子的父亲经历事业失败。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F025",
+    "record_id": "F025",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方梗概记述她失去生长的家。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_crisis",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F026",
+    "record_id": "F026",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方梗概将家庭变故与她失去原先约定同行的乐队联系起来。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_crisis",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F027",
+    "record_id": "F027",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "Ave Mujica早期取得商业成绩。",
+    "evidence_ids": [
+      "E07",
+      "E14"
+    ],
+    "source_ids": [
+      "S07",
+      "S10"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/",
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F028",
+    "record_id": "F028",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第1话梗概描述祥子全力准备完整的舞台呈现。",
+    "evidence_ids": [
+      "E07"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep01_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F029",
+    "record_id": "F029",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第1话梗概列出乐队方向分歧。",
+    "evidence_ids": [
+      "E07"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep01_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F030",
+    "record_id": "F030",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第2话梗概把成员真容公开归因于喵梦的策划。",
+    "evidence_ids": [
+      "E08"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep02_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "ave_mujica",
+      "nyamu"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F031",
+    "record_id": "F031",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第3话梗概记述祥子临场应对睦的演奏失误。",
+    "evidence_ids": [
+      "E09"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep03_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F032",
+    "record_id": "F032",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第5话梗概确认Ave Mujica在全国巡演途中解散。",
+    "evidence_ids": [
+      "E10",
+      "E14"
+    ],
+    "source_ids": [
+      "S07",
+      "S10"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/",
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep05_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F033",
+    "record_id": "F033",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方新闻稿记述原CRYCHIC成员在她再次失去依靠后尝试接触她。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "after_ave_disbandment",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F034",
+    "record_id": "F034",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第7话梗概记述CRYCHIC解散真相被揭露。",
+    "evidence_ids": [
+      "E15"
+    ],
+    "source_ids": [
+      "S11"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/e9dd8aa50f225b49"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep07_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F035",
+    "record_id": "F035",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第7话梗概描述祥子回避睦、Ave Mujica与CRYCHIC。",
+    "evidence_ids": [
+      "E15"
+    ],
+    "source_ids": [
+      "S11"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/e9dd8aa50f225b49"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep07_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F036",
+    "record_id": "F036",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第8话梗概记述海铃观看CRYCHIC演奏后想重振Ave Mujica。",
+    "evidence_ids": [
+      "E11"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F037",
+    "record_id": "F037",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "初华从小与祥子相识。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "childhood",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F038",
+    "record_id": "F038",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "初华爽快答应祥子的入团邀请。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F039",
+    "record_id": "F039",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "睦与祥子是青梅竹马。",
+    "evidence_ids": [
+      "E04"
+    ],
+    "source_ids": [
+      "S04"
+    ],
+    "source_urls": [
+      "https://bang-dream.com/artist/avemujica/wakaba-mutsumi/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "childhood",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "mutsumi",
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F040",
+    "record_id": "F040",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "海铃在Ave Mujica承担成员日程协调等工作。",
+    "evidence_ids": [
+      "E05"
+    ],
+    "source_ids": [
+      "S05"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/umiri/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F041",
+    "record_id": "F041",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "CRYCHIC相关官方授权系列的五名成员为灯、祥子、睦、爽世、立希。",
+    "evidence_ids": [
+      "E23",
+      "E02",
+      "E22",
+      "E40"
+    ],
+    "source_ids": [
+      "S19",
+      "S02",
+      "S18",
+      "S29"
+    ],
+    "source_urls": [
+      "https://www.goodsmile.com/ja/product/1139558",
+      "https://anime.bang-dream.com/mygo/character/sakiko/",
+      "https://anime.bang-dream.com/mygo/character/mutsumi/",
+      "https://bang-dream.com/news/2268/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "crychic",
+      "tomori",
+      "sakiko",
+      "mutsumi",
+      "soyo",
+      "taki"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F042",
+    "record_id": "F042",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "MyGO第8话梗概记述祥子流泪后叫出初华。",
+    "evidence_ids": [
+      "E12"
+    ],
+    "source_ids": [
+      "S08"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "mygo_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F043",
+    "record_id": "F043",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "初华在Ave Mujica负责吉他与主唱。",
+    "evidence_ids": [
+      "E03",
+      "E06"
+    ],
+    "source_ids": [
+      "S03",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F044",
+    "record_id": "F044",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "初华在Ave Mujica负责作词。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F045",
+    "record_id": "F045",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "官方角色页点击姓名后，乐队成员显示为三角初音。",
+    "evidence_ids": [
+      "E28"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "identity_reveal",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F046",
+    "record_id": "F046",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "该姓名切换后的英文为Hatsune Misumi。",
+    "evidence_ids": [
+      "E28"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "identity_reveal",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F047",
+    "record_id": "F047",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "冈田梦以的一手访谈复述明确丰川定治是祥子的祖父。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "sadaharu"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F048",
+    "record_id": "F048",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "同一访谈把丰川定治称为初华（乐队成员）的父亲。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "uika",
+      "sadaharu"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F049",
+    "record_id": "F049",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "冈田复述第11话后段海铃在电话中向祥子倾诉强烈情绪。",
+    "evidence_ids": [
+      "E33"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "umiri",
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F050",
+    "record_id": "F050",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第10话的乐队再结成由高尾在原访谈中明确提及。",
+    "evidence_ids": [
+      "E34"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep10",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F051",
+    "record_id": "F051",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "原声优对谈明确第7话CRYCHIC在排练场重聚演奏。",
+    "evidence_ids": [
+      "E36"
+    ],
+    "source_ids": [
+      "S26"
+    ],
+    "source_urls": [
+      "https://natalie.mu/music/pp/avemujica03"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep07_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F052",
+    "record_id": "F052",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第11话身份背景以初华的舞台独白展开，原声优对谈确认这一呈现。",
+    "evidence_ids": [
+      "E37"
+    ],
+    "source_ids": [
+      "S26"
+    ],
+    "source_urls": [
+      "https://natalie.mu/music/pp/avemujica03"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F053",
+    "record_id": "F053",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "监督原访谈确认最终话存在Ave Mujica演唱《天球(そら)のMúsica》的舞台。",
+    "evidence_ids": [
+      "E41"
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "source_urls": [
+      "https://febri.jp/topics/https-febri-jp-topics-topics-bang-dream_ave_mujica_2/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep13",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F054",
+    "record_id": "F054",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方人物档案明确祥子担任Ave Mujica作曲。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F055",
+    "record_id": "F055",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案描述祥子与丰川集团保持距离。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F056",
+    "record_id": "F056",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方简介以命运共同体描述祥子承担Ave Mujica的姿态。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F057",
+    "record_id": "F057",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "监督原访谈将摘面具动作定位在第1话。",
+    "evidence_ids": [
+      "E42"
+    ],
+    "source_ids": [
+      "S30"
+    ],
+    "source_urls": [
+      "https://febri.jp/topics/https-febri-jp-topics-topics-bang-dream_ave_mujica_1/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep01",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F058",
+    "record_id": "F058",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案明确初华兼任Ave Mujica作词。",
+    "evidence_ids": [
+      "E49"
+    ],
+    "source_ids": [
+      "S35"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F059",
+    "record_id": "F059",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案描述初华支持幼时相识的祥子。",
+    "evidence_ids": [
+      "E49"
+    ],
+    "source_ids": [
+      "S35"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "sakiko"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F060",
+    "record_id": "F060",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案描述睦同时活跃于女演员工作。",
+    "evidence_ids": [
+      "E50"
+    ],
+    "source_ids": [
+      "S36"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/mutsumi/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "mutsumi"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F061",
+    "record_id": "F061",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案明确祥子全权委托海铃处理Ave Mujica管理业务。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "source_ids": [
+      "S37"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/umiri/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri",
+      "sakiko"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F062",
+    "record_id": "F062",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案将海铃兼任30多个乐队写作过去的经历。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "source_ids": [
+      "S37"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/umiri/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F063",
+    "record_id": "F063",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "剧场版官方档案描述喵梦的演员工作机会增加。",
+    "evidence_ids": [
+      "E52"
+    ],
+    "source_ids": [
+      "S38"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/nyamu/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "nyamu"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_F064",
+    "record_id": "F064",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "同一档案明确喵梦部分演员机会包含与睦搭配的安排。",
+    "evidence_ids": [
+      "E52"
+    ],
+    "source_ids": [
+      "S38"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/nyamu/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "nyamu",
+      "mutsumi"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R001",
+    "record_id": "R001",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与初华从小相识。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "childhood",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R002",
+    "record_id": "R002",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子邀请初华加入Ave Mujica。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "uika",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R003",
+    "record_id": "R003",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "初华爽快答应祥子的邀请。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R004",
+    "record_id": "R004",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与初华在Ave Mujica共同活动。",
+    "evidence_ids": [
+      "E01",
+      "E03",
+      "E06"
+    ],
+    "source_ids": [
+      "S01",
+      "S03",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/character/uika/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "uika",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R005",
+    "record_id": "R005",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与睦为青梅竹马。",
+    "evidence_ids": [
+      "E04"
+    ],
+    "source_ids": [
+      "S04"
+    ],
+    "source_urls": [
+      "https://bang-dream.com/artist/avemujica/wakaba-mutsumi/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "childhood",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R006",
+    "record_id": "R006",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与睦曾同属CRYCHIC。",
+    "evidence_ids": [
+      "E02",
+      "E22"
+    ],
+    "source_ids": [
+      "S02",
+      "S18"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/",
+      "https://anime.bang-dream.com/mygo/character/mutsumi/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R007",
+    "record_id": "R007",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与睦在Ave Mujica共同活动。",
+    "evidence_ids": [
+      "E01",
+      "E04",
+      "E06"
+    ],
+    "source_ids": [
+      "S01",
+      "S04",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://bang-dream.com/artist/avemujica/wakaba-mutsumi/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R008",
+    "record_id": "R008",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "睦演出失误时，祥子临场化解危机。",
+    "evidence_ids": [
+      "E09"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep03_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R009",
+    "record_id": "R009",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与海铃在Ave Mujica共同活动。",
+    "evidence_ids": [
+      "E01",
+      "E05",
+      "E06"
+    ],
+    "source_ids": [
+      "S01",
+      "S05",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/character/umiri/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "umiri",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R010",
+    "record_id": "R010",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与喵梦在Ave Mujica共同活动。",
+    "evidence_ids": [
+      "E06"
+    ],
+    "source_ids": [
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "nyamu",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R011",
+    "record_id": "R011",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "喵梦的摘面具策划使祥子措手不及。",
+    "evidence_ids": [
+      "E08"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep02_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "nyamu",
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R012",
+    "record_id": "R012",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与灯曾同属CRYCHIC。",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "source_ids": [
+      "S19",
+      "S02"
+    ],
+    "source_urls": [
+      "https://www.goodsmile.com/ja/product/1139558",
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "tomori",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R013",
+    "record_id": "R013",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与爽世曾同属CRYCHIC。",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "source_ids": [
+      "S19",
+      "S02"
+    ],
+    "source_urls": [
+      "https://www.goodsmile.com/ja/product/1139558",
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "soyo",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R014",
+    "record_id": "R014",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子与立希曾同属CRYCHIC。",
+    "evidence_ids": [
+      "E23",
+      "E02"
+    ],
+    "source_ids": [
+      "S19",
+      "S02"
+    ],
+    "source_urls": [
+      "https://www.goodsmile.com/ja/product/1139558",
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "taki",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R015",
+    "record_id": "R015",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子是这位父亲的女儿。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "father"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R016",
+    "record_id": "R016",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子是这位已故母亲的女儿。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "mother"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R017",
+    "record_id": "R017",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子组建Ave Mujica。",
+    "evidence_ids": [
+      "E01",
+      "E07"
+    ],
+    "source_ids": [
+      "S01",
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R018",
+    "record_id": "R018",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子担任Ave Mujica键盘手。",
+    "evidence_ids": [
+      "E01",
+      "E06"
+    ],
+    "source_ids": [
+      "S01",
+      "S06"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/character/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R019",
+    "record_id": "R019",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子曾是CRYCHIC成员。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R020",
+    "record_id": "R020",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "公开档案中祥子就读羽丘。",
+    "evidence_ids": [
+      "E01",
+      "E18"
+    ],
+    "source_ids": [
+      "S01",
+      "S14"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://bang-dream-on.bushimo.jp/character/avemujica/togawa-sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "haneoka"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R021",
+    "record_id": "R021",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子具有丰川集团千金的家族背景。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "togawa_group"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R022",
+    "record_id": "R022",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "高尾奏音为祥子配音。",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "source_ids": [
+      "S01",
+      "S09"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://en.bang-dream.com/anime/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "production",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "kanon",
+      "sakiko"
+    ],
+    "continuity": "production_metadata"
+  },
+  {
+    "id": "C_R023",
+    "record_id": "R023",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "海铃协调Ave Mujica成员日程。",
+    "evidence_ids": [
+      "E05"
+    ],
+    "source_ids": [
+      "S05"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/umiri/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_profile",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R024",
+    "record_id": "R024",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "MyGO第8话梗概中，祥子叫出初华。",
+    "evidence_ids": [
+      "E12"
+    ],
+    "source_ids": [
+      "S08"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "mygo_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R025",
+    "record_id": "R025",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "声优原访谈明确祥子与丰川定治为祖孙。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "sadaharu"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R026",
+    "record_id": "R026",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "声优原访谈明确初华（乐队成员）与丰川定治为父女。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "uika",
+      "sadaharu"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R027",
+    "record_id": "R027",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "海铃在第11话通过电话向祥子表达强烈情绪。",
+    "evidence_ids": [
+      "E33"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "umiri",
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_R028",
+    "record_id": "R028",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "剧场版官方人物档案明确祥子为乐队作曲。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R029",
+    "record_id": "R029",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "剧场版官方简介描述祥子与丰川集团保持距离。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "togawa_group"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R030",
+    "record_id": "R030",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "剧场版官方档案描述初华支持祥子。",
+    "evidence_ids": [
+      "E49"
+    ],
+    "source_ids": [
+      "S35"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "uika",
+      "sakiko"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R031",
+    "record_id": "R031",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "祥子全权委托海铃处理乐队管理业务。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "source_ids": [
+      "S37"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/umiri/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko",
+      "umiri",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R032",
+    "record_id": "R032",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "海铃承担受祥子委托的Ave Mujica管理业务。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "source_ids": [
+      "S37"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/umiri/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "umiri",
+      "ave_mujica"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_R033",
+    "record_id": "R033",
+    "collection": "relations",
+    "layer": "canon",
+    "text": "喵梦的部分演员机会包含与睦搭配的安排。",
+    "evidence_ids": [
+      "E52"
+    ],
+    "source_ids": [
+      "S38"
+    ],
+    "source_urls": [
+      "https://avemujica-movie.bang-dream.com/character/nyamu/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "film_profile_snapshot",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "nyamu",
+      "mutsumi"
+    ],
+    "continuity": "film_profile_snapshot"
+  },
+  {
+    "id": "C_T001",
+    "record_id": "T001",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "幼年：与初华相识、与睦为青梅竹马。",
+    "evidence_ids": [
+      "E03",
+      "E04"
+    ],
+    "source_ids": [
+      "S03",
+      "S04"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/uika/",
+      "https://bang-dream.com/artist/avemujica/wakaba-mutsumi/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "childhood",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T002",
+    "record_id": "T002",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "旧日CRYCHIC时期：祥子负责作曲与键盘。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/character/sakiko/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "crychic_past",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T003",
+    "record_id": "T003",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "家庭背景变故：母亲去世、父亲事业失败，祥子失去旧家与原乐队。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_crisis",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T004",
+    "record_id": "T004",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "《春日影》演出相关眼泪后，祥子叫出初华。",
+    "evidence_ids": [
+      "E12"
+    ],
+    "source_ids": [
+      "S08"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "mygo_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T005",
+    "record_id": "T005",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "组建Ave Mujica，初华接受入团邀请。",
+    "evidence_ids": [
+      "E01",
+      "E03"
+    ],
+    "source_ids": [
+      "S01",
+      "S03"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_formation",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T006",
+    "record_id": "T006",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "早期商业成绩与舞台方向分歧并存。",
+    "evidence_ids": [
+      "E07"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep01_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T007",
+    "record_id": "T007",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "摘面具事件改变乐队的公开形象。",
+    "evidence_ids": [
+      "E08"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep02_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T008",
+    "record_id": "T008",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "睦演出失误，祥子临场应对。",
+    "evidence_ids": [
+      "E09"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep03_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T009",
+    "record_id": "T009",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "全国巡演途中乐队解散。",
+    "evidence_ids": [
+      "E10",
+      "E14"
+    ],
+    "source_ids": [
+      "S07",
+      "S10"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/",
+      "https://bushiroad.com/media/eb6ee77cb15375e2"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep05_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T010",
+    "record_id": "T010",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "CRYCHIC解散真相揭露，祥子回避旧联系。",
+    "evidence_ids": [
+      "E15"
+    ],
+    "source_ids": [
+      "S11"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/e9dd8aa50f225b49"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep07_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T011",
+    "record_id": "T011",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "海铃产生重振Ave Mujica的意图。",
+    "evidence_ids": [
+      "E11"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T012",
+    "record_id": "T012",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "第7话：CRYCHIC在排练场重聚演奏。",
+    "evidence_ids": [
+      "E36"
+    ],
+    "source_ids": [
+      "S26"
+    ],
+    "source_urls": [
+      "https://natalie.mu/music/pp/avemujica03"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep07_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T013",
+    "record_id": "T013",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "第10话：Ave Mujica再结成，访谈将Crucifix X与此阶段关联。",
+    "evidence_ids": [
+      "E34"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep10",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T014",
+    "record_id": "T014",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "第11话：初华独白展开身份与丰川家背景。",
+    "evidence_ids": [
+      "E37"
+    ],
+    "source_ids": [
+      "S26"
+    ],
+    "source_urls": [
+      "https://natalie.mu/music/pp/avemujica03"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T015",
+    "record_id": "T015",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "第11话后段：海铃通过电话向祥子表达强烈情绪。",
+    "evidence_ids": [
+      "E33"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_T016",
+    "record_id": "T016",
+    "collection": "timeline",
+    "layer": "canon",
+    "text": "最终话：Ave Mujica演唱天球(そら)のMúsica。",
+    "evidence_ids": [
+      "E41"
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "source_urls": [
+      "https://febri.jp/topics/https-febri-jp-topics-topics-bang-dream_ave_mujica_2/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "ave_ep13",
+    "as_of": "2026-10-19",
+    "evidence_status": "primary_interview_explicit",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I001",
+    "record_id": "I001",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "对舞台世界观的严格维护，可理解为她在失去旧有生活后重新建立秩序的方式之一。 推理：把失去旧家与乐队的背景，与她投入构建舞台秩序的行为联系起来。 其他解释：也可以主要从职业舞台制作与商业经营目标理解。",
+    "evidence_ids": [
+      "E01",
+      "E14",
+      "E24"
+    ],
+    "source_ids": [
+      "S01",
+      "S10",
+      "S20"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/character/sakiko/",
+      "https://bushiroad.com/media/eb6ee77cb15375e2",
+      "https://bang-dream.com/artist/avemujica/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_mujica_early",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I002",
+    "record_id": "I002",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "祥子与喵梦的早期冲突，可从舞台控制权与公开传播策略的分歧来理解。 推理：方向分歧与摘面具事件相连，监督也强调喵梦能够当面反驳祥子。 其他解释：具体场景也涉及各人的职业野心和私人处境。",
+    "evidence_ids": [
+      "E07",
+      "E08",
+      "E20"
+    ],
+    "source_ids": [
+      "S07",
+      "S16"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/",
+      "https://febri.jp/topics/https-febri-jp-topics-topics-bang-dream_ave_mujica_2/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified",
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep02_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "official",
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I003",
+    "record_id": "I003",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "第3话临场应对显示祥子具备在演出压力下处理突发状况的能力。 推理：从已发生的一次成功应对归纳能力表现。 其他解释：这也可能是对特定舞台和搭档熟悉所形成的局部能力。",
+    "evidence_ids": [
+      "E09"
+    ],
+    "source_ids": [
+      "S07"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/avemujica/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep03_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I004",
+    "record_id": "I004",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "由访谈记述的父女与祖孙关系，可推出初华/初音处在祥子的叔姨辈。 推理：同一丰川定治分别被称为初华的父亲与祥子的祖父，按一般家系推导为长一辈亲属。 其他解释：母系/父系分支、同父异母与具体称谓需结合第11话原片；本条保留为基于一手复述的关系推导。",
+    "evidence_ids": [
+      "E32",
+      "E28"
+    ],
+    "source_ids": [
+      "S25",
+      "S03"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://anime.bang-dream.com/avemujica/character/uika/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "family_backstory",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "creator_first_person",
+      "official"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I005",
+    "record_id": "I005",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "高尾把第7话重聚后祥子的作曲变化，理解为她重新向世界敞开了一点。 推理：这是高尾在原访谈中明确提出的角色与音乐性解读，保留说话人归属。 其他解释：可以从单曲配器和场景需要解释音乐差异。",
+    "evidence_ids": [
+      "E43"
+    ],
+    "source_ids": [
+      "S25"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "after_ave_ep07",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime"
+  },
+  {
+    "id": "C_I006",
+    "record_id": "I006",
+    "collection": "inferences",
+    "layer": "inference",
+    "text": "海铃第11话的电话反应可以理解为她对乐队的投入已超出日程协调这一职务。 推理：把早期履行幕后职责与后段主动表达个人情绪作比较。 其他解释：该场景也可主要表现一次急迫反应。",
+    "evidence_ids": [
+      "E33",
+      "E05"
+    ],
+    "source_ids": [
+      "S25",
+      "S05"
+    ],
+    "source_urls": [
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://anime.bang-dream.com/avemujica/character/umiri/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "ave_ep11",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "creator_first_person",
+      "official"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "umiri"
+    ],
+    "continuity": "tv_anime"
+  }
+]

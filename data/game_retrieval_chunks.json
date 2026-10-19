@@ -1,0 +1,4397 @@
+[
+  {
+    "id": "C_AK001",
+    "record_id": "AK001",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-1 BEG；场景层：initial_sakiko_dream；说话人：丰川祥子。祥子因担心安的安危，提议分头找人并承诺遇险时联络红豆。",
+    "evidence_ids": [
+      "E57"
+    ],
+    "source_ids": [
+      "S43"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-1_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_ann",
+      "ak_vigna"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "安",
+      "寻人",
+      "行动",
+      "红豆",
+      "主动"
+    ],
+    "query_examples": [
+      "祥子如何参与寻找安？"
+    ],
+    "spoiler_rank": 2,
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK002",
+    "record_id": "AK002",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-1 BEG；场景层：initial_sakiko_dream；说话人：丰川祥子。安反感被叫安娜时，祥子道歉，并告诉她爱丽丝正在赶来。",
+    "evidence_ids": [
+      "E57"
+    ],
+    "source_ids": [
+      "S43"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-1_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_ann",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "安",
+      "安娜",
+      "道歉",
+      "安慰",
+      "倾听"
+    ],
+    "query_examples": [
+      "祥子怎样对待安？"
+    ],
+    "spoiler_rank": 2,
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK003",
+    "record_id": "AK003",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-1 BEG；场景层：initial_sakiko_dream；说话人：丰川祥子。祥子在安成年前弹奏安眠曲，将音乐作为生日礼物。",
+    "evidence_ids": [
+      "E57"
+    ],
+    "source_ids": [
+      "S43"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-1_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_ann"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "安",
+      "生日",
+      "钢琴",
+      "安眠曲",
+      "祝福",
+      "音乐"
+    ],
+    "query_examples": [
+      "她给安什么生日礼物？"
+    ],
+    "spoiler_rank": 2,
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK004",
+    "record_id": "AK004",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-1 END；场景层：castle_frame；说话人：丰川祥子。莫菲丝提出逐个进入队友梦境的赌约；祥子答应唤醒所有人。 知情变化：她在城堡中看见四名同伴沉睡，明确了接下来的唤醒目标。",
+    "evidence_ids": [
+      "E58"
+    ],
+    "source_ids": [
+      "S44"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-1_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "赌约",
+      "赌局",
+      "莫菲丝",
+      "唤醒",
+      "救人"
+    ],
+    "query_examples": [
+      "祥子为什么和莫菲丝打赌？"
+    ],
+    "spoiler_rank": 2,
+    "stage": "SS-1",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK005",
+    "record_id": "AK005",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-1 END；场景层：castle_frame；说话人：丰川祥子。祥子坚持任何一名队友缺席，自己都不会离开。",
+    "evidence_ids": [
+      "E58"
+    ],
+    "source_ids": [
+      "S44"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-1_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "一个都不能少",
+      "全员",
+      "不离开",
+      "契约",
+      "责任"
+    ],
+    "query_examples": [
+      "她是否愿意独自离开梦城堡？"
+    ],
+    "spoiler_rank": 2,
+    "stage": "SS-1",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK006",
+    "record_id": "AK006",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-2 END；场景层：nyamu_dream；说话人：丰川祥子。为接近若麦，祥子付出身上余钱，跟随可疑男人尝试进入会场。",
+    "evidence_ids": [
+      "E59"
+    ],
+    "source_ids": [
+      "S45"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-2_寂静长廊的两端/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-2_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "nyamu"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "若麦",
+      "喵梦",
+      "会场",
+      "钱",
+      "黄牛",
+      "潜入"
+    ],
+    "query_examples": [
+      "她如何接近梦中的若麦？"
+    ],
+    "spoiler_rank": 4,
+    "stage": "SS-2",
+    "segment": "END",
+    "narrative_level": "nyamu_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK007",
+    "record_id": "AK007",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 BEG；场景层：dream_memory_replay；说话人：丰川祥子。开场回放中，祥子肯定若麦的努力与鼓技，希望她做自己。",
+    "evidence_ids": [
+      "E63"
+    ],
+    "source_ids": [
+      "S49"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "nyamu"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "若麦",
+      "喵梦",
+      "鼓手",
+      "鼓励",
+      "努力",
+      "做自己"
+    ],
+    "query_examples": [
+      "她对若麦的能力是什么态度？"
+    ],
+    "spoiler_rank": 11,
+    "stage": "SS-6",
+    "segment": "BEG",
+    "narrative_level": "dream_memory_replay",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK008",
+    "record_id": "AK008",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-3 END；场景层：umiri_dream；说话人：丰川祥子。祥子劝海铃摆脱被利用的处境，提出带她回到本应在的地方。",
+    "evidence_ids": [
+      "E60"
+    ],
+    "source_ids": [
+      "S46"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-3_音乐室内的光芒/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-3_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "umiri"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "海铃",
+      "叙拉古",
+      "归宿",
+      "利用",
+      "离开",
+      "信任"
+    ],
+    "query_examples": [
+      "她怎么劝海铃离开？"
+    ],
+    "spoiler_rank": 6,
+    "stage": "SS-3",
+    "segment": "END",
+    "narrative_level": "umiri_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK009",
+    "record_id": "AK009",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 END；场景层：uika_dream；说话人：丰川祥子。祥子赶赴别墅和码头寻找初华，却与离岛的她错过，仍想追上她。",
+    "evidence_ids": [
+      "E61"
+    ],
+    "source_ids": [
+      "S47"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "初音",
+      "小岛",
+      "码头",
+      "错过",
+      "寻找",
+      "追赶"
+    ],
+    "query_examples": [
+      "祥子有没有在岛上找到初华？"
+    ],
+    "spoiler_rank": 8,
+    "stage": "SS-4",
+    "segment": "END",
+    "narrative_level": "uika_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK010",
+    "record_id": "AK010",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 END；场景层：mutsumi_dream_entry；说话人：丰川祥子。再次见到睦时，祥子落泪，并向她求助。",
+    "evidence_ids": [
+      "E61"
+    ],
+    "source_ids": [
+      "S47"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "求助",
+      "哭泣",
+      "无助",
+      "眼泪"
+    ],
+    "query_examples": [
+      "祥子在梦中有没有脆弱的时候？"
+    ],
+    "spoiler_rank": 8,
+    "stage": "SS-4",
+    "segment": "END",
+    "narrative_level": "mutsumi_dream_entry",
+    "speaker": "丰川祥子",
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK011",
+    "record_id": "AK011",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 END；场景层：mutsumi_dream；说话人：丰川祥子。祥子拒绝共同维持梦境，强调睦现实中的身体仍躺在城堡里。",
+    "evidence_ids": [
+      "E62"
+    ],
+    "source_ids": [
+      "S48"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi",
+      "ak_dream_mutsumi_voice"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "拒绝",
+      "留下",
+      "现实身体",
+      "保护",
+      "梦境"
+    ],
+    "query_examples": [
+      "她为什么拒绝留下陪睦？"
+    ],
+    "spoiler_rank": 10,
+    "stage": "SS-5",
+    "segment": "END",
+    "narrative_level": "mutsumi_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK012",
+    "record_id": "AK012",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 END；场景层：mutsumi_dream；说话人：旁白。带引号的梦中“睦”将祥子逼至崖边并推落。",
+    "evidence_ids": [
+      "E62"
+    ],
+    "source_ids": [
+      "S48"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mutsumi_voice"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "悬崖",
+      "坠落",
+      "推下去",
+      "发言形象"
+    ],
+    "query_examples": [
+      "是谁把祥子推下悬崖？"
+    ],
+    "spoiler_rank": 10,
+    "stage": "SS-5",
+    "segment": "END",
+    "narrative_level": "mutsumi_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK013",
+    "record_id": "AK013",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 BEG；场景层：castle_frame；说话人：莫菲丝。莫菲丝以祥子害怕被抛弃等说法攻击她；这是对手的评价。",
+    "evidence_ids": [
+      "E63"
+    ],
+    "source_ids": [
+      "S49"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "莫菲丝",
+      "自私",
+      "自负",
+      "抛弃",
+      "评价",
+      "指责"
+    ],
+    "query_examples": [
+      "莫菲丝怎样评价祥子？"
+    ],
+    "spoiler_rank": 11,
+    "stage": "SS-6",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "莫菲丝",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK014",
+    "record_id": "AK014",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 BEG；场景层：castle_frame；说话人：丰川祥子。祥子反对反复编排同伴的脆弱处，重申Ave Mujica的托付与契约。",
+    "evidence_ids": [
+      "E63"
+    ],
+    "source_ids": [
+      "S49"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "契约",
+      "责任",
+      "托付",
+      "莫菲丝",
+      "脆弱"
+    ],
+    "query_examples": [
+      "祥子怎样反驳莫菲丝？"
+    ],
+    "spoiler_rank": 11,
+    "stage": "SS-6",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK015",
+    "record_id": "AK015",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 BEG；场景层：second_sakiko_dream；说话人：丰川祥子。祥子发现同行者和目的地的情况改变，意识到新梦偏离了先前经历。 知情变化：保留此前梦境的记忆，并与眼前的行程逐项对照。",
+    "evidence_ids": [
+      "E63"
+    ],
+    "source_ids": [
+      "S49"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris",
+      "ak_vigna"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "梦境层次",
+      "第二场梦",
+      "察觉",
+      "安",
+      "载具",
+      "偏差"
+    ],
+    "query_examples": [
+      "她怎么发现自己的梦发生变化？"
+    ],
+    "spoiler_rank": 11,
+    "stage": "SS-6",
+    "segment": "BEG",
+    "narrative_level": "second_sakiko_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "inner_monologue",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK016",
+    "record_id": "AK016",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 BEG；场景层：family_dream；说话人：丰川祥子。家庭梦里，祥子紧握母亲温暖的手，想继续听她讲回忆。",
+    "evidence_ids": [
+      "E64"
+    ],
+    "source_ids": [
+      "S50"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "妈妈",
+      "母亲",
+      "家庭",
+      "牵手",
+      "依恋",
+      "回忆"
+    ],
+    "query_examples": [
+      "祥子为什么留恋家庭梦？"
+    ],
+    "spoiler_rank": 13,
+    "stage": "SS-7",
+    "segment": "BEG",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK017",
+    "record_id": "AK017",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 BEG；场景层：memory_within_family_dream；说话人：丰川祥子。入学典礼问答旁的内心字幕记述：母亲在祥子初三时因病急逝。 知情变化：她掌握母亲早逝的记忆，梦中母亲则说出高中入学合影的经历。",
+    "evidence_ids": [
+      "E64"
+    ],
+    "source_ids": [
+      "S50"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "初三",
+      "去世",
+      "入学典礼",
+      "记忆"
+    ],
+    "query_examples": [
+      "家庭梦中哪处显示她知道母亲已去世？"
+    ],
+    "spoiler_rank": 13,
+    "stage": "SS-7",
+    "segment": "BEG",
+    "narrative_level": "memory_within_family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "inner_monologue",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK018",
+    "record_id": "AK018",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。同行者返程时，祥子犹豫后接受红豆的建议，暂时留在家中。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother",
+      "ak_vigna"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "家庭",
+      "留下",
+      "犹豫",
+      "红豆",
+      "返程"
+    ],
+    "query_examples": [
+      "她有没有一度选择留在家庭梦？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK019",
+    "record_id": "AK019",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。向梦中母亲谈队友时，祥子把若麦形容为努力上进、常有分歧的战友。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "nyamu"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "若麦",
+      "喵梦",
+      "战友",
+      "上进",
+      "队友评价"
+    ],
+    "query_examples": [
+      "祥子怎样看待若麦？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK020",
+    "record_id": "AK020",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子称海铃技艺高超，认真处理幕后工作，是值得信任的工作伙伴。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "umiri"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "海铃",
+      "工作伙伴",
+      "信任",
+      "管理",
+      "队友评价"
+    ],
+    "query_examples": [
+      "祥子信任海铃吗？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK021",
+    "record_id": "AK021",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子说初华兼顾偶像工作，仍一直支持自己。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "初音",
+      "支持",
+      "偶像",
+      "队友评价"
+    ],
+    "query_examples": [
+      "祥子如何评价初华的支持？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK022",
+    "record_id": "AK022",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子把睦描述为自幼相好的朋友，记得她在自己独处时的陪伴。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "青梅竹马",
+      "朋友",
+      "陪伴",
+      "队友评价"
+    ],
+    "query_examples": [
+      "祥子记得睦怎样陪伴自己？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK023",
+    "record_id": "AK023",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子承认害怕去找队友后，就要再次离开母亲。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "害怕",
+      "离别",
+      "队友",
+      "失去"
+    ],
+    "query_examples": [
+      "她迟迟不愿离开家庭梦的原因是什么？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK024",
+    "record_id": "AK024",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子清楚此处不是自己的世界，仍希望与母亲告别的时刻晚些到来。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "明知是梦",
+      "舍不得",
+      "母亲",
+      "清醒",
+      "拖延告别"
+    ],
+    "query_examples": [
+      "祥子是分不清梦和现实吗？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "inner_monologue",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK025",
+    "record_id": "AK025",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：“母亲”。梦中母亲承认维持了谎言，鼓励祥子离开，寻找自己的生活。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "告别",
+      "鼓励",
+      "谎言",
+      "离开"
+    ],
+    "query_examples": [
+      "梦中母亲对祥子说了什么？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "“母亲”",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK026",
+    "record_id": "AK026",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-7 END；场景层：family_dream；说话人：丰川祥子。祥子最终告别梦中父母，出门继续自己的事。",
+    "evidence_ids": [
+      "E65"
+    ],
+    "source_ids": [
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-7_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "告别母亲",
+      "离家",
+      "决定",
+      "家庭梦",
+      "成长"
+    ],
+    "query_examples": [
+      "她最终怎样离开家庭梦？"
+    ],
+    "spoiler_rank": 14,
+    "stage": "SS-7",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK027",
+    "record_id": "AK027",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 BEG；场景层：second_sakiko_dream；说话人：丰川祥子。祥子赶上爱丽丝，请她取出口袋中的护梦项链。",
+    "evidence_ids": [
+      "E66"
+    ],
+    "source_ids": [
+      "S52"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "项链",
+      "爱丽丝",
+      "帮助",
+      "护梦",
+      "口袋"
+    ],
+    "query_examples": [
+      "项链是怎样帮助祥子的？"
+    ],
+    "spoiler_rank": 15,
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "second_sakiko_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK028",
+    "record_id": "AK028",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 BEG；场景层：castle_frame；说话人：丰川祥子。祥子重返舞台，面对莫菲丝的威胁，仍坚持先唤醒队友。",
+    "evidence_ids": [
+      "E66",
+      "E68"
+    ],
+    "source_ids": [
+      "S52",
+      "S54"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/BEG",
+      "https://arknights.wiki.gg/wiki/SS-8/Story"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "arknights_SS-8_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "回到舞台",
+      "威胁",
+      "不离开",
+      "决心",
+      "唤醒"
+    ],
+    "query_examples": [
+      "她再次面对莫菲丝时作了什么决定？"
+    ],
+    "spoiler_rank": 15,
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK029",
+    "record_id": "AK029",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 BEG；场景层：castle_frame；说话人：丰川祥子。祥子认为队友仍在迷茫，重申自己的责任，也把莫菲丝纳入需要指引的人。",
+    "evidence_ids": [
+      "E66"
+    ],
+    "source_ids": [
+      "S52"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica",
+      "ak_morpheus"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "迷茫",
+      "责任",
+      "莫菲丝",
+      "人偶",
+      "理解"
+    ],
+    "query_examples": [
+      "她对同伴和莫菲丝的理解有什么变化？"
+    ],
+    "spoiler_rank": 15,
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK030",
+    "record_id": "AK030",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 BEG；场景层：castle_frame；说话人：丰川祥子。祥子弹奏琴键，音乐传遍舞台，使牵引人偶的丝线松脱。",
+    "evidence_ids": [
+      "E66"
+    ],
+    "source_ids": [
+      "S52"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "钢琴",
+      "音乐",
+      "丝线",
+      "唤醒",
+      "源石技艺"
+    ],
+    "query_examples": [
+      "祥子用什么方式唤醒大家？"
+    ],
+    "spoiler_rank": 15,
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK031",
+    "record_id": "AK031",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 BEG；场景层：castle_frame；说话人：丰川祥子。持续演奏中，祥子为过去伤害队友道歉，并愿赌上人生守护她们。",
+    "evidence_ids": [
+      "E66"
+    ],
+    "source_ids": [
+      "S52"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "道歉",
+      "伤害",
+      "守护",
+      "真实的队友",
+      "赌上人生"
+    ],
+    "query_examples": [
+      "她有没有向队友道歉？"
+    ],
+    "spoiler_rank": 15,
+    "stage": "SS-8",
+    "segment": "BEG",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK032",
+    "record_id": "AK032",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：丰川祥子。与队友重逢后，祥子坦率表达想念与开心，欢迎她们归来。",
+    "evidence_ids": [
+      "E67",
+      "E68"
+    ],
+    "source_ids": [
+      "S53",
+      "S54"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END",
+      "https://arknights.wiki.gg/wiki/SS-8/Story"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica",
+      "uika",
+      "mutsumi",
+      "umiri",
+      "nyamu"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "重逢",
+      "欢迎回来",
+      "开心",
+      "想念",
+      "笑"
+    ],
+    "query_examples": [
+      "她见到苏醒后的队友是什么反应？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK033",
+    "record_id": "AK033",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：爱丽丝。祥子获救后昏倒；爱丽丝解释，多次穿梭梦境造成了身体负荷。",
+    "evidence_ids": [
+      "E67"
+    ],
+    "source_ids": [
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "昏倒",
+      "疲惫",
+      "代价",
+      "身体",
+      "梦境穿梭"
+    ],
+    "query_examples": [
+      "祥子为什么会在最后昏倒？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "爱丽丝",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK034",
+    "record_id": "AK034",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：丰川祥子。祥子反思赌约时急于带回队友，经历拒绝后才意识到自己欠缺对她们内心的了解。 知情变化：从急于带回成员，转为追问自己是否真正理解她们、准备好承担托付。",
+    "evidence_ids": [
+      "E67",
+      "E68"
+    ],
+    "source_ids": [
+      "S53",
+      "S54"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END",
+      "https://arknights.wiki.gg/wiki/SS-8/Story"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "反思",
+      "承担人生",
+      "不了解",
+      "内心",
+      "成长",
+      "拒绝"
+    ],
+    "query_examples": [
+      "联动结尾祥子反省了什么？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK035",
+    "record_id": "AK035",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：丰川祥子。祥子向爱丽丝说，面对莫菲丝时感到了悲伤，并猜想她有难言之隐。",
+    "evidence_ids": [
+      "E67"
+    ],
+    "source_ids": [
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "莫菲丝",
+      "原谅",
+      "悲伤",
+      "同情",
+      "理解"
+    ],
+    "query_examples": [
+      "祥子最后如何看待莫菲丝？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK036",
+    "record_id": "AK036",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：丰川祥子。祥子请求返回原世界的方法；爱丽丝表示会向罗德岛求助。",
+    "evidence_ids": [
+      "E67"
+    ],
+    "source_ids": [
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "回原世界",
+      "回家",
+      "泰拉",
+      "罗德岛",
+      "博士",
+      "求助"
+    ],
+    "query_examples": [
+      "结尾她们已经回到原世界了吗？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK037",
+    "record_id": "AK037",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：爱丽丝。爱丽丝解释梦的记忆会逐渐模糊，返乡后仍可保留面对困难的勇气。",
+    "evidence_ids": [
+      "E67"
+    ],
+    "source_ids": [
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "遗忘",
+      "记忆",
+      "勇气",
+      "回去",
+      "爱丽丝"
+    ],
+    "query_examples": [
+      "祥子会忘记泰拉经历吗？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "爱丽丝",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK038",
+    "record_id": "AK038",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-8 END；场景层：castle_frame；说话人：丰川祥子。祥子抓住队友伸来的手，再次登台，邀请大家留下属于乐队的声音。",
+    "evidence_ids": [
+      "E67"
+    ],
+    "source_ids": [
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-8_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "结局",
+      "舞台",
+      "合奏",
+      "伸手",
+      "继续乐队",
+      "成长"
+    ],
+    "query_examples": [
+      "联动最后祥子做了什么？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK039",
+    "record_id": "AK039",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-2 END；场景层：nyamu_dream；说话人：旁白。带路的男人变为莫菲丝后，祥子意识到会场中的阻碍是她的安排。",
+    "evidence_ids": [
+      "E69"
+    ],
+    "source_ids": [
+      "S45"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-2_寂静长廊的两端/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-2_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "黄牛",
+      "骗局",
+      "莫菲丝",
+      "带路",
+      "会场"
+    ],
+    "query_examples": [
+      "带祥子进会场的人是谁？"
+    ],
+    "spoiler_rank": 4,
+    "stage": "SS-2",
+    "segment": "END",
+    "narrative_level": "nyamu_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK040",
+    "record_id": "AK040",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-2 END；场景层：nyamu_dream；说话人：丰川祥子。与若麦一同下坠时，祥子追问失去鼓、伙伴和自我的梦是否仍值得，并催她醒来。",
+    "evidence_ids": [
+      "E69"
+    ],
+    "source_ids": [
+      "S45"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-2_寂静长廊的两端/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-2_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "nyamu"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "若麦",
+      "喵梦",
+      "失去自己",
+      "鼓",
+      "唤醒",
+      "质问"
+    ],
+    "query_examples": [
+      "祥子怎样质问若麦的明星梦？"
+    ],
+    "spoiler_rank": 4,
+    "stage": "SS-2",
+    "segment": "END",
+    "narrative_level": "nyamu_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK041",
+    "record_id": "AK041",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 BEG；场景层：mutsumi_dream；说话人：旁白。睦给祥子饮水、护目镜等物资，祥子紧握它们，并确认睦仍记得自己。",
+    "evidence_ids": [
+      "E70"
+    ],
+    "source_ids": [
+      "S55"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "照顾",
+      "水袋",
+      "记得",
+      "物资"
+    ],
+    "query_examples": [
+      "祥子刚见到梦中的睦时怎样反应？"
+    ],
+    "spoiler_rank": 9,
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK042",
+    "record_id": "AK042",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 BEG；场景层：mutsumi_dream；说话人：丰川祥子。祥子指出睦身处梦里，试图告诉她此处并非现实。",
+    "evidence_ids": [
+      "E70"
+    ],
+    "source_ids": [
+      "S55"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "梦境",
+      "提醒",
+      "现实",
+      "时间"
+    ],
+    "query_examples": [
+      "祥子一开始就想告诉睦真相吗？"
+    ],
+    "spoiler_rank": 9,
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK043",
+    "record_id": "AK043",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 BEG；场景层：mutsumi_dream；说话人：丰川祥子。睦询问是否答应聚会时，祥子把决定交还给睦。",
+    "evidence_ids": [
+      "E70"
+    ],
+    "source_ids": [
+      "S55"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "自己决定",
+      "聚会",
+      "尊重",
+      "自主"
+    ],
+    "query_examples": [
+      "祥子有没有尊重睦自己的选择？"
+    ],
+    "spoiler_rank": 9,
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK044",
+    "record_id": "AK044",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 BEG；场景层：mutsumi_dream；说话人：若叶睦。睦告诉祥子自己知道这里是假象，希望先有一次告别与自由歌唱的机会。",
+    "evidence_ids": [
+      "E70"
+    ],
+    "source_ids": [
+      "S55"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "告别",
+      "知道是梦",
+      "歌唱",
+      "愿望"
+    ],
+    "query_examples": [
+      "梦中的睦是否知道真相？"
+    ],
+    "spoiler_rank": 9,
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "speaker": "若叶睦",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK045",
+    "record_id": "AK045",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-5 BEG；场景层：mutsumi_dream；说话人：旁白。看着睦似乎发自内心地幸福演奏，祥子虽有机会带她离开，却不忍打断。",
+    "evidence_ids": [
+      "E70"
+    ],
+    "source_ids": [
+      "S55"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-5_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "演奏",
+      "幸福",
+      "不忍",
+      "犹豫",
+      "告别"
+    ],
+    "query_examples": [
+      "祥子为什么没有马上拉睦离开？"
+    ],
+    "spoiler_rank": 9,
+    "stage": "SS-5",
+    "segment": "BEG",
+    "narrative_level": "mutsumi_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK046",
+    "record_id": "AK046",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 END；场景层：family_dream；说话人：丰川祥子。来到陌生的家门前，祥子明确知道这仍是莫菲丝为她制造的梦。",
+    "evidence_ids": [
+      "E71"
+    ],
+    "source_ids": [
+      "S56"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_father"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "家",
+      "陌生房子",
+      "知道是梦",
+      "莫菲丝",
+      "清醒"
+    ],
+    "query_examples": [
+      "祥子回家时知道自己还在梦里吗？"
+    ],
+    "spoiler_rank": 12,
+    "stage": "SS-6",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "inner_monologue",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK047",
+    "record_id": "AK047",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 END；场景层：family_dream；说话人：旁白。面对梦中父亲的关心与笑容，祥子也发自内心地笑了。",
+    "evidence_ids": [
+      "E71"
+    ],
+    "source_ids": [
+      "S56"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_father"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "父亲",
+      "笑容",
+      "温情",
+      "摸头",
+      "家庭"
+    ],
+    "query_examples": [
+      "她对梦中父亲有怎样的反应？"
+    ],
+    "spoiler_rank": 12,
+    "stage": "SS-6",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK048",
+    "record_id": "AK048",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 END；场景层：memory_within_family_dream；说话人：旁白。听到琴声，祥子想起母亲教自己弹琴，以及丧母后反复弹奏那些曲子的日子。",
+    "evidence_ids": [
+      "E71"
+    ],
+    "source_ids": [
+      "S56"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "钢琴",
+      "学琴",
+      "回忆",
+      "丧亲"
+    ],
+    "query_examples": [
+      "钢琴为何能触动祥子的母亲记忆？"
+    ],
+    "spoiler_rank": 12,
+    "stage": "SS-6",
+    "segment": "END",
+    "narrative_level": "memory_within_family_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK049",
+    "record_id": "AK049",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-6 END；场景层：family_dream；说话人：丰川祥子。祥子提醒自己母亲是梦的伪造，脚步却越来越快，最终走到她面前。",
+    "evidence_ids": [
+      "E71"
+    ],
+    "source_ids": [
+      "S56"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-6_END",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_dream_mother"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "伪造",
+      "明知是梦",
+      "靠近",
+      "依恋"
+    ],
+    "query_examples": [
+      "她明知母亲是梦，为何仍走过去？"
+    ],
+    "spoiler_rank": 12,
+    "stage": "SS-6",
+    "segment": "END",
+    "narrative_level": "family_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "inner_monologue",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK050",
+    "record_id": "AK050",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-3 BEG；场景层：umiri_dream；说话人：丰川祥子。祥子询问弗朗西斯与海铃之间发生了什么，听他讲述所谓背叛。",
+    "evidence_ids": [
+      "E72"
+    ],
+    "source_ids": [
+      "S57"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-3_音乐室内的光芒/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-3_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_francis",
+      "umiri"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "海铃",
+      "弗朗西斯",
+      "调查",
+      "背叛",
+      "询问"
+    ],
+    "query_examples": [
+      "祥子怎样了解海铃被指控的原因？"
+    ],
+    "spoiler_rank": 5,
+    "stage": "SS-3",
+    "segment": "BEG",
+    "narrative_level": "umiri_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK051",
+    "record_id": "AK051",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-3 BEG；场景层：umiri_dream；说话人：丰川祥子。面对指控，祥子表达对海铃能力和尽责态度的信任。",
+    "evidence_ids": [
+      "E72"
+    ],
+    "source_ids": [
+      "S57"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-3_音乐室内的光芒/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-3_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "umiri",
+      "ak_francis"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "海铃",
+      "信任",
+      "尽责",
+      "背信弃义",
+      "维护"
+    ],
+    "query_examples": [
+      "祥子相信海铃会出卖别人吗？"
+    ],
+    "spoiler_rank": 5,
+    "stage": "SS-3",
+    "segment": "BEG",
+    "narrative_level": "umiri_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK052",
+    "record_id": "AK052",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-3 BEG；场景层：umiri_dream；说话人：丰川祥子。祥子追问偷袭者中是否出现海铃，并请弗朗西斯回忆袭击者的面貌。",
+    "evidence_ids": [
+      "E72"
+    ],
+    "source_ids": [
+      "S57"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-3_音乐室内的光芒/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-3_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_francis",
+      "umiri"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "证据",
+      "目击",
+      "海铃",
+      "袭击者",
+      "调查"
+    ],
+    "query_examples": [
+      "祥子有没有核对指控海铃的证据？"
+    ],
+    "spoiler_rank": 5,
+    "stage": "SS-3",
+    "segment": "BEG",
+    "narrative_level": "umiri_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK053",
+    "record_id": "AK053",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 BEG；场景层：uika_dream；说话人：丰川祥子。祥子在岛上向居民打听初华，获得火山背面别墅的线索。",
+    "evidence_ids": [
+      "E73"
+    ],
+    "source_ids": [
+      "S58"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "初音",
+      "居民",
+      "问路",
+      "别墅",
+      "寻找"
+    ],
+    "query_examples": [
+      "祥子怎样找到初华的住处？"
+    ],
+    "spoiler_rank": 7,
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK054",
+    "record_id": "AK054",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 BEG；场景层：uika_dream；说话人：丰川祥子。岛上没有汽车，祥子借老旧单车赶往约二十公里外的别墅，途中失控摔倒。",
+    "evidence_ids": [
+      "E73"
+    ],
+    "source_ids": [
+      "S58"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "自行车",
+      "单车",
+      "二十公里",
+      "摔倒",
+      "赶路"
+    ],
+    "query_examples": [
+      "祥子骑自行车寻找初华发生了什么？"
+    ],
+    "spoiler_rank": 7,
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "action",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK055",
+    "record_id": "AK055",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 BEG；场景层：uika_dream；说话人：旁白。遥望别墅时，祥子脑中出现与初华生活于此的陌生回忆，并追问它们是否属于初华的梦。",
+    "evidence_ids": [
+      "E73"
+    ],
+    "source_ids": [
+      "S58"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "陌生回忆",
+      "梦",
+      "共同生活",
+      "别墅"
+    ],
+    "query_examples": [
+      "岛上的共同生活回忆属于什么情境？"
+    ],
+    "spoiler_rank": 7,
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK056",
+    "record_id": "AK056",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 BEG；场景层：uika_dream；说话人：丰川祥子。听过莫菲丝描述初华反复失去她的梦后，祥子承诺把初华拉出噩梦。",
+    "evidence_ids": [
+      "E73"
+    ],
+    "source_ids": [
+      "S58"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika",
+      "ak_morpheus"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "噩梦",
+      "承诺",
+      "救出",
+      "失去"
+    ],
+    "query_examples": [
+      "祥子怎样回应初华的噩梦？"
+    ],
+    "spoiler_rank": 7,
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK057",
+    "record_id": "AK057",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-4 BEG；场景层：uika_dream；说话人：莫菲丝。莫菲丝把初华梦中的反复离别解释为祥子的残酷；祥子听后受到触动。",
+    "evidence_ids": [
+      "E73"
+    ],
+    "source_ids": [
+      "S58"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-4_名为客房区的迷宫/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-4_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "莫菲丝",
+      "残酷",
+      "指责",
+      "初华",
+      "离别"
+    ],
+    "query_examples": [
+      "莫菲丝为什么指责祥子残酷？"
+    ],
+    "spoiler_rank": 7,
+    "stage": "SS-4",
+    "segment": "BEG",
+    "narrative_level": "uika_dream",
+    "speaker": "莫菲丝",
+    "assertion_kind": "other_character_claim",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AK058",
+    "record_id": "AK058",
+    "collection": "game_story_records",
+    "layer": "canon",
+    "text": "SS-3 BEG；场景层：umiri_dream；说话人：丰川祥子。祥子提出有人故意离间、监视海铃的可能性，随即遭藏在柜中的打手包围。",
+    "evidence_ids": [
+      "E72"
+    ],
+    "source_ids": [
+      "S57"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-3_音乐室内的光芒/BEG"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_SS-3_BEG",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "umiri",
+      "ak_francis"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "离间",
+      "监视",
+      "推测",
+      "海铃",
+      "伏兵"
+    ],
+    "query_examples": [
+      "祥子对海铃事件提出了什么怀疑？"
+    ],
+    "spoiler_rank": 5,
+    "stage": "SS-3",
+    "segment": "BEG",
+    "narrative_level": "umiri_dream",
+    "speaker": "丰川祥子",
+    "assertion_kind": "speech",
+    "client_cross_checked": false,
+    "material_type": "main_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL001",
+    "record_id": "AKL001",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "OPERATOR_FILE FILE；场景层：post_castle_rhodes_island；说话人：旁白。祥子不愿白白留宿，主动要求承担舰上工作。",
+    "evidence_ids": [
+      "E74"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_OPERATOR_FILE_FILE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "罗德岛",
+      "工作",
+      "留宿",
+      "主动",
+      "自立"
+    ],
+    "query_examples": [
+      "祥子为什么主动要求工作？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "operator_file",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL002",
+    "record_id": "AKL002",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "OPERATOR_FILE FILE；场景层：post_castle_rhodes_island；说话人：旁白。她积极承担信息传达、保洁、搬运等基础工作。",
+    "evidence_ids": [
+      "E74"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_OPERATOR_FILE_FILE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "罗德岛",
+      "保洁",
+      "搬运",
+      "工作",
+      "勤勉"
+    ],
+    "query_examples": [
+      "祥子在罗德岛具体做什么工作？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "operator_file",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL003",
+    "record_id": "AKL003",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "OPERATOR_FILE FILE；场景层：post_castle_rhodes_island；说话人：档案叙述者。档案记述她关心身边干员，关切的笑容给人留下印象。",
+    "evidence_ids": [
+      "E74"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_OPERATOR_FILE_FILE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "关心",
+      "干员",
+      "笑容",
+      "温柔",
+      "日常"
+    ],
+    "query_examples": [
+      "她怎样对待罗德岛的其他人？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "档案叙述者",
+    "assertion_kind": "archive_assessment",
+    "client_cross_checked": false,
+    "material_type": "operator_file",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL004",
+    "record_id": "AKL004",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "OPERATOR_FILE FILE；场景层：post_castle_rhodes_island；说话人：档案叙述者。档案认为祥子虽会失误，仍勇于决定，促成成员合作。",
+    "evidence_ids": [
+      "E74"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_OPERATOR_FILE_FILE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "决策",
+      "带队",
+      "失误",
+      "合作",
+      "责任"
+    ],
+    "query_examples": [
+      "档案如何评价她的领导表现？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "档案叙述者",
+    "assertion_kind": "archive_assessment",
+    "client_cross_checked": false,
+    "material_type": "operator_file",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL005",
+    "record_id": "AKL005",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "OPERATOR_FILE FILE；场景层：post_castle_rhodes_island；说话人：爱丽丝。爱丽丝评价她主动温柔、重视同伴，也会因一意向前而忽视感受。",
+    "evidence_ids": [
+      "E74"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_OPERATOR_FILE_FILE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "爱丽丝",
+      "评价",
+      "同伴",
+      "一根筋",
+      "成长"
+    ],
+    "query_examples": [
+      "爱丽丝怎样评价祥子？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "爱丽丝",
+    "assertion_kind": "archive_assessment",
+    "client_cross_checked": false,
+    "material_type": "promotion_record",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL006",
+    "record_id": "AKL006",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "MODULE_LOR_Y MODULE；场景层：post_castle_rhodes_island；说话人：旁白。祥子喜欢独自在排练室弹琴，把烦乱心情寄托于琴声。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_MODULE_LOR_Y_MODULE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "独处",
+      "排练室",
+      "弹琴",
+      "情绪",
+      "放松"
+    ],
+    "query_examples": [
+      "祥子独处时怎样调节心情？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "MODULE_LOR_Y",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "module_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL007",
+    "record_id": "AKL007",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "MODULE_LOR_Y MODULE；场景层：post_castle_rhodes_island；说话人：旁白。匿名听众通过字条称赞、感谢并鼓励她，期待合奏。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_MODULE_LOR_Y_MODULE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_anonymous_listener"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "匿名",
+      "听众",
+      "字条",
+      "鼓励",
+      "合奏"
+    ],
+    "query_examples": [
+      "谁在用字条鼓励祥子？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "MODULE_LOR_Y",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "module_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL008",
+    "record_id": "AKL008",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "MODULE_LOR_Y MODULE；场景层：post_castle_rhodes_island；说话人：旁白。祥子没有调查匿名听众，打算离开前见面并邀请合奏。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_MODULE_LOR_Y_MODULE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_anonymous_listener"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "匿名",
+      "听众",
+      "身份",
+      "调查",
+      "合奏",
+      "计划"
+    ],
+    "query_examples": [
+      "她有没有查出留字条的人？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "MODULE_LOR_Y",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "future_plan",
+    "client_cross_checked": false,
+    "material_type": "module_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL009",
+    "record_id": "AKL009",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "MODULE_LOR_Y MODULE；场景层：post_castle_rhodes_island；说话人：旁白。模组叙述把排练室中的人偶记为爱丽丝赠送。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_MODULE_LOR_Y_MODULE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "人偶",
+      "赠送",
+      "爱丽丝",
+      "模组",
+      "来源差异"
+    ],
+    "query_examples": [],
+    "spoiler_rank": 16,
+    "stage": "MODULE_LOR_Y",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": null,
+    "assertion_kind": "narration",
+    "client_cross_checked": false,
+    "material_type": "module_story",
+    "source_issue_ids": [
+      "SC004"
+    ],
+    "required_context_record_ids": [
+      "AKL016"
+    ]
+  },
+  {
+    "id": "C_AKL010",
+    "record_id": "AKL010",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "MODULE_LOR_Y MODULE；场景层：post_castle_rhodes_island；说话人：祥子的想法（旁白转述）。祥子凭感觉猜想匿名听众可能是小提琴手。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_MODULE_LOR_Y_MODULE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_anonymous_listener"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "听众",
+      "小提琴手",
+      "猜想",
+      "身份",
+      "匿名"
+    ],
+    "query_examples": [
+      "匿名听众是小提琴手吗？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "MODULE_LOR_Y",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "祥子的想法（旁白转述）",
+    "assertion_kind": "character_guess",
+    "client_cross_checked": false,
+    "material_type": "module_story",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL011",
+    "record_id": "AKL011",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。祥子想在博士身边观察、学习他的决策。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "博士",
+      "决策",
+      "观察",
+      "学习",
+      "请教"
+    ],
+    "query_examples": [
+      "她怎么看待博士的决策？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL012",
+    "record_id": "AKL012",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她称赞罗德岛的排班、考核和晋升制度。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "罗德岛",
+      "工作制度",
+      "管理",
+      "排班",
+      "考核"
+    ],
+    "query_examples": [
+      "祥子对罗德岛的管理有什么看法？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL013",
+    "record_id": "AKL013",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她谈梦的记忆变淡，认为美梦经历过一次已足够。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "梦",
+      "遗忘",
+      "记忆",
+      "接受",
+      "放下"
+    ],
+    "query_examples": [
+      "她怎样看待正在消失的梦的记忆？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL014",
+    "record_id": "AKL014",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她说泰拉的艰难遭遇使自己想写出更贴近人心的音乐。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "泰拉",
+      "苦难",
+      "共情",
+      "创作",
+      "音乐"
+    ],
+    "query_examples": [
+      "泰拉经历怎样影响祥子的创作？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL015",
+    "record_id": "AKL015",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。梦里曾与红豆共事，使她在现实初次问候红豆时有些落寞。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_vigna"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "红豆",
+      "初次见面",
+      "罗德岛",
+      "梦和现实",
+      "落寞"
+    ],
+    "query_examples": [
+      "祥子与红豆在现实里什么时候认识？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL016",
+    "record_id": "AKL016",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。祥子称洋娃娃由贝娜赠送，放在身边让她感到陪伴与温暖。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_bena"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "贝娜",
+      "洋娃娃",
+      "人偶",
+      "温暖",
+      "陪伴",
+      "赠送"
+    ],
+    "query_examples": [
+      "祥子的洋娃娃是谁送的？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [
+      "SC004"
+    ],
+    "required_context_record_ids": [
+      "AKL009"
+    ]
+  },
+  {
+    "id": "C_AKL017",
+    "record_id": "AKL017",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她提及初华提醒熬夜有害健康，自己才懂得适当休息。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "uika"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "初华",
+      "初音",
+      "休息",
+      "熬夜",
+      "健康"
+    ],
+    "query_examples": [
+      "初华怎样提醒过祥子照顾自己？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL018",
+    "record_id": "AKL018",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她把成员争论解释为让乐队更好，并表达对乐队的信心。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "乐队",
+      "争论",
+      "信心",
+      "坚如磐石",
+      "关系"
+    ],
+    "query_examples": [
+      "祥子怎样解释成员之间的争论？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL019",
+    "record_id": "AKL019",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她邀请博士一起在甲板放声喊叫，分享舒畅心情的方式。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "甲板",
+      "博士",
+      "喊叫",
+      "放松",
+      "心情"
+    ],
+    "query_examples": [
+      "祥子会邀请博士怎样放松？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKL020",
+    "record_id": "AKL020",
+    "collection": "game_lore_records",
+    "layer": "canon",
+    "text": "VOICE VOICE；场景层：post_castle_rhodes_island；说话人：丰川祥子。她把更多认可与更多责任联系起来，表示自己已准备好。",
+    "evidence_ids": [
+      "E76"
+    ],
+    "source_ids": [
+      "S60"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/丰川祥子/语音记录"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_VOICE_VOICE",
+    "as_of": "2026-10-19",
+    "evidence_status": "game_text_transcription",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "认可",
+      "责任",
+      "准备",
+      "决心"
+    ],
+    "query_examples": [
+      "祥子怎样回应更多认可？"
+    ],
+    "spoiler_rank": 16,
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "speaker": "丰川祥子",
+    "assertion_kind": "voice_statement",
+    "client_cross_checked": false,
+    "material_type": "voice",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKI001",
+    "record_id": "AKI001",
+    "collection": "game_interpretations",
+    "layer": "inference",
+    "text": "祥子的责任观可读作从带回成员，进一步走向理解成员并承认自己的不足。 推理：早期承诺与结尾自述形成可对照的变化。 其他理解：她的带队责任感始终延续，变化主要在表达与自我认识。",
+    "evidence_ids": [
+      "E58",
+      "E66",
+      "E67",
+      "E68"
+    ],
+    "source_ids": [
+      "S44",
+      "S52",
+      "S53",
+      "S54"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/END",
+      "https://prts.wiki/w/SS-8_童话的开场/BEG",
+      "https://prts.wiki/w/SS-8_童话的开场/END",
+      "https://arknights.wiki.gg/wiki/SS-8/Story"
+    ],
+    "evidence_modes": [
+      "direct_text_verified",
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "phase": "arknights_interpretation",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ave_mujica",
+      "ak_morpheus",
+      "ak_iris"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "成长",
+      "责任",
+      "承担人生",
+      "理解",
+      "控制"
+    ],
+    "query_examples": [
+      "祥子在联动里有成长吗？"
+    ],
+    "spoiler_rank": 16,
+    "stage": null,
+    "segment": null,
+    "narrative_level": null,
+    "speaker": null,
+    "assertion_kind": null,
+    "client_cross_checked": false,
+    "material_type": "interpretation",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKI002",
+    "record_id": "AKI002",
+    "collection": "game_interpretations",
+    "layer": "inference",
+    "text": "音乐在祥子的行动中承担了祝福他人与重新连接同伴的作用。 推理：给安的生日演奏与唤醒、重聚场景都由音乐推动。 其他理解：不同场景同时受到梦境技艺和演出安排推动。",
+    "evidence_ids": [
+      "E57",
+      "E66",
+      "E67"
+    ],
+    "source_ids": [
+      "S43",
+      "S52",
+      "S53"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-1_花格窗边的梦想/BEG",
+      "https://prts.wiki/w/SS-8_童话的开场/BEG",
+      "https://prts.wiki/w/SS-8_童话的开场/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_interpretation",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_ann",
+      "ave_mujica"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "音乐",
+      "钢琴",
+      "沟通",
+      "连接",
+      "唤醒"
+    ],
+    "query_examples": [
+      "音乐怎样体现祥子的性格？"
+    ],
+    "spoiler_rank": 16,
+    "stage": null,
+    "segment": null,
+    "narrative_level": null,
+    "speaker": null,
+    "assertion_kind": null,
+    "client_cross_checked": false,
+    "material_type": "interpretation",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKI003",
+    "record_id": "AKI003",
+    "collection": "game_interpretations",
+    "layer": "inference",
+    "text": "她在家庭梦里的犹疑，使反对沉溺梦境的立场具有亲身经历后的重量。 推理：她明知梦境性质，仍经历留恋，随后作出告别。 其他理解：也可主要理解为丧亲创伤在这段剧情中的集中呈现。",
+    "evidence_ids": [
+      "E63",
+      "E65"
+    ],
+    "source_ids": [
+      "S49",
+      "S51"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-6_回声飘荡的大厅/BEG",
+      "https://prts.wiki/w/SS-7_永恒绚烂的藏品/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_interpretation",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_morpheus",
+      "ave_mujica",
+      "ak_dream_mother",
+      "ak_vigna"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "母亲",
+      "梦境",
+      "犹豫",
+      "告别",
+      "软弱",
+      "矛盾"
+    ],
+    "query_examples": [
+      "她反对做梦却自己留恋，是怎样的矛盾？"
+    ],
+    "spoiler_rank": 14,
+    "stage": null,
+    "segment": null,
+    "narrative_level": null,
+    "speaker": null,
+    "assertion_kind": null,
+    "client_cross_checked": false,
+    "material_type": "interpretation",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKI004",
+    "record_id": "AKI004",
+    "collection": "game_interpretations",
+    "layer": "inference",
+    "text": "睦梦境里的决定与等待，可读作祥子尝试尊重同伴意愿，同时坚持唤醒她的责任。 推理：她让睦决定聚会，也不忍中止告别演奏，后来仍拒绝永久留在梦境。 其他理解：也可理解为她当时因睦的幸福而犹疑，尚未形成稳定的处理方式。",
+    "evidence_ids": [
+      "E70",
+      "E62"
+    ],
+    "source_ids": [
+      "S55",
+      "S48"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/BEG",
+      "https://prts.wiki/w/SS-5_通往舞会的邀请函/END"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_interpretation",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "mutsumi",
+      "ak_dream_mutsumi_voice"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "睦",
+      "自主",
+      "尊重",
+      "责任",
+      "等待"
+    ],
+    "query_examples": [
+      "她对睦的态度只是在强迫吗？"
+    ],
+    "spoiler_rank": 10,
+    "stage": null,
+    "segment": null,
+    "narrative_level": null,
+    "speaker": null,
+    "assertion_kind": null,
+    "client_cross_checked": false,
+    "material_type": "interpretation",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  },
+  {
+    "id": "C_AKI005",
+    "record_id": "AKI005",
+    "collection": "game_interpretations",
+    "layer": "inference",
+    "text": "模组中的独处弹琴与匿名交流，显示祥子也通过保留私人空间来安顿情绪和建立联系。 推理：她独自弹琴获得慰藉，同时接收听众的鼓励，并计划日后合奏。 其他理解：也可主要从音乐爱好者之间的相互欣赏来理解。",
+    "evidence_ids": [
+      "E75"
+    ],
+    "source_ids": [
+      "S59"
+    ],
+    "source_urls": [
+      "https://prts.wiki/w/Togawa_Sakiko"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "phase": "arknights_interpretation",
+    "as_of": "2026-10-19",
+    "evidence_status": "curator_reasoning",
+    "source_authorities": [
+      "secondary"
+    ],
+    "official_only_eligible": false,
+    "entity_ids": [
+      "sakiko",
+      "ak_anonymous_listener"
+    ],
+    "continuity": "arknights_collab",
+    "keywords": [
+      "独处",
+      "匿名",
+      "情绪",
+      "音乐",
+      "交流"
+    ],
+    "query_examples": [
+      "她独自弹琴与人际联系怎样并存？"
+    ],
+    "spoiler_rank": 16,
+    "stage": null,
+    "segment": null,
+    "narrative_level": null,
+    "speaker": null,
+    "assertion_kind": null,
+    "client_cross_checked": false,
+    "material_type": "interpretation",
+    "source_issue_ids": [],
+    "required_context_record_ids": []
+  }
+]

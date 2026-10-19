@@ -1,0 +1,2082 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.invalid/sakiko-kb/v1.4/kb.schema.json",
+  "title": "Sakiko KB v1.4 story, files, module and voices",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "$ref": "#/definitions/metadata"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/entity"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/source"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/evidence"
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/fact"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/relation"
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/event"
+      }
+    },
+    "inferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/inference"
+      }
+    },
+    "fanon": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/fanon"
+      }
+    },
+    "research_queue": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/research"
+      }
+    },
+    "episode_catalog": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/episode"
+      }
+    },
+    "source_issues": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/source_issue"
+      }
+    },
+    "candidate_claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/candidate_claim"
+      }
+    },
+    "scene_reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/scene_review"
+      }
+    },
+    "access_audit": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/access_audit"
+      }
+    },
+    "game_story_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_story"
+      }
+    },
+    "game_interpretations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_interpretation"
+      }
+    },
+    "game_question_index": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_question"
+      }
+    },
+    "game_relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_relation"
+      }
+    },
+    "game_lore_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_lore"
+      }
+    }
+  },
+  "required": [
+    "metadata",
+    "entities",
+    "sources",
+    "evidence",
+    "facts",
+    "relations",
+    "timeline",
+    "inferences",
+    "fanon",
+    "research_queue",
+    "episode_catalog",
+    "source_issues",
+    "candidate_claims",
+    "scene_reviews",
+    "access_audit",
+    "game_story_records",
+    "game_interpretations",
+    "game_question_index",
+    "game_relations",
+    "game_lore_records"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "original_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "resolved_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "language": {
+          "enum": [
+            "ja",
+            "en",
+            "zh-Hans"
+          ]
+        },
+        "source_type": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "authority": {
+          "enum": [
+            "official",
+            "creator_first_person",
+            "secondary"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "direct_text_verified",
+            "indexed_text_verified"
+          ]
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "published_on": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "access_note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "original_url",
+        "resolved_url",
+        "language",
+        "source_type",
+        "publisher",
+        "authority",
+        "verification_status",
+        "checked_on",
+        "published_on",
+        "access_note"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "original_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "support_summary_zh": {
+          "type": "string"
+        },
+        "short_original_quote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "direct_text_verified",
+            "indexed_text_verified"
+          ]
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "language": {
+          "enum": [
+            "ja",
+            "en",
+            "zh-Hans"
+          ]
+        },
+        "capture_type": {
+          "const": "curated_excerpt_note"
+        },
+        "independent_full_work_review": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "original_url",
+        "locator",
+        "support_summary_zh",
+        "short_original_quote",
+        "verification_status",
+        "checked_on",
+        "language",
+        "capture_type",
+        "independent_full_work_review"
+      ],
+      "additionalProperties": false
+    },
+    "entity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "entity_type": {
+          "enum": [
+            "fictional_person",
+            "real_person",
+            "fictional_band",
+            "school",
+            "organization"
+          ]
+        },
+        "name_ja": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name_zh": {
+          "type": "string"
+        },
+        "name_en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "entity_type",
+        "name_ja",
+        "name_zh",
+        "name_en",
+        "aliases",
+        "evidence_ids",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "fact"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "value": {},
+        "statement_zh": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence_status": {
+          "enum": [
+            "official_explicit",
+            "primary_interview_explicit"
+          ]
+        },
+        "epistemic_scope": {
+          "type": "string"
+        },
+        "continuity": {
+          "type": "string"
+        },
+        "valid_time": {
+          "type": "object",
+          "properties": {
+            "phase": {
+              "type": "string"
+            },
+            "calendar_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "precision": {
+              "const": "relative_phase"
+            }
+          },
+          "required": [
+            "phase",
+            "calendar_date",
+            "precision"
+          ],
+          "additionalProperties": false
+        },
+        "spoiler": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "subject_id",
+        "predicate",
+        "value",
+        "statement_zh",
+        "evidence_ids",
+        "evidence_status",
+        "epistemic_scope",
+        "continuity",
+        "valid_time",
+        "spoiler",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "relation"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "object_id": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "directed",
+            "symmetric"
+          ]
+        },
+        "relation_kind": {
+          "enum": [
+            "interpersonal",
+            "affiliation",
+            "production"
+          ]
+        },
+        "status": {
+          "enum": [
+            "phase_scoped",
+            "historical_fact",
+            "kinship"
+          ]
+        },
+        "valence": {
+          "enum": [
+            "unspecified",
+            "supportive_action",
+            "conflict",
+            "emotional_appeal"
+          ]
+        },
+        "group_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_time": {
+          "type": "object",
+          "properties": {
+            "phase": {
+              "type": "string"
+            },
+            "calendar_start": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "calendar_end": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "precision": {
+              "const": "relative_phase"
+            }
+          },
+          "required": [
+            "phase",
+            "calendar_start",
+            "calendar_end",
+            "precision"
+          ],
+          "additionalProperties": false
+        },
+        "narrative_scope": {
+          "enum": [
+            "diegetic",
+            "real_world_production"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence_status": {
+          "enum": [
+            "official_explicit",
+            "primary_interview_explicit"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "subject_id",
+        "object_id",
+        "predicate",
+        "statement_zh",
+        "direction",
+        "relation_kind",
+        "status",
+        "valence",
+        "group_context",
+        "valid_time",
+        "narrative_scope",
+        "evidence_ids",
+        "evidence_status",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "event"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "display_order": {
+          "type": "integer"
+        },
+        "title_zh": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence_status": {
+          "enum": [
+            "official_explicit",
+            "primary_interview_explicit"
+          ]
+        },
+        "story_time": {
+          "type": "object",
+          "properties": {
+            "phase": {
+              "type": "string"
+            },
+            "calendar_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "precision": {
+              "const": "relative_phase"
+            },
+            "after_event_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "phase",
+            "calendar_date",
+            "precision",
+            "after_event_ids"
+          ],
+          "additionalProperties": false
+        },
+        "reveal": {
+          "type": "object",
+          "properties": {
+            "work": {
+              "type": "string"
+            },
+            "episode": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1
+            },
+            "timecode": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "work",
+            "episode",
+            "timecode"
+          ],
+          "additionalProperties": false
+        },
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "display_order",
+        "title_zh",
+        "evidence_ids",
+        "evidence_status",
+        "story_time",
+        "reveal",
+        "record_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "inference": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "interpretation"
+        },
+        "layer": {
+          "const": "inference"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "basis_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "alternative_reading": {
+          "type": "string"
+        },
+        "strength": {
+          "enum": [
+            "limited",
+            "moderate",
+            "strong"
+          ]
+        },
+        "evidence_status": {
+          "const": "curator_reasoning"
+        },
+        "valid_time": {
+          "type": "object",
+          "properties": {
+            "phase": {
+              "type": "string"
+            },
+            "calendar_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "precision": {
+              "const": "relative_phase"
+            }
+          },
+          "required": [
+            "phase",
+            "calendar_date",
+            "precision"
+          ],
+          "additionalProperties": false
+        },
+        "object_id": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "directed",
+            "symmetric"
+          ]
+        },
+        "relation_kind": {
+          "type": "string"
+        },
+        "interpretation_author": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "subject_id",
+        "statement_zh",
+        "evidence_ids",
+        "basis_record_ids",
+        "rationale",
+        "alternative_reading",
+        "strength",
+        "evidence_status",
+        "valid_time"
+      ],
+      "additionalProperties": false
+    },
+    "fanon": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "fan_setting"
+        },
+        "layer": {
+          "const": "fanon"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "worldline_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string"
+        },
+        "created_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "basis_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "subject_id",
+        "statement_zh",
+        "worldline_id",
+        "author",
+        "created_on",
+        "evidence_ids",
+        "basis_record_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "research": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "candidate_value": {},
+        "candidate_layer": {
+          "enum": [
+            "canon",
+            "inference",
+            "fanon"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "needs_primary_confirmation",
+            "out_of_scope",
+            "partially_resolved"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "next_action": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "topic",
+        "candidate_value",
+        "candidate_layer",
+        "evidence_ids",
+        "status",
+        "reason",
+        "next_action"
+      ],
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date"
+        },
+        "language": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "reference_conversation_id": {
+              "type": "string"
+            },
+            "context_used": {
+              "type": "string"
+            },
+            "full_prior_plan_loaded": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "reference_conversation_id",
+            "context_used",
+            "full_prior_plan_loaded"
+          ],
+          "additionalProperties": false
+        },
+        "coverage": {
+          "type": "string"
+        },
+        "spoiler_policy": {
+          "type": "string"
+        },
+        "layer_definitions": {
+          "type": "object",
+          "properties": {
+            "canon": {
+              "type": "string"
+            },
+            "inference": {
+              "type": "string"
+            },
+            "fanon": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "canon",
+            "inference",
+            "fanon"
+          ],
+          "additionalProperties": false
+        },
+        "default_layers": {
+          "const": [
+            "canon"
+          ]
+        },
+        "fanon_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "title",
+        "version",
+        "as_of",
+        "language",
+        "subject_id",
+        "provenance",
+        "coverage",
+        "spoiler_policy",
+        "layer_definitions",
+        "default_layers",
+        "fanon_count"
+      ],
+      "additionalProperties": false
+    },
+    "episode": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "episode": {
+          "type": "integer",
+          "minimum": 9,
+          "maximum": 13
+        },
+        "title": {
+          "type": "string"
+        },
+        "announced_broadcast_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "press_release_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "plot_evidence_level": {
+          "enum": [
+            "official_synopsis",
+            "primary_interview_retelling",
+            "preview_only"
+          ]
+        },
+        "related_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "official_playback_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subtitle_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timecode_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timecode_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "full_episode_reviewed": {
+          "type": "boolean"
+        },
+        "catalog_duration_minutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "playback_link_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "access_audit_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "runtime_precision": {
+          "const": "catalog_minutes"
+        }
+      },
+      "required": [
+        "id",
+        "episode",
+        "title",
+        "announced_broadcast_date",
+        "press_release_date",
+        "evidence_ids",
+        "plot_evidence_level",
+        "related_record_ids",
+        "official_playback_url",
+        "subtitle_version",
+        "timecode_start",
+        "timecode_end",
+        "full_episode_reviewed",
+        "catalog_duration_minutes",
+        "playback_link_evidence_ids",
+        "access_audit_ids",
+        "runtime_precision"
+      ],
+      "additionalProperties": false
+    },
+    "source_issue": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "issue_type": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "summary_zh": {
+          "type": "string"
+        },
+        "resolution_zh": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "affected_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "next_action": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "issue_type",
+        "source_ids",
+        "evidence_ids",
+        "summary_zh",
+        "resolution_zh",
+        "status",
+        "affected_record_ids",
+        "next_action"
+      ],
+      "additionalProperties": false
+    },
+    "candidate_claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "unverified_claim"
+        },
+        "candidate_layer": {
+          "const": "canon"
+        },
+        "verification_status": {
+          "const": "needs_primary_confirmation"
+        },
+        "evidence_status": {
+          "const": "secondary_only"
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "episode_id": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "provisional_referents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "target_predicate": {
+          "type": "string"
+        },
+        "critical_ambiguity": {
+          "type": "string"
+        },
+        "corroborating_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "default_retrieval_eligible": {
+          "const": false
+        },
+        "promotion_rule": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "candidate_layer",
+        "verification_status",
+        "evidence_status",
+        "statement_zh",
+        "episode_id",
+        "evidence_ids",
+        "provisional_referents",
+        "target_predicate",
+        "critical_ambiguity",
+        "corroborating_record_ids",
+        "default_retrieval_eligible",
+        "promotion_rule"
+      ],
+      "additionalProperties": false
+    },
+    "scene_review": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "episode_id": {
+          "type": "string"
+        },
+        "title_zh": {
+          "type": "string"
+        },
+        "question_zh": {
+          "type": "string"
+        },
+        "entity_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "related_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "candidate_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "target_predicates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "const": "awaiting_full_episode_review"
+        },
+        "story_phase": {
+          "type": "string"
+        },
+        "official_playback_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "subtitle_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timecode_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timecode_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "full_episode_reviewed": {
+          "const": false
+        },
+        "acceptance_criteria": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "episode_id",
+        "title_zh",
+        "question_zh",
+        "entity_ids",
+        "evidence_ids",
+        "related_record_ids",
+        "candidate_claim_ids",
+        "target_predicates",
+        "status",
+        "story_phase",
+        "official_playback_url",
+        "subtitle_version",
+        "timecode_start",
+        "timecode_end",
+        "full_episode_reviewed",
+        "acceptance_criteria"
+      ],
+      "additionalProperties": false
+    },
+    "access_audit": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "enum": [
+            "login_required",
+            "region_unavailable",
+            "public_metadata_only"
+          ]
+        },
+        "scope": {
+          "type": "string"
+        },
+        "visible_result_zh": {
+          "type": "string"
+        },
+        "playback_attempted": {
+          "const": false
+        },
+        "episode_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "next_step": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "url",
+        "checked_on",
+        "status",
+        "scope",
+        "visible_result_zh",
+        "playback_attempted",
+        "episode_ids",
+        "evidence_ids",
+        "next_step"
+      ],
+      "additionalProperties": false
+    },
+    "game_story": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "game_story_record"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "event_id": {
+          "const": "somniloquium_serenum"
+        },
+        "event_name_zh": {
+          "const": "无忧梦呓"
+        },
+        "server": {
+          "const": "CN"
+        },
+        "language": {
+          "const": "zh-Hans"
+        },
+        "stage": {
+          "enum": [
+            "SS-1",
+            "SS-2",
+            "SS-3",
+            "SS-4",
+            "SS-5",
+            "SS-6",
+            "SS-7",
+            "SS-8"
+          ]
+        },
+        "stage_title_zh": {
+          "type": "string"
+        },
+        "segment": {
+          "enum": [
+            "BEG",
+            "END"
+          ]
+        },
+        "scene_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "spoiler_rank": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 16
+        },
+        "narrative_level": {
+          "enum": [
+            "castle_frame",
+            "dream_memory_replay",
+            "family_dream",
+            "initial_sakiko_dream",
+            "memory_within_family_dream",
+            "mutsumi_dream",
+            "mutsumi_dream_entry",
+            "nyamu_dream",
+            "second_sakiko_dream",
+            "uika_dream",
+            "umiri_dream"
+          ]
+        },
+        "assertion_kind": {
+          "enum": [
+            "action",
+            "speech",
+            "inner_monologue",
+            "narration",
+            "other_character_claim"
+          ]
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "focus_entity_id": {
+          "const": "sakiko"
+        },
+        "target_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "speaker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_status": {
+          "const": "game_text_transcription"
+        },
+        "client_cross_checked": {
+          "const": false
+        },
+        "locator": {
+          "type": "string"
+        },
+        "event_calendar_date": {
+          "type": "null"
+        },
+        "timecode": {
+          "type": "null"
+        },
+        "quote_original": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "knowledge_change_zh": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relationship": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "subject_id": {
+                  "type": "string"
+                },
+                "object_id": {
+                  "type": "string"
+                },
+                "predicate": {
+                  "type": "string"
+                },
+                "direction": {
+                  "const": "directed"
+                }
+              },
+              "required": [
+                "subject_id",
+                "object_id",
+                "predicate",
+                "direction"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "query_examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "continuity",
+        "event_id",
+        "event_name_zh",
+        "server",
+        "language",
+        "stage",
+        "stage_title_zh",
+        "segment",
+        "scene_order",
+        "spoiler_rank",
+        "narrative_level",
+        "assertion_kind",
+        "subject_id",
+        "focus_entity_id",
+        "target_ids",
+        "speaker",
+        "statement_zh",
+        "evidence_ids",
+        "evidence_status",
+        "client_cross_checked",
+        "locator",
+        "event_calendar_date",
+        "timecode",
+        "quote_original",
+        "knowledge_change_zh",
+        "relationship",
+        "keywords",
+        "query_examples"
+      ],
+      "additionalProperties": false
+    },
+    "game_interpretation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "game_interpretation"
+        },
+        "layer": {
+          "const": "inference"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "basis_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "alternative_reading": {
+          "type": "string"
+        },
+        "strength": {
+          "enum": [
+            "moderate",
+            "strong"
+          ]
+        },
+        "spoiler_rank": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 16
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "query_examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "continuity",
+        "statement_zh",
+        "basis_record_ids",
+        "rationale",
+        "alternative_reading",
+        "strength",
+        "spoiler_rank",
+        "keywords",
+        "query_examples"
+      ],
+      "additionalProperties": false
+    },
+    "game_question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "question_zh": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "question_zh",
+        "keywords",
+        "record_ids"
+      ],
+      "additionalProperties": false
+    },
+    "game_relation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "object_id": {
+          "type": "string"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "direction": {
+          "const": "directed"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "segment": {
+          "enum": [
+            "BEG",
+            "END"
+          ]
+        },
+        "narrative_level": {
+          "type": "string"
+        },
+        "basis_record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_status": {
+          "const": "game_text_transcription"
+        },
+        "valid_scope": {
+          "const": "specific_scene_or_attributed_speech"
+        }
+      },
+      "required": [
+        "id",
+        "subject_id",
+        "object_id",
+        "predicate",
+        "direction",
+        "layer",
+        "continuity",
+        "stage",
+        "segment",
+        "narrative_level",
+        "basis_record_ids",
+        "evidence_ids",
+        "evidence_status",
+        "valid_scope"
+      ],
+      "additionalProperties": false
+    },
+    "game_lore": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "record_type": {
+          "const": "game_lore_record"
+        },
+        "layer": {
+          "const": "canon"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "event_id": {
+          "const": "somniloquium_serenum"
+        },
+        "event_name_zh": {
+          "const": "无忧梦呓"
+        },
+        "server": {
+          "const": "CN"
+        },
+        "language": {
+          "const": "zh-Hans"
+        },
+        "stage": {
+          "enum": [
+            "OPERATOR_FILE",
+            "MODULE_LOR_Y",
+            "VOICE"
+          ]
+        },
+        "stage_title_zh": {
+          "type": "string"
+        },
+        "segment": {
+          "enum": [
+            "FILE",
+            "MODULE",
+            "VOICE"
+          ]
+        },
+        "scene_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "spoiler_rank": {
+          "const": 16
+        },
+        "narrative_level": {
+          "const": "post_castle_rhodes_island"
+        },
+        "assertion_kind": {
+          "enum": [
+            "narration",
+            "archive_assessment",
+            "future_plan",
+            "character_guess",
+            "voice_statement"
+          ]
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "focus_entity_id": {
+          "const": "sakiko"
+        },
+        "target_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "speaker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "statement_zh": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_status": {
+          "const": "game_text_transcription"
+        },
+        "client_cross_checked": {
+          "const": false
+        },
+        "locator": {
+          "type": "string"
+        },
+        "event_calendar_date": {
+          "type": "null"
+        },
+        "timecode": {
+          "type": "null"
+        },
+        "quote_original": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "knowledge_change_zh": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relationship": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "subject_id": {
+                  "type": "string"
+                },
+                "object_id": {
+                  "type": "string"
+                },
+                "predicate": {
+                  "type": "string"
+                },
+                "direction": {
+                  "const": "directed"
+                }
+              },
+              "required": [
+                "subject_id",
+                "object_id",
+                "predicate",
+                "direction"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "query_examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "material_type": {
+          "enum": [
+            "operator_file",
+            "promotion_record",
+            "module_story",
+            "voice"
+          ]
+        },
+        "section_title": {
+          "type": "string"
+        },
+        "unlock_condition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "trigger_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "record_type",
+        "layer",
+        "continuity",
+        "event_id",
+        "event_name_zh",
+        "server",
+        "language",
+        "stage",
+        "stage_title_zh",
+        "segment",
+        "scene_order",
+        "spoiler_rank",
+        "narrative_level",
+        "assertion_kind",
+        "subject_id",
+        "focus_entity_id",
+        "target_ids",
+        "speaker",
+        "statement_zh",
+        "evidence_ids",
+        "evidence_status",
+        "client_cross_checked",
+        "locator",
+        "event_calendar_date",
+        "timecode",
+        "quote_original",
+        "knowledge_change_zh",
+        "relationship",
+        "keywords",
+        "query_examples",
+        "material_type",
+        "section_title",
+        "unlock_condition",
+        "trigger_label"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

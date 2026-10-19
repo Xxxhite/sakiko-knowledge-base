@@ -1,0 +1,2 @@
+# Keep checkout bytes stable so SHA256SUMS.txt works across operating systems.
+* text=auto eol=lf

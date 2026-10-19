@@ -1,0 +1,1429 @@
+[
+  {
+    "id": "F001",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "name_ja",
+    "value": "豊川 祥子",
+    "statement_zh": "日文姓名为豊川祥子。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F002",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "name_en",
+    "value": "Sakiko Togawa",
+    "statement_zh": "英文官方姓名采用Sakiko Togawa。",
+    "evidence_ids": [
+      "E13"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F003",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "stage_name",
+    "value": "Oblivionis",
+    "statement_zh": "Ave Mujica舞台名为Oblivionis（オブリビオニス）。",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F004",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "voice_actor",
+    "value": "kanon",
+    "statement_zh": "由高尾奏音配音。",
+    "evidence_ids": [
+      "E01",
+      "E13"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "production_metadata",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F005",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "school",
+    "value": "haneoka",
+    "statement_zh": "公开角色档案列其就读羽丘女子学园。",
+    "evidence_ids": [
+      "E01",
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F006",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "school_year",
+    "value": 1,
+    "statement_zh": "电视动画角色介绍中为高中一年级。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": "学年绑定角色页所述阶段，现实年份变更不自动更新。"
+  },
+  {
+    "id": "F007",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "class",
+    "value": "1-B",
+    "statement_zh": "Our Notes公开档案班级为1-B。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "official_game_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F008",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "birthday_month_day",
+    "value": "02-14",
+    "statement_zh": "生日为2月14日。",
+    "evidence_ids": [
+      "E18",
+      "E19"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "cross_media_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F009",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "likes_food",
+    "value": "紅茶",
+    "statement_zh": "官方游戏档案的喜好栏包括红茶。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "official_game_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F010",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "likes_food",
+    "value": "チョコレート",
+    "statement_zh": "官方游戏档案的喜好栏包括巧克力。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "official_game_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F011",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "hobby",
+    "value": "芸術鑑賞",
+    "statement_zh": "官方游戏档案列兴趣为艺术鉴赏。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "official_game_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F012",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "hobby",
+    "value": "読書",
+    "statement_zh": "官方游戏档案列兴趣为阅读。",
+    "evidence_ids": [
+      "E18"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "official_game_profile",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F013",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "family_background",
+    "value": "togawa_group_daughter",
+    "statement_zh": "官方简介称其为丰川集团的千金。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F014",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "speech_style",
+    "value": "elegant",
+    "statement_zh": "官方简介描述她的说话方式具有气品。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": false,
+    "notes": null
+  },
+  {
+    "id": "F015",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "band_instrument",
+    "value": "keyboard",
+    "statement_zh": "在Ave Mujica担当键盘。",
+    "evidence_ids": [
+      "E01",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F016",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "former_band",
+    "value": "crychic",
+    "statement_zh": "曾为CRYCHIC成员。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F017",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "former_band_instrument",
+    "value": "keyboard",
+    "statement_zh": "在CRYCHIC负责键盘。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F018",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "former_band_role",
+    "value": "composer",
+    "statement_zh": "在CRYCHIC负责作曲。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F019",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "school_activity",
+    "value": "plays_piano_in_music_room",
+    "statement_zh": "MyGO角色页描述她经常在学校音乐室弹钢琴。",
+    "evidence_ids": [
+      "E02"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F020",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "founded_band",
+    "value": "ave_mujica",
+    "statement_zh": "祥子组建Ave Mujica。",
+    "evidence_ids": [
+      "E01",
+      "E07"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F021",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "declared_commitment",
+    "value": "members_lives",
+    "statement_zh": "官方简介以承担全体成员人生的决心描述她的组团姿态。",
+    "evidence_ids": [
+      "E01"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F022",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "band_worldview_role",
+    "value": "creator_and_preserver",
+    "statement_zh": "祥子构建并投入维护Ave Mujica的舞台世界观。",
+    "evidence_ids": [
+      "E01",
+      "E24"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F023",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "mother_deceased",
+    "value": true,
+    "statement_zh": "官方新闻稿确认祥子的母亲已经去世。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F024",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "father_business_failure",
+    "value": true,
+    "statement_zh": "官方新闻稿确认祥子的父亲经历事业失败。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F025",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "lost_childhood_home",
+    "value": true,
+    "statement_zh": "官方梗概记述她失去生长的家。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_crisis",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F026",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "lost_previous_band",
+    "value": true,
+    "statement_zh": "官方梗概将家庭变故与她失去原先约定同行的乐队联系起来。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_crisis",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "保留官方梗概的概括粒度，具体日期与退出对白待逐集证据。"
+  },
+  {
+    "id": "F027",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "band_early_commercial_success",
+    "value": true,
+    "statement_zh": "Ave Mujica早期取得商业成绩。",
+    "evidence_ids": [
+      "E07",
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_early",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F028",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "pursues_complete_stage",
+    "value": true,
+    "statement_zh": "第1话梗概描述祥子全力准备完整的舞台呈现。",
+    "evidence_ids": [
+      "E07"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep01_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F029",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "band_direction_disagreement",
+    "value": true,
+    "statement_zh": "第1话梗概列出乐队方向分歧。",
+    "evidence_ids": [
+      "E07"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep01_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F030",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "unmasking_instigator",
+    "value": "nyamu",
+    "statement_zh": "第2话梗概把成员真容公开归因于喵梦的策划。",
+    "evidence_ids": [
+      "E08"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep02_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "本记录定位第2话梗概；摘面具动作据监督在第1话发生，见F057。"
+  },
+  {
+    "id": "F031",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "performance_crisis_response",
+    "value": true,
+    "statement_zh": "第3话梗概记述祥子临场应对睦的演奏失误。",
+    "evidence_ids": [
+      "E09"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep03_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F032",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "tour_disbandment",
+    "value": true,
+    "statement_zh": "第5话梗概确认Ave Mujica在全国巡演途中解散。",
+    "evidence_ids": [
+      "E10",
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep05_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F033",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "old_members_attempt_contact",
+    "value": true,
+    "statement_zh": "官方新闻稿记述原CRYCHIC成员在她再次失去依靠后尝试接触她。",
+    "evidence_ids": [
+      "E14"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "after_ave_disbandment",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F034",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "crychic",
+    "predicate": "breakup_truth_revealed",
+    "value": true,
+    "statement_zh": "第7话梗概记述CRYCHIC解散真相被揭露。",
+    "evidence_ids": [
+      "E15"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep07_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F035",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "avoids_old_connections",
+    "value": true,
+    "statement_zh": "第7话梗概描述祥子回避睦、Ave Mujica与CRYCHIC。",
+    "evidence_ids": [
+      "E15"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep07_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F036",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "predicate": "revival_ambition",
+    "value": true,
+    "statement_zh": "第8话梗概记述海铃观看CRYCHIC演奏后想重振Ave Mujica。",
+    "evidence_ids": [
+      "E11"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep08_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F037",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "childhood_acquaintance",
+    "value": "sakiko",
+    "statement_zh": "初华从小与祥子相识。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "childhood",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F038",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "accepted_band_invitation",
+    "value": true,
+    "statement_zh": "初华爽快答应祥子的入团邀请。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F039",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "mutsumi",
+    "predicate": "childhood_friend",
+    "value": "sakiko",
+    "statement_zh": "睦与祥子是青梅竹马。",
+    "evidence_ids": [
+      "E04"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "childhood",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F040",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "predicate": "band_schedule_coordination",
+    "value": true,
+    "statement_zh": "海铃在Ave Mujica承担成员日程协调等工作。",
+    "evidence_ids": [
+      "E05"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F041",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "crychic",
+    "predicate": "crychic_roster",
+    "value": [
+      "tomori",
+      "sakiko",
+      "mutsumi",
+      "soyo",
+      "taki"
+    ],
+    "statement_zh": "CRYCHIC相关官方授权系列的五名成员为灯、祥子、睦、爽世、立希。",
+    "evidence_ids": [
+      "E23",
+      "E02",
+      "E22",
+      "E40"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "crychic_past",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "五名成员名单增加BanG Dream官方新闻S29直接陈述，保留原授权商品交叉核对。"
+  },
+  {
+    "id": "F042",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "calls_uika_after_tears",
+    "value": true,
+    "statement_zh": "MyGO第8话梗概记述祥子流泪后叫出初华。",
+    "evidence_ids": [
+      "E12"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep08_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F043",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "guitar_and_vocal",
+    "value": "ave_mujica",
+    "statement_zh": "初华在Ave Mujica负责吉他与主唱。",
+    "evidence_ids": [
+      "E03",
+      "E06"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F044",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "lyrics_role",
+    "value": "ave_mujica",
+    "statement_zh": "初华在Ave Mujica负责作词。",
+    "evidence_ids": [
+      "E03"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_mujica_profile",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F045",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "official_alternate_display_name",
+    "value": "三角 初音",
+    "statement_zh": "官方角色页点击姓名后，乐队成员显示为三角初音。",
+    "evidence_ids": [
+      "E28"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "identity_reveal",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F046",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "official_alternate_name_en",
+    "value": "Hatsune Misumi",
+    "statement_zh": "该姓名切换后的英文为Hatsune Misumi。",
+    "evidence_ids": [
+      "E28"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "identity_reveal",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F047",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "grandfather",
+    "value": "sadaharu",
+    "statement_zh": "冈田梦以的一手访谈复述明确丰川定治是祥子的祖父。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "出处为声优复述；未在本轮播放原集并建立时间码。"
+  },
+  {
+    "id": "F048",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "father",
+    "value": "sadaharu",
+    "statement_zh": "同一访谈把丰川定治称为初华（乐队成员）的父亲。",
+    "evidence_ids": [
+      "E32"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "family_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F049",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "predicate": "phone_emotional_appeal_to",
+    "value": "sakiko",
+    "statement_zh": "冈田复述第11话后段海铃在电话中向祥子倾诉强烈情绪。",
+    "evidence_ids": [
+      "E33"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep11",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F050",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "reformed_by_ep10",
+    "value": true,
+    "statement_zh": "第10话的乐队再结成由高尾在原访谈中明确提及。",
+    "evidence_ids": [
+      "E34"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep10",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F051",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "crychic",
+    "predicate": "rehearsal_reunion",
+    "value": true,
+    "statement_zh": "原声优对谈明确第7话CRYCHIC在排练场重聚演奏。",
+    "evidence_ids": [
+      "E36"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep07_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F052",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "solo_stage_monologue",
+    "value": true,
+    "statement_zh": "第11话身份背景以初华的舞台独白展开，原声优对谈确认这一呈现。",
+    "evidence_ids": [
+      "E37"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep11",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F053",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "final_episode_concert",
+    "value": true,
+    "statement_zh": "监督原访谈确认最终话存在Ave Mujica演唱《天球(そら)のMúsica》的舞台。",
+    "evidence_ids": [
+      "E41"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep13",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F054",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "composer_of",
+    "value": "ave_mujica",
+    "statement_zh": "剧场版官方人物档案明确祥子担任Ave Mujica作曲。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F055",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "distance_from_family_group",
+    "value": true,
+    "statement_zh": "剧场版官方档案描述祥子与丰川集团保持距离。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F056",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "shared_fate_commitment",
+    "value": "ave_mujica",
+    "statement_zh": "剧场版官方简介以命运共同体描述祥子承担Ave Mujica的姿态。",
+    "evidence_ids": [
+      "E38"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": null
+  },
+  {
+    "id": "F057",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "unmasking_occurrence_episode",
+    "value": 1,
+    "statement_zh": "监督原访谈将摘面具动作定位在第1话。",
+    "evidence_ids": [
+      "E42"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep01",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "v1.0 F030的第2话是梗概定位；两者分别保存。"
+  },
+  {
+    "id": "F058",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "lyricist_of",
+    "value": "ave_mujica",
+    "statement_zh": "剧场版官方档案明确初华兼任Ave Mujica作词。",
+    "evidence_ids": [
+      "E49"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F059",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "supports",
+    "value": "sakiko",
+    "statement_zh": "剧场版官方档案描述初华支持幼时相识的祥子。",
+    "evidence_ids": [
+      "E49"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F060",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "mutsumi",
+    "predicate": "active_as_actor",
+    "value": true,
+    "statement_zh": "剧场版官方档案描述睦同时活跃于女演员工作。",
+    "evidence_ids": [
+      "E50"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F061",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "predicate": "entrusted_management_by",
+    "value": "sakiko",
+    "statement_zh": "剧场版官方档案明确祥子全权委托海铃处理Ave Mujica管理业务。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F062",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "umiri",
+    "predicate": "past_parallel_band_count",
+    "value": "more_than_30",
+    "statement_zh": "剧场版官方档案将海铃兼任30多个乐队写作过去的经历。",
+    "evidence_ids": [
+      "E51"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F063",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "nyamu",
+    "predicate": "actor_opportunities_increase",
+    "value": true,
+    "statement_zh": "剧场版官方档案描述喵梦的演员工作机会增加。",
+    "evidence_ids": [
+      "E52"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F064",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "nyamu",
+    "predicate": "some_actor_opportunities_through",
+    "value": "mutsumi",
+    "statement_zh": "同一档案明确喵梦部分演员机会包含与睦搭配的安排。",
+    "evidence_ids": [
+      "E52"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "published_profile",
+    "continuity": "film_profile_snapshot",
+    "valid_time": {
+      "phase": "film_profile_snapshot",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  }
+]

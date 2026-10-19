@@ -1,0 +1,55 @@
+[
+  {
+    "id": "A001",
+    "source_id": "S32",
+    "url": "https://www.b-ch.com/titles/8943/012",
+    "checked_on": "2026-10-19",
+    "status": "login_required",
+    "scope": "仅实际打开第12话正文播放页；其他集本轮核验的是目录链接",
+    "visible_result_zh": "公开目录可读，第12话播放要求登录。",
+    "playback_attempted": false,
+    "episode_ids": [
+      "EP09",
+      "EP10",
+      "EP11",
+      "EP12",
+      "EP13"
+    ],
+    "evidence_ids": [
+      "E44",
+      "E45",
+      "E46"
+    ],
+    "next_step": "由具备合法播放权限的使用者按同版原片核验场景和字幕；保留版本与时间码。"
+  },
+  {
+    "id": "A002",
+    "source_id": "S33",
+    "url": "https://abema.tv/video/title/283-26",
+    "checked_on": "2026-10-19",
+    "status": "region_unavailable",
+    "scope": "ABEMA系列入口",
+    "visible_result_zh": "页面显示当前地区无法使用服务。",
+    "playback_attempted": false,
+    "episode_ids": [],
+    "evidence_ids": [
+      "E47"
+    ],
+    "next_step": "保留访问结果，不将错误页作为剧情来源。"
+  },
+  {
+    "id": "A003",
+    "source_id": "S34",
+    "url": "https://bushiroad.com/media/097a1138d03e0525",
+    "checked_on": "2026-10-19",
+    "status": "public_metadata_only",
+    "scope": "官方指南发行新闻稿",
+    "visible_result_zh": "PDF收录类别和规格可读；书籍正文未读取。",
+    "playback_attempted": false,
+    "episode_ids": [],
+    "evidence_ids": [
+      "E48"
+    ],
+    "next_step": "核验实际书页后再记录角色设定页码；附录CD另标媒介与时间码。"
+  }
+]

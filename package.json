@@ -1,0 +1,17 @@
+{
+  "name": "sakiko-knowledge-base",
+  "version": "1.4.0",
+  "private": true,
+  "description": "丰川祥子结构化剧情知识库与本地检索工具",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xxxhite/sakiko-knowledge-base.git"
+  },
+  "scripts": {
+    "test": "python -B -X utf8 tools/check_all.py",
+    "validate:schema": "node tools/validate_schema.js"
+  },
+  "devDependencies": {
+    "ajv": "6.15.0"
+  }
+}
