@@ -129,5 +129,41 @@
     "status": "needs_primary_confirmation",
     "reason": "发行新闻稿已核验；角色设定正文和附录CD尚未读取。",
     "next_action": "获取具体书页后记录页码；优先核对父母姓名、家系和身高等档案。CD以独立作品和时间码记录。"
+  },
+  {
+    "id": "Q09",
+    "topic": "《无言的约定》匿名听众身份",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E396",
+      "E397",
+      "E398"
+    ],
+    "status": "needs_primary_confirmation",
+    "reason": "三语言模组均保持未具名，并把小提琴手判断归于祥子的感觉；相见合奏仍是计划。",
+    "next_action": "取得官方具名揭示、客户端新段落或明确赠信场景；另行核验相关演出材料的角色归属。"
+  },
+  {
+    "id": "Q10",
+    "topic": "SC004人偶物件与赠送过程",
+    "candidate_value": null,
+    "candidate_layer": "canon",
+    "evidence_ids": [
+      "E75",
+      "E76",
+      "E195",
+      "E118",
+      "E106",
+      "E396",
+      "E397",
+      "E398",
+      "E237",
+      "E238",
+      "E239"
+    ],
+    "status": "partially_resolved",
+    "reason": "已完成三语言文本核对，模组与语音的赠送者署名有差异。",
+    "next_action": "比对客户端人偶画面、物品名、赠送场景和版本日期，保存可复查定位。"
   }
 ]

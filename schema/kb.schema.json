@@ -120,6 +120,36 @@
       "items": {
         "$ref": "#/definitions/game_lore"
       }
+    },
+    "game_scene_coverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_scene_coverage"
+      }
+    },
+    "game_material_coverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_material_coverage"
+      }
+    },
+    "game_localization_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_localization_check"
+      }
+    },
+    "game_discussion_guides": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_discussion_guide"
+      }
+    },
+    "game_answer_reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/game_answer_review"
+      }
     }
   },
   "required": [
@@ -142,7 +172,12 @@
     "game_interpretations",
     "game_question_index",
     "game_relations",
-    "game_lore_records"
+    "game_lore_records",
+    "game_scene_coverage",
+    "game_material_coverage",
+    "game_localization_checks",
+    "game_discussion_guides",
+    "game_answer_reviews"
   ],
   "additionalProperties": false,
   "definitions": {
@@ -1015,6 +1050,45 @@
         "fanon_count": {
           "type": "integer",
           "minimum": 0
+        },
+        "maintenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "active_focus",
+            "game_text_status",
+            "game_answer_review_ids",
+            "delivery_mode"
+          ],
+          "properties": {
+            "active_focus": {
+              "enum": [
+                "bang_dream_original",
+                "arknights_collab"
+              ]
+            },
+            "game_text_status": {
+              "enum": [
+                "in_progress",
+                "text_reference_complete"
+              ]
+            },
+            "game_answer_review_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^AKA[0-9]{3}$"
+              }
+            },
+            "delivery_mode": {
+              "enum": [
+                "repository_only",
+                "repository_and_archive"
+              ]
+            }
+          }
         }
       },
       "required": [
@@ -1040,7 +1114,7 @@
         },
         "episode": {
           "type": "integer",
-          "minimum": 9,
+          "minimum": 1,
           "maximum": 13
         },
         "title": {
@@ -1103,8 +1177,15 @@
           "type": "boolean"
         },
         "catalog_duration_minutes": {
-          "type": "integer",
-          "minimum": 1
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "playback_link_evidence_ids": {
           "type": "array",
@@ -1121,7 +1202,10 @@
           "uniqueItems": true
         },
         "runtime_precision": {
-          "const": "catalog_minutes"
+          "enum": [
+            "catalog_minutes",
+            "not_reviewed"
+          ]
         }
       },
       "required": [
@@ -1143,7 +1227,33 @@
         "access_audit_ids",
         "runtime_precision"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "runtime_precision": {
+                "const": "not_reviewed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "catalog_duration_minutes": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "catalog_duration_minutes": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      ]
     },
     "source_issue": {
       "type": "object",
@@ -1482,6 +1592,7 @@
         },
         "stage": {
           "enum": [
+            "SS-ST-1",
             "SS-1",
             "SS-2",
             "SS-3",
@@ -1498,7 +1609,8 @@
         "segment": {
           "enum": [
             "BEG",
-            "END"
+            "END",
+            "NBT"
           ]
         },
         "scene_order": {
@@ -1507,7 +1619,7 @@
         },
         "spoiler_rank": {
           "type": "integer",
-          "minimum": 1,
+          "minimum": 0,
           "maximum": 16
         },
         "narrative_level": {
@@ -1522,7 +1634,8 @@
             "nyamu_dream",
             "second_sakiko_dream",
             "uika_dream",
-            "umiri_dream"
+            "umiri_dream",
+            "opening_street_vision"
           ]
         },
         "assertion_kind": {
@@ -1629,6 +1742,13 @@
           "uniqueItems": true
         },
         "query_examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "context_record_ids": {
           "type": "array",
           "items": {
             "type": "string"
@@ -1806,7 +1926,16 @@
         "segment": {
           "enum": [
             "BEG",
-            "END"
+            "END",
+            "NBT",
+            "FILE",
+            "MODULE",
+            "VOICE",
+            "LETTER",
+            "INTERFACE",
+            "OUTFIT",
+            "ITEM",
+            "CONTRACT"
           ]
         },
         "narrative_level": {
@@ -1831,6 +1960,21 @@
         },
         "valid_scope": {
           "const": "specific_scene_or_attributed_speech"
+        },
+        "thread_id": {
+          "type": "string"
+        },
+        "phase_group": {
+          "enum": [
+            "dream_encounter",
+            "castle_first_meeting",
+            "rhodes_island_daily_life",
+            "letter_support"
+          ]
+        },
+        "order_within_thread": {
+          "type": "integer",
+          "minimum": 1
         }
       },
       "required": [
@@ -1873,16 +2017,30 @@
           "const": "无忧梦呓"
         },
         "server": {
-          "const": "CN"
+          "enum": [
+            "CN",
+            "JP",
+            "Global"
+          ]
         },
         "language": {
-          "const": "zh-Hans"
+          "enum": [
+            "zh-Hans",
+            "ja",
+            "en"
+          ]
         },
         "stage": {
           "enum": [
             "OPERATOR_FILE",
             "MODULE_LOR_Y",
-            "VOICE"
+            "VOICE",
+            "MODULE_OTHER",
+            "EVENT_LETTER",
+            "EVENT_HALL",
+            "OUTFIT",
+            "ITEM",
+            "CONTRACT"
           ]
         },
         "stage_title_zh": {
@@ -1892,7 +2050,12 @@
           "enum": [
             "FILE",
             "MODULE",
-            "VOICE"
+            "VOICE",
+            "LETTER",
+            "INTERFACE",
+            "OUTFIT",
+            "ITEM",
+            "CONTRACT"
           ]
         },
         "scene_order": {
@@ -1903,7 +2066,13 @@
           "const": 16
         },
         "narrative_level": {
-          "const": "post_castle_rhodes_island"
+          "enum": [
+            "post_castle_rhodes_island",
+            "event_hall_correspondence",
+            "event_interface",
+            "costume_description",
+            "dream_costume_description"
+          ]
         },
         "assertion_kind": {
           "enum": [
@@ -2020,7 +2189,12 @@
             "operator_file",
             "promotion_record",
             "module_story",
-            "voice"
+            "voice",
+            "event_letter",
+            "event_interface",
+            "outfit_description",
+            "item_description",
+            "operator_contract"
           ]
         },
         "section_title": {
@@ -2037,6 +2211,112 @@
             "string",
             "null"
           ]
+        },
+        "material_owner_id": {
+          "type": "string"
+        },
+        "voice_metadata": {
+          "type": "object",
+          "properties": {
+            "char_word_id": {
+              "type": "string",
+              "pattern": "^char_[0-9]+_[a-z]+_CN_[0-9]{3}$"
+            },
+            "voice_id": {
+              "type": "string",
+              "pattern": "^CN_[0-9]{3}$"
+            },
+            "voice_asset": {
+              "type": "string"
+            },
+            "place_type": {
+              "type": "string"
+            },
+            "unlock_type": {
+              "enum": [
+                "DIRECT",
+                "AWAKE",
+                "FAVOR"
+              ]
+            },
+            "unlock_params": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "text_languages_verified": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "zh-Hans",
+                  "ja",
+                  "en"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "localization_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "audio_reviewed": {
+              "const": false
+            }
+          },
+          "required": [
+            "char_word_id",
+            "voice_id",
+            "voice_asset",
+            "place_type",
+            "unlock_type",
+            "unlock_params",
+            "text_languages_verified",
+            "localization_evidence_ids",
+            "audio_reviewed"
+          ],
+          "additionalProperties": false
+        },
+        "delivery_metadata": {
+          "type": "object",
+          "properties": {
+            "mail_id": {
+              "type": "string",
+              "pattern": "^letter_[1-5]$"
+            },
+            "server": {
+              "const": "CN"
+            },
+            "unix_time": {
+              "type": "integer"
+            },
+            "local_time": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "date_kind": {
+              "const": "real_world_event_delivery"
+            }
+          },
+          "required": [
+            "mail_id",
+            "server",
+            "unix_time",
+            "local_time",
+            "date_kind"
+          ],
+          "additionalProperties": false
+        },
+        "localization_check_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^AKLC[0-9]{3}$"
+          },
+          "uniqueItems": true
         }
       },
       "required": [
@@ -2075,6 +2355,569 @@
         "section_title",
         "unlock_condition",
         "trigger_label"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "server": {
+                "const": "CN"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "language": {
+                "const": "zh-Hans"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "server": {
+                "const": "JP"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "language": {
+                "const": "ja"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "server": {
+                "const": "Global"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "language": {
+                "const": "en"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "game_scene_coverage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "event_id": {
+          "const": "somniloquium_serenum"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "segment": {
+          "enum": [
+            "NBT",
+            "TUTORIAL",
+            "BEG",
+            "END"
+          ]
+        },
+        "reading_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sakiko_presence": {
+          "enum": [
+            "present_in_text",
+            "absent_in_text"
+          ]
+        },
+        "sakiko_speaking_lines": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "review_status": {
+          "enum": [
+            "full_text_reviewed",
+            "character_passages_reviewed"
+          ]
+        },
+        "client_cross_checked": {
+          "const": false
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "text_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "line_count": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "sha256",
+              "line_count"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "notes_zh": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "continuity",
+        "event_id",
+        "stage",
+        "segment",
+        "reading_order",
+        "sakiko_presence",
+        "sakiko_speaking_lines",
+        "review_status",
+        "client_cross_checked",
+        "reviewed_on",
+        "evidence_ids",
+        "text_assets",
+        "record_ids",
+        "notes_zh"
+      ],
+      "additionalProperties": false
+    },
+    "game_material_coverage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AKMC[0-9]{3}$"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "event_id": {
+          "const": "somniloquium_serenum"
+        },
+        "title_zh": {
+          "type": "string"
+        },
+        "expected_slots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "covered_slots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "text_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "byte_count": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "sha256",
+              "byte_count"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "client_cross_checked": {
+          "const": false
+        },
+        "review_scope_zh": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "continuity",
+        "event_id",
+        "title_zh",
+        "expected_slots",
+        "covered_slots",
+        "record_ids",
+        "text_assets",
+        "reviewed_on",
+        "client_cross_checked",
+        "review_scope_zh"
+      ],
+      "additionalProperties": false
+    },
+    "game_localization_check": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AKLC[0-9]{3}$"
+        },
+        "continuity": {
+          "const": "arknights_collab"
+        },
+        "event_id": {
+          "const": "somniloquium_serenum"
+        },
+        "lookup_key": {
+          "type": "string"
+        },
+        "material_type": {
+          "enum": [
+            "voice",
+            "operator_file",
+            "promotion_record",
+            "module_story",
+            "event_letter"
+          ]
+        },
+        "material_owner_id": {
+          "type": "string"
+        },
+        "record_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "assessment": {
+          "enum": [
+            "equivalent_core",
+            "wording_variant",
+            "localized_addition"
+          ]
+        },
+        "note_zh": {
+          "type": "string"
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "server": {
+                "enum": [
+                  "CN",
+                  "JP",
+                  "Global"
+                ]
+              },
+              "language": {
+                "enum": [
+                  "zh-Hans",
+                  "ja",
+                  "en"
+                ]
+              },
+              "source_id": {
+                "type": "string"
+              },
+              "evidence_id": {
+                "type": "string"
+              },
+              "locator": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "summary_zh": {
+                "type": "string"
+              },
+              "asset_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "server",
+              "language",
+              "source_id",
+              "evidence_id",
+              "locator",
+              "label",
+              "summary_zh",
+              "asset_sha256"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 3
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "client_cross_checked": {
+          "const": false
+        },
+        "audio_reviewed": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "continuity",
+        "event_id",
+        "lookup_key",
+        "material_type",
+        "material_owner_id",
+        "record_ids",
+        "assessment",
+        "note_zh",
+        "variants",
+        "evidence_ids",
+        "checked_on",
+        "client_cross_checked",
+        "audio_reviewed"
+      ],
+      "additionalProperties": false
+    },
+    "game_discussion_guide": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "question_zh",
+        "keywords",
+        "record_ids",
+        "answer_outline",
+        "spoiler_rank",
+        "guide_kind",
+        "default_retrieval_eligible",
+        "reviewed_on"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AKD[0-9]{3}$"
+        },
+        "question_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "keywords": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "answer_outline": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "summary_zh",
+              "record_ids"
+            ],
+            "properties": {
+              "summary_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        "spoiler_rank": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 16
+        },
+        "guide_kind": {
+          "const": "curator_navigation"
+        },
+        "default_retrieval_eligible": {
+          "const": false
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "game_answer_review": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^AKA[0-9]{3}$"
+        },
+        "guide_id": {
+          "type": "string",
+          "pattern": "^AKD[0-9]{3}$"
+        },
+        "question_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answer_sentences": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text_zh",
+              "record_ids",
+              "review_result"
+            ],
+            "properties": {
+              "text_zh": {
+                "type": "string",
+                "minLength": 1
+              },
+              "record_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "review_result": {
+                "const": "supported"
+              }
+            }
+          }
+        },
+        "record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "spoiler_rank": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 16
+        },
+        "review_method": {
+          "const": "single_editor_evidence_check"
+        },
+        "review_note_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "review_status": {
+          "const": "passed"
+        },
+        "default_retrieval_eligible": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "guide_id",
+        "question_zh",
+        "answer_sentences",
+        "record_ids",
+        "spoiler_rank",
+        "review_method",
+        "review_note_zh",
+        "reviewed_on",
+        "review_status",
+        "default_retrieval_eligible"
       ],
       "additionalProperties": false
     }

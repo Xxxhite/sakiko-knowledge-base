@@ -19,13 +19,17 @@
     "focus_entity_id": "sakiko",
     "target_ids": [],
     "speaker": null,
-    "statement_zh": "祥子不愿白白留宿，主动要求承担舰上工作。",
+    "statement_zh": "祥子不愿白白留宿，主动要求承担舰上工作。 档案同时记载爱丽丝为五人担保暂住；罗德岛起初希望她们休息，但全员都不愿白住。",
     "evidence_ids": [
-      "E74"
+      "E74",
+      "E152",
+      "E345",
+      "E346",
+      "E347"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "档案一；L1100—1102",
+    "locator": "档案一；L1100—1102；补证据定位：档案资料一",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -36,15 +40,23 @@
       "工作",
       "留宿",
       "主动",
-      "自立"
+      "自立",
+      "档案资料一",
+      "个人档案",
+      "第一資料",
+      "Archive File 1"
     ],
     "query_examples": [
-      "祥子为什么主动要求工作？"
+      "祥子为什么主动要求工作？",
+      "她为什么打零工"
     ],
     "material_type": "operator_file",
     "section_title": "档案资料一",
     "unlock_condition": "信赖达到50%",
-    "trigger_label": null
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC042"
+    ]
   },
   {
     "id": "AKL002",
@@ -68,7 +80,10 @@
     "speaker": null,
     "statement_zh": "她积极承担信息传达、保洁、搬运等基础工作。",
     "evidence_ids": [
-      "E74"
+      "E74",
+      "E348",
+      "E349",
+      "E350"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -83,7 +98,10 @@
       "保洁",
       "搬运",
       "工作",
-      "勤勉"
+      "勤勉",
+      "档案资料二",
+      "第二資料",
+      "Archive File 2"
     ],
     "query_examples": [
       "祥子在罗德岛具体做什么工作？"
@@ -91,7 +109,10 @@
     "material_type": "operator_file",
     "section_title": "档案资料二",
     "unlock_condition": "信赖达到100%",
-    "trigger_label": null
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC043"
+    ]
   },
   {
     "id": "AKL003",
@@ -115,7 +136,10 @@
     "speaker": "档案叙述者",
     "statement_zh": "档案记述她关心身边干员，关切的笑容给人留下印象。",
     "evidence_ids": [
-      "E74"
+      "E74",
+      "E348",
+      "E349",
+      "E350"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -130,7 +154,10 @@
       "干员",
       "笑容",
       "温柔",
-      "日常"
+      "日常",
+      "档案资料二",
+      "第二資料",
+      "Archive File 2"
     ],
     "query_examples": [
       "她怎样对待罗德岛的其他人？"
@@ -138,7 +165,10 @@
     "material_type": "operator_file",
     "section_title": "档案资料二",
     "unlock_condition": "信赖达到100%",
-    "trigger_label": null
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC043"
+    ]
   },
   {
     "id": "AKL004",
@@ -164,7 +194,10 @@
     "speaker": "档案叙述者",
     "statement_zh": "档案认为祥子虽会失误，仍勇于决定，促成成员合作。",
     "evidence_ids": [
-      "E74"
+      "E74",
+      "E351",
+      "E352",
+      "E353"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -179,7 +212,10 @@
       "带队",
       "失误",
       "合作",
-      "责任"
+      "责任",
+      "档案资料三",
+      "第三資料",
+      "Archive File 3"
     ],
     "query_examples": [
       "档案如何评价她的领导表现？"
@@ -187,7 +223,10 @@
     "material_type": "operator_file",
     "section_title": "档案资料三",
     "unlock_condition": "信赖达到150%",
-    "trigger_label": null
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC044"
+    ]
   },
   {
     "id": "AKL005",
@@ -229,7 +268,10 @@
       "评价",
       "同伴",
       "一根筋",
-      "成长"
+      "成长",
+      "晋升记录",
+      "昇進記録",
+      "Promotion Record"
     ],
     "query_examples": [
       "爱丽丝怎样评价祥子？"
@@ -237,7 +279,10 @@
     "material_type": "promotion_record",
     "section_title": "晋升记录·爱丽丝记录",
     "unlock_condition": "晋升至精英阶段2",
-    "trigger_label": null
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC045"
+    ]
   },
   {
     "id": "AKL006",
@@ -261,7 +306,10 @@
     "speaker": null,
     "statement_zh": "祥子喜欢独自在排练室弹琴，把烦乱心情寄托于琴声。",
     "evidence_ids": [
-      "E75"
+      "E75",
+      "E396",
+      "E397",
+      "E398"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -276,15 +324,21 @@
       "排练室",
       "弹琴",
       "情绪",
-      "放松"
+      "放松",
+      "无言的约定",
+      "無言の約束",
+      "A Silent Pact"
     ],
     "query_examples": [
       "祥子独处时怎样调节心情？"
     ],
     "material_type": "module_story",
     "section_title": "无言的约定",
-    "unlock_condition": null,
-    "trigger_label": null
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC059"
+    ]
   },
   {
     "id": "AKL007",
@@ -308,13 +362,17 @@
       "ak_anonymous_listener"
     ],
     "speaker": null,
-    "statement_zh": "匿名听众通过字条称赞、感谢并鼓励她，期待合奏。",
+    "statement_zh": "匿名听众通过字条称赞、感谢并鼓励她，期待合奏。 字条还说明琴声在听众脆弱时给予支持；听众听出了她音乐中的寂寞，愿意为她加油。",
     "evidence_ids": [
-      "E75"
+      "E75",
+      "E162",
+      "E396",
+      "E397",
+      "E398"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "匿名字条段；L929—940",
+    "locator": "匿名字条段；L929—940；补证据定位：无言的约定",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -325,15 +383,23 @@
       "听众",
       "字条",
       "鼓励",
-      "合奏"
+      "合奏",
+      "无言的约定",
+      "个人档案",
+      "無言の約束",
+      "A Silent Pact"
     ],
     "query_examples": [
-      "谁在用字条鼓励祥子？"
+      "谁在用字条鼓励祥子？",
+      "匿名听众为什么给她写信"
     ],
     "material_type": "module_story",
     "section_title": "无言的约定",
-    "unlock_condition": null,
-    "trigger_label": null
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC059"
+    ]
   },
   {
     "id": "AKL008",
@@ -359,7 +425,10 @@
     "speaker": null,
     "statement_zh": "祥子没有调查匿名听众，打算离开前见面并邀请合奏。",
     "evidence_ids": [
-      "E75"
+      "E75",
+      "E396",
+      "E397",
+      "E398"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -375,15 +444,21 @@
       "身份",
       "调查",
       "合奏",
-      "计划"
+      "计划",
+      "无言的约定",
+      "無言の約束",
+      "A Silent Pact"
     ],
     "query_examples": [
       "她有没有查出留字条的人？"
     ],
     "material_type": "module_story",
     "section_title": "无言的约定",
-    "unlock_condition": null,
-    "trigger_label": null
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC059"
+    ]
   },
   {
     "id": "AKL009",
@@ -409,7 +484,11 @@
     "speaker": null,
     "statement_zh": "模组叙述把排练室中的人偶记为爱丽丝赠送。",
     "evidence_ids": [
-      "E75"
+      "E75",
+      "E195",
+      "E396",
+      "E397",
+      "E398"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -424,13 +503,19 @@
       "赠送",
       "爱丽丝",
       "模组",
-      "来源差异"
+      "来源差异",
+      "无言的约定",
+      "無言の約束",
+      "A Silent Pact"
     ],
     "query_examples": [],
     "material_type": "module_story",
     "section_title": "无言的约定",
-    "unlock_condition": null,
-    "trigger_label": null
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC059"
+    ]
   },
   {
     "id": "AKL010",
@@ -456,7 +541,10 @@
     "speaker": "祥子的想法（旁白转述）",
     "statement_zh": "祥子凭感觉猜想匿名听众可能是小提琴手。",
     "evidence_ids": [
-      "E75"
+      "E75",
+      "E396",
+      "E397",
+      "E398"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
@@ -471,15 +559,21 @@
       "小提琴手",
       "猜想",
       "身份",
-      "匿名"
+      "匿名",
+      "无言的约定",
+      "無言の約束",
+      "A Silent Pact"
     ],
     "query_examples": [
       "匿名听众是小提琴手吗？"
     ],
     "material_type": "module_story",
     "section_title": "无言的约定",
-    "unlock_condition": null,
-    "trigger_label": null
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "localization_check_ids": [
+      "AKLC059"
+    ]
   },
   {
     "id": "AKL011",
@@ -499,15 +593,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "祥子想在博士身边观察、学习他的决策。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E110",
+      "E106",
+      "E222",
+      "E223",
+      "E224"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L11—13",
+    "locator": "charWords.char_4182_oblvns_CN_001",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -518,15 +619,42 @@
       "决策",
       "观察",
       "学习",
-      "请教"
+      "请教",
+      "任命助理",
+      "CN_001",
+      "秘書任命",
+      "Appointed as Assistant"
     ],
     "query_examples": [
       "她怎么看待博士的决策？"
     ],
     "material_type": "voice",
-    "section_title": "语音·观察博士",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "任命助理",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "任命助理",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_001",
+      "voice_id": "CN_001",
+      "voice_asset": "char_4182_oblvns/CN_001",
+      "place_type": "HOME_PLACE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E223",
+        "E224"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC001"
+    ]
   },
   {
     "id": "AKL012",
@@ -546,15 +674,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "她称赞罗德岛的排班、考核和晋升制度。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E111",
+      "E106",
+      "E225",
+      "E226",
+      "E227"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L15—17",
+    "locator": "charWords.char_4182_oblvns_CN_002",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -565,15 +700,42 @@
       "工作制度",
       "管理",
       "排班",
-      "考核"
+      "考核",
+      "交谈1",
+      "CN_002",
+      "会話1",
+      "Talk 1"
     ],
     "query_examples": [
       "祥子对罗德岛的管理有什么看法？"
     ],
     "material_type": "voice",
-    "section_title": "语音·工作制度",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "交谈1",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "交谈1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_002",
+      "voice_id": "CN_002",
+      "voice_asset": "char_4182_oblvns/CN_002",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E226",
+        "E227"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC002"
+    ]
   },
   {
     "id": "AKL013",
@@ -593,15 +755,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "她谈梦的记忆变淡，认为美梦经历过一次已足够。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E114",
+      "E106",
+      "E228",
+      "E229",
+      "E230"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L26—28",
+    "locator": "charWords.char_4182_oblvns_CN_005",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -612,15 +781,45 @@
       "遗忘",
       "记忆",
       "接受",
-      "放下"
+      "放下",
+      "晋升后交谈1",
+      "CN_005",
+      "昇進後会話1",
+      "Talk after Promotion 1"
     ],
     "query_examples": [
       "她怎样看待正在消失的梦的记忆？"
     ],
     "material_type": "voice",
-    "section_title": "语音·梦的记忆",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "晋升后交谈1",
+    "unlock_condition": "精英化阶段1",
+    "trigger_label": "晋升后交谈1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_005",
+      "voice_id": "CN_005",
+      "voice_asset": "char_4182_oblvns/CN_005",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "AWAKE",
+      "unlock_params": [
+        1,
+        1
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E229",
+        "E230"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC003"
+    ]
   },
   {
     "id": "AKL014",
@@ -640,15 +839,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "她说泰拉的艰难遭遇使自己想写出更贴近人心的音乐。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E115",
+      "E106",
+      "E231",
+      "E232",
+      "E233"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L30—32",
+    "locator": "charWords.char_4182_oblvns_CN_006",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -659,15 +865,45 @@
       "苦难",
       "共情",
       "创作",
-      "音乐"
+      "音乐",
+      "晋升后交谈2",
+      "CN_006",
+      "昇進後会話2",
+      "Talk after Promotion 2"
     ],
     "query_examples": [
       "泰拉经历怎样影响祥子的创作？"
     ],
     "material_type": "voice",
-    "section_title": "语音·泰拉与创作",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "晋升后交谈2",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": "晋升后交谈2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_006",
+      "voice_id": "CN_006",
+      "voice_asset": "char_4182_oblvns/CN_006",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "AWAKE",
+      "unlock_params": [
+        2,
+        1
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E232",
+        "E233"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC004"
+    ]
   },
   {
     "id": "AKL015",
@@ -688,16 +924,22 @@
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
     "target_ids": [
-      "ak_vigna"
+      "ak_vigna",
+      "ak_doctor"
     ],
     "speaker": "丰川祥子",
     "statement_zh": "梦里曾与红豆共事，使她在现实初次问候红豆时有些落寞。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E116",
+      "E106",
+      "E234",
+      "E235",
+      "E236"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L34—35",
+    "locator": "charWords.char_4182_oblvns_CN_007",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -708,15 +950,44 @@
       "初次见面",
       "罗德岛",
       "梦和现实",
-      "落寞"
+      "落寞",
+      "信赖提升后交谈1",
+      "CN_007",
+      "信頼上昇後会話1",
+      "Talk after Trust Increase 1"
     ],
     "query_examples": [
       "祥子与红豆在现实里什么时候认识？"
     ],
     "material_type": "voice",
-    "section_title": "语音·初见红豆",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "信赖提升后交谈1",
+    "unlock_condition": "信赖达到40%",
+    "trigger_label": "信赖提升后交谈1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_007",
+      "voice_id": "CN_007",
+      "voice_asset": "char_4182_oblvns/CN_007",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "FAVOR",
+      "unlock_params": [
+        40
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E235",
+        "E236"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC005"
+    ]
   },
   {
     "id": "AKL016",
@@ -737,16 +1008,22 @@
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
     "target_ids": [
-      "ak_bena"
+      "ak_bena",
+      "ak_doctor"
     ],
     "speaker": "丰川祥子",
     "statement_zh": "祥子称洋娃娃由贝娜赠送，放在身边让她感到陪伴与温暖。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E118",
+      "E106",
+      "E237",
+      "E238",
+      "E239"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L41—43",
+    "locator": "charWords.char_4182_oblvns_CN_009",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -758,15 +1035,44 @@
       "人偶",
       "温暖",
       "陪伴",
-      "赠送"
+      "赠送",
+      "信赖提升后交谈3",
+      "CN_009",
+      "信頼上昇後会話3",
+      "Talk after Trust Increase 3"
     ],
     "query_examples": [
       "祥子的洋娃娃是谁送的？"
     ],
     "material_type": "voice",
-    "section_title": "语音·洋娃娃",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "信赖提升后交谈3",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": "信赖提升后交谈3",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_009",
+      "voice_id": "CN_009",
+      "voice_asset": "char_4182_oblvns/CN_009",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "FAVOR",
+      "unlock_params": [
+        200
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E238",
+        "E239"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC006"
+    ]
   },
   {
     "id": "AKL017",
@@ -787,16 +1093,22 @@
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
     "target_ids": [
-      "uika"
+      "uika",
+      "ak_doctor"
     ],
     "speaker": "丰川祥子",
     "statement_zh": "她提及初华提醒熬夜有害健康，自己才懂得适当休息。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E119",
+      "E106",
+      "E240",
+      "E241",
+      "E242"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L44—46",
+    "locator": "charWords.char_4182_oblvns_CN_010",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -807,15 +1119,42 @@
       "初音",
       "休息",
       "熬夜",
-      "健康"
+      "健康",
+      "闲置",
+      "CN_010",
+      "放置",
+      "Idle"
     ],
     "query_examples": [
       "初华怎样提醒过祥子照顾自己？"
     ],
     "material_type": "voice",
-    "section_title": "语音·休息",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "闲置",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "闲置",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_010",
+      "voice_id": "CN_010",
+      "voice_asset": "char_4182_oblvns/CN_010",
+      "place_type": "HOME_WAIT",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E241",
+        "E242"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC007"
+    ]
   },
   {
     "id": "AKL018",
@@ -841,11 +1180,16 @@
     "speaker": "丰川祥子",
     "statement_zh": "她把成员争论解释为让乐队更好，并表达对乐队的信心。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E113",
+      "E106",
+      "E243",
+      "E244",
+      "E245"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L23—25",
+    "locator": "charWords.char_4182_oblvns_CN_004",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -856,15 +1200,42 @@
       "争论",
       "信心",
       "坚如磐石",
-      "关系"
+      "关系",
+      "交谈3",
+      "CN_004",
+      "会話3",
+      "Talk 3"
     ],
     "query_examples": [
       "祥子怎样解释成员之间的争论？"
     ],
     "material_type": "voice",
-    "section_title": "语音·乐队争论",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "交谈3",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "交谈3",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_004",
+      "voice_id": "CN_004",
+      "voice_asset": "char_4182_oblvns/CN_004",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E244",
+        "E245"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC008"
+    ]
   },
   {
     "id": "AKL019",
@@ -884,15 +1255,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "她邀请博士一起在甲板放声喊叫，分享舒畅心情的方式。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E117",
+      "E106",
+      "E246",
+      "E247",
+      "E248"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L37—39",
+    "locator": "charWords.char_4182_oblvns_CN_008",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -903,15 +1281,44 @@
       "博士",
       "喊叫",
       "放松",
-      "心情"
+      "心情",
+      "信赖提升后交谈2",
+      "CN_008",
+      "信頼上昇後会話2",
+      "Talk after Trust Increase 2"
     ],
     "query_examples": [
       "祥子会邀请博士怎样放松？"
     ],
     "material_type": "voice",
-    "section_title": "语音·甲板",
-    "unlock_condition": null,
-    "trigger_label": null
+    "section_title": "信赖提升后交谈2",
+    "unlock_condition": "信赖达到100%",
+    "trigger_label": "信赖提升后交谈2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_008",
+      "voice_id": "CN_008",
+      "voice_asset": "char_4182_oblvns/CN_008",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "FAVOR",
+      "unlock_params": [
+        100
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E247",
+        "E248"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC009"
+    ]
   },
   {
     "id": "AKL020",
@@ -931,15 +1338,22 @@
     "assertion_kind": "voice_statement",
     "subject_id": "sakiko",
     "focus_entity_id": "sakiko",
-    "target_ids": [],
+    "target_ids": [
+      "ak_doctor"
+    ],
     "speaker": "丰川祥子",
     "statement_zh": "她把更多认可与更多责任联系起来，表示自己已准备好。",
     "evidence_ids": [
-      "E76"
+      "E76",
+      "E123",
+      "E106",
+      "E249",
+      "E250",
+      "E251"
     ],
     "evidence_status": "game_text_transcription",
     "client_cross_checked": false,
-    "locator": "语音正文；L60—62",
+    "locator": "charWords.char_4182_oblvns_CN_014",
     "event_calendar_date": null,
     "timecode": null,
     "quote_original": null,
@@ -949,14 +1363,4357 @@
       "认可",
       "责任",
       "准备",
-      "决心"
+      "决心",
+      "精英化晋升2",
+      "CN_014",
+      "昇進Ⅱ",
+      "Promotion 2"
     ],
     "query_examples": [
       "祥子怎样回应更多认可？"
     ],
     "material_type": "voice",
-    "section_title": "语音·认可与责任",
+    "section_title": "精英化晋升2",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": "精英化晋升2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_014",
+      "voice_id": "CN_014",
+      "voice_asset": "char_4182_oblvns/CN_014",
+      "place_type": "EVOLVE_TWO",
+      "unlock_type": "AWAKE",
+      "unlock_params": [
+        2,
+        1
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E250",
+        "E251"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC010"
+    ]
+  },
+  {
+    "id": "AKL021",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "交谈2",
+    "segment": "VOICE",
+    "scene_order": 21,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "她识得自助饮料机，分享把多种饮品混合后口味意外不错的体验。",
+    "evidence_ids": [
+      "E112",
+      "E106",
+      "E252",
+      "E253",
+      "E254"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_003",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "交谈2",
+      "语音",
+      "CN_003",
+      "会話2",
+      "Talk 2"
+    ],
+    "query_examples": [
+      "祥子交谈2说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "交谈2",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "交谈2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_003",
+      "voice_id": "CN_003",
+      "voice_asset": "char_4182_oblvns/CN_003",
+      "place_type": "HOME_SHOW",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E253",
+        "E254"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC011"
+    ]
+  },
+  {
+    "id": "AKL022",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "干员报到",
+    "segment": "VOICE",
+    "scene_order": 22,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "报到时她以Ave Mujica的Oblivionis自我介绍，表示找到返乡方法前会暂留并请罗德岛关照。",
+    "evidence_ids": [
+      "E120",
+      "E106",
+      "E255",
+      "E256",
+      "E257"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_011",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "干员报到",
+      "语音",
+      "CN_011",
+      "入職会話",
+      "Onboard"
+    ],
+    "query_examples": [
+      "祥子干员报到说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "干员报到",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "干员报到",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_011",
+      "voice_id": "CN_011",
+      "voice_asset": "char_4182_oblvns/CN_011",
+      "place_type": "GACHA",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E256",
+        "E257"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC012"
+    ]
+  },
+  {
+    "id": "AKL023",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "观看作战记录",
+    "segment": "VOICE",
+    "scene_order": 23,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "观看作战记录时，她询问今后的行动是否也会被录像。",
+    "evidence_ids": [
+      "E121",
+      "E106",
+      "E258",
+      "E259",
+      "E260"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_012",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "观看作战记录",
+      "语音",
+      "CN_012",
+      "経験値上昇",
+      "Watching Battle Record"
+    ],
+    "query_examples": [
+      "祥子观看作战记录说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "观看作战记录",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "观看作战记录",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_012",
+      "voice_id": "CN_012",
+      "voice_asset": "char_4182_oblvns/CN_012",
+      "place_type": "LEVEL_UP",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E259",
+        "E260"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC013"
+    ]
+  },
+  {
+    "id": "AKL024",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "精英化晋升1",
+    "segment": "VOICE",
+    "scene_order": 24,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "精英化晋升1时，她认为自己与其他小队长相比还有要改进之处，表示会努力学习跟上大家。",
+    "evidence_ids": [
+      "E122",
+      "E106",
+      "E261",
+      "E262",
+      "E263"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_013",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "精英化晋升1",
+      "语音",
+      "CN_013",
+      "昇進Ⅰ",
+      "Promotion 1"
+    ],
+    "query_examples": [
+      "祥子精英化晋升1说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "精英化晋升1",
+    "unlock_condition": "精英化阶段1",
+    "trigger_label": "精英化晋升1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_013",
+      "voice_id": "CN_013",
+      "voice_asset": "char_4182_oblvns/CN_013",
+      "place_type": "EVOLVE_ONE",
+      "unlock_type": "AWAKE",
+      "unlock_params": [
+        1,
+        1
+      ],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E262",
+        "E263"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC014"
+    ]
+  },
+  {
+    "id": "AKL025",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "编入队伍",
+    "segment": "VOICE",
+    "scene_order": 25,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "编入队伍时，她将任务视为检验团队默契的机会。",
+    "evidence_ids": [
+      "E124",
+      "E106",
+      "E264",
+      "E265",
+      "E266"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_017",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "编入队伍",
+      "语音",
+      "CN_017",
+      "編成",
+      "Added to Squad"
+    ],
+    "query_examples": [
+      "祥子编入队伍说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "编入队伍",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "编入队伍",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_017",
+      "voice_id": "CN_017",
+      "voice_asset": "char_4182_oblvns/CN_017",
+      "place_type": "SQUAD",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E265",
+        "E266"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC015"
+    ]
+  },
+  {
+    "id": "AKL026",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "任命队长",
+    "segment": "VOICE",
+    "scene_order": 26,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "任命队长时，她表示会像往常一样带领队伍完成任务。",
+    "evidence_ids": [
+      "E125",
+      "E106",
+      "E267",
+      "E268",
+      "E269"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_018",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "任命队长",
+      "语音",
+      "CN_018",
+      "隊長任命",
+      "Appointed as Squad Leader"
+    ],
+    "query_examples": [
+      "祥子任命队长说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "任命队长",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "任命队长",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_018",
+      "voice_id": "CN_018",
+      "voice_asset": "char_4182_oblvns/CN_018",
+      "place_type": "SQUAD_FIRST",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E268",
+        "E269"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC016"
+    ]
+  },
+  {
+    "id": "AKL027",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "行动出发",
+    "segment": "VOICE",
+    "scene_order": 27,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "行动出发语音以开始今夜的假面舞会宣告启程。",
+    "evidence_ids": [
+      "E126",
+      "E106",
+      "E270",
+      "E271",
+      "E272"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_019",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "行动出发",
+      "语音",
+      "CN_019",
+      "作戦準備",
+      "Depart"
+    ],
+    "query_examples": [
+      "祥子行动出发说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "行动出发",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "行动出发",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_019",
+      "voice_id": "CN_019",
+      "voice_asset": "char_4182_oblvns/CN_019",
+      "place_type": "BATTLE_START",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E271",
+        "E272"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC017"
+    ]
+  },
+  {
+    "id": "AKL028",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "行动开始",
+    "segment": "VOICE",
+    "scene_order": 28,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "行动开始时，她把眼前敌人称作阻碍。",
+    "evidence_ids": [
+      "E127",
+      "E106",
+      "E273",
+      "E274",
+      "E275"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_020",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "行动开始",
+      "语音",
+      "CN_020",
+      "戦闘開始",
+      "Begin Operation"
+    ],
+    "query_examples": [
+      "祥子行动开始说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "行动开始",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "行动开始",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_020",
+      "voice_id": "CN_020",
+      "voice_asset": "char_4182_oblvns/CN_020",
+      "place_type": "BATTLE_FACE_ENEMY",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E274",
+        "E275"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC018"
+    ]
+  },
+  {
+    "id": "AKL029",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "选中干员1",
+    "segment": "VOICE",
+    "scene_order": 29,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "选中干员1时，她表示自己与博士此刻应有一致的判断。",
+    "evidence_ids": [
+      "E128",
+      "E106",
+      "E276",
+      "E277",
+      "E278"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_021",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "选中干员1",
+      "语音",
+      "CN_021",
+      "選択時1",
+      "Selecting Operator 1"
+    ],
+    "query_examples": [
+      "祥子选中干员1说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "选中干员1",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "选中干员1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_021",
+      "voice_id": "CN_021",
+      "voice_asset": "char_4182_oblvns/CN_021",
+      "place_type": "BATTLE_SELECT",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E277",
+        "E278"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC019"
+    ]
+  },
+  {
+    "id": "AKL030",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "选中干员2",
+    "segment": "VOICE",
+    "scene_order": 30,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "选中干员2时，她催促博士立即告知决定。",
+    "evidence_ids": [
+      "E129",
+      "E106",
+      "E279",
+      "E280",
+      "E281"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_022",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "选中干员2",
+      "语音",
+      "CN_022",
+      "選択時2",
+      "Selecting Operator 2"
+    ],
+    "query_examples": [
+      "祥子选中干员2说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "选中干员2",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "选中干员2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_022",
+      "voice_id": "CN_022",
+      "voice_asset": "char_4182_oblvns/CN_022",
+      "place_type": "BATTLE_SELECT",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E280",
+        "E281"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC020"
+    ]
+  },
+  {
+    "id": "AKL031",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "部署1",
+    "segment": "VOICE",
+    "scene_order": 31,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "部署1语音强调行动时机紧迫。",
+    "evidence_ids": [
+      "E130",
+      "E106",
+      "E282",
+      "E283",
+      "E284"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_023",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "部署1",
+      "语音",
+      "CN_023",
+      "配置1",
+      "Deployment 1"
+    ],
+    "query_examples": [
+      "祥子部署1说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "部署1",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "部署1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_023",
+      "voice_id": "CN_023",
+      "voice_asset": "char_4182_oblvns/CN_023",
+      "place_type": "BATTLE_PLACE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E283",
+        "E284"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC021"
+    ]
+  },
+  {
+    "id": "AKL032",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "部署2",
+    "segment": "VOICE",
+    "scene_order": 32,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "部署2语音要求及时行动、停止犹豫。",
+    "evidence_ids": [
+      "E131",
+      "E106",
+      "E285",
+      "E286",
+      "E287"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_024",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "部署2",
+      "语音",
+      "CN_024",
+      "配置2",
+      "Deployment 2"
+    ],
+    "query_examples": [
+      "祥子部署2说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "部署2",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "部署2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_024",
+      "voice_id": "CN_024",
+      "voice_asset": "char_4182_oblvns/CN_024",
+      "place_type": "BATTLE_PLACE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E286",
+        "E287"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC022"
+    ]
+  },
+  {
+    "id": "AKL033",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "作战中1",
+    "segment": "VOICE",
+    "scene_order": 33,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "作战中1语音以人偶获得短暂生命的舞台意象表现施展技能。",
+    "evidence_ids": [
+      "E132",
+      "E106",
+      "E288",
+      "E289",
+      "E290"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_025",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "作战中1",
+      "语音",
+      "CN_025",
+      "作戦中1",
+      "In Battle 1"
+    ],
+    "query_examples": [
+      "祥子作战中1说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "作战中1",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "作战中1",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_025",
+      "voice_id": "CN_025",
+      "voice_asset": "char_4182_oblvns/CN_025",
+      "place_type": "BATTLE_SKILL_1",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E289",
+        "E290"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC023"
+    ]
+  },
+  {
+    "id": "AKL034",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "作战中2",
+    "segment": "VOICE",
+    "scene_order": 34,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "作战中2语音以月光追逼对手的意象表现攻击。",
+    "evidence_ids": [
+      "E133",
+      "E106",
+      "E291",
+      "E292",
+      "E293"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_026",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "作战中2",
+      "语音",
+      "CN_026",
+      "作戦中2",
+      "In Battle 2"
+    ],
+    "query_examples": [
+      "祥子作战中2说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "作战中2",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "作战中2",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_026",
+      "voice_id": "CN_026",
+      "voice_asset": "char_4182_oblvns/CN_026",
+      "place_type": "BATTLE_SKILL_2",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E292",
+        "E293"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC024"
+    ]
+  },
+  {
+    "id": "AKL035",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "作战中3",
+    "segment": "VOICE",
+    "scene_order": 35,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "作战中3语音向对手提出是否仍寻求慰藉的问题。",
+    "evidence_ids": [
+      "E134",
+      "E106",
+      "E294",
+      "E295",
+      "E296"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_027",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "作战中3",
+      "语音",
+      "CN_027",
+      "作戦中3",
+      "In Battle 3"
+    ],
+    "query_examples": [
+      "祥子作战中3说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "作战中3",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "作战中3",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_027",
+      "voice_id": "CN_027",
+      "voice_asset": "char_4182_oblvns/CN_027",
+      "place_type": "BATTLE_SKILL_3",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E295",
+        "E296"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC025"
+    ]
+  },
+  {
+    "id": "AKL036",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "作战中4",
+    "segment": "VOICE",
+    "scene_order": 36,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "作战中4语音以君临黄昏乐园的姿态宣告自身。",
+    "evidence_ids": [
+      "E135",
+      "E106",
+      "E297",
+      "E298",
+      "E299"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_028",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "作战中4",
+      "语音",
+      "CN_028",
+      "作戦中4",
+      "In Battle 4"
+    ],
+    "query_examples": [
+      "祥子作战中4说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "作战中4",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "作战中4",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_028",
+      "voice_id": "CN_028",
+      "voice_asset": "char_4182_oblvns/CN_028",
+      "place_type": "BATTLE_SKILL_4",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E298",
+        "E299"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC026"
+    ]
+  },
+  {
+    "id": "AKL037",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "完成高难行动",
+    "segment": "VOICE",
+    "scene_order": 37,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "完成高难行动时，她称赞博士战术令人印象深刻，并询问胜利是否也是特意准备的惊喜。",
+    "evidence_ids": [
+      "E136",
+      "E106",
+      "E300",
+      "E301",
+      "E302"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_029",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "完成高难行动",
+      "语音",
+      "CN_029",
+      "高難度作戦クリア",
+      "4-star Result"
+    ],
+    "query_examples": [
+      "祥子完成高难行动说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "完成高难行动",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "完成高难行动",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_029",
+      "voice_id": "CN_029",
+      "voice_asset": "char_4182_oblvns/CN_029",
+      "place_type": "FOUR_STAR",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E301",
+        "E302"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC027"
+    ]
+  },
+  {
+    "id": "AKL038",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "3星结束行动",
+    "segment": "VOICE",
+    "scene_order": 38,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "3星结束行动时，她称赞作战精彩并感谢全体成员。",
+    "evidence_ids": [
+      "E137",
+      "E106",
+      "E303",
+      "E304",
+      "E305"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_030",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "3星结束行动",
+      "语音",
+      "CN_030",
+      "★3で戦闘終了",
+      "3-star Result"
+    ],
+    "query_examples": [
+      "祥子3星结束行动说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "3星结束行动",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "3星结束行动",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_030",
+      "voice_id": "CN_030",
+      "voice_asset": "char_4182_oblvns/CN_030",
+      "place_type": "THREE_STAR",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E304",
+        "E305"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC028"
+    ]
+  },
+  {
+    "id": "AKL039",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "非3星结束行动",
+    "segment": "VOICE",
+    "scene_order": 39,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "非3星结束行动时，她为距离更好结果只差一点而遗憾。",
+    "evidence_ids": [
+      "E138",
+      "E106",
+      "E306",
+      "E307",
+      "E308"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_031",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "非3星结束行动",
+      "语音",
+      "CN_031",
+      "★2以下戦闘終了",
+      "Sub 3-star Result"
+    ],
+    "query_examples": [
+      "祥子非3星结束行动说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "非3星结束行动",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "非3星结束行动",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_031",
+      "voice_id": "CN_031",
+      "voice_asset": "char_4182_oblvns/CN_031",
+      "place_type": "TWO_STAR",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E307",
+        "E308"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC029"
+    ]
+  },
+  {
+    "id": "AKL040",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "行动失败",
+    "segment": "VOICE",
+    "scene_order": 40,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "行动失败时，她说自己讨厌自己，流露出对自身的否定。",
+    "evidence_ids": [
+      "E139",
+      "E106",
+      "E309",
+      "E310",
+      "E311"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_032",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "行动失败",
+      "语音",
+      "CN_032",
+      "作戦失敗",
+      "Operation Failure"
+    ],
+    "query_examples": [
+      "祥子行动失败说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "行动失败",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "行动失败",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_032",
+      "voice_id": "CN_032",
+      "voice_asset": "char_4182_oblvns/CN_032",
+      "place_type": "LOSE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E310",
+        "E311"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC030"
+    ]
+  },
+  {
+    "id": "AKL041",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "进驻设施",
+    "segment": "VOICE",
+    "scene_order": 41,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "进驻设施时，她注意到环境干净整齐，认为这里得到了悉心维护。",
+    "evidence_ids": [
+      "E140",
+      "E106",
+      "E312",
+      "E313",
+      "E314"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_033",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "进驻设施",
+      "语音",
+      "CN_033",
+      "基地配属",
+      "Assigned to Facility"
+    ],
+    "query_examples": [
+      "祥子进驻设施说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "进驻设施",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "进驻设施",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_033",
+      "voice_id": "CN_033",
+      "voice_asset": "char_4182_oblvns/CN_033",
+      "place_type": "BUILDING_PLACE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E313",
+        "E314"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC031"
+    ]
+  },
+  {
+    "id": "AKL042",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "戳一下",
+    "segment": "VOICE",
+    "scene_order": 42,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "被戳一下时，她发出突然受惊的叫声。",
+    "evidence_ids": [
+      "E141",
+      "E106",
+      "E315",
+      "E316",
+      "E317"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_034",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "戳一下",
+      "语音",
+      "CN_034",
+      "タッチ1",
+      "Tap"
+    ],
+    "query_examples": [
+      "祥子戳一下说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "戳一下",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "戳一下",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_034",
+      "voice_id": "CN_034",
+      "voice_asset": "char_4182_oblvns/CN_034",
+      "place_type": "BUILDING_TOUCHING",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E316",
+        "E317"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC032"
+    ]
+  },
+  {
+    "id": "AKL043",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "信赖触摸",
+    "segment": "VOICE",
+    "scene_order": 43,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "信赖触摸时，她主动询问是否有什么可以帮忙。",
+    "evidence_ids": [
+      "E142",
+      "E106",
+      "E318",
+      "E319",
+      "E320"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_036",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "信赖触摸",
+      "语音",
+      "CN_036",
+      "信頼タッチ",
+      "Trust Tap"
+    ],
+    "query_examples": [
+      "祥子信赖触摸说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "信赖触摸",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "信赖触摸",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_036",
+      "voice_id": "CN_036",
+      "voice_asset": "char_4182_oblvns/CN_036",
+      "place_type": "BUILDING_FAVOR_BUBBLE",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E319",
+        "E320"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC033"
+    ]
+  },
+  {
+    "id": "AKL044",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "标题",
+    "segment": "VOICE",
+    "scene_order": 44,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "丰川祥子",
+    "statement_zh": "标题语音报出游戏名称《明日方舟》。",
+    "evidence_ids": [
+      "E143",
+      "E106",
+      "E321",
+      "E322",
+      "E323"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_037",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "标题",
+      "语音",
+      "CN_037",
+      "タイトルコール",
+      "Title"
+    ],
+    "query_examples": [
+      "祥子标题说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "标题",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "标题",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_037",
+      "voice_id": "CN_037",
+      "voice_asset": "char_4182_oblvns/CN_037",
+      "place_type": "LOADING_PANEL",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E322",
+        "E323"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC034"
+    ]
+  },
+  {
+    "id": "AKL045",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "新年祝福",
+    "segment": "VOICE",
+    "scene_order": 45,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "新年祝福中，她说自己刚在训练场听到外面欢呼，向博士送上新年第一声问候。",
+    "evidence_ids": [
+      "E144",
+      "E106",
+      "E324",
+      "E325",
+      "E326"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_038",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "新年祝福",
+      "语音",
+      "CN_038",
+      "新年",
+      "New Year's blessing"
+    ],
+    "query_examples": [
+      "祥子新年祝福说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "新年祝福",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "新年祝福",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_038",
+      "voice_id": "CN_038",
+      "voice_asset": "char_4182_oblvns/CN_038",
+      "place_type": "NEW_YEAR",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E325",
+        "E326"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC035"
+    ]
+  },
+  {
+    "id": "AKL046",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "问候",
+    "segment": "VOICE",
+    "scene_order": 46,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "问候语音中，她邀请博士参加当晚的化装舞会，并表示已预留贵宾席位。",
+    "evidence_ids": [
+      "E145",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_042",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "问候",
+      "语音",
+      "CN_042",
+      "挨拶",
+      "Greeting"
+    ],
+    "query_examples": [
+      "祥子问候说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "问候",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "问候",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_042",
+      "voice_id": "CN_042",
+      "voice_asset": "char_4182_oblvns/CN_042",
+      "place_type": "GREETING",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E328",
+        "E329"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC036"
+    ]
+  },
+  {
+    "id": "AKL047",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "生日",
+    "segment": "VOICE",
+    "scene_order": 47,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "生日语音中，她用儿时学会的生日钢琴曲送上祝福，回忆刚学会时反复弹奏、甚至令母亲困扰。",
+    "evidence_ids": [
+      "E146",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_043",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "生日",
+      "语音",
+      "CN_043",
+      "誕生日",
+      "Birthday"
+    ],
+    "query_examples": [
+      "祥子生日说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "生日",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "生日",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_043",
+      "voice_id": "CN_043",
+      "voice_asset": "char_4182_oblvns/CN_043",
+      "place_type": "BIRTHDAY",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E331",
+        "E332"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC037"
+    ]
+  },
+  {
+    "id": "AKL048",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "周年庆典",
+    "segment": "VOICE",
+    "scene_order": 48,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ak_doctor"
+    ],
+    "speaker": "丰川祥子",
+    "statement_zh": "周年庆典中，她很高兴与博士见证特殊日子，并说大家为共同目标努力的样子令她感到振奋。",
+    "evidence_ids": [
+      "E147",
+      "E106",
+      "E333",
+      "E334",
+      "E335"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4182_oblvns_CN_044",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "周年庆典",
+      "语音",
+      "CN_044",
+      "周年",
+      "Anniversary Celebration"
+    ],
+    "query_examples": [
+      "祥子周年庆典说了什么"
+    ],
+    "material_type": "voice",
+    "section_title": "周年庆典",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "周年庆典",
+    "voice_metadata": {
+      "char_word_id": "char_4182_oblvns_CN_044",
+      "voice_id": "CN_044",
+      "voice_asset": "char_4182_oblvns/CN_044",
+      "place_type": "ANNIVERSARY",
+      "unlock_type": "DIRECT",
+      "unlock_params": [],
+      "text_languages_verified": [
+        "zh-Hans",
+        "ja",
+        "en"
+      ],
+      "localization_evidence_ids": [
+        "E106",
+        "E334",
+        "E335"
+      ],
+      "audio_reviewed": false
+    },
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC038"
+    ]
+  },
+  {
+    "id": "AKL049",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "基础档案",
+    "segment": "FILE",
+    "scene_order": 49,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "基础档案记载祥子生日为2月14日、身高155厘米，没有战斗经验；出身地与种族记为未知。",
+    "evidence_ids": [
+      "E148",
+      "E357",
+      "E358",
+      "E359"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "基础档案",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "基础档案",
+      "个人档案",
+      "基礎情報",
+      "Basic Info"
+    ],
+    "query_examples": [
+      "她的体检和生日怎么记载"
+    ],
+    "material_type": "operator_file",
+    "section_title": "基础档案",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC046"
+    ]
+  },
+  {
+    "id": "AKL050",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "临床诊断分析",
+    "segment": "FILE",
+    "scene_order": 50,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "罗德岛临床诊断将祥子列为非感染者，体细胞与源石融合率为0%；血液源石结晶密度依医疗部决议未公开。",
+    "evidence_ids": [
+      "E149",
+      "E360",
+      "E361",
+      "E362"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "临床诊断分析",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "临床诊断分析",
+      "个人档案",
+      "健康診断",
+      "Clinical Analysis"
+    ],
+    "query_examples": [
+      "她的体检和生日怎么记载"
+    ],
+    "material_type": "operator_file",
+    "section_title": "临床诊断分析",
+    "unlock_condition": "信赖达到25%",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC047"
+    ]
+  },
+  {
+    "id": "AKL051",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "综合体检测试",
+    "segment": "FILE",
+    "scene_order": 51,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "体检记录将祥子的战术规划评为优良，战斗技巧为标准，物理强度、机动和耐受为普通；源石技艺适应性以遮蔽符号呈现。",
+    "evidence_ids": [
+      "E150",
+      "E363",
+      "E364",
+      "E365"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "综合体检测试",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "综合体检测试",
+      "个人档案",
+      "能力測定",
+      "Physical Exam"
+    ],
+    "query_examples": [
+      "她的体检和生日怎么记载"
+    ],
+    "material_type": "operator_file",
+    "section_title": "综合体检测试",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC048"
+    ]
+  },
+  {
+    "id": "AKL052",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "客观履历",
+    "segment": "FILE",
+    "scene_order": 52,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "客观履历介绍她作为Ave Mujica键盘手与队友暂居罗德岛，积极工作，并以音乐造诣及礼仪描述其名门出身。",
+    "evidence_ids": [
+      "E151",
+      "E366",
+      "E367",
+      "E368"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "客观履历",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "客观履历",
+      "个人档案",
+      "個人履歴",
+      "Profile"
+    ],
+    "query_examples": [
+      "她的体检和生日怎么记载"
+    ],
+    "material_type": "operator_file",
+    "section_title": "客观履历",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC049"
+    ]
+  },
+  {
+    "id": "AKL054",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "档案资料四",
+    "segment": "FILE",
+    "scene_order": 54,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "档案编者",
+    "statement_zh": "祥子的游戏档案资料四叙述：她因憧憬学校前辈而组建早期乐队。该段以罗德岛档案编者的了解为叙述来源。",
+    "evidence_ids": [
+      "E153"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "档案资料四",
+      "个人档案",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "她为什么打零工"
+    ],
+    "material_type": "operator_file",
+    "section_title": "档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC050"
+    ]
+  },
+  {
+    "id": "AKL055",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "档案资料四",
+    "segment": "FILE",
+    "scene_order": 55,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "档案编者",
+    "statement_zh": "游戏档案资料四把家庭变故叙述为父亲因公司遭诈骗而引咎辞职、此后一蹶不振；祥子退出原乐队，靠多份零工维持家庭。",
+    "evidence_ids": [
+      "E154"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "档案资料四",
+      "家庭变故",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "她为什么打零工"
+    ],
+    "material_type": "operator_file",
+    "section_title": "档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC050"
+    ]
+  },
+  {
+    "id": "AKL056",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "档案资料四",
+    "segment": "FILE",
+    "scene_order": 56,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "档案编者",
+    "statement_zh": "档案编者将祥子组建Ave Mujica的过程与不愿示弱、告别过去联系起来，并记述其坚持引发重大争执，也伴随自责、迷茫及害怕。",
+    "evidence_ids": [
+      "E155"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "档案资料四",
+      "个人档案",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "她为什么打零工"
+    ],
+    "material_type": "operator_file",
+    "section_title": "档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC050"
+    ]
+  },
+  {
+    "id": "AKL057",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "档案资料四",
+    "segment": "FILE",
+    "scene_order": 57,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "档案编者",
+    "statement_zh": "档案编者观察到她在罗德岛似有变化，并猜测与梦城堡经历有关；这一因果判断保留为档案方的揣测。",
+    "evidence_ids": [
+      "E156"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "档案资料四",
+      "个人档案",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "档案如何描述她害怕伤害同伴"
+    ],
+    "material_type": "operator_file",
+    "section_title": "档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC050"
+    ]
+  },
+  {
+    "id": "AKL058",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "晋升记录",
+    "segment": "FILE",
+    "scene_order": 58,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝记录称，祥子认为自己必须肩负同伴的一生，并愿意承担这一责任。",
+    "evidence_ids": [
+      "E157"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "晋升记录",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "晋升记录",
+      "个人档案",
+      "昇進記録",
+      "Promotion Record"
+    ],
+    "query_examples": [
+      "档案如何描述她害怕伤害同伴"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "晋升记录",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC045"
+    ]
+  },
+  {
+    "id": "AKL059",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "晋升记录",
+    "segment": "FILE",
+    "scene_order": 59,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝指出祥子也会害怕自己的选择伤害他人，并质疑自己是否配得上同伴托付的人生。",
+    "evidence_ids": [
+      "E158"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "晋升记录",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "晋升记录",
+      "个人档案",
+      "昇進記録",
+      "Promotion Record"
+    ],
+    "query_examples": [
+      "档案如何描述她害怕伤害同伴"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "晋升记录",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC045"
+    ]
+  },
+  {
+    "id": "AKL060",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "晋升记录",
+    "segment": "FILE",
+    "scene_order": 60,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝记录祥子最终在梦中相信自己能践行承诺，选择醒来面对实际生活。",
+    "evidence_ids": [
+      "E159"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "晋升记录",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "晋升记录",
+      "个人档案",
+      "昇進記録",
+      "Promotion Record"
+    ],
+    "query_examples": [
+      "档案如何描述她害怕伤害同伴"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "晋升记录",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC045"
+    ]
+  },
+  {
+    "id": "AKL061",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "晋升记录",
+    "segment": "FILE",
+    "scene_order": 61,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝相信，即使祥子返乡后淡忘泰拉经历，这段经历也会作为潜意识中的勇气，支持她面对自己并带领乐队前行。",
+    "evidence_ids": [
+      "E160"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "晋升记录",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "晋升记录",
+      "个人档案",
+      "昇進記録",
+      "Promotion Record"
+    ],
+    "query_examples": [
+      "匿名听众为什么给她写信"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "晋升记录",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC045"
+    ]
+  },
+  {
+    "id": "AKL062",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "MODULE_LOR_Y",
+    "stage_title_zh": "无言的约定",
+    "segment": "MODULE",
+    "scene_order": 62,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "模组区分弹琴对祥子的多种意义：既包含练习、目标和工作，也包含放松与情绪寄托。",
+    "evidence_ids": [
+      "E161",
+      "E396",
+      "E397",
+      "E398"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "无言的约定",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "无言的约定",
+      "个人档案",
+      "無言の約束",
+      "A Silent Pact"
+    ],
+    "query_examples": [
+      "匿名听众为什么给她写信"
+    ],
+    "material_type": "module_story",
+    "section_title": "无言的约定",
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC059"
+    ]
+  },
+  {
+    "id": "AKL064",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "MODULE_LOR_Y",
+    "stage_title_zh": "无言的约定",
+    "segment": "MODULE",
+    "scene_order": 64,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "读到笨拙又不愿露面的听众字条，祥子想起故乡旧伙伴，并在猜想听众性格时联想到睦和初华。",
+    "evidence_ids": [
+      "E163",
+      "E396",
+      "E397",
+      "E398"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "无言的约定",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "无言的约定",
+      "个人档案",
+      "無言の約束",
+      "A Silent Pact"
+    ],
+    "query_examples": [
+      "匿名听众为什么给她写信"
+    ],
+    "material_type": "module_story",
+    "section_title": "无言的约定",
+    "unlock_condition": "精英化阶段2、等级60；完成模组解锁任务（材料消耗另见游戏）",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC059"
+    ]
+  },
+  {
+    "id": "AKL065",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "睦·档案资料一",
+    "segment": "FILE",
+    "scene_order": 65,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "mutsumi",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "睦的档案记载，她与祥子童年相识；编者从她不多的言语中观察到对祥子的重视和持续支持。",
+    "evidence_ids": [
+      "E164",
+      "E372",
+      "E373",
+      "E374"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦·档案资料一",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "mutsumi",
+      "睦",
+      "档案资料一",
+      "关系",
+      "第一資料",
+      "Archive File 1"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "operator_file",
+    "section_title": "睦·档案资料一",
+    "unlock_condition": "信赖达到50%",
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC051"
+    ]
+  },
+  {
+    "id": "AKL066",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "睦·档案资料二",
+    "segment": "FILE",
+    "scene_order": 66,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "mutsumi",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "睦的档案记载，她常在祥子工作时从旁搭手，完成力所能及的工作。",
+    "evidence_ids": [
+      "E165",
+      "E375",
+      "E376",
+      "E377"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦·档案资料二",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "mutsumi",
+      "睦",
+      "档案资料二",
+      "关系",
+      "第二資料",
+      "Archive File 2"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "operator_file",
+    "section_title": "睦·档案资料二",
+    "unlock_condition": "信赖达到100%",
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC052"
+    ]
+  },
+  {
+    "id": "AKL067",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "睦·档案资料三",
+    "segment": "FILE",
+    "scene_order": 67,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "mutsumi"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "睦的档案转述祥子的嘱托：请罗德岛少给睦压力；祥子知道自己保护能力有限，仍希望为睦建立可以安心的地方。",
+    "evidence_ids": [
+      "E166",
+      "E378",
+      "E379",
+      "E380"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦·档案资料三",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "mutsumi",
+      "睦",
+      "档案资料三",
+      "安心",
+      "第三資料",
+      "Archive File 3"
+    ],
+    "query_examples": [
+      "她怎样替睦减轻压力"
+    ],
+    "material_type": "operator_file",
+    "section_title": "睦·档案资料三",
+    "unlock_condition": "信赖达到150%",
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC053"
+    ]
+  },
+  {
+    "id": "AKL068",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "睦·档案资料四",
+    "segment": "FILE",
+    "scene_order": 68,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "mutsumi",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "睦的档案编者认为，她难以表达不愿辜负他人期待的压力，童年好友祥子对此也只有些微了解。",
+    "evidence_ids": [
+      "E167"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦·档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "mutsumi",
+      "睦",
+      "档案资料四",
+      "关系",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "operator_file",
+    "section_title": "睦·档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC054"
+    ]
+  },
+  {
+    "id": "AKL069",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "初华·档案资料二",
+    "segment": "FILE",
+    "scene_order": 69,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "初华的档案记载，她受祥子邀请加入Ave Mujica，始终投入全部力量，编者观察到她珍爱乐队。",
+    "evidence_ids": [
+      "E168",
+      "E384",
+      "E385",
+      "E386"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "初华·档案资料二",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "uika",
+      "初华",
+      "档案资料二",
+      "关系",
+      "第二資料",
+      "Archive File 2"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "operator_file",
+    "section_title": "初华·档案资料二",
+    "unlock_condition": "信赖达到100%",
+    "trigger_label": null,
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC055"
+    ]
+  },
+  {
+    "id": "AKL070",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "初华·档案资料三",
+    "segment": "FILE",
+    "scene_order": 70,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "初华的档案描述她与祥子自小相识，并把祥子视为好友与憧憬目标；两人在罗德岛常于夜间一起到甲板观星。",
+    "evidence_ids": [
+      "E169",
+      "E387",
+      "E388",
+      "E389"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "初华·档案资料三",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "uika",
+      "初华",
+      "档案资料三",
+      "关系",
+      "第三資料",
+      "Archive File 3"
+    ],
+    "query_examples": [
+      "初华和祥子在甲板看星星"
+    ],
+    "material_type": "operator_file",
+    "section_title": "初华·档案资料三",
+    "unlock_condition": "信赖达到150%",
+    "trigger_label": null,
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC056"
+    ]
+  },
+  {
+    "id": "AKL071",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "初华·档案资料四",
+    "segment": "FILE",
+    "scene_order": 71,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "档案编者",
+    "statement_zh": "初华的档案编者观察到，她比起表达自身想法，更希望了解祥子的想法，并以含混措辞描述其复杂感情。",
+    "evidence_ids": [
+      "E170",
+      "E390",
+      "E391",
+      "E392"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "初华·档案资料四",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "uika",
+      "初华",
+      "档案资料四",
+      "关系",
+      "第四資料",
+      "Archive File 4"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "operator_file",
+    "section_title": "初华·档案资料四",
+    "unlock_condition": "信赖达到200%",
+    "trigger_label": null,
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC057"
+    ]
+  },
+  {
+    "id": "AKL072",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "初华·晋升记录",
+    "segment": "FILE",
+    "scene_order": 72,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝记录称初华因内疚和对过去的畏惧，曾在祥子痛苦时不敢靠近；她希望这段经历给予初华面对自身过去的勇气。",
+    "evidence_ids": [
+      "E171",
+      "E393",
+      "E394",
+      "E395"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "初华·晋升记录",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "uika",
+      "初华",
+      "晋升记录",
+      "关系",
+      "昇進記録",
+      "Promotion Record"
+    ],
+    "query_examples": [
+      "队友档案怎样描述祥子"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "初华·晋升记录",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC058"
+    ]
+  },
+  {
+    "id": "AKL073",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "MODULE_OTHER",
+    "stage_title_zh": "睦的新朋友",
+    "segment": "MODULE",
+    "scene_order": 73,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "mutsumi"
+    ],
+    "speaker": null,
+    "statement_zh": "睦的模组中，祥子担心睦把压力积在心里，前往疗养庭院查看；听见她与人讨论种植时感到欣喜，选择先离开，等待合适机会再询问朋友身份。",
+    "evidence_ids": [
+      "E172",
+      "E399",
+      "E400",
+      "E401"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦的新朋友",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "睦的新朋友",
+      "睦",
+      "新朋友",
+      "压力",
+      "新しい友達",
+      "New Friends"
+    ],
+    "query_examples": [
+      "祥子知道睦的新朋友是谁吗"
+    ],
+    "material_type": "module_story",
+    "section_title": "睦的新朋友",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC060"
+    ]
+  },
+  {
+    "id": "AKL074",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "MODULE_OTHER",
+    "stage_title_zh": "睦的新朋友",
+    "segment": "MODULE",
+    "scene_order": 74,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "mutsumi",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": null,
+    "statement_zh": "模组叙述列出Lancet-2、THRM-EX、Friston-3、Castle-3等参与庭院种植协作的名字；祥子没有听清名字，故事结束时仍未弄清睦的新朋友是谁。",
+    "evidence_ids": [
+      "E173",
+      "E399",
+      "E400",
+      "E401"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "睦的新朋友",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "睦的新朋友",
+      "睦",
+      "新朋友",
+      "压力",
+      "新しい友達",
+      "New Friends"
+    ],
+    "query_examples": [
+      "祥子知道睦的新朋友是谁吗"
+    ],
+    "material_type": "module_story",
+    "section_title": "睦的新朋友",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "mutsumi",
+    "localization_check_ids": [
+      "AKLC060"
+    ]
+  },
+  {
+    "id": "AKL075",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "MODULE_OTHER",
+    "stage_title_zh": "额外训练",
+    "segment": "MODULE",
+    "scene_order": 75,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "umiri"
+    ],
+    "speaker": null,
+    "statement_zh": "海铃的模组开头，祥子留意到她排练走神并询问原因；海铃承诺调整后，祥子没有继续追问，乐队相信她能处理。",
+    "evidence_ids": [
+      "E174",
+      "E402",
+      "E403",
+      "E404"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "额外训练",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "额外训练",
+      "海铃",
+      "走神",
+      "信任",
+      "オーバートレーニング",
+      "Extra Training"
+    ],
+    "query_examples": [
+      "海铃排练走神她怎么处理"
+    ],
+    "material_type": "module_story",
+    "section_title": "额外训练",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "material_owner_id": "umiri",
+    "localization_check_ids": [
+      "AKLC061"
+    ]
+  },
+  {
+    "id": "AKL076",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "晋升后交谈2",
+    "segment": "VOICE",
+    "scene_order": 76,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "三角初华",
+    "statement_zh": "初华在晋升后交谈2中表示更愿以音乐治愈他人，也要变得足够强大，继续站在祥子身边。",
+    "evidence_ids": [
+      "E175",
+      "E336",
+      "E337",
+      "E338"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4184_dolris_CN_006",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "初华",
+      "祥子",
+      "晋升后交谈2",
+      "支持",
+      "昇進後会話2",
+      "Talk after Promotion 2"
+    ],
+    "query_examples": [
+      "初华为什么想守护乐队世界观"
+    ],
+    "material_type": "voice",
+    "section_title": "晋升后交谈2",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": "晋升后交谈2",
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC039"
+    ]
+  },
+  {
+    "id": "AKL077",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "信赖提升后交谈2",
+    "segment": "VOICE",
+    "scene_order": 77,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "uika",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "三角初华",
+    "statement_zh": "初华在信赖提升后交谈2中说祥子珍视Ave Mujica，自己想守护她创造的世界观，并以主唱身份将其呈现。",
+    "evidence_ids": [
+      "E176",
+      "E339",
+      "E340",
+      "E341"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4184_dolris_CN_008",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "初华",
+      "祥子",
+      "信赖提升后交谈2",
+      "世界观",
+      "信頼上昇後会話2",
+      "Talk after Trust Increase 2"
+    ],
+    "query_examples": [
+      "初华为什么想守护乐队世界观"
+    ],
+    "material_type": "voice",
+    "section_title": "信赖提升后交谈2",
+    "unlock_condition": "信赖达到100%",
+    "trigger_label": "信赖提升后交谈2",
+    "material_owner_id": "uika",
+    "localization_check_ids": [
+      "AKLC040"
+    ]
+  },
+  {
+    "id": "AKL078",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "VOICE",
+    "stage_title_zh": "任命队长",
+    "segment": "VOICE",
+    "scene_order": 78,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "voice_statement",
+    "subject_id": "nyamu",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "祐天寺若麦",
+    "statement_zh": "若麦被任命队长时提出祥子更适合做指挥，语气带有迟疑。",
+    "evidence_ids": [
+      "E177",
+      "E342",
+      "E343",
+      "E344"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "charWords.char_4185_amoris_CN_018",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "若麦",
+      "祥子",
+      "任命队长",
+      "指挥",
+      "隊長任命",
+      "Appointed as Squad Leader"
+    ],
+    "query_examples": [
+      "若麦觉得谁适合指挥"
+    ],
+    "material_type": "voice",
+    "section_title": "任命队长",
+    "unlock_condition": "直接解锁",
+    "trigger_label": "任命队长",
+    "material_owner_id": "nyamu",
+    "localization_check_ids": [
+      "AKLC041"
+    ]
+  },
+  {
+    "id": "AKL079",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_LETTER",
+    "stage_title_zh": "采购中心的来信",
+    "segment": "LETTER",
+    "scene_order": 79,
+    "spoiler_rank": 16,
+    "narrative_level": "event_hall_correspondence",
+    "assertion_kind": "narration",
+    "subject_id": "ak_closure",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "speaker": "可露希尔",
+    "statement_zh": "可露希尔以粉丝身份寄来修缮过的闲置桌台，支持Ave Mujica布置舞会，并希望受邀参加。",
+    "evidence_ids": [
+      "E178",
+      "E179",
+      "E405",
+      "E406",
+      "E407"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "采购中心的来信",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "可露希尔",
+      "来信",
+      "舞会",
+      "帮忙",
+      "采购中心的来信",
+      "購買部からの手紙",
+      "A Message from the Store"
+    ],
+    "query_examples": [
+      "谁帮她们布置罗德岛舞会"
+    ],
+    "material_type": "event_letter",
+    "section_title": "采购中心的来信",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "delivery_metadata": {
+      "mail_id": "letter_1",
+      "server": "CN",
+      "unix_time": 1756958400,
+      "local_time": "2025-09-04T12:00:00+08:00",
+      "date_kind": "real_world_event_delivery"
+    },
+    "localization_check_ids": [
+      "AKLC062"
+    ]
+  },
+  {
+    "id": "AKL080",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_LETTER",
+    "stage_title_zh": "干员的来信",
+    "segment": "LETTER",
+    "scene_order": 80,
+    "spoiler_rank": 16,
+    "narrative_level": "event_hall_correspondence",
+    "assertion_kind": "narration",
+    "subject_id": "ak_vigna",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "speaker": "红豆",
+    "statement_zh": "红豆与乐队朋友寄来舞台装饰，愿继续帮助同为罗德岛乐队的Ave Mujica，并提议日后合奏。",
+    "evidence_ids": [
+      "E180",
+      "E181",
+      "E408",
+      "E409",
+      "E410"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "干员的来信",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "红豆",
+      "来信",
+      "舞会",
+      "帮忙",
+      "干员的来信",
+      "オペレーターからの手紙",
+      "Operator Message"
+    ],
+    "query_examples": [
+      "谁帮她们布置罗德岛舞会"
+    ],
+    "material_type": "event_letter",
+    "section_title": "干员的来信",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "delivery_metadata": {
+      "mail_id": "letter_2",
+      "server": "CN",
+      "unix_time": 1757016000,
+      "local_time": "2025-09-05T04:00:00+08:00",
+      "date_kind": "real_world_event_delivery"
+    },
+    "localization_check_ids": [
+      "AKLC063"
+    ]
+  },
+  {
+    "id": "AKL081",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_LETTER",
+    "stage_title_zh": "工程部的订单",
+    "segment": "LETTER",
+    "scene_order": 81,
+    "spoiler_rank": 16,
+    "narrative_level": "event_hall_correspondence",
+    "assertion_kind": "narration",
+    "subject_id": "ak_warmy",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "speaker": "温米",
+    "statement_zh": "温米确认照明设备已按要求调整外观，提出验收后协助安装，并希望和朋友参加舞会。",
+    "evidence_ids": [
+      "E182",
+      "E183",
+      "E411",
+      "E412",
+      "E413"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "工程部的订单",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "温米",
+      "来信",
+      "舞会",
+      "帮忙",
+      "工程部的订单",
+      "エンジニア部からのオーダー",
+      "Engineering Department Order"
+    ],
+    "query_examples": [
+      "谁帮她们布置罗德岛舞会"
+    ],
+    "material_type": "event_letter",
+    "section_title": "工程部的订单",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "delivery_metadata": {
+      "mail_id": "letter_3",
+      "server": "CN",
+      "unix_time": 1757102400,
+      "local_time": "2025-09-06T04:00:00+08:00",
+      "date_kind": "real_world_event_delivery"
+    },
+    "localization_check_ids": [
+      "AKLC064"
+    ]
+  },
+  {
+    "id": "AKL082",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_LETTER",
+    "stage_title_zh": "梦城堡的来信",
+    "segment": "LETTER",
+    "scene_order": 82,
+    "spoiler_rank": 16,
+    "narrative_level": "event_hall_correspondence",
+    "assertion_kind": "narration",
+    "subject_id": "ak_iris",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "speaker": "爱丽丝",
+    "statement_zh": "爱丽丝向Ave Mujica寄来梦城堡家具，关心成员近况，表示孩子们也期待舞会开始。",
+    "evidence_ids": [
+      "E184",
+      "E185",
+      "E414",
+      "E415",
+      "E416"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "梦城堡的来信",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "爱丽丝",
+      "来信",
+      "舞会",
+      "帮忙",
+      "梦城堡的来信",
+      "夢のお城からの手紙",
+      "A Message from the Castle of Dreams"
+    ],
+    "query_examples": [
+      "谁帮她们布置罗德岛舞会"
+    ],
+    "material_type": "event_letter",
+    "section_title": "梦城堡的来信",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "delivery_metadata": {
+      "mail_id": "letter_4",
+      "server": "CN",
+      "unix_time": 1757188800,
+      "local_time": "2025-09-07T04:00:00+08:00",
+      "date_kind": "real_world_event_delivery"
+    },
+    "localization_check_ids": [
+      "AKLC065"
+    ]
+  },
+  {
+    "id": "AKL083",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_LETTER",
+    "stage_title_zh": "梦城堡的录音",
+    "segment": "LETTER",
+    "scene_order": 83,
+    "spoiler_rank": 16,
+    "narrative_level": "event_hall_correspondence",
+    "assertion_kind": "voice_statement",
+    "subject_id": "ak_morpheus",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "speaker": "莫菲丝",
+    "statement_zh": "莫菲丝在录音中说明爱丽丝要求她道歉，承认给成员添了麻烦，并寄来与卡尔顿们制作的布景，祝舞会成功。",
+    "evidence_ids": [
+      "E186",
+      "E187",
+      "E417",
+      "E418",
+      "E419"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "梦城堡的录音",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "莫菲丝",
+      "来信",
+      "舞会",
+      "道歉",
+      "梦城堡的录音",
+      "夢のお城からの録音",
+      "Recording from the Castle of Dreams"
+    ],
+    "query_examples": [
+      "莫菲丝后来道歉了吗"
+    ],
+    "material_type": "event_letter",
+    "section_title": "梦城堡的录音",
+    "unlock_condition": null,
+    "trigger_label": null,
+    "delivery_metadata": {
+      "mail_id": "letter_5",
+      "server": "CN",
+      "unix_time": 1757275200,
+      "local_time": "2025-09-08T04:00:00+08:00",
+      "date_kind": "real_world_event_delivery"
+    },
+    "localization_check_ids": [
+      "AKLC066"
+    ]
+  },
+  {
+    "id": "AKL084",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_HALL",
+    "stage_title_zh": "演出大厅·登场顺序",
+    "segment": "INTERFACE",
+    "scene_order": 84,
+    "spoiler_rank": 16,
+    "narrative_level": "event_interface",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica"
+    ],
+    "speaker": null,
+    "statement_zh": "活动大厅在通关SS-1后开放；祥子在SS-1、海铃在SS-2、初华在SS-4、若麦在SS-6、睦在SS-8后陆续解锁登场。",
+    "evidence_ids": [
+      "E188"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "演出大厅·登场顺序",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "演出大厅",
+      "解锁",
+      "登场顺序"
+    ],
+    "query_examples": [
+      "五个人在大厅什么时候登场"
+    ],
+    "material_type": "event_interface",
+    "section_title": "演出大厅·登场顺序",
     "unlock_condition": null,
     "trigger_label": null
+  },
+  {
+    "id": "AKL085",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "EVENT_HALL",
+    "stage_title_zh": "演出大厅·完整演出",
+    "segment": "INTERFACE",
+    "scene_order": 85,
+    "spoiler_rank": 16,
+    "narrative_level": "event_interface",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "ave_mujica"
+    ],
+    "speaker": null,
+    "statement_zh": "大厅五位人偶齐聚并降下月光后演奏《In Your Blue Eyes》（碧い瞳の中に）；五封来信全部送达后完成舞台布置，曲目由彩排短版切换至完整版本。",
+    "evidence_ids": [
+      "E189"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "演出大厅·完整演出",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "演出大厅",
+      "月光",
+      "完整演出",
+      "In Your Blue Eyes",
+      "碧い瞳の中に"
+    ],
+    "query_examples": [
+      "演出大厅为什么从彩排变成完整版"
+    ],
+    "material_type": "event_interface",
+    "section_title": "演出大厅·完整演出",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL086",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OUTFIT",
+    "stage_title_zh": "默认服装",
+    "segment": "OUTFIT",
+    "scene_order": 86,
+    "spoiler_rank": 16,
+    "narrative_level": "costume_description",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "默认服装说明把祥子日常衣着描述为来自未知国度的精致服装，作战实用性较低。",
+    "evidence_ids": [
+      "E190"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "默认服装",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "默认服装",
+      "演出服",
+      "服装"
+    ],
+    "query_examples": [
+      "旋律的主人服装表现什么"
+    ],
+    "material_type": "outfit_description",
+    "section_title": "默认服装",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL087",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OUTFIT",
+    "stage_title_zh": "精英化服装",
+    "segment": "OUTFIT",
+    "scene_order": 87,
+    "spoiler_rank": 16,
+    "narrative_level": "costume_description",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "精英化服装说明将其标作Ave Mujica演出服，并以Oblivionis与忘却主题对应。",
+    "evidence_ids": [
+      "E191"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "精英化服装",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "精英化服装",
+      "演出服",
+      "服装"
+    ],
+    "query_examples": [
+      "旋律的主人服装表现什么"
+    ],
+    "material_type": "outfit_description",
+    "section_title": "精英化服装",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL088",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "OUTFIT",
+    "stage_title_zh": "旋律的主人",
+    "segment": "OUTFIT",
+    "scene_order": 88,
+    "spoiler_rank": 16,
+    "narrative_level": "dream_costume_description",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "时装说明将《旋律的主人》设为祥子在泰拉的演出服，描述其在梦中随决心显现，以Ave Mujica世界之主的舞台形象迎候来客，并表达面对、接纳一切的主题。",
+    "evidence_ids": [
+      "E192"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "旋律的主人",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "旋律的主人",
+      "演出服",
+      "梦境"
+    ],
+    "query_examples": [
+      "旋律的主人服装表现什么"
+    ],
+    "material_type": "outfit_description",
+    "section_title": "旋律的主人",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL089",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "ITEM",
+    "stage_title_zh": "丰川祥子的信物",
+    "segment": "ITEM",
+    "scene_order": 89,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "narration",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": null,
+    "statement_zh": "游戏信物描述是一只常放在祥子钢琴上的玩偶，以静静陪伴她的形象呈现。",
+    "evidence_ids": [
+      "E193"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "丰川祥子的信物",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "信物",
+      "玩偶",
+      "钢琴",
+      "陪伴"
+    ],
+    "query_examples": [
+      "祥子的信物是什么"
+    ],
+    "material_type": "item_description",
+    "section_title": "丰川祥子的信物",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL090",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "CN",
+    "language": "zh-Hans",
+    "stage": "CONTRACT",
+    "stage_title_zh": "招聘合同",
+    "segment": "CONTRACT",
+    "scene_order": 90,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "sakiko",
+    "focus_entity_id": "sakiko",
+    "target_ids": [],
+    "speaker": "招聘合同文本",
+    "statement_zh": "招聘合同以Ave Mujica键盘手和作曲者介绍祥子，并评价她温和细心、自信坚定，在成长中逐渐承担更多责任。",
+    "evidence_ids": [
+      "E194"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "招聘合同",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "招聘合同",
+      "键盘手",
+      "作曲",
+      "责任"
+    ],
+    "query_examples": [
+      "招聘合同怎么介绍她"
+    ],
+    "material_type": "operator_contract",
+    "section_title": "招聘合同",
+    "unlock_condition": null,
+    "trigger_label": null
+  },
+  {
+    "id": "AKL091",
+    "record_type": "game_lore_record",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "event_name_zh": "无忧梦呓",
+    "server": "JP",
+    "language": "ja",
+    "stage": "OPERATOR_FILE",
+    "stage_title_zh": "晋升记录",
+    "segment": "FILE",
+    "scene_order": 91,
+    "spoiler_rank": 16,
+    "narrative_level": "post_castle_rhodes_island",
+    "assertion_kind": "archive_assessment",
+    "subject_id": "ak_iris",
+    "focus_entity_id": "sakiko",
+    "target_ids": [
+      "sakiko"
+    ],
+    "speaker": "爱丽丝",
+    "statement_zh": "日服晋升记录中，爱丽丝提出：真正的遗忘在于勇敢直面困难，并将经历转化为自身的养分。",
+    "evidence_ids": [
+      "E420"
+    ],
+    "evidence_status": "game_text_transcription",
+    "client_cross_checked": false,
+    "locator": "handbookDict.char_4182_oblvns.storyTextAudio[8].stories[0].storyText·本当の「忘却」段",
+    "event_calendar_date": null,
+    "timecode": null,
+    "quote_original": null,
+    "knowledge_change_zh": null,
+    "relationship": null,
+    "keywords": [
+      "日服",
+      "日文",
+      "真正的遗忘",
+      "忘却",
+      "勇气",
+      "直面困难",
+      "爱丽丝"
+    ],
+    "query_examples": [
+      "日服爱丽丝如何解释真正的遗忘",
+      "忘却与面对困难是什么关系"
+    ],
+    "material_type": "promotion_record",
+    "section_title": "昇進記録·アイリスの記録より",
+    "unlock_condition": "精英化阶段2",
+    "trigger_label": null,
+    "material_owner_id": "sakiko",
+    "localization_check_ids": [
+      "AKLC045"
+    ]
   }
 ]

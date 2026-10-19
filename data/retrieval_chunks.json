@@ -1329,16 +1329,20 @@
     "layer": "canon",
     "text": "MyGO第8话梗概记述祥子流泪后叫出初华。",
     "evidence_ids": [
-      "E12"
+      "E12",
+      "E423"
     ],
     "source_ids": [
-      "S08"
+      "S08",
+      "S108"
     ],
     "source_urls": [
-      "https://anime.bang-dream.com/mygo/story/"
+      "https://anime.bang-dream.com/mygo/story/",
+      "https://bushiroad.com/media/bc6963cfb48e53af"
     ],
     "evidence_modes": [
-      "indexed_text_verified"
+      "indexed_text_verified",
+      "direct_text_verified"
     ],
     "direct_only_eligible": false,
     "phase": "mygo_ep08_context",
@@ -3850,5 +3854,129 @@
       "umiri"
     ],
     "continuity": "tv_anime"
+  },
+  {
+    "id": "C_F065",
+    "record_id": "F065",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第4话官方梗概记述，睦在台前幕后的活跃提高了Ave Mujica的话题性。",
+    "phase": "ave_ep04_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime",
+    "evidence_ids": [
+      "E421"
+    ],
+    "source_ids": [
+      "S106"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/36ab2fe8e377b1ba"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
+  },
+  {
+    "id": "C_F066",
+    "record_id": "F066",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "第4话官方梗概将成员当时的相处描述为融洽，先前的不和似已消失。",
+    "phase": "ave_ep04_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "ave_mujica"
+    ],
+    "continuity": "tv_anime",
+    "evidence_ids": [
+      "E421"
+    ],
+    "source_ids": [
+      "S106"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/36ab2fe8e377b1ba"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
+  },
+  {
+    "id": "C_F067",
+    "record_id": "F067",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "MyGO第8话官方梗概所列对白中，祥子对初华提到她仍然喜欢星星。",
+    "phase": "mygo_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "evidence_ids": [
+      "E423"
+    ],
+    "source_ids": [
+      "S108"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/bc6963cfb48e53af"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
+  },
+  {
+    "id": "C_F068",
+    "record_id": "F068",
+    "collection": "facts",
+    "layer": "canon",
+    "text": "MyGO第8话官方梗概记述，爽世因未经商量演奏春日影及祥子的泪水受到冲击，随后中断联系。",
+    "phase": "mygo_ep08_context",
+    "as_of": "2026-10-19",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "soyo"
+    ],
+    "continuity": "tv_anime",
+    "evidence_ids": [
+      "E423"
+    ],
+    "source_ids": [
+      "S108"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/bc6963cfb48e53af"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
   }
 ]

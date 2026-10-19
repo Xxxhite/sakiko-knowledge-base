@@ -1,0 +1,616 @@
+[
+  {
+    "id": "AKC001",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-ST-1",
+    "segment": "NBT",
+    "reading_order": 1,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 56,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E77",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S61",
+        "sha256": "2deaaa4bd5795f2744be4d87f1daea59e3613f0950985742a25f5a781be66194",
+        "line_count": 618
+      }
+    ],
+    "record_ids": [
+      "AK059",
+      "AK060",
+      "AK061",
+      "AK062",
+      "AK063",
+      "AK064",
+      "AK065",
+      "AK066",
+      "AK067"
+    ],
+    "notes_zh": "分开标记街头片段与最初罗德岛梦境；本文本起点不含完整的跨世界抵达过程。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC002",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-TR-1",
+    "segment": "TUTORIAL",
+    "reading_order": 2,
+    "sakiko_presence": "absent_in_text",
+    "sakiko_speaking_lines": 0,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E96",
+      "E97",
+      "E98",
+      "E99",
+      "E100",
+      "E101",
+      "E95"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S80",
+        "sha256": "09d6ee177c8c07f2c92b24e686e1e1fc65e8d80964226ce21770efd2f7e5513a",
+        "line_count": 7
+      },
+      {
+        "source_id": "S81",
+        "sha256": "88cf3fe021a7f2fe3c0da2bea11acf166fdc9a88e7622901bc95c4936ae9df69",
+        "line_count": 7
+      },
+      {
+        "source_id": "S82",
+        "sha256": "a5bffadbb28f9242ac9c62a26e79dbc3c0d1e2af0bda645de32b210845c668be",
+        "line_count": 6
+      },
+      {
+        "source_id": "S83",
+        "sha256": "c1eda86d1b3a20269d15fe7cc4787e430f7651c0f508186aca96ee71f73bc672",
+        "line_count": 3
+      },
+      {
+        "source_id": "S84",
+        "sha256": "ca337bd7d0cd09ffe49000e4e74335d157e73f9d257b32da061d75e38df8e01e",
+        "line_count": 8
+      },
+      {
+        "source_id": "S85",
+        "sha256": "be76892a5b6d43e6c14dbbdaa7a0ac644a635e776503d98bf3a6271b12720346",
+        "line_count": 6
+      }
+    ],
+    "record_ids": [],
+    "notes_zh": "六段教学脚本仅红豆、煌发言，祥子未出场；记录覆盖状态，不新增祥子行动事实。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC003",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-1",
+    "segment": "BEG",
+    "reading_order": 3,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 73,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E78",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S62",
+        "sha256": "7bf413cec33ea11f1910d0aea14a7d1406957728cff52e70a32d4c34c2d5736f",
+        "line_count": 630
+      }
+    ],
+    "record_ids": [
+      "AK001",
+      "AK002",
+      "AK003",
+      "AK068",
+      "AK069",
+      "AK070",
+      "AK087",
+      "AK088",
+      "AK089"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC004",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-1",
+    "segment": "END",
+    "reading_order": 4,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 32,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E79",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S63",
+        "sha256": "75745cab13035cb693621ccff8a10dc76ada6cbfcba69e8bd5efb223e89faa2b",
+        "line_count": 377
+      }
+    ],
+    "record_ids": [
+      "AK004",
+      "AK005",
+      "AK071",
+      "AK072",
+      "AK073",
+      "AK074",
+      "AK090",
+      "AK091"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC005",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-2",
+    "segment": "BEG",
+    "reading_order": 5,
+    "sakiko_presence": "absent_in_text",
+    "sakiko_speaking_lines": 0,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E80",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S64",
+        "sha256": "8bd4d965d1801ac98fdacd03f29d75294bd5810f7aeb08e48b10bf04a0c5b387",
+        "line_count": 262
+      }
+    ],
+    "record_ids": [
+      "AK075",
+      "AK076"
+    ],
+    "notes_zh": "祥子未在本段文本出场。AK075、AK076为若麦背景条目，供理解祥子随后劝醒她时关联读取。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC006",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-2",
+    "segment": "END",
+    "reading_order": 6,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 31,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E81",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S65",
+        "sha256": "25f6beb01f4fc93c4d0451f82395ce5564a69613517c158223b0907ae2d93c84",
+        "line_count": 574
+      }
+    ],
+    "record_ids": [
+      "AK006",
+      "AK039",
+      "AK040",
+      "AK077",
+      "AK092",
+      "AK093"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC007",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-3",
+    "segment": "BEG",
+    "reading_order": 7,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 14,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E82",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S66",
+        "sha256": "792221988a1475a6a581571100b2838fd5fce8d618af7bbf46b3a243f9656d60",
+        "line_count": 372
+      }
+    ],
+    "record_ids": [
+      "AK050",
+      "AK051",
+      "AK052",
+      "AK058"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC008",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-3",
+    "segment": "END",
+    "reading_order": 8,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 11,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E83",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S67",
+        "sha256": "c29fa79732166e20665dbff4b233d41b1ed7d748410ea483925519a6cfdeeeca",
+        "line_count": 252
+      }
+    ],
+    "record_ids": [
+      "AK008",
+      "AK078",
+      "AK096"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC009",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-4",
+    "segment": "BEG",
+    "reading_order": 9,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 23,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E84",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S68",
+        "sha256": "30dfec513f00b0b2b97803184f540ad5b7a6b4ef358b4c5a8cd16c31776f3f29",
+        "line_count": 451
+      }
+    ],
+    "record_ids": [
+      "AK053",
+      "AK054",
+      "AK055",
+      "AK056",
+      "AK057",
+      "AK097"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC010",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-4",
+    "segment": "END",
+    "reading_order": 10,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 17,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E85",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S69",
+        "sha256": "3999cb830eb06d3536219143c8aee138f4eb3126faf17b61e4ad6413f3742e8a",
+        "line_count": 427
+      }
+    ],
+    "record_ids": [
+      "AK009",
+      "AK010",
+      "AK079",
+      "AK099"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC011",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-5",
+    "segment": "BEG",
+    "reading_order": 11,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 22,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E86",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S70",
+        "sha256": "6492e8f1020fde61f9ad428b291c3caffb6d39d5e163bf206e9fbd7ec9ef5e56",
+        "line_count": 369
+      }
+    ],
+    "record_ids": [
+      "AK041",
+      "AK042",
+      "AK043",
+      "AK044",
+      "AK045",
+      "AK101"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC012",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-5",
+    "segment": "END",
+    "reading_order": 12,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 13,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E87",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S71",
+        "sha256": "a9f56369c389f954210871e8b8bcebf0bf88c7f5c6c537feab3cb96c2d01c711",
+        "line_count": 267
+      }
+    ],
+    "record_ids": [
+      "AK011",
+      "AK012",
+      "AK080"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC013",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-6",
+    "segment": "BEG",
+    "reading_order": 13,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 29,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E88",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S72",
+        "sha256": "8e0d3d1b56779fc7410f4657337a5da30f854660fcff9b3556099713a2a08f5c",
+        "line_count": 346
+      }
+    ],
+    "record_ids": [
+      "AK007",
+      "AK013",
+      "AK014",
+      "AK015",
+      "AK081"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC014",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-6",
+    "segment": "END",
+    "reading_order": 14,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 16,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E89",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S73",
+        "sha256": "50d2256fdcc6cd5eb0303cc30959e7cd40d6a06e48429b7c6616865e552d1c68",
+        "line_count": 245
+      }
+    ],
+    "record_ids": [
+      "AK046",
+      "AK047",
+      "AK048",
+      "AK049"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC015",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-7",
+    "segment": "BEG",
+    "reading_order": 15,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 19,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E90",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S74",
+        "sha256": "8793f945b9467eff5812831d42bf8651e8a874def1c2f263a924af63da680e27",
+        "line_count": 213
+      }
+    ],
+    "record_ids": [
+      "AK016",
+      "AK017",
+      "AK104"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC016",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-7",
+    "segment": "END",
+    "reading_order": 16,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 50,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E91",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S75",
+        "sha256": "04ed380286b32f774378631c3fe7ec3a744dc8de30f72df913e9e5ecc9a8e553",
+        "line_count": 582
+      }
+    ],
+    "record_ids": [
+      "AK018",
+      "AK019",
+      "AK020",
+      "AK021",
+      "AK022",
+      "AK023",
+      "AK024",
+      "AK025",
+      "AK026",
+      "AK085",
+      "AK106"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC017",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-8",
+    "segment": "BEG",
+    "reading_order": 17,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 31,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E92",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S76",
+        "sha256": "f9bd5cfc936544ef052be602ce00365cf97e44dd1ea4b9dd51e89acf7ffa7edc",
+        "line_count": 665
+      }
+    ],
+    "record_ids": [
+      "AK027",
+      "AK028",
+      "AK029",
+      "AK030",
+      "AK031",
+      "AK082",
+      "AK108"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  },
+  {
+    "id": "AKC018",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "stage": "SS-8",
+    "segment": "END",
+    "reading_order": 18,
+    "sakiko_presence": "present_in_text",
+    "sakiko_speaking_lines": 54,
+    "review_status": "full_text_reviewed",
+    "client_cross_checked": false,
+    "reviewed_on": "2026-10-19",
+    "evidence_ids": [
+      "E93",
+      "E94"
+    ],
+    "text_assets": [
+      {
+        "source_id": "S77",
+        "sha256": "cef22cdc5f5c0574c3d1b2dbaaba2c9a90ea31667335304ee598a49df4713e18",
+        "line_count": 553
+      }
+    ],
+    "record_ids": [
+      "AK032",
+      "AK033",
+      "AK034",
+      "AK035",
+      "AK036",
+      "AK037",
+      "AK038",
+      "AK083",
+      "AK084"
+    ],
+    "notes_zh": "正文对话与祥子相关叙述已复核；现有条目为选编，待继续细分场景。 v1.6已补读全部对话、旁白及Subtitle/Sticker文字；歌词仅作场景理解，未另行复制入库。"
+  }
+]

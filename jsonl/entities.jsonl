@@ -24,3 +24,6 @@
 {"id": "ak_francis", "entity_type": "fictional_person", "name_ja": null, "name_zh": "弗朗西斯", "name_en": "Francis", "aliases": [], "evidence_ids": ["E72"], "note": "海铃梦境中的人物。"}
 {"id": "ak_dream_father", "entity_type": "fictional_person", "name_ja": null, "name_zh": "梦中“父亲”", "name_en": null, "aliases": [], "evidence_ids": ["E71"], "note": "只指祥子家庭梦中的父亲形象，与father历史人物节点分开。"}
 {"id": "ak_anonymous_listener", "entity_type": "fictional_person", "name_ja": null, "name_zh": "未具名的听众", "name_en": null, "aliases": [], "evidence_ids": ["E75"], "note": "模组中的匿名听众，身份与演奏乐器的猜想逐项标归属。"}
+{"id": "ak_doctor", "entity_type": "fictional_person", "name_ja": null, "name_zh": "博士", "name_en": null, "aliases": [], "evidence_ids": ["E107"], "note": "联动语音中的罗德岛博士，供关系检索定位。"}
+{"id": "ak_closure", "entity_type": "fictional_person", "name_ja": null, "name_zh": "可露希尔", "name_en": null, "aliases": [], "evidence_ids": ["E108"], "note": "活动来信的署名者。"}
+{"id": "ak_warmy", "entity_type": "fictional_person", "name_ja": null, "name_zh": "温米", "name_en": null, "aliases": [], "evidence_ids": ["E109"], "note": "活动工程部订单署名者；梦内同名角色仍按场景层限定。"}

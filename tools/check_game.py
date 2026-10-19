@@ -25,7 +25,7 @@ check('Quoted dream Mutsumi actor preserved',records['AK012']['subject_id']=='ak
 check('Dream reveal gate uses later disclosure',records['AK003']['spoiler_rank']==stage_rank('SS-1-END'))
 check('Interpretation basis and spoiler dependency',all(all(x in all_content for x in r['basis_record_ids']) and r['spoiler_rank']>=max(all_content[x]['spoiler_rank'] for x in r['basis_record_ids']) for r in inferences.values()))
 check('Question index references story or inference',all(all(x in records or x in inferences or x in lore for x in r['record_ids']) for r in kb['game_question_index']))
-check('Scene relationship reference and context',all(r['subject_id'] in entities and r['object_id'] in entities and all(x in records for x in r['basis_record_ids']) and r['narrative_level']==records[r['basis_record_ids'][0]]['narrative_level'] for r in kb['game_relations']))
+check('Scene relationship reference and context',all(r['subject_id'] in entities and r['object_id'] in entities and all(x in all_content for x in r['basis_record_ids']) and r['narrative_level']==all_content[r['basis_record_ids'][0]]['narrative_level'] for r in kb['game_relations']))
 check('Game retrieval coverage and aliases',len(chunks)==len(records)+len(inferences)+len(lore) and all(c['continuity']=='arknights_collab' and not c['official_only_eligible'] for c in chunks))
 check('Default excludes game inference',all(r['layer']=='canon' for r in search('成长 音乐 责任',limit=100)))
 check('Opt in includes game inference','AKI001' in recs(search('责任 成长',limit=100,include_inference=True)))

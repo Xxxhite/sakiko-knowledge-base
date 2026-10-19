@@ -12,13 +12,13 @@ def check(name,condition):
     checks.append(dict(check=name,result='passed'))
 check('Supplementary actor/entity/evidence references',all(x['subject_id'] in entities and all(i in entities for i in x['target_ids']) and all(e in es for e in x['evidence_ids']) for x in lore.values()))
 check('Supplementary text remains source-qualified',all(x['layer']=='canon' and x['evidence_status']=='game_text_transcription' and not x['client_cross_checked'] and all(ss[es[e]['source_id']]['authority']=='secondary' for e in x['evidence_ids']) for x in lore.values()))
-check('File/module/voice records stay outside dream scenes',all(x['narrative_level']=='post_castle_rhodes_island' and x['spoiler_rank']==16 for x in lore.values()))
+check('File/module/voice records stay outside dream scenes',all(x['narrative_level']=='post_castle_rhodes_island' and x['spoiler_rank']==16 for x in lore.values() if x['material_type'] in ('operator_file','promotion_record','module_story','voice')))
 check('Iris assessment has attributed author',lore['AKL005']['speaker']=='爱丽丝' and lore['AKL005']['assertion_kind']=='archive_assessment')
 check('Listener instrument kept as character guess',lore['AKL010']['assertion_kind']=='character_guess')
 check('Meeting and duet retained as future plan',lore['AKL008']['assertion_kind']=='future_plan')
-check('Unverified voice triggers left null',all(x['trigger_label'] is None and x['unlock_condition'] is None for x in lore.values() if x['material_type']=='voice'))
+check('Voice triggers backed by acquired metadata',all(x['trigger_label'] and x['unlock_condition'] and x['evidence_ids'] for x in lore.values() if x['material_type']=='voice'))
 issue=next(x for x in kb['source_issues'] if x['id']=='SC004')
-check('Gift attribution keeps both source records',set(issue['affected_record_ids'])=={'AKL009','AKL016'} and set(issue['evidence_ids'])=={'E75','E76'})
+check('Gift attribution keeps both source records',set(issue['affected_record_ids'])=={'AKL009','AKL016'} and {'E75','E76'}.issubset(issue['evidence_ids']))
 check('Material filter returns only requested type',all(x['material_type']=='module_story' for x in search('匿名听众 弹琴',limit=100,material='module_story')))
 check('Pre-ending progress excludes later archive',not any(x['record_id'].startswith('AKL') for x in search('罗德岛 工作',limit=100,max_rank=14)))
 cases=[
@@ -38,6 +38,8 @@ outcomes=[]
 for query,expected,material in cases:
     found=[x['record_id'] for x in search(query,limit=5,material=material)]
     outcomes.append(dict(query=query,expected=expected,material=material,top5=found,passed=expected in found))
+if any(not x['passed'] for x in outcomes):
+    print(json.dumps([x for x in outcomes if not x['passed']],ensure_ascii=False,indent=2))
 check('New natural language retrieval cases',all(x['passed'] for x in outcomes))
 gift=search('贝娜送的洋娃娃',limit=5)
 check('One gift wording retrieves paired provenance',{'AKL009','AKL016'}.issubset({x['record_id'] for x in gift}))

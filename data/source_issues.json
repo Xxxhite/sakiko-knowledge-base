@@ -67,19 +67,78 @@
     "issue_type": "gift_attribution_variant",
     "source_ids": [
       "S59",
-      "S60"
+      "S60",
+      "S92",
+      "S90",
+      "S100",
+      "S104",
+      "S98",
+      "S102"
     ],
     "evidence_ids": [
       "E75",
-      "E76"
+      "E76",
+      "E195",
+      "E118",
+      "E106",
+      "E396",
+      "E397",
+      "E398",
+      "E237",
+      "E238",
+      "E239"
     ],
     "summary_zh": "模组叙述将排练室人偶记为爱丽丝赠送；语音中祥子称洋娃娃为贝娜赠送。",
-    "resolution_zh": "分别保存模组叙述与语音表述；礼物是否同一件及版本沿革待核。",
+    "resolution_zh": "中文、日文及英文模组均署爱丽丝，三种语音文本均署贝娜；已记录三语言的材料间署名差异。物件同一性、赠送过程及客户端画面继续核验。",
     "status": "open_for_version_and_item_review",
     "affected_record_ids": [
       "AKL009",
       "AKL016"
     ],
     "next_action": "对照同一版本客户端模组、语音和相关赠礼场景，辨认物件及赠送过程。"
+  },
+  {
+    "id": "SC005",
+    "issue_type": "localized_passage_addition",
+    "source_ids": [
+      "S91",
+      "S99",
+      "S103"
+    ],
+    "evidence_ids": [
+      "E354",
+      "E355",
+      "E356",
+      "E420"
+    ],
+    "summary_zh": "日文晋升记录增加爱丽丝对真正遗忘的解释，所读中文与英文同节未出现该段。",
+    "resolution_zh": "日服新增段单列AKL091，server=JP、language=ja；中文共同段落留在原记录。",
+    "status": "documented_localized_variant",
+    "affected_record_ids": [
+      "AKL061",
+      "AKL091"
+    ],
+    "next_action": "后续用日服客户端核对该段显示与版本，继续保留三版原始定位。"
+  },
+  {
+    "id": "SC006",
+    "issue_type": "localized_degree_of_understanding",
+    "source_ids": [
+      "S91",
+      "S99",
+      "S103"
+    ],
+    "evidence_ids": [
+      "E381",
+      "E382",
+      "E383"
+    ],
+    "summary_zh": "睦档案四中，中文对祥子了解其痛苦的程度写些微了解，日英文措辞为只有祥子理解。",
+    "resolution_zh": "AKL068中文正文保留些微了解，跨语言说明随检索片段传递；按语言引用各自档案表述。",
+    "status": "documented_localized_variant",
+    "affected_record_ids": [
+      "AKL068"
+    ],
+    "next_action": "引用时注明档案版本及编者归属，后续有修订再记录版本沿革。"
   }
 ]

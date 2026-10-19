@@ -298,5 +298,541 @@
     ],
     "evidence_status": "game_text_transcription",
     "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR059",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "requires_stage_worldview",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-ST-1",
+    "segment": "NBT",
+    "narrative_level": "opening_street_vision",
+    "basis_record_ids": [
+      "AK059"
+    ],
+    "evidence_ids": [
+      "E77",
+      "E102"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR060",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "intervenes_against_pressure",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-ST-1",
+    "segment": "NBT",
+    "narrative_level": "opening_street_vision",
+    "basis_record_ids": [
+      "AK060"
+    ],
+    "evidence_ids": [
+      "E77"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech"
+  },
+  {
+    "id": "AKR066",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "introduced_during_initial_dream",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-ST-1",
+    "segment": "NBT",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK066"
+    ],
+    "evidence_ids": [
+      "E77"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "dream_encounter",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR069",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "receives_dream_protecting_necklace",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK069"
+    ],
+    "evidence_ids": [
+      "E78"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "dream_encounter",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR083",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "distinguishes_dream_meeting_from_first_introduction",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK083"
+    ],
+    "evidence_ids": [
+      "E93"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "castle_first_meeting",
+    "order_within_thread": 3
+  },
+  {
+    "id": "AKR084",
+    "subject_id": "sakiko",
+    "object_id": "ak_bena",
+    "predicate": "meets_during_initial_dream",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-ST-1",
+    "segment": "NBT",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK066"
+    ],
+    "evidence_ids": [
+      "E77"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_bena",
+    "phase_group": "dream_encounter",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR085",
+    "subject_id": "sakiko",
+    "object_id": "ak_bena",
+    "predicate": "learns_companions_are_cared_for",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK033"
+    ],
+    "evidence_ids": [
+      "E67",
+      "E196"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_bena",
+    "phase_group": "castle_first_meeting",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR086",
+    "subject_id": "sakiko",
+    "object_id": "ak_vigna",
+    "predicate": "coordinates_search_and_contact",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-1",
+    "segment": "BEG",
+    "narrative_level": "initial_sakiko_dream",
+    "basis_record_ids": [
+      "AK001"
+    ],
+    "evidence_ids": [
+      "E57"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_vigna",
+    "phase_group": "dream_encounter",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR087",
+    "subject_id": "ak_iris",
+    "object_id": "sakiko",
+    "predicate": "assesses_responsibility_and_vulnerability",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL005"
+    ],
+    "evidence_ids": [
+      "E74"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 6
+  },
+  {
+    "id": "AKR088",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "recalls_dream_teacher",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK084"
+    ],
+    "evidence_ids": [
+      "E93"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "castle_first_meeting",
+    "order_within_thread": 3
+  },
+  {
+    "id": "AKR089",
+    "subject_id": "sakiko",
+    "object_id": "ak_iris",
+    "predicate": "requests_route_home",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "SS-8",
+    "segment": "END",
+    "narrative_level": "castle_frame",
+    "basis_record_ids": [
+      "AK036"
+    ],
+    "evidence_ids": [
+      "E220"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "castle_first_meeting",
+    "order_within_thread": 4
+  },
+  {
+    "id": "AKR090",
+    "subject_id": "sakiko",
+    "object_id": "ak_doctor",
+    "predicate": "learns_decision_making",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL011"
+    ],
+    "evidence_ids": [
+      "E76",
+      "E110",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_doctor",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR091",
+    "subject_id": "sakiko",
+    "object_id": "ak_doctor",
+    "predicate": "shares_emotional_relief",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL019"
+    ],
+    "evidence_ids": [
+      "E76",
+      "E117",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_doctor",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR092",
+    "subject_id": "sakiko",
+    "object_id": "ak_bena",
+    "predicate": "reports_doll_gift",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL016"
+    ],
+    "evidence_ids": [
+      "E76",
+      "E118",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_bena",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR093",
+    "subject_id": "sakiko",
+    "object_id": "ak_vigna",
+    "predicate": "feels_dream_reunion_gap",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL015"
+    ],
+    "evidence_ids": [
+      "E76",
+      "E116",
+      "E106"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_vigna",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR094",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "asks_others_to_reduce_pressure",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL067"
+    ],
+    "evidence_ids": [
+      "E166"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__mutsumi",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 2
+  },
+  {
+    "id": "AKR095",
+    "subject_id": "mutsumi",
+    "object_id": "sakiko",
+    "predicate": "helps_with_work",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL066"
+    ],
+    "evidence_ids": [
+      "E165"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__mutsumi",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR096",
+    "subject_id": "uika",
+    "object_id": "sakiko",
+    "predicate": "stargazes_together",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "OPERATOR_FILE",
+    "segment": "FILE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL070"
+    ],
+    "evidence_ids": [
+      "E169"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__uika",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR097",
+    "subject_id": "sakiko",
+    "object_id": "umiri",
+    "predicate": "notices_fatigue_and_respects_response",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "MODULE_OTHER",
+    "segment": "MODULE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL075"
+    ],
+    "evidence_ids": [
+      "E174"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__umiri",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR098",
+    "subject_id": "nyamu",
+    "object_id": "sakiko",
+    "predicate": "nominates_as_better_commander",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "VOICE",
+    "segment": "VOICE",
+    "narrative_level": "post_castle_rhodes_island",
+    "basis_record_ids": [
+      "AKL078"
+    ],
+    "evidence_ids": [
+      "E177"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__nyamu",
+    "phase_group": "rhodes_island_daily_life",
+    "order_within_thread": 1
+  },
+  {
+    "id": "AKR099",
+    "subject_id": "ak_vigna",
+    "object_id": "ave_mujica",
+    "predicate": "offers_decor_and_duet",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "EVENT_LETTER",
+    "segment": "LETTER",
+    "narrative_level": "event_hall_correspondence",
+    "basis_record_ids": [
+      "AKL080"
+    ],
+    "evidence_ids": [
+      "E180",
+      "E181"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_vigna",
+    "phase_group": "letter_support",
+    "order_within_thread": 3
+  },
+  {
+    "id": "AKR100",
+    "subject_id": "ak_iris",
+    "object_id": "ave_mujica",
+    "predicate": "sends_castle_furniture",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "EVENT_LETTER",
+    "segment": "LETTER",
+    "narrative_level": "event_hall_correspondence",
+    "basis_record_ids": [
+      "AKL082"
+    ],
+    "evidence_ids": [
+      "E184",
+      "E185"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_iris",
+    "phase_group": "letter_support",
+    "order_within_thread": 5
+  },
+  {
+    "id": "AKR101",
+    "subject_id": "ak_morpheus",
+    "object_id": "ave_mujica",
+    "predicate": "apologizes_and_supports",
+    "direction": "directed",
+    "layer": "canon",
+    "continuity": "arknights_collab",
+    "stage": "EVENT_LETTER",
+    "segment": "LETTER",
+    "narrative_level": "event_hall_correspondence",
+    "basis_record_ids": [
+      "AKL083"
+    ],
+    "evidence_ids": [
+      "E186",
+      "E187"
+    ],
+    "evidence_status": "game_text_transcription",
+    "valid_scope": "specific_scene_or_attributed_speech",
+    "thread_id": "sakiko__ak_morpheus",
+    "phase_group": "letter_support",
+    "order_within_thread": 1
   }
 ]

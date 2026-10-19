@@ -928,7 +928,8 @@
     "value": true,
     "statement_zh": "MyGO第8话梗概记述祥子流泪后叫出初华。",
     "evidence_ids": [
-      "E12"
+      "E12",
+      "E423"
     ],
     "evidence_status": "official_explicit",
     "epistemic_scope": "story_summary",
@@ -1425,5 +1426,93 @@
     },
     "spoiler": true,
     "notes": "剧场版官方现实人物简介快照；与同页舞台角色简介分开。"
+  },
+  {
+    "id": "F065",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "public_attention_context",
+    "value": "mutsumi_activity",
+    "statement_zh": "第4话官方梗概记述，睦在台前幕后的活跃提高了Ave Mujica的话题性。",
+    "evidence_ids": [
+      "E421"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep04_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "官方梗概的场景背景或所列对白；原片演出与时间码另行复核。"
+  },
+  {
+    "id": "F066",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "apparent_member_atmosphere",
+    "value": "friendly_in_synopsis",
+    "statement_zh": "第4话官方梗概将成员当时的相处描述为融洽，先前的不和似已消失。",
+    "evidence_ids": [
+      "E421"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep04_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "官方梗概的场景背景或所列对白；原片演出与时间码另行复核。"
+  },
+  {
+    "id": "F067",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "addressed_uika_about_stars",
+    "value": "uika_still_likes_stars",
+    "statement_zh": "MyGO第8话官方梗概所列对白中，祥子对初华提到她仍然喜欢星星。",
+    "evidence_ids": [
+      "E423"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep08_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "官方梗概的场景背景或所列对白；原片演出与时间码另行复核。"
+  },
+  {
+    "id": "F068",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "soyo",
+    "predicate": "reaction_to_performance_and_sakiko_tears",
+    "value": "cut_contact_in_synopsis",
+    "statement_zh": "MyGO第8话官方梗概记述，爽世因未经商量演奏春日影及祥子的泪水受到冲击，随后中断联系。",
+    "evidence_ids": [
+      "E423"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep08_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "官方梗概的场景背景或所列对白；原片演出与时间码另行复核。"
   }
 ]

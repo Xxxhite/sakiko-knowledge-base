@@ -1,0 +1,3516 @@
+[
+  {
+    "id": "AKLC001",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_001",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL011"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E222",
+        "locator": "charWords.char_4182_oblvns_CN_001",
+        "label": "任命助理",
+        "summary_zh": "祥子想在博士身边观察、学习他的决策。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E223",
+        "locator": "charWords.char_4182_oblvns_CN_001",
+        "label": "秘書任命",
+        "summary_zh": "祥子想在博士身边观察、学习他的决策。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E224",
+        "locator": "charWords.char_4182_oblvns_CN_001",
+        "label": "Appointed as Assistant",
+        "summary_zh": "祥子想在博士身边观察、学习他的决策。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E222",
+      "E223",
+      "E224"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC002",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_002",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL012"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E225",
+        "locator": "charWords.char_4182_oblvns_CN_002",
+        "label": "交谈1",
+        "summary_zh": "她称赞罗德岛的排班、考核和晋升制度。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E226",
+        "locator": "charWords.char_4182_oblvns_CN_002",
+        "label": "会話1",
+        "summary_zh": "她称赞罗德岛的排班、考核和晋升制度。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E227",
+        "locator": "charWords.char_4182_oblvns_CN_002",
+        "label": "Talk 1",
+        "summary_zh": "她称赞罗德岛的排班、考核和晋升制度。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E225",
+      "E226",
+      "E227"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC003",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_005",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL013"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E228",
+        "locator": "charWords.char_4182_oblvns_CN_005",
+        "label": "晋升后交谈1",
+        "summary_zh": "她谈梦的记忆变淡，认为美梦经历过一次已足够。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E229",
+        "locator": "charWords.char_4182_oblvns_CN_005",
+        "label": "昇進後会話1",
+        "summary_zh": "她谈梦的记忆变淡，认为美梦经历过一次已足够。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E230",
+        "locator": "charWords.char_4182_oblvns_CN_005",
+        "label": "Talk after Promotion 1",
+        "summary_zh": "她谈梦的记忆变淡，认为美梦经历过一次已足够。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E228",
+      "E229",
+      "E230"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC004",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_006",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL014"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E231",
+        "locator": "charWords.char_4182_oblvns_CN_006",
+        "label": "晋升后交谈2",
+        "summary_zh": "她说泰拉的艰难遭遇使自己想写出更贴近人心的音乐。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E232",
+        "locator": "charWords.char_4182_oblvns_CN_006",
+        "label": "昇進後会話2",
+        "summary_zh": "她说泰拉的艰难遭遇使自己想写出更贴近人心的音乐。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E233",
+        "locator": "charWords.char_4182_oblvns_CN_006",
+        "label": "Talk after Promotion 2",
+        "summary_zh": "她说泰拉的艰难遭遇使自己想写出更贴近人心的音乐。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E231",
+      "E232",
+      "E233"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC005",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_007",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL015"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E234",
+        "locator": "charWords.char_4182_oblvns_CN_007",
+        "label": "信赖提升后交谈1",
+        "summary_zh": "梦里曾与红豆共事，使她在现实初次问候红豆时有些落寞。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E235",
+        "locator": "charWords.char_4182_oblvns_CN_007",
+        "label": "信頼上昇後会話1",
+        "summary_zh": "梦里曾与红豆共事，使她在现实初次问候红豆时有些落寞。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E236",
+        "locator": "charWords.char_4182_oblvns_CN_007",
+        "label": "Talk after Trust Increase 1",
+        "summary_zh": "梦里曾与红豆共事，使她在现实初次问候红豆时有些落寞。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E234",
+      "E235",
+      "E236"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC006",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_009",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL016"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E237",
+        "locator": "charWords.char_4182_oblvns_CN_009",
+        "label": "信赖提升后交谈3",
+        "summary_zh": "祥子称洋娃娃由贝娜赠送，放在身边让她感到陪伴与温暖。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E238",
+        "locator": "charWords.char_4182_oblvns_CN_009",
+        "label": "信頼上昇後会話3",
+        "summary_zh": "祥子称洋娃娃由贝娜赠送，放在身边让她感到陪伴与温暖。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E239",
+        "locator": "charWords.char_4182_oblvns_CN_009",
+        "label": "Talk after Trust Increase 3",
+        "summary_zh": "祥子称洋娃娃由贝娜赠送，放在身边让她感到陪伴与温暖。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E237",
+      "E238",
+      "E239"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC007",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_010",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL017"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E240",
+        "locator": "charWords.char_4182_oblvns_CN_010",
+        "label": "闲置",
+        "summary_zh": "她提及初华提醒熬夜有害健康，自己才懂得适当休息。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E241",
+        "locator": "charWords.char_4182_oblvns_CN_010",
+        "label": "放置",
+        "summary_zh": "她提及初华提醒熬夜有害健康，自己才懂得适当休息。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E242",
+        "locator": "charWords.char_4182_oblvns_CN_010",
+        "label": "Idle",
+        "summary_zh": "她提及初华提醒熬夜有害健康，自己才懂得适当休息。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E240",
+      "E241",
+      "E242"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC008",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_004",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL018"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E243",
+        "locator": "charWords.char_4182_oblvns_CN_004",
+        "label": "交谈3",
+        "summary_zh": "她把成员争论解释为让乐队更好，并表达对乐队的信心。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E244",
+        "locator": "charWords.char_4182_oblvns_CN_004",
+        "label": "会話3",
+        "summary_zh": "她把成员争论解释为让乐队更好，并表达对乐队的信心。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E245",
+        "locator": "charWords.char_4182_oblvns_CN_004",
+        "label": "Talk 3",
+        "summary_zh": "她把成员争论解释为让乐队更好，并表达对乐队的信心。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E243",
+      "E244",
+      "E245"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC009",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_008",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL019"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E246",
+        "locator": "charWords.char_4182_oblvns_CN_008",
+        "label": "信赖提升后交谈2",
+        "summary_zh": "她邀请博士一起在甲板放声喊叫，分享舒畅心情的方式。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E247",
+        "locator": "charWords.char_4182_oblvns_CN_008",
+        "label": "信頼上昇後会話2",
+        "summary_zh": "她邀请博士一起在甲板放声喊叫，分享舒畅心情的方式。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E248",
+        "locator": "charWords.char_4182_oblvns_CN_008",
+        "label": "Talk after Trust Increase 2",
+        "summary_zh": "她邀请博士一起在甲板放声喊叫，分享舒畅心情的方式。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E246",
+      "E247",
+      "E248"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC010",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_014",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL020"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E249",
+        "locator": "charWords.char_4182_oblvns_CN_014",
+        "label": "精英化晋升2",
+        "summary_zh": "她把更多认可与更多责任联系起来，表示自己已准备好。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E250",
+        "locator": "charWords.char_4182_oblvns_CN_014",
+        "label": "昇進Ⅱ",
+        "summary_zh": "她把更多认可与更多责任联系起来，表示自己已准备好。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E251",
+        "locator": "charWords.char_4182_oblvns_CN_014",
+        "label": "Promotion 2",
+        "summary_zh": "她把更多认可与更多责任联系起来，表示自己已准备好。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E249",
+      "E250",
+      "E251"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC011",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_003",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL021"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E252",
+        "locator": "charWords.char_4182_oblvns_CN_003",
+        "label": "交谈2",
+        "summary_zh": "她识得自助饮料机，分享把多种饮品混合后口味意外不错的体验。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E253",
+        "locator": "charWords.char_4182_oblvns_CN_003",
+        "label": "会話2",
+        "summary_zh": "她识得自助饮料机，分享把多种饮品混合后口味意外不错的体验。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E254",
+        "locator": "charWords.char_4182_oblvns_CN_003",
+        "label": "Talk 2",
+        "summary_zh": "她识得自助饮料机，分享把多种饮品混合后口味意外不错的体验。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E252",
+      "E253",
+      "E254"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC012",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_011",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL022"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E255",
+        "locator": "charWords.char_4182_oblvns_CN_011",
+        "label": "干员报到",
+        "summary_zh": "报到时她以Ave Mujica的Oblivionis自我介绍，表示找到返乡方法前会暂留并请罗德岛关照。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E256",
+        "locator": "charWords.char_4182_oblvns_CN_011",
+        "label": "入職会話",
+        "summary_zh": "报到时她以Ave Mujica的Oblivionis自我介绍，表示找到返乡方法前会暂留并请罗德岛关照。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E257",
+        "locator": "charWords.char_4182_oblvns_CN_011",
+        "label": "Onboard",
+        "summary_zh": "报到时她以Ave Mujica的Oblivionis自我介绍，表示找到返乡方法前会暂留并请罗德岛关照。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E255",
+      "E256",
+      "E257"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC013",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_012",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL023"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E258",
+        "locator": "charWords.char_4182_oblvns_CN_012",
+        "label": "观看作战记录",
+        "summary_zh": "观看作战记录时，她询问今后的行动是否也会被录像。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E259",
+        "locator": "charWords.char_4182_oblvns_CN_012",
+        "label": "経験値上昇",
+        "summary_zh": "观看作战记录时，她询问今后的行动是否也会被录像。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E260",
+        "locator": "charWords.char_4182_oblvns_CN_012",
+        "label": "Watching Battle Record",
+        "summary_zh": "观看作战记录时，她询问今后的行动是否也会被录像。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E258",
+      "E259",
+      "E260"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC014",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_013",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL024"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E261",
+        "locator": "charWords.char_4182_oblvns_CN_013",
+        "label": "精英化晋升1",
+        "summary_zh": "精英化晋升1时，她认为自己与其他小队长相比还有要改进之处，表示会努力学习跟上大家。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E262",
+        "locator": "charWords.char_4182_oblvns_CN_013",
+        "label": "昇進Ⅰ",
+        "summary_zh": "精英化晋升1时，她认为自己与其他小队长相比还有要改进之处，表示会努力学习跟上大家。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E263",
+        "locator": "charWords.char_4182_oblvns_CN_013",
+        "label": "Promotion 1",
+        "summary_zh": "精英化晋升1时，她认为自己与其他小队长相比还有要改进之处，表示会努力学习跟上大家。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E261",
+      "E262",
+      "E263"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC015",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_017",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL025"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E264",
+        "locator": "charWords.char_4182_oblvns_CN_017",
+        "label": "编入队伍",
+        "summary_zh": "编入队伍时，她将任务视为检验团队默契的机会。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E265",
+        "locator": "charWords.char_4182_oblvns_CN_017",
+        "label": "編成",
+        "summary_zh": "编入队伍时，她将任务视为检验团队默契的机会。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E266",
+        "locator": "charWords.char_4182_oblvns_CN_017",
+        "label": "Added to Squad",
+        "summary_zh": "编入队伍时，她将任务视为检验团队默契的机会。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E264",
+      "E265",
+      "E266"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC016",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_018",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL026"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E267",
+        "locator": "charWords.char_4182_oblvns_CN_018",
+        "label": "任命队长",
+        "summary_zh": "任命队长时，她表示会像往常一样带领队伍完成任务。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E268",
+        "locator": "charWords.char_4182_oblvns_CN_018",
+        "label": "隊長任命",
+        "summary_zh": "任命队长时，她表示会像往常一样带领队伍完成任务。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E269",
+        "locator": "charWords.char_4182_oblvns_CN_018",
+        "label": "Appointed as Squad Leader",
+        "summary_zh": "任命队长时，她表示会像往常一样带领队伍完成任务。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E267",
+      "E268",
+      "E269"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC017",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_019",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL027"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E270",
+        "locator": "charWords.char_4182_oblvns_CN_019",
+        "label": "行动出发",
+        "summary_zh": "行动出发语音以开始今夜的假面舞会宣告启程。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E271",
+        "locator": "charWords.char_4182_oblvns_CN_019",
+        "label": "作戦準備",
+        "summary_zh": "行动出发语音以开始今夜的假面舞会宣告启程。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E272",
+        "locator": "charWords.char_4182_oblvns_CN_019",
+        "label": "Depart",
+        "summary_zh": "行动出发语音以开始今夜的假面舞会宣告启程。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E270",
+      "E271",
+      "E272"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC018",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_020",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL028"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E273",
+        "locator": "charWords.char_4182_oblvns_CN_020",
+        "label": "行动开始",
+        "summary_zh": "行动开始时，她把眼前敌人称作阻碍。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E274",
+        "locator": "charWords.char_4182_oblvns_CN_020",
+        "label": "戦闘開始",
+        "summary_zh": "行动开始时，她把眼前敌人称作阻碍。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E275",
+        "locator": "charWords.char_4182_oblvns_CN_020",
+        "label": "Begin Operation",
+        "summary_zh": "行动开始时，她把眼前敌人称作阻碍。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E273",
+      "E274",
+      "E275"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC019",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_021",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL029"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E276",
+        "locator": "charWords.char_4182_oblvns_CN_021",
+        "label": "选中干员1",
+        "summary_zh": "选中干员1时，她表示自己与博士此刻应有一致的判断。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E277",
+        "locator": "charWords.char_4182_oblvns_CN_021",
+        "label": "選択時1",
+        "summary_zh": "选中干员1时，她表示自己与博士此刻应有一致的判断。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E278",
+        "locator": "charWords.char_4182_oblvns_CN_021",
+        "label": "Selecting Operator 1",
+        "summary_zh": "选中干员1时，她表示自己与博士此刻应有一致的判断。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E276",
+      "E277",
+      "E278"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC020",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_022",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL030"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E279",
+        "locator": "charWords.char_4182_oblvns_CN_022",
+        "label": "选中干员2",
+        "summary_zh": "选中干员2时，她催促博士立即告知决定。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E280",
+        "locator": "charWords.char_4182_oblvns_CN_022",
+        "label": "選択時2",
+        "summary_zh": "选中干员2时，她催促博士立即告知决定。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E281",
+        "locator": "charWords.char_4182_oblvns_CN_022",
+        "label": "Selecting Operator 2",
+        "summary_zh": "选中干员2时，她催促博士立即告知决定。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E279",
+      "E280",
+      "E281"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC021",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_023",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL031"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E282",
+        "locator": "charWords.char_4182_oblvns_CN_023",
+        "label": "部署1",
+        "summary_zh": "部署1语音强调行动时机紧迫。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E283",
+        "locator": "charWords.char_4182_oblvns_CN_023",
+        "label": "配置1",
+        "summary_zh": "部署1语音强调行动时机紧迫。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E284",
+        "locator": "charWords.char_4182_oblvns_CN_023",
+        "label": "Deployment 1",
+        "summary_zh": "部署1语音强调行动时机紧迫。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E282",
+      "E283",
+      "E284"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC022",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_024",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL032"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E285",
+        "locator": "charWords.char_4182_oblvns_CN_024",
+        "label": "部署2",
+        "summary_zh": "部署2语音要求及时行动、停止犹豫。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E286",
+        "locator": "charWords.char_4182_oblvns_CN_024",
+        "label": "配置2",
+        "summary_zh": "部署2语音要求及时行动、停止犹豫。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E287",
+        "locator": "charWords.char_4182_oblvns_CN_024",
+        "label": "Deployment 2",
+        "summary_zh": "部署2语音要求及时行动、停止犹豫。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E285",
+      "E286",
+      "E287"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC023",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_025",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL033"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E288",
+        "locator": "charWords.char_4182_oblvns_CN_025",
+        "label": "作战中1",
+        "summary_zh": "作战中1语音以人偶获得短暂生命的舞台意象表现施展技能。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E289",
+        "locator": "charWords.char_4182_oblvns_CN_025",
+        "label": "作戦中1",
+        "summary_zh": "作战中1语音以人偶获得短暂生命的舞台意象表现施展技能。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E290",
+        "locator": "charWords.char_4182_oblvns_CN_025",
+        "label": "In Battle 1",
+        "summary_zh": "作战中1语音以人偶获得短暂生命的舞台意象表现施展技能。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E288",
+      "E289",
+      "E290"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC024",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_026",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL034"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E291",
+        "locator": "charWords.char_4182_oblvns_CN_026",
+        "label": "作战中2",
+        "summary_zh": "作战中2语音以月光追逼对手的意象表现攻击。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E292",
+        "locator": "charWords.char_4182_oblvns_CN_026",
+        "label": "作戦中2",
+        "summary_zh": "作战中2语音以月光追逼对手的意象表现攻击。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E293",
+        "locator": "charWords.char_4182_oblvns_CN_026",
+        "label": "In Battle 2",
+        "summary_zh": "作战中2语音以月光追逼对手的意象表现攻击。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E291",
+      "E292",
+      "E293"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC025",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_027",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL035"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E294",
+        "locator": "charWords.char_4182_oblvns_CN_027",
+        "label": "作战中3",
+        "summary_zh": "作战中3语音向对手提出是否仍寻求慰藉的问题。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E295",
+        "locator": "charWords.char_4182_oblvns_CN_027",
+        "label": "作戦中3",
+        "summary_zh": "作战中3语音向对手提出是否仍寻求慰藉的问题。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E296",
+        "locator": "charWords.char_4182_oblvns_CN_027",
+        "label": "In Battle 3",
+        "summary_zh": "作战中3语音向对手提出是否仍寻求慰藉的问题。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E294",
+      "E295",
+      "E296"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC026",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_028",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL036"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E297",
+        "locator": "charWords.char_4182_oblvns_CN_028",
+        "label": "作战中4",
+        "summary_zh": "作战中4语音以君临黄昏乐园的姿态宣告自身。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E298",
+        "locator": "charWords.char_4182_oblvns_CN_028",
+        "label": "作戦中4",
+        "summary_zh": "作战中4语音以君临黄昏乐园的姿态宣告自身。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E299",
+        "locator": "charWords.char_4182_oblvns_CN_028",
+        "label": "In Battle 4",
+        "summary_zh": "作战中4语音以君临黄昏乐园的姿态宣告自身。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E297",
+      "E298",
+      "E299"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC027",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_029",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL037"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E300",
+        "locator": "charWords.char_4182_oblvns_CN_029",
+        "label": "完成高难行动",
+        "summary_zh": "完成高难行动时，她称赞博士战术令人印象深刻，并询问胜利是否也是特意准备的惊喜。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E301",
+        "locator": "charWords.char_4182_oblvns_CN_029",
+        "label": "高難度作戦クリア",
+        "summary_zh": "完成高难行动时，她称赞博士战术令人印象深刻，并询问胜利是否也是特意准备的惊喜。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E302",
+        "locator": "charWords.char_4182_oblvns_CN_029",
+        "label": "4-star Result",
+        "summary_zh": "完成高难行动时，她称赞博士战术令人印象深刻，并询问胜利是否也是特意准备的惊喜。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E300",
+      "E301",
+      "E302"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC028",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_030",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL038"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E303",
+        "locator": "charWords.char_4182_oblvns_CN_030",
+        "label": "3星结束行动",
+        "summary_zh": "3星结束行动时，她称赞作战精彩并感谢全体成员。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E304",
+        "locator": "charWords.char_4182_oblvns_CN_030",
+        "label": "★3で戦闘終了",
+        "summary_zh": "3星结束行动时，她称赞作战精彩并感谢全体成员。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E305",
+        "locator": "charWords.char_4182_oblvns_CN_030",
+        "label": "3-star Result",
+        "summary_zh": "3星结束行动时，她称赞作战精彩并感谢全体成员。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E303",
+      "E304",
+      "E305"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC029",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_031",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL039"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E306",
+        "locator": "charWords.char_4182_oblvns_CN_031",
+        "label": "非3星结束行动",
+        "summary_zh": "非3星结束行动时，她为距离更好结果只差一点而遗憾。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E307",
+        "locator": "charWords.char_4182_oblvns_CN_031",
+        "label": "★2以下戦闘終了",
+        "summary_zh": "非3星结束行动时，她为距离更好结果只差一点而遗憾。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E308",
+        "locator": "charWords.char_4182_oblvns_CN_031",
+        "label": "Sub 3-star Result",
+        "summary_zh": "非3星结束行动时，她为距离更好结果只差一点而遗憾。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E306",
+      "E307",
+      "E308"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC030",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_032",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL040"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E309",
+        "locator": "charWords.char_4182_oblvns_CN_032",
+        "label": "行动失败",
+        "summary_zh": "行动失败时，她把失利后的否定情绪指向自己。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E310",
+        "locator": "charWords.char_4182_oblvns_CN_032",
+        "label": "作戦失敗",
+        "summary_zh": "行动失败时，她把失利后的否定情绪指向自己。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E311",
+        "locator": "charWords.char_4182_oblvns_CN_032",
+        "label": "Operation Failure",
+        "summary_zh": "行动失败时，她把失利后的否定情绪指向自己。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E309",
+      "E310",
+      "E311"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC031",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_033",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL041"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E312",
+        "locator": "charWords.char_4182_oblvns_CN_033",
+        "label": "进驻设施",
+        "summary_zh": "进驻设施时，她注意到环境干净整齐，认为这里得到了悉心维护。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E313",
+        "locator": "charWords.char_4182_oblvns_CN_033",
+        "label": "基地配属",
+        "summary_zh": "进驻设施时，她注意到环境干净整齐，认为这里得到了悉心维护。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E314",
+        "locator": "charWords.char_4182_oblvns_CN_033",
+        "label": "Assigned to Facility",
+        "summary_zh": "进驻设施时，她注意到环境干净整齐，认为这里得到了悉心维护。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E312",
+      "E313",
+      "E314"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC032",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_034",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL042"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E315",
+        "locator": "charWords.char_4182_oblvns_CN_034",
+        "label": "戳一下",
+        "summary_zh": "被戳一下时，她发出突然受惊的叫声。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E316",
+        "locator": "charWords.char_4182_oblvns_CN_034",
+        "label": "タッチ1",
+        "summary_zh": "被戳一下时，她发出突然受惊的叫声。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E317",
+        "locator": "charWords.char_4182_oblvns_CN_034",
+        "label": "Tap",
+        "summary_zh": "被戳一下时，她发出突然受惊的叫声。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E315",
+      "E316",
+      "E317"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC033",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_036",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL043"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E318",
+        "locator": "charWords.char_4182_oblvns_CN_036",
+        "label": "信赖触摸",
+        "summary_zh": "信赖触摸时，她主动询问是否有什么可以帮忙。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E319",
+        "locator": "charWords.char_4182_oblvns_CN_036",
+        "label": "信頼タッチ",
+        "summary_zh": "信赖触摸时，她主动询问是否有什么可以帮忙。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E320",
+        "locator": "charWords.char_4182_oblvns_CN_036",
+        "label": "Trust Tap",
+        "summary_zh": "信赖触摸时，她主动询问是否有什么可以帮忙。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E318",
+      "E319",
+      "E320"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC034",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_037",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL044"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E321",
+        "locator": "charWords.char_4182_oblvns_CN_037",
+        "label": "标题",
+        "summary_zh": "标题语音报出游戏名称《明日方舟》。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E322",
+        "locator": "charWords.char_4182_oblvns_CN_037",
+        "label": "タイトルコール",
+        "summary_zh": "标题语音报出游戏名称《明日方舟》。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E323",
+        "locator": "charWords.char_4182_oblvns_CN_037",
+        "label": "Title",
+        "summary_zh": "标题语音报出游戏名称《明日方舟》。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E321",
+      "E322",
+      "E323"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC035",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_038",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL045"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E324",
+        "locator": "charWords.char_4182_oblvns_CN_038",
+        "label": "新年祝福",
+        "summary_zh": "新年祝福中，她说自己刚在训练场听到外面欢呼，向博士送上新年第一声问候。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E325",
+        "locator": "charWords.char_4182_oblvns_CN_038",
+        "label": "新年",
+        "summary_zh": "新年祝福中，她说自己刚在训练场听到外面欢呼，向博士送上新年第一声问候。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E326",
+        "locator": "charWords.char_4182_oblvns_CN_038",
+        "label": "New Year's blessing",
+        "summary_zh": "新年祝福中，她说自己刚在训练场听到外面欢呼，向博士送上新年第一声问候。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E324",
+      "E325",
+      "E326"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC036",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_042",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL046"
+    ],
+    "assessment": "wording_variant",
+    "note_zh": "问候开头的礼节表达有别：中文贵安、日文ごきげんよう、英文Good morning；三版均邀请参加当晚舞会。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E327",
+        "locator": "charWords.char_4182_oblvns_CN_042",
+        "label": "问候",
+        "summary_zh": "问候语音中，她邀请博士参加当晚的化装舞会，并表示已预留贵宾席位。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E328",
+        "locator": "charWords.char_4182_oblvns_CN_042",
+        "label": "挨拶",
+        "summary_zh": "问候语音中，她邀请博士参加当晚的化装舞会，并表示已预留贵宾席位。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E329",
+        "locator": "charWords.char_4182_oblvns_CN_042",
+        "label": "Greeting",
+        "summary_zh": "问候语音中，她邀请博士参加当晚的化装舞会，并表示已预留贵宾席位。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E327",
+      "E328",
+      "E329"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC037",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_043",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL047"
+    ],
+    "assessment": "wording_variant",
+    "note_zh": "生日回忆的确定性措辞有别：中文直述令母亲困扰，日文かもしれません和英文may保留猜想语气。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E330",
+        "locator": "charWords.char_4182_oblvns_CN_043",
+        "label": "生日",
+        "summary_zh": "生日曲为童年学会、当年反复弹奏；中文说曾让母亲困扰。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E331",
+        "locator": "charWords.char_4182_oblvns_CN_043",
+        "label": "誕生日",
+        "summary_zh": "生日曲为童年学会、当年反复弹奏；日英文以可能令母亲困扰的语气回顾。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E332",
+        "locator": "charWords.char_4182_oblvns_CN_043",
+        "label": "Birthday",
+        "summary_zh": "生日曲为童年学会、当年反复弹奏；日英文以可能令母亲困扰的语气回顾。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E330",
+      "E331",
+      "E332"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC038",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns_CN_044",
+    "material_type": "voice",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL048"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E333",
+        "locator": "charWords.char_4182_oblvns_CN_044",
+        "label": "周年庆典",
+        "summary_zh": "周年庆典中，她很高兴与博士见证特殊日子，并说大家为共同目标努力的样子令她感到振奋。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E334",
+        "locator": "charWords.char_4182_oblvns_CN_044",
+        "label": "周年",
+        "summary_zh": "周年庆典中，她很高兴与博士见证特殊日子，并说大家为共同目标努力的样子令她感到振奋。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E335",
+        "locator": "charWords.char_4182_oblvns_CN_044",
+        "label": "Anniversary Celebration",
+        "summary_zh": "周年庆典中，她很高兴与博士见证特殊日子，并说大家为共同目标努力的样子令她感到振奋。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E333",
+      "E334",
+      "E335"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC039",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris_CN_006",
+    "material_type": "voice",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL076"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E336",
+        "locator": "charWords.char_4184_dolris_CN_006",
+        "label": "晋升后交谈2",
+        "summary_zh": "初华在晋升后交谈2中表示更愿以音乐治愈他人，也要变得足够强大，继续站在祥子身边。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E337",
+        "locator": "charWords.char_4184_dolris_CN_006",
+        "label": "昇進後会話2",
+        "summary_zh": "初华在晋升后交谈2中表示更愿以音乐治愈他人，也要变得足够强大，继续站在祥子身边。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E338",
+        "locator": "charWords.char_4184_dolris_CN_006",
+        "label": "Talk after Promotion 2",
+        "summary_zh": "初华在晋升后交谈2中表示更愿以音乐治愈他人，也要变得足够强大，继续站在祥子身边。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E336",
+      "E337",
+      "E338"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC040",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris_CN_008",
+    "material_type": "voice",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL077"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E339",
+        "locator": "charWords.char_4184_dolris_CN_008",
+        "label": "信赖提升后交谈2",
+        "summary_zh": "初华在信赖提升后交谈2中说祥子珍视Ave Mujica，自己想守护她创造的世界观，并以主唱身份将其呈现。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E340",
+        "locator": "charWords.char_4184_dolris_CN_008",
+        "label": "信頼上昇後会話2",
+        "summary_zh": "初华在信赖提升后交谈2中说祥子珍视Ave Mujica，自己想守护她创造的世界观，并以主唱身份将其呈现。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E341",
+        "locator": "charWords.char_4184_dolris_CN_008",
+        "label": "Talk after Trust Increase 2",
+        "summary_zh": "初华在信赖提升后交谈2中说祥子珍视Ave Mujica，自己想守护她创造的世界观，并以主唱身份将其呈现。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E339",
+      "E340",
+      "E341"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC041",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4185_amoris_CN_018",
+    "material_type": "voice",
+    "material_owner_id": "nyamu",
+    "record_ids": [
+      "AKL078"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三个版本保留该条语音的核心表达；实际标签按各服分别保存，音频播放另行复核。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S90",
+        "evidence_id": "E342",
+        "locator": "charWords.char_4185_amoris_CN_018",
+        "label": "任命队长",
+        "summary_zh": "若麦被任命队长时提出祥子更适合做指挥，语气带有迟疑。",
+        "asset_sha256": "5d630ffb7973021f351db14e0d9ac112cd58e741468f9f6e64fb2e11c8e70685"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S98",
+        "evidence_id": "E343",
+        "locator": "charWords.char_4185_amoris_CN_018",
+        "label": "隊長任命",
+        "summary_zh": "若麦被任命队长时提出祥子更适合做指挥，语气带有迟疑。",
+        "asset_sha256": "0ef71dd4a323d12cc69022c57d6ba0c8e88491e280576e964c353ac3d9df8de6"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S102",
+        "evidence_id": "E344",
+        "locator": "charWords.char_4185_amoris_CN_018",
+        "label": "Appointed as Squad Leader",
+        "summary_zh": "若麦被任命队长时提出祥子更适合做指挥，语气带有迟疑。",
+        "asset_sha256": "f3c5c3ccc79ac20f0426e7ac0aa86fb2dfeb9b4f7f8ea2e4c95ac6cb78f608ae"
+      }
+    ],
+    "evidence_ids": [
+      "E342",
+      "E343",
+      "E344"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC042",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.4",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL001"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E345",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[4]",
+        "label": "档案资料一",
+        "summary_zh": "祥子不愿白白留宿，主动要求承担舰上工作。 档案同时记载爱丽丝为五人担保暂住；罗德岛起初希望她们休息，但全员都不愿白住。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E346",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[4]",
+        "label": "第一資料",
+        "summary_zh": "祥子不愿白白留宿，主动要求承担舰上工作。 档案同时记载爱丽丝为五人担保暂住；罗德岛起初希望她们休息，但全员都不愿白住。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E347",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[4]",
+        "label": "Archive File 1",
+        "summary_zh": "祥子不愿白白留宿，主动要求承担舰上工作。 档案同时记载爱丽丝为五人担保暂住；罗德岛起初希望她们休息，但全员都不愿白住。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E345",
+      "E346",
+      "E347"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC043",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.5",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL002",
+      "AKL003"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E348",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[5]",
+        "label": "档案资料二",
+        "summary_zh": "她积极承担信息传达、保洁、搬运等基础工作。 档案记述她关心身边干员，关切的笑容给人留下印象。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E349",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[5]",
+        "label": "第二資料",
+        "summary_zh": "她积极承担信息传达、保洁、搬运等基础工作。 档案记述她关心身边干员，关切的笑容给人留下印象。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E350",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[5]",
+        "label": "Archive File 2",
+        "summary_zh": "她积极承担信息传达、保洁、搬运等基础工作。 档案记述她关心身边干员，关切的笑容给人留下印象。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E348",
+      "E349",
+      "E350"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC044",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.6",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL004"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E351",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[6]",
+        "label": "档案资料三",
+        "summary_zh": "档案认为祥子虽会失误，仍勇于决定，促成成员合作。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E352",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[6]",
+        "label": "第三資料",
+        "summary_zh": "档案认为祥子虽会失误，仍勇于决定，促成成员合作。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E353",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[6]",
+        "label": "Archive File 3",
+        "summary_zh": "档案认为祥子虽会失误，仍勇于决定，促成成员合作。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E351",
+      "E352",
+      "E353"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC045",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.8",
+    "material_type": "promotion_record",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL005",
+      "AKL058",
+      "AKL059",
+      "AKL060",
+      "AKL061",
+      "AKL091"
+    ],
+    "assessment": "localized_addition",
+    "note_zh": "日文晋升记录多出爱丽丝解释真正遗忘的一段，单列AKL091。中文此节叙述她选择醒来；日英文以梦终须醒来、必须面对现实表达这一转折。各自版本证据分别保存。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E354",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[8]",
+        "label": "晋升记录",
+        "summary_zh": "爱丽丝评价其重视伙伴、承担责任，也会不成熟与害怕；最终相信自己能践行承诺，选择醒来面对实际生活。爱丽丝相信经历会留下潜意识中的勇气。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E355",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[8]",
+        "label": "昇進記録",
+        "summary_zh": "爱丽丝评价其重视伙伴、承担责任，也会不成熟与害怕；最终相信自己能践行承诺，并强调无论梦多美好也终须醒来面对实际生活。爱丽丝相信经历会留下潜意识中的勇气。 日文另有爱丽丝对真正遗忘的解释：面对困难并将经历化为自身的养分。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E356",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[8]",
+        "label": "Promotion Record",
+        "summary_zh": "爱丽丝评价其重视伙伴、承担责任，也会不成熟与害怕；最终相信自己能践行承诺，并强调无论梦多美好也终须醒来面对实际生活。爱丽丝相信经历会留下潜意识中的勇气。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E354",
+      "E355",
+      "E356"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC046",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.0",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL049"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E357",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[0]",
+        "label": "基础档案",
+        "summary_zh": "基础档案记载祥子生日为2月14日、身高155厘米，没有战斗经验；出身地与种族记为未知。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E358",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[0]",
+        "label": "基礎情報",
+        "summary_zh": "基础档案记载祥子生日为2月14日、身高155厘米，没有战斗经验；出身地与种族记为未知。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E359",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[0]",
+        "label": "Basic Info",
+        "summary_zh": "基础档案记载祥子生日为2月14日、身高155厘米，没有战斗经验；出身地与种族记为未知。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E357",
+      "E358",
+      "E359"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC047",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.3",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL050"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E360",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[3]",
+        "label": "临床诊断分析",
+        "summary_zh": "罗德岛临床诊断将祥子列为非感染者，体细胞与源石融合率为0%；血液源石结晶密度依医疗部决议未公开。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E361",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[3]",
+        "label": "健康診断",
+        "summary_zh": "罗德岛临床诊断将祥子列为非感染者，体细胞与源石融合率为0%；血液源石结晶密度依医疗部决议未公开。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E362",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[3]",
+        "label": "Clinical Analysis",
+        "summary_zh": "罗德岛临床诊断将祥子列为非感染者，体细胞与源石融合率为0%；血液源石结晶密度依医疗部决议未公开。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E360",
+      "E361",
+      "E362"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC048",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.1",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL051"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E363",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[1]",
+        "label": "综合体检测试",
+        "summary_zh": "体检记录将祥子的战术规划评为优良，战斗技巧为标准，物理强度、机动和耐受为普通；源石技艺适应性以遮蔽符号呈现。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E364",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[1]",
+        "label": "能力測定",
+        "summary_zh": "体检记录将祥子的战术规划评为优良，战斗技巧为标准，物理强度、机动和耐受为普通；源石技艺适应性以遮蔽符号呈现。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E365",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[1]",
+        "label": "Physical Exam",
+        "summary_zh": "体检记录将祥子的战术规划评为优良，战斗技巧为标准，物理强度、机动和耐受为普通；源石技艺适应性以遮蔽符号呈现。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E363",
+      "E364",
+      "E365"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC049",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.2",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL052"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E366",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[2]",
+        "label": "客观履历",
+        "summary_zh": "客观履历介绍她作为Ave Mujica键盘手与队友暂居罗德岛，积极工作，并以音乐造诣及礼仪描述其名门出身。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E367",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[2]",
+        "label": "個人履歴",
+        "summary_zh": "客观履历介绍她作为Ave Mujica键盘手与队友暂居罗德岛，积极工作，并以音乐造诣及礼仪描述其名门出身。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E368",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[2]",
+        "label": "Profile",
+        "summary_zh": "客观履历介绍她作为Ave Mujica键盘手与队友暂居罗德岛，积极工作，并以音乐造诣及礼仪描述其名门出身。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E366",
+      "E367",
+      "E368"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC050",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4182_oblvns.file.7",
+    "material_type": "operator_file",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL054",
+      "AKL055",
+      "AKL056",
+      "AKL057"
+    ],
+    "assessment": "wording_variant",
+    "note_zh": "组建早期乐队的憧憬对象：中文学校里的前辈、日文学校の先輩，英文写一组高年级学生。归属各服档案叙述。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E369",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[7]",
+        "label": "档案资料四",
+        "summary_zh": "祥子的游戏档案资料四叙述：她因憧憬学校前辈而组建早期乐队。该段以罗德岛档案编者的了解为叙述来源。 游戏档案资料四把家庭变故叙述为父亲因公司遭诈骗而引咎辞职、此后一蹶不振；祥子退出原乐队，靠多份零工维持家庭。 档案编者将祥子组建Ave Mujica的过程与不愿示弱、告别过去联系起来，并记述其坚持引发重大争执，也伴随自责、迷茫及害怕。 档案编者观察到她在罗德岛似有变化，并猜测与梦城堡经历有关；这一因果判断保留为档案方的揣测。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E370",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[7]",
+        "label": "第四資料",
+        "summary_zh": "祥子的游戏档案资料四叙述：她因憧憬学校前辈而组建早期乐队。该段以罗德岛档案编者的了解为叙述来源。 游戏档案资料四把家庭变故叙述为父亲因公司遭诈骗而引咎辞职、此后一蹶不振；祥子退出原乐队，靠多份零工维持家庭。 档案编者将祥子组建Ave Mujica的过程与不愿示弱、告别过去联系起来，并记述其坚持引发重大争执，也伴随自责、迷茫及害怕。 档案编者观察到她在罗德岛似有变化，并猜测与梦城堡经历有关；这一因果判断保留为档案方的揣测。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E371",
+        "locator": "handbookDict.char_4182_oblvns.storyTextAudio[7]",
+        "label": "Archive File 4",
+        "summary_zh": "祥子的游戏档案资料四叙述：她因憧憬学校前辈而组建早期乐队。该段以罗德岛档案编者的了解为叙述来源。 游戏档案资料四把家庭变故叙述为父亲因公司遭诈骗而引咎辞职、此后一蹶不振；祥子退出原乐队，靠多份零工维持家庭。 档案编者将祥子组建Ave Mujica的过程与不愿示弱、告别过去联系起来，并记述其坚持引发重大争执，也伴随自责、迷茫及害怕。 档案编者观察到她在罗德岛似有变化，并猜测与梦城堡经历有关；这一因果判断保留为档案方的揣测。 此处对最初憧憬对象的称谓为一组高年级学生。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E369",
+      "E370",
+      "E371"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC051",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4183_mortis.file.4",
+    "material_type": "operator_file",
+    "material_owner_id": "mutsumi",
+    "record_ids": [
+      "AKL065"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E372",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[4]",
+        "label": "档案资料一",
+        "summary_zh": "睦的档案记载，她与祥子童年相识；编者从她不多的言语中观察到对祥子的重视和持续支持。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E373",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[4]",
+        "label": "第一資料",
+        "summary_zh": "睦的档案记载，她与祥子童年相识；编者从她不多的言语中观察到对祥子的重视和持续支持。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E374",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[4]",
+        "label": "Archive File 1",
+        "summary_zh": "睦的档案记载，她与祥子童年相识；编者从她不多的言语中观察到对祥子的重视和持续支持。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E372",
+      "E373",
+      "E374"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC052",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4183_mortis.file.5",
+    "material_type": "operator_file",
+    "material_owner_id": "mutsumi",
+    "record_ids": [
+      "AKL066"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E375",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[5]",
+        "label": "档案资料二",
+        "summary_zh": "睦的档案记载，她常在祥子工作时从旁搭手，完成力所能及的工作。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E376",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[5]",
+        "label": "第二資料",
+        "summary_zh": "睦的档案记载，她常在祥子工作时从旁搭手，完成力所能及的工作。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E377",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[5]",
+        "label": "Archive File 2",
+        "summary_zh": "睦的档案记载，她常在祥子工作时从旁搭手，完成力所能及的工作。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E375",
+      "E376",
+      "E377"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC053",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4183_mortis.file.6",
+    "material_type": "operator_file",
+    "material_owner_id": "mutsumi",
+    "record_ids": [
+      "AKL067"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E378",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[6]",
+        "label": "档案资料三",
+        "summary_zh": "睦的档案转述祥子的嘱托：请罗德岛少给睦压力；祥子知道自己保护能力有限，仍希望为睦建立可以安心的地方。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E379",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[6]",
+        "label": "第三資料",
+        "summary_zh": "睦的档案转述祥子的嘱托：请罗德岛少给睦压力；祥子知道自己保护能力有限，仍希望为睦建立可以安心的地方。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E380",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[6]",
+        "label": "Archive File 3",
+        "summary_zh": "睦的档案转述祥子的嘱托：请罗德岛少给睦压力；祥子知道自己保护能力有限，仍希望为睦建立可以安心的地方。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E378",
+      "E379",
+      "E380"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC054",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4183_mortis.file.7",
+    "material_type": "operator_file",
+    "material_owner_id": "mutsumi",
+    "record_ids": [
+      "AKL068"
+    ],
+    "assessment": "wording_variant",
+    "note_zh": "中文保留祥子仅有些微了解；日英文使用只有祥子理解其痛苦的表述。引用时分别保留限定程度。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E381",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[7]",
+        "label": "档案资料四",
+        "summary_zh": "档案描述睦独自承受期待的压力；中文称祥子此前仅有些微了解。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E382",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[7]",
+        "label": "第四資料",
+        "summary_zh": "档案描述睦独自承受期待的压力；日英文称童年好友祥子是理解其痛苦的人，措辞更强。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E383",
+        "locator": "handbookDict.char_4183_mortis.storyTextAudio[7]",
+        "label": "Archive File 4",
+        "summary_zh": "档案描述睦独自承受期待的压力；日英文称童年好友祥子是理解其痛苦的人，措辞更强。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E381",
+      "E382",
+      "E383"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC055",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris.file.5",
+    "material_type": "operator_file",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL069"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E384",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[5]",
+        "label": "档案资料二",
+        "summary_zh": "初华的档案记载，她受祥子邀请加入Ave Mujica，始终投入全部力量，编者观察到她珍爱乐队。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E385",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[5]",
+        "label": "第二資料",
+        "summary_zh": "初华的档案记载，她受祥子邀请加入Ave Mujica，始终投入全部力量，编者观察到她珍爱乐队。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E386",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[5]",
+        "label": "Archive File 2",
+        "summary_zh": "初华的档案记载，她受祥子邀请加入Ave Mujica，始终投入全部力量，编者观察到她珍爱乐队。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E384",
+      "E385",
+      "E386"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC056",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris.file.6",
+    "material_type": "operator_file",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL070"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E387",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[6]",
+        "label": "档案资料三",
+        "summary_zh": "初华的档案描述她与祥子自小相识，并把祥子视为好友与憧憬目标；两人在罗德岛常于夜间一起到甲板观星。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E388",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[6]",
+        "label": "第三資料",
+        "summary_zh": "初华的档案描述她与祥子自小相识，并把祥子视为好友与憧憬目标；两人在罗德岛常于夜间一起到甲板观星。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E389",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[6]",
+        "label": "Archive File 3",
+        "summary_zh": "初华的档案描述她与祥子自小相识，并把祥子视为好友与憧憬目标；两人在罗德岛常于夜间一起到甲板观星。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E387",
+      "E388",
+      "E389"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC057",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris.file.7",
+    "material_type": "operator_file",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL071"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E390",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[7]",
+        "label": "档案资料四",
+        "summary_zh": "初华的档案编者观察到，她比起表达自身想法，更希望了解祥子的想法，并以含混措辞描述其复杂感情。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E391",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[7]",
+        "label": "第四資料",
+        "summary_zh": "初华的档案编者观察到，她比起表达自身想法，更希望了解祥子的想法，并以含混措辞描述其复杂感情。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E392",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[7]",
+        "label": "Archive File 4",
+        "summary_zh": "初华的档案编者观察到，她比起表达自身想法，更希望了解祥子的想法，并以含混措辞描述其复杂感情。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E390",
+      "E391",
+      "E392"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC058",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "char_4184_dolris.file.8",
+    "material_type": "promotion_record",
+    "material_owner_id": "uika",
+    "record_ids": [
+      "AKL072"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "按同一角色、同一章节位置核对三版正文，保留档案编者或爱丽丝的评价归属。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S91",
+        "evidence_id": "E393",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[8]",
+        "label": "晋升记录",
+        "summary_zh": "爱丽丝记录称初华因内疚和对过去的畏惧，曾在祥子痛苦时不敢靠近；她希望这段经历给予初华面对自身过去的勇气。",
+        "asset_sha256": "7c7da9fb0c7e2421887b5b7f9ca62f792b7353b541d225026a9f8c79828e3f4c"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S99",
+        "evidence_id": "E394",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[8]",
+        "label": "昇進記録",
+        "summary_zh": "爱丽丝记录称初华因内疚和对过去的畏惧，曾在祥子痛苦时不敢靠近；她希望这段经历给予初华面对自身过去的勇气。",
+        "asset_sha256": "35d92a79f45314f3a8f1e022f24d3f992fe66458ac19ac24c890d30efa1b9635"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S103",
+        "evidence_id": "E395",
+        "locator": "handbookDict.char_4184_dolris.storyTextAudio[8]",
+        "label": "Promotion Record",
+        "summary_zh": "爱丽丝记录称初华因内疚和对过去的畏惧，曾在祥子痛苦时不敢靠近；她希望这段经历给予初华面对自身过去的勇气。",
+        "asset_sha256": "07077cd529965c57da1f602028f1ceec81b43814af0d8f131dcbed92b04e0498"
+      }
+    ],
+    "evidence_ids": [
+      "E393",
+      "E394",
+      "E395"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC059",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "uniequip_002_oblvns",
+    "material_type": "module_story",
+    "material_owner_id": "sakiko",
+    "record_ids": [
+      "AKL006",
+      "AKL007",
+      "AKL008",
+      "AKL009",
+      "AKL010",
+      "AKL062",
+      "AKL064"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三版按同一模组标识全文对照；角色知情范围与叙述者交代分别保存。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S92",
+        "evidence_id": "E396",
+        "locator": "equipDict.uniequip_002_oblvns.uniEquipDesc",
+        "label": "无言的约定",
+        "summary_zh": "祥子独自练琴，模组署人偶来自爱丽丝；匿名听众未具名，她保留相见与合奏计划，凭感觉猜测对方拉小提琴。",
+        "asset_sha256": "c436d9ca672c8e8c3926d0ccbd496f7591004baf944f8cb47458572f4eaa8590"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S100",
+        "evidence_id": "E397",
+        "locator": "equipDict.uniequip_002_oblvns.uniEquipDesc",
+        "label": "無言の約束",
+        "summary_zh": "祥子独自练琴，模组署人偶来自爱丽丝；匿名听众未具名，她保留相见与合奏计划，凭感觉猜测对方拉小提琴。",
+        "asset_sha256": "b15452c3f97fc6bb4ef8e49f3de6191b76f284068b842e3f07bd5412f6e3a025"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S104",
+        "evidence_id": "E398",
+        "locator": "equipDict.uniequip_002_oblvns.uniEquipDesc",
+        "label": "A Silent Pact",
+        "summary_zh": "祥子独自练琴，模组署人偶来自爱丽丝；匿名听众未具名，她保留相见与合奏计划，凭感觉猜测对方拉小提琴。",
+        "asset_sha256": "211a60007795d0337a6d55ade85aa2038ea0842957038324829f9e78a99579ed"
+      }
+    ],
+    "evidence_ids": [
+      "E396",
+      "E397",
+      "E398"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC060",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "uniequip_002_mortis",
+    "material_type": "module_story",
+    "material_owner_id": "mutsumi",
+    "record_ids": [
+      "AKL073",
+      "AKL074"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三版按同一模组标识全文对照；角色知情范围与叙述者交代分别保存。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S92",
+        "evidence_id": "E399",
+        "locator": "equipDict.uniequip_002_mortis.uniEquipDesc",
+        "label": "睦的新朋友",
+        "summary_zh": "祥子关切睦的交流和压力，听到庭院讨论后欣慰离开；叙述者列出参与者名字，祥子仍未弄清朋友身份。",
+        "asset_sha256": "c436d9ca672c8e8c3926d0ccbd496f7591004baf944f8cb47458572f4eaa8590"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S100",
+        "evidence_id": "E400",
+        "locator": "equipDict.uniequip_002_mortis.uniEquipDesc",
+        "label": "新しい友達",
+        "summary_zh": "祥子关切睦的交流和压力，听到庭院讨论后欣慰离开；叙述者列出参与者名字，祥子仍未弄清朋友身份。",
+        "asset_sha256": "b15452c3f97fc6bb4ef8e49f3de6191b76f284068b842e3f07bd5412f6e3a025"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S104",
+        "evidence_id": "E401",
+        "locator": "equipDict.uniequip_002_mortis.uniEquipDesc",
+        "label": "New Friends",
+        "summary_zh": "祥子关切睦的交流和压力，听到庭院讨论后欣慰离开；叙述者列出参与者名字，祥子仍未弄清朋友身份。",
+        "asset_sha256": "211a60007795d0337a6d55ade85aa2038ea0842957038324829f9e78a99579ed"
+      }
+    ],
+    "evidence_ids": [
+      "E399",
+      "E400",
+      "E401"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC061",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "uniequip_002_tmoris",
+    "material_type": "module_story",
+    "material_owner_id": "umiri",
+    "record_ids": [
+      "AKL075"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "三版按同一模组标识全文对照；角色知情范围与叙述者交代分别保存。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S92",
+        "evidence_id": "E402",
+        "locator": "equipDict.uniequip_002_tmoris.uniEquipDesc",
+        "label": "额外训练",
+        "summary_zh": "祥子询问排练走神，海铃承诺调整；祥子不再追问，成员信任她处理。",
+        "asset_sha256": "c436d9ca672c8e8c3926d0ccbd496f7591004baf944f8cb47458572f4eaa8590"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S100",
+        "evidence_id": "E403",
+        "locator": "equipDict.uniequip_002_tmoris.uniEquipDesc",
+        "label": "オーバートレーニング",
+        "summary_zh": "祥子询问排练走神，海铃承诺调整；祥子不再追问，成员信任她处理。",
+        "asset_sha256": "b15452c3f97fc6bb4ef8e49f3de6191b76f284068b842e3f07bd5412f6e3a025"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S104",
+        "evidence_id": "E404",
+        "locator": "equipDict.uniequip_002_tmoris.uniEquipDesc",
+        "label": "Extra Training",
+        "summary_zh": "祥子询问排练走神，海铃承诺调整；祥子不再追问，成员信任她处理。",
+        "asset_sha256": "211a60007795d0337a6d55ade85aa2038ea0842957038324829f9e78a99579ed"
+      }
+    ],
+    "evidence_ids": [
+      "E402",
+      "E403",
+      "E404"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC062",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "letter_1",
+    "material_type": "event_letter",
+    "material_owner_id": "ave_mujica",
+    "record_ids": [
+      "AKL079"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "正文按信件ID对齐；所用中文记录的送达日期继续属于CN服务器，日英sendTime分别留在对应版本来源。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S94",
+        "evidence_id": "E405",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_1",
+        "label": "采购中心的来信",
+        "summary_zh": "可露希尔以粉丝身份寄来修缮过的闲置桌台，支持Ave Mujica布置舞会，并希望受邀参加。",
+        "asset_sha256": "6c2a3f5881de85959c5aa60514bbb683855f8fce04746be5fcca0b6dcc6c15b7"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S101",
+        "evidence_id": "E406",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_1",
+        "label": "購買部からの手紙",
+        "summary_zh": "可露希尔以粉丝身份寄来修缮过的闲置桌台，支持Ave Mujica布置舞会，并希望受邀参加。",
+        "asset_sha256": "b862e5f1ef0ba795487f23f5f8561db1fcbc82cbd3e0688180959d5da922fcc7"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S105",
+        "evidence_id": "E407",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_1",
+        "label": "A Message from the Store",
+        "summary_zh": "可露希尔以粉丝身份寄来修缮过的闲置桌台，支持Ave Mujica布置舞会，并希望受邀参加。",
+        "asset_sha256": "da96a0fdaf98ebd1d95c13ebd59e73d119826ef88959f6aacd32c3c644c68d9a"
+      }
+    ],
+    "evidence_ids": [
+      "E405",
+      "E406",
+      "E407"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC063",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "letter_2",
+    "material_type": "event_letter",
+    "material_owner_id": "ave_mujica",
+    "record_ids": [
+      "AKL080"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "正文按信件ID对齐；所用中文记录的送达日期继续属于CN服务器，日英sendTime分别留在对应版本来源。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S94",
+        "evidence_id": "E408",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_2",
+        "label": "干员的来信",
+        "summary_zh": "红豆与乐队朋友寄来舞台装饰，愿继续帮助同为罗德岛乐队的Ave Mujica，并提议日后合奏。",
+        "asset_sha256": "6c2a3f5881de85959c5aa60514bbb683855f8fce04746be5fcca0b6dcc6c15b7"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S101",
+        "evidence_id": "E409",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_2",
+        "label": "オペレーターからの手紙",
+        "summary_zh": "红豆与乐队朋友寄来舞台装饰，愿继续帮助同为罗德岛乐队的Ave Mujica，并提议日后合奏。",
+        "asset_sha256": "b862e5f1ef0ba795487f23f5f8561db1fcbc82cbd3e0688180959d5da922fcc7"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S105",
+        "evidence_id": "E410",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_2",
+        "label": "Operator Message",
+        "summary_zh": "红豆与乐队朋友寄来舞台装饰，愿继续帮助同为罗德岛乐队的Ave Mujica，并提议日后合奏。",
+        "asset_sha256": "da96a0fdaf98ebd1d95c13ebd59e73d119826ef88959f6aacd32c3c644c68d9a"
+      }
+    ],
+    "evidence_ids": [
+      "E408",
+      "E409",
+      "E410"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC064",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "letter_3",
+    "material_type": "event_letter",
+    "material_owner_id": "ave_mujica",
+    "record_ids": [
+      "AKL081"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "正文按信件ID对齐；所用中文记录的送达日期继续属于CN服务器，日英sendTime分别留在对应版本来源。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S94",
+        "evidence_id": "E411",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_3",
+        "label": "工程部的订单",
+        "summary_zh": "温米确认照明设备已按要求调整外观，提出验收后协助安装，并希望和朋友参加舞会。",
+        "asset_sha256": "6c2a3f5881de85959c5aa60514bbb683855f8fce04746be5fcca0b6dcc6c15b7"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S101",
+        "evidence_id": "E412",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_3",
+        "label": "エンジニア部からのオーダー",
+        "summary_zh": "温米确认照明设备已按要求调整外观，提出验收后协助安装，并希望和朋友参加舞会。",
+        "asset_sha256": "b862e5f1ef0ba795487f23f5f8561db1fcbc82cbd3e0688180959d5da922fcc7"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S105",
+        "evidence_id": "E413",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_3",
+        "label": "Engineering Department Order",
+        "summary_zh": "温米确认照明设备已按要求调整外观，提出验收后协助安装，并希望和朋友参加舞会。",
+        "asset_sha256": "da96a0fdaf98ebd1d95c13ebd59e73d119826ef88959f6aacd32c3c644c68d9a"
+      }
+    ],
+    "evidence_ids": [
+      "E411",
+      "E412",
+      "E413"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC065",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "letter_4",
+    "material_type": "event_letter",
+    "material_owner_id": "ave_mujica",
+    "record_ids": [
+      "AKL082"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "正文按信件ID对齐；所用中文记录的送达日期继续属于CN服务器，日英sendTime分别留在对应版本来源。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S94",
+        "evidence_id": "E414",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_4",
+        "label": "梦城堡的来信",
+        "summary_zh": "爱丽丝向Ave Mujica寄来梦城堡家具，关心成员近况，表示孩子们也期待舞会开始。",
+        "asset_sha256": "6c2a3f5881de85959c5aa60514bbb683855f8fce04746be5fcca0b6dcc6c15b7"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S101",
+        "evidence_id": "E415",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_4",
+        "label": "夢のお城からの手紙",
+        "summary_zh": "爱丽丝向Ave Mujica寄来梦城堡家具，关心成员近况，表示孩子们也期待舞会开始。",
+        "asset_sha256": "b862e5f1ef0ba795487f23f5f8561db1fcbc82cbd3e0688180959d5da922fcc7"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S105",
+        "evidence_id": "E416",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_4",
+        "label": "A Message from the Castle of Dreams",
+        "summary_zh": "爱丽丝向Ave Mujica寄来梦城堡家具，关心成员近况，表示孩子们也期待舞会开始。",
+        "asset_sha256": "da96a0fdaf98ebd1d95c13ebd59e73d119826ef88959f6aacd32c3c644c68d9a"
+      }
+    ],
+    "evidence_ids": [
+      "E414",
+      "E415",
+      "E416"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  },
+  {
+    "id": "AKLC066",
+    "continuity": "arknights_collab",
+    "event_id": "somniloquium_serenum",
+    "lookup_key": "letter_5",
+    "material_type": "event_letter",
+    "material_owner_id": "ave_mujica",
+    "record_ids": [
+      "AKL083"
+    ],
+    "assessment": "equivalent_core",
+    "note_zh": "正文按信件ID对齐；所用中文记录的送达日期继续属于CN服务器，日英sendTime分别留在对应版本来源。",
+    "variants": [
+      {
+        "server": "CN",
+        "language": "zh-Hans",
+        "source_id": "S94",
+        "evidence_id": "E417",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_5",
+        "label": "梦城堡的录音",
+        "summary_zh": "莫菲丝在录音中说明爱丽丝要求她道歉，承认给成员添了麻烦，并寄来与卡尔顿们制作的布景，祝舞会成功。",
+        "asset_sha256": "6c2a3f5881de85959c5aa60514bbb683855f8fce04746be5fcca0b6dcc6c15b7"
+      },
+      {
+        "server": "JP",
+        "language": "ja",
+        "source_id": "S101",
+        "evidence_id": "E418",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_5",
+        "label": "夢のお城からの録音",
+        "summary_zh": "莫菲丝在录音中说明爱丽丝要求她道歉，承认给成员添了麻烦，并寄来与卡尔顿们制作的布景，祝舞会成功。",
+        "asset_sha256": "b862e5f1ef0ba795487f23f5f8561db1fcbc82cbd3e0688180959d5da922fcc7"
+      },
+      {
+        "server": "Global",
+        "language": "en",
+        "source_id": "S105",
+        "evidence_id": "E419",
+        "locator": "activity.TYPE_ACT45SIDE.act45side.mailData.letter_5",
+        "label": "Recording from the Castle of Dreams",
+        "summary_zh": "莫菲丝在录音中说明爱丽丝要求她道歉，承认给成员添了麻烦，并寄来与卡尔顿们制作的布景，祝舞会成功。",
+        "asset_sha256": "da96a0fdaf98ebd1d95c13ebd59e73d119826ef88959f6aacd32c3c644c68d9a"
+      }
+    ],
+    "evidence_ids": [
+      "E417",
+      "E418",
+      "E419"
+    ],
+    "checked_on": "2026-10-19",
+    "client_cross_checked": false,
+    "audio_reviewed": false
+  }
+]

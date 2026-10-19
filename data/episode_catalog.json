@@ -153,5 +153,50 @@
       "A002"
     ],
     "runtime_precision": "catalog_minutes"
+  },
+  {
+    "id": "EP04",
+    "episode": 4,
+    "title": "Acta est fabula.",
+    "announced_broadcast_date": "2025-01-23",
+    "press_release_date": "2025-01-21",
+    "evidence_ids": [
+      "E421"
+    ],
+    "plot_evidence_level": "official_synopsis",
+    "related_record_ids": [
+      "F065",
+      "F066"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "EP06",
+    "episode": 6,
+    "title": "Animum reges.",
+    "announced_broadcast_date": "2025-02-06",
+    "press_release_date": "2025-02-04",
+    "evidence_ids": [
+      "E422"
+    ],
+    "plot_evidence_level": "official_synopsis",
+    "related_record_ids": [],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
   }
 ]

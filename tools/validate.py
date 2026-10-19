@@ -24,6 +24,11 @@ def validate():
     kb=load(ROOT/'data/kb.json')
     mapping={'entities':'entities','sources':'sources','evidence':'evidence','facts':'canon_facts',
              'relations':'relations','timeline':'timeline','inferences':'inference','fanon':'fanon','research_queue':'research_queue','episode_catalog':'episode_catalog','source_issues':'source_issues','candidate_claims':'candidate_claims','scene_reviews':'scene_reviews','access_audit':'access_audit','game_story_records':'game_story_records','game_interpretations':'game_interpretations','game_question_index':'game_question_index','game_relations':'game_relations','game_lore_records':'game_lore_records'}
+    mapping['game_scene_coverage']='game_scene_coverage'
+    mapping['game_material_coverage']='game_material_coverage'
+    mapping['game_localization_checks']='game_localization_checks'
+    mapping['game_discussion_guides']='game_discussion_guides'
+    mapping['game_answer_reviews']='game_answer_reviews'
     for key,stem in mapping.items():
         assert kb[key]==load(ROOT/f'data/{stem}.json'), f'JSON mirror mismatch {key}'
         lines=(ROOT/f'jsonl/{stem}.jsonl').read_text(encoding='utf-8').splitlines()
@@ -42,8 +47,17 @@ def validate():
             for eid in r.get('evidence_ids',[]): assert eid in es, f'unknown evidence {eid}'
             for field in ['subject_id','object_id']:
                 if field in r: assert r[field] in ents, f'unknown entity {r[field]}'
-            for rid in r.get('basis_record_ids',[])+r.get('record_ids',[]): assert rid in index, f'unknown record {rid}'
+            for rid in r.get('basis_record_ids',[])+r.get('record_ids',[])+r.get('context_record_ids',[]): assert rid in index, f'unknown record {rid}'
             if r.get('group_context'): assert r['group_context'] in ents
+            if r.get('material_owner_id'): assert r['material_owner_id'] in ents
+            for eid in r.get('voice_metadata',{}).get('localization_evidence_ids',[]): assert eid in es
+            for asset in r.get('text_assets',[]): assert asset['source_id'] in ss
+            for lid in r.get('localization_check_ids',[]):
+                assert lid in index and r['id'] in index[lid]['record_ids']
+            for variant in r.get('variants',[]):
+                assert variant['source_id'] in ss and variant['evidence_id'] in es
+                assert es[variant['evidence_id']]['source_id']==variant['source_id']
+                assert ss[variant['source_id']]['language']==variant['language']
     for e in es.values():
         assert e['source_id'] in ss
         s=ss[e['source_id']]

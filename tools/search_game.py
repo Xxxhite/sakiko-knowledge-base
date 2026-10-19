@@ -4,6 +4,7 @@ import json,re,math,argparse
 ROOT=Path(__file__).resolve().parents[1]
 ALIASES={'祐天寺にゃむ':'若麦','祐天寺若麥':'若麦','祐天寺若麦':'若麦','喵梦':'若麦','喵姆':'若麦','小祥':'祥子','大祥':'祥子','初音':'初华','モルフェス':'莫菲丝','morpheus':'莫菲丝','sakiko':'祥子','nyamu':'若麦','uika':'初华','umiri':'海铃','mutsumi':'睦'}
 STOP={'祥子','丰川','川祥','什么','怎么','怎样','如何','为何','为什么','为什','么会','有没有','有没','没有','一下','的是','她的','她在','她是','这个','剧情','联动','游戏','明日','方舟','无忧','梦呓'}
+ALIASES['战败']='行动失败'
 def normalize(s):
     s=s.casefold()
     for a,b in ALIASES.items(): s=s.replace(a,b)
@@ -14,8 +15,9 @@ def tokens(s):
         result.extend(word[i:i+2] for i in range(len(word)-1)) if re.fullmatch(r'[\u3400-\u9fff]+',word) and len(word)>1 else result.append(word)
     return {x for x in result if x not in STOP}
 def stage_rank(stage):
+    if stage in ('SS-ST-1','SS-TR-1'): return 0
     match=re.fullmatch(r'SS-([1-8])-(BEG|END)',stage)
-    if not match: raise ValueError('Stage must be SS-1-BEG through SS-8-END')
+    if not match: raise ValueError('Stage must be SS-ST-1, SS-TR-1, or SS-1-BEG through SS-8-END')
     return int(match[1])*2-(match[2]=='BEG')
 def search(query,limit=5,include_inference=False,max_rank=16,official=False,material=None):
     chunks=json.loads((ROOT/'data/game_retrieval_chunks.json').read_text(encoding='utf-8'))
@@ -51,7 +53,7 @@ if __name__=='__main__':
     parser.add_argument('query'); parser.add_argument('--limit',type=int,default=5)
     parser.add_argument('--include-inference',action='store_true')
     parser.add_argument('--max-stage',default='SS-8-END'); parser.add_argument('--official-only',action='store_true')
-    parser.add_argument('--material',choices=['main_story','operator_file','promotion_record','module_story','voice','interpretation'])
+    parser.add_argument('--material',choices=['main_story','operator_file','promotion_record','module_story','voice','event_letter','event_interface','outfit_description','item_description','operator_contract','interpretation'])
     args=parser.parse_args()
     if args.limit<1: parser.error('--limit must be positive')
     try: max_rank=stage_rank(args.max_stage)

@@ -21,13 +21,27 @@ for (const mutate of [
   x => { x.game_story_records[0].client_cross_checked = true; },
   x => { x.game_interpretations[0].layer = 'canon'; },
   x => { x.game_lore_records[0].material_type = 'main_story'; },
-  x => { delete x.game_lore_records[0].section_title; }
+  x => { delete x.game_lore_records[0].section_title; },
+  x => { delete x.game_lore_records.find(r => r.voice_metadata).voice_metadata.voice_id; },
+  x => { x.game_lore_records.find(r => r.voice_metadata).voice_metadata.audio_reviewed = true; },
+  x => { x.game_lore_records.find(r => r.delivery_metadata).delivery_metadata.date_kind = 'story_calendar'; },
+  x => { x.game_material_coverage[0].client_cross_checked = true; },
+  x => { x.game_material_coverage[0].text_assets[0].sha256 = 'invalid'; },
+  x => { x.game_lore_records.find(r => r.id === 'AKL091').server = 'CN'; },
+  x => { x.game_localization_checks[0].variants.pop(); },
+  x => { x.game_localization_checks[0].audio_reviewed = true; },
+  x => { x.game_localization_checks[0].variants[0].asset_sha256 = 'invalid'; },
+  x => { x.game_discussion_guides[0].default_retrieval_eligible = true; },
+  x => { delete x.game_discussion_guides[0].answer_outline[0].record_ids; },
+  x => { x.game_answer_reviews[0].default_retrieval_eligible = true; },
+  x => { delete x.game_answer_reviews[0].answer_sentences[0].record_ids; },
+  x => { x.episode_catalog.find(r => r.id === 'EP04').catalog_duration_minutes = 24; }
 ]) {
   const bad = JSON.parse(JSON.stringify(kb)); mutate(bad);
   if (validate(bad)) throw new Error('Negative schema check unexpectedly accepted invalid record.');
 }
 const result = {status:'passed', schema_draft:'Draft-07', engine:'Ajv '+require('ajv/package.json').version,
-  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:11};
+  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:25};
 if (process.argv.includes('--write-report')) {
   fs.mkdirSync(path.join(root, 'validation'), {recursive:true});
   fs.writeFileSync(path.join(root, 'validation/schema.json'), JSON.stringify(result,null,2)+'\n');

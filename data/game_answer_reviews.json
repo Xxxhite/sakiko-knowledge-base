@@ -1,0 +1,439 @@
+[
+  {
+    "id": "AKA001",
+    "guide_id": "AKD001",
+    "question_zh": "祥子明知家庭梦是假的，为什么还留下，最后又怎样告别？",
+    "answer_sentences": [
+      {
+        "text_zh": "她明知这里不是自己的世界，仍希望与母亲的告别来得晚一些；她也直说，去找同伴就意味着可能再次离开母亲。",
+        "record_ids": [
+          "AK023",
+          "AK024"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "此前同伴返程时，她数次回望等待自己的母亲，接受红豆替她请假的建议，暂时留在家中。",
+        "record_ids": [
+          "AK018"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "到告别时，梦中母亲承认谎言并鼓励她寻找自己的生活，祥子随后告别梦中父母、继续行动。",
+        "record_ids": [
+          "AK025",
+          "AK026"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK023",
+      "AK024",
+      "AK018",
+      "AK025",
+      "AK026"
+    ],
+    "spoiler_rank": 14,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "保留明知是假象与舍不得母亲两项自述，梦中母亲单独归属；以行动完成告别收束。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA002",
+    "guide_id": "AKD002",
+    "question_zh": "她在睦的梦里怎样处理带人离开和尊重睦意愿的冲突？",
+    "answer_sentences": [
+      {
+        "text_zh": "在睦的梦里，祥子把是否接受聚会的决定交给睦。",
+        "record_ids": [
+          "AK043"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "睦告诉她，自己知道这里是假象，仍希望先告别并自由歌唱；叙述写祥子看她似乎发自内心地幸福，虽有机会带她离开却不忍打断。",
+        "record_ids": [
+          "AK044",
+          "AK045"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "事后祥子反思，自己起初急于带回伙伴，经历她们的拒绝后才意识到对她们内心的了解不足。",
+        "record_ids": [
+          "AK034"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK043",
+      "AK044",
+      "AK045",
+      "AK034"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "将提纲中的幸福演奏改为叙述的似乎发自内心，保留祥子当时的感受与事后反思。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA003",
+    "guide_id": "AKD003",
+    "question_zh": "祥子为什么接受赌约，她此前尝试了什么，又如何看待这次行动？",
+    "answer_sentences": [
+      {
+        "text_zh": "接受赌约前，她已经反复尝试叫醒沉睡的四位伙伴。",
+        "record_ids": [
+          "AK091"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "面对莫菲丝，她判断即使拒绝也不会获准离开，并坚持任何一位队友缺席自己都不走。",
+        "record_ids": [
+          "AK073",
+          "AK005"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "到SS-8行动后，她又反思了急于带人回来的做法，承认自己对队友内心了解不足。",
+        "record_ids": [
+          "AK034"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK091",
+      "AK073",
+      "AK005",
+      "AK034"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "叫醒、受困判断、不留下伙伴、事后反思依场景区分，回答选择的行为依据。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA004",
+    "guide_id": "AKD004",
+    "question_zh": "莫菲丝怎样评价祥子，祥子自己又怎样看待莫菲丝？",
+    "answer_sentences": [
+      {
+        "text_zh": "SS-6行动前，莫菲丝用害怕被抛弃等说法攻击祥子，这是莫菲丝对她的评价。",
+        "record_ids": [
+          "AK013"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "SS-8行动后，祥子对爱丽丝说，面对莫菲丝时自己感到了悲伤，并猜想莫菲丝也有难言之隐。",
+        "record_ids": [
+          "AK035"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK013",
+      "AK035"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "莫菲丝的攻击与祥子的悲伤及猜测分别归属各自说话人。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA005",
+    "guide_id": "AKD005",
+    "question_zh": "开篇罗德岛与结尾罗德岛是什么关系，祥子何时正式认识爱丽丝？",
+    "answer_sentences": [
+      {
+        "text_zh": "开篇寻找安时，祥子确认地址并提议分头寻人，这一段归属最初祥子梦境。",
+        "record_ids": [
+          "AK001"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "SS-8行动后，获救后的爱丽丝正式自我介绍；祥子追问梦中见过的她，爱丽丝推测其中有外婆的帮助。",
+        "record_ids": [
+          "AK083"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "同一行动后段，爱丽丝还解释梦境记忆会渐渐模糊，并相信返乡后的祥子仍会记得面对困难的勇气。",
+        "record_ids": [
+          "AK037"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK001",
+      "AK083",
+      "AK037"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "检查固定SS-8-END文本：正式介绍在203行、外婆推测213行、遗忘及勇气392—402行；提纲改为场景定位，正文顺序已有支持。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA006",
+    "guide_id": "AKD006",
+    "question_zh": "祥子的洋娃娃是谁送的，两处材料怎么说？",
+    "answer_sentences": [
+      {
+        "text_zh": "祥子模组的叙述把排练室中的人偶记作爱丽丝赠送。",
+        "record_ids": [
+          "AKL009"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "信赖语音里，祥子称洋娃娃是贝娜送的，放在身边会感到陪伴与温暖。",
+        "record_ids": [
+          "AKL016"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "赠礼介绍按两处材料分别保留署名，物件对应和赠送过程继续核对。",
+        "record_ids": [
+          "AKL009",
+          "AKL016"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL009",
+      "AKL016"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "两处赠送者及SC004/Q10管理状态分别核对；保留物件与过程待核。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA007",
+    "guide_id": "AKD007",
+    "question_zh": "匿名听众有哪些已写出的线索，祥子真的与其合奏了吗？",
+    "answer_sentences": [
+      {
+        "text_zh": "模组把听众可能是小提琴手写作祥子凭感觉产生的猜想。",
+        "record_ids": [
+          "AKL010"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "她没有调查对方，打算离开前见面并邀请合奏；材料将这件事写为未来计划。",
+        "record_ids": [
+          "AKL008",
+          "AKL010"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL010",
+      "AKL008"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "小提琴手归角色猜想，合奏归计划，Q09身份状态单列。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA008",
+    "guide_id": "AKD008",
+    "question_zh": "返乡后遗忘和勇气的说法，中日文晋升记录有什么区别？",
+    "answer_sentences": [
+      {
+        "text_zh": "中文晋升记录里，爱丽丝相信泰拉经历即使淡忘，也会以潜意识中的勇气支持祥子面对自己并带领乐队。",
+        "record_ids": [
+          "AKL061"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "日服晋升另有一段爱丽丝对真正遗忘的解释，强调勇敢面对困难、将经历转化为养分；知识库将它单列为JP/ja的AKL091。",
+        "record_ids": [
+          "AKL091"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL061",
+      "AKL091"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "中文原命题与日文新增段分开，说明者均为爱丽丝；SC005及语言对照随上下文返回。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA009",
+    "guide_id": "AKD009",
+    "question_zh": "祥子在罗德岛怎样关心睦，材料怎样描述她了解睦的程度？",
+    "answer_sentences": [
+      {
+        "text_zh": "睦会在祥子工作时帮忙；祥子则嘱托罗德岛少给睦压力，希望为她建立安心之处。",
+        "record_ids": [
+          "AKL066",
+          "AKL067"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "对了解程度，中文档案编者使用些微了解；该处日英文采用只有祥子理解的措辞，SC006保留了版本差异。",
+        "record_ids": [
+          "AKL068"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL066",
+      "AKL067",
+      "AKL068"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "关怀行动与了解程度分别回答；中文正文与SC006日英文版本差异并列。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA010",
+    "guide_id": "AKD010",
+    "question_zh": "祥子知道睦的新朋友是谁吗？她怎样回应海铃排练走神？",
+    "answer_sentences": [
+      {
+        "text_zh": "睦模组由叙述列出庭院协作者的名字，而祥子没有听清，故事结尾仍未弄清睦的新朋友是谁。",
+        "record_ids": [
+          "AKL074"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "海铃模组中，她留意排练走神并询问原因；海铃承诺调整后，她没有继续追问，乐队相信海铃能处理。",
+        "record_ids": [
+          "AKL075"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL074",
+      "AKL075"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "叙述者知情与祥子知情分开；海铃模组的没有继续追问按实际互动描述。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA011",
+    "guide_id": "AKD011",
+    "question_zh": "唤醒队友的演奏与结尾舞台各发生了什么，祥子说了什么？",
+    "answer_sentences": [
+      {
+        "text_zh": "SS-8行动前，她弹奏使牵引人偶的丝线松脱；演奏中为过去伤害队友道歉，表达愿赌上人生守护她们的意愿。",
+        "record_ids": [
+          "AK030",
+          "AK031"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "SS-8行动后，队友与贝娜、莫菲丝搭起实际舞台并邀请她加入，她笑着接受同伴的手，再次登台。",
+        "record_ids": [
+          "AK038"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AK030",
+      "AK031",
+      "AK038"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "以SS-8行动前后区分唤醒演奏和实际舞台，保留道歉的具体对象。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  },
+  {
+    "id": "AKA012",
+    "guide_id": "AKD012",
+    "question_zh": "祥子在罗德岛怎样工作和创作，又得到了哪些舞台支持？",
+    "answer_sentences": [
+      {
+        "text_zh": "罗德岛档案记载她不愿白住，主动承担信息传达、保洁、搬运等基础工作。",
+        "record_ids": [
+          "AKL001",
+          "AKL002"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "语音中她说，泰拉的艰难遭遇让自己想写出更贴近人心的音乐。",
+        "record_ids": [
+          "AKL014"
+        ],
+        "review_result": "supported"
+      },
+      {
+        "text_zh": "活动来信里，可露希尔寄来修缮的桌台，红豆与朋友寄来装饰，并提议日后合奏。",
+        "record_ids": [
+          "AKL079",
+          "AKL080"
+        ],
+        "review_result": "supported"
+      }
+    ],
+    "record_ids": [
+      "AKL001",
+      "AKL002",
+      "AKL014",
+      "AKL079",
+      "AKL080"
+    ],
+    "spoiler_rank": 16,
+    "review_method": "single_editor_evidence_check",
+    "review_note_zh": "档案、语音、来信分别归属材料及说话人；后续合奏保留提议。",
+    "reviewed_on": "2026-10-19",
+    "review_status": "passed",
+    "default_retrieval_eligible": false
+  }
+]
