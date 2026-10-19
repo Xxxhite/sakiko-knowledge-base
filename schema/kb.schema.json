@@ -150,6 +150,12 @@
       "items": {
         "$ref": "#/definitions/game_answer_review"
       }
+    },
+    "original_question_index": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/original_question"
+      }
     }
   },
   "required": [
@@ -177,7 +183,8 @@
     "game_material_coverage",
     "game_localization_checks",
     "game_discussion_guides",
-    "game_answer_reviews"
+    "game_answer_reviews",
+    "original_question_index"
   ],
   "additionalProperties": false,
   "definitions": {
@@ -1121,12 +1128,26 @@
           "type": "string"
         },
         "announced_broadcast_date": {
-          "type": "string",
-          "format": "date"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "press_release_date": {
-          "type": "string",
-          "format": "date"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "evidence_ids": {
           "type": "array",
@@ -1206,6 +1227,12 @@
             "catalog_minutes",
             "not_reviewed"
           ]
+        },
+        "work_id": {
+          "enum": [
+            "bang_dream_its_mygo",
+            "bang_dream_ave_mujica"
+          ]
         }
       },
       "required": [
@@ -1225,7 +1252,8 @@
         "catalog_duration_minutes",
         "playback_link_evidence_ids",
         "access_audit_ids",
-        "runtime_precision"
+        "runtime_precision",
+        "work_id"
       ],
       "additionalProperties": false,
       "allOf": [
@@ -1249,6 +1277,38 @@
               "catalog_duration_minutes": {
                 "type": "integer",
                 "minimum": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "id": {
+                "pattern": "^MYGO[0-9]{2}$"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "work_id": {
+                "const": "bang_dream_its_mygo"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "id": {
+                "pattern": "^EP[0-9]{2}$"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "work_id": {
+                "const": "bang_dream_ave_mujica"
               }
             }
           }
@@ -2917,6 +2977,46 @@
         "review_note_zh",
         "reviewed_on",
         "review_status",
+        "default_retrieval_eligible"
+      ],
+      "additionalProperties": false
+    },
+    "original_question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^BQ[0-9]{3}$"
+        },
+        "question_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "keywords": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "record_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "default_retrieval_eligible": {
+          "const": false
+        }
+      },
+      "required": [
+        "id",
+        "question_zh",
+        "keywords",
+        "record_ids",
         "default_retrieval_eligible"
       ],
       "additionalProperties": false

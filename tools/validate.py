@@ -29,6 +29,7 @@ def validate():
     mapping['game_localization_checks']='game_localization_checks'
     mapping['game_discussion_guides']='game_discussion_guides'
     mapping['game_answer_reviews']='game_answer_reviews'
+    mapping['original_question_index']='original_question_index'
     for key,stem in mapping.items():
         assert kb[key]==load(ROOT/f'data/{stem}.json'), f'JSON mirror mismatch {key}'
         lines=(ROOT/f'jsonl/{stem}.jsonl').read_text(encoding='utf-8').splitlines()

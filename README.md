@@ -2,12 +2,32 @@
 
 面向剧情讨论与检索的丰川祥子资料库，覆盖 BanG Dream! 原作和《明日方舟》联动《无忧梦呓》。提供可直接阅读的 Markdown、程序读取的 JSON、检索导入的 JSONL，以及本地中文检索工具。
 
-资料版本 **1.9.0**，核验基线 **2026-10-19**。含 TV 动画结局、身份信息和《无忧梦呓》结局剧透。
+资料版本 **1.16.1**，核验基线 **2026-10-20**。含 TV 动画结局、身份信息和《无忧梦呓》结局剧透。
 
 ## 直接使用
 
+### 作为 Skill 使用
+
+仓库根目录包含 [SKILL.md](SKILL.md)，整库可作为一个 `sakiko-knowledge-base` Skill 安装，资料和本地检索工具随同提供。可向 Codex 发送：
+
+```text
+请使用 $skill-installer，从 Xxxhite/sakiko-knowledge-base 安装仓库根目录（path=.），名称为 sakiko-knowledge-base。
+```
+
+安装后在下一轮使用：
+
+```text
+$sakiko-knowledge-base 祥子为什么没有立刻带睦离开？请给出场景与来源。
+```
+
+Skill 默认检索 canon，分析时可追加署名 inference。检索仅需 Python；维护规则见 AGENTS.md。安装版是快照，后续更新仓库后需刷新安装版本。文件规范参考[官方 Skills 文档](https://learn.chatgpt.com/docs/build-skills)。
+
 ### 阅读剧情资料
 
+- [旧团请求与告别：第8话恳求、第7话重聚](markdown/原作_旧团请求与告别.md)
+- [招募交涉与关系转折](markdown/原作_招募与关系转折.md)
+- [MyGO第3话：场景与证据](markdown/原作_MyGO第3话_场景与证据.md)
+- [原作剧情问答导航](markdown/原作_剧情问答索引.md)、[MyGO重点话数覆盖与待补场景](markdown/原作_MyGO四话覆盖.md)
 - [祥子在联动主线中的表现](markdown/明日方舟_祥子剧情表现.md)
 - [档案、模组、语音与活动附加文本](markdown/明日方舟_档案模组与语音.md)
 - [中日英文逐项对照](markdown/明日方舟_中日英文对照.md)
@@ -43,8 +63,8 @@ python -X utf8 tools/search_game.py "母亲" --max-stage SS-7-END
 | 使用范围 | 导入文件 | 片段数 |
 | --- | --- | ---: |
 | 《明日方舟》联动 | [game_retrieval_chunks.jsonl](jsonl/game_retrieval_chunks.jsonl) | 193 |
-| BanG Dream! 基础资料与联动合并 | [retrieval_combined.jsonl](jsonl/retrieval_combined.jsonl) | 316 |
-| BanG Dream! 基础资料 | [retrieval_chunks.jsonl](jsonl/retrieval_chunks.jsonl) | 123 |
+| BanG Dream! 基础资料与联动合并 | [retrieval_combined.jsonl](jsonl/retrieval_combined.jsonl) | 373 |
+| BanG Dream! 基础资料 | [retrieval_chunks.jsonl](jsonl/retrieval_chunks.jsonl) | 180 |
 
 按需要选择一套，避免重复导入。默认筛选 `layer=canon`，分析时显式开启 `inference`；保留来源、世界线、梦境层、说话人、剧透进度和关联上下文。具体平台的检索与上下文注入按该平台配置。
 
@@ -82,7 +102,7 @@ npm ci
 npm test
 ```
 
-完整十一项工具检查覆盖严格 JSON、JSONL 镜像、ID 与引用、三层隔离、场景归属、检索过滤、94 项查询／导航发现用例以及 schema 的 25 项反例。依赖已通过 `package-lock.json` 锁定；检查默认只读。
+完整十二项工具检查覆盖严格 JSON、JSONL 镜像、ID 与引用、三层隔离、场景归属、检索过滤、160 项查询／导航发现用例以及 schema 的 29 项反例。依赖已通过 `package-lock.json` 锁定；检查默认只读。
 
 仅检查资料完整性可运行：
 
@@ -116,4 +136,17 @@ python -X utf8 tools/context_game.py --record AKL009 --material module_story --l
 
 游戏文本部分已完成12个实际回答样本、30句逐句核对，按剧情讨论检索用途收尾。主线99条、补充材料89条、联动片段193条保持；客户端、音频、赠礼过程与匿名听众转入长期维护。回答样本保存在独立管理集合game_answer_reviews，附证据引用和复核说明。
 
-当前重点回到BanG Dream!原作：本轮新增4条官方梗概事实，补强MyGO第8话的固定新闻稿证据，新增Ave Mujica第4、6话索引。原作基础事实68条、基础检索123条，合并316条。后续任务见原作补充进度与补充清单。
+当前重点为BanG Dream!原作：本轮补第8话爽世的具体问句、祥子引领灯开始旧团歌唱及末话爽世谈旧团记忆。林鼓子的歌曲解读独立署名；新增Ave第1、3、5话目录，回链既有场景。新增3条事实、1条关系、1项时间线、1条解读和6项导航。原作事实92条、关系46条、时间线26条、解读16条，基础检索180条、合并373条。后续见原作补充进度与补充清单。
+
+## 原作本地检索
+
+```text
+python -X utf8 tools/search_base.py "春日影在剧情里是谁作曲"
+python -X utf8 tools/search_base.py "Oblivionis艺名来自哪里"
+python -X utf8 tools/search_base.py "初演后祥子跟灯说了什么"
+python -X utf8 tools/search_base.py "初华 星星" --official-only --direct-only
+python -X utf8 tools/search_base.py "编剧怎样理解眼泪与乐队结成" --include-inference
+python -X utf8 tools/search_base.py "照镜子" --phase mygo_ep03
+```
+
+支持中文关键词／双字片段、人物别名、集数写法归一（如第三集／第3话）、分层、官方／正文来源、continuity及phase前缀筛选，结果带原始URL与证据定位。使用original_question_index辅助排序，导航自身排除事实片段。MyGO和Ave Mujica均属于tv_anime，指定集数可用mygo_ep03或ave_ep03等phase前缀区分。

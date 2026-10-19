@@ -28,6 +28,7 @@ def main():
             "check_v17.py",
             "check_v18.py",
             "check_v19.py",
+            "check_v110.py",
         )
     ]
     commands.append(["node", str(ROOT / "tools/validate_schema.js")])
@@ -42,7 +43,7 @@ def main():
             return 1
         if result.returncode:
             return result.returncode
-    print("All eleven validation tools passed.")
+    print("All twelve validation tools passed.")
     return 0
 
 

@@ -1,6 +1,6 @@
 {
   "name": "sakiko-knowledge-base",
-  "version": "1.9.0",
+  "version": "1.16.1",
   "private": true,
   "description": "丰川祥子结构化剧情知识库与本地检索工具",
   "repository": {

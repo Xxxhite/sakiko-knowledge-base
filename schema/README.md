@@ -11,3 +11,7 @@ v1.7新增game_localization_checks、材料对照引用、语音英文文本状�
 v1.8新增game_discussion_guides（第23个集合），严格约束编者导航、提纲引用与默认检索关闭；跨表引用、提纲依据集合及剧透等级由check_v18.py检查。schema反例共22项。
 
 v1.9新增game_answer_reviews（第24集合）及metadata.maintenance。逐话索引允许1—13话，未核播放目录时长以not_reviewed/null成对保存；catalog_minutes保持正整数。回答样本引用与上下文由check_v19.py验证，语义结论由单一编者记录。schema反例25项。
+
+v1.10新增original_question_index（第25集合）及逐话work_id；EP与MYGO前缀分别绑定对应作品，公告日期允许null。跨作品同号集数的区分、主创复述与解读分层、原作查询由check_v110.py检查。统一验证12项，schema反例29项。v1.11扩展订正版、剧中作曲范围、分作者解读与22项原作自然问法；v1.12沿用schema，扩展转载取得路径、沙槌假设隔离、集数写法归一与30项原作自然问法。
+
+v1.13沿用schema，扩展分页来源、交涉行为／动机分层、角色发言及既有关系保留的检查；原作自然问法38项，总查询／导航发现132项。

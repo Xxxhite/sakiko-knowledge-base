@@ -27,3 +27,4 @@
 {"id": "ak_doctor", "entity_type": "fictional_person", "name_ja": null, "name_zh": "博士", "name_en": null, "aliases": [], "evidence_ids": ["E107"], "note": "联动语音中的罗德岛博士，供关系检索定位。"}
 {"id": "ak_closure", "entity_type": "fictional_person", "name_ja": null, "name_zh": "可露希尔", "name_en": null, "aliases": [], "evidence_ids": ["E108"], "note": "活动来信的署名者。"}
 {"id": "ak_warmy", "entity_type": "fictional_person", "name_ja": null, "name_zh": "温米", "name_en": null, "aliases": [], "evidence_ids": ["E109"], "note": "活动工程部订单署名者；梦内同名角色仍按场景层限定。"}
+{"id": "anon", "entity_type": "fictional_person", "name_ja": "千早 愛音", "name_zh": "千早爱音", "name_en": "Anon Chihaya", "aliases": ["千早愛音", "爱音", "愛音"], "evidence_ids": ["E451"], "note": "中文名为检索用规范化显示名；官方姓名对应由索引核验。"}

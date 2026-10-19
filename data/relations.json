@@ -632,7 +632,8 @@
     },
     "narrative_scope": "diegetic",
     "evidence_ids": [
-      "E12"
+      "E12",
+      "E423"
     ],
     "evidence_status": "official_explicit",
     "notes": null
@@ -870,5 +871,345 @@
     ],
     "evidence_status": "official_explicit",
     "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+  },
+  {
+    "id": "R034",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "tomori",
+    "predicate": "encouraged_performance",
+    "statement_zh": "编剧复述MyGO第7话祥子给予灯演唱应援。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep07",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E428"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+  },
+  {
+    "id": "R035",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "soyo",
+    "object_id": "sakiko",
+    "predicate": "clung_to",
+    "statement_zh": "编剧复述第8话爽世抓住祥子的互动，声优将谈话定位在末段。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep08",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E426",
+      "E430"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+  },
+  {
+    "id": "R036",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "soyo",
+    "predicate": "rebuffed_contact",
+    "statement_zh": "编剧把第4话校门的互动描述为祥子冷遇来找她的爽世。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep04",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E425"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+  },
+  {
+    "id": "R037",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "crychic",
+    "predicate": "initiated_band",
+    "statement_zh": "祥子发起CRYCHIC，声优在一手访谈中明确复述。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "crychic_formation",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E438"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "关系边分别保存发起／退出行为；保留R019曾为成员的既有状态。"
+  },
+  {
+    "id": "R038",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "crychic",
+    "predicate": "left_band",
+    "statement_zh": "祥子退出CRYCHIC，监督与声优均有明确复述。",
+    "direction": "directed",
+    "relation_kind": "affiliation",
+    "status": "historical_fact",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "crychic_departure",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E435",
+      "E438"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "关系边分别保存发起／退出行为；保留R019曾为成员的既有状态。"
+  },
+  {
+    "id": "R039",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "tomori",
+    "predicate": "set_words_to_music",
+    "statement_zh": "第3话祥子把灯笔记中的话语写成歌，记录两人的创作互动。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep03",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E441"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "灯役在一手访谈中复述的互动，适用于MyGO第3话回顾场景。"
+  },
+  {
+    "id": "R040",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "tomori",
+    "predicate": "nodded_in_response",
+    "statement_zh": "第3话春日影演出中，灯伸手时祥子点头回应。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep03",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E442"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "灯役在一手访谈中复述的互动，适用于MyGO第3话回顾场景。"
+  },
+  {
+    "id": "R041",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "negotiated_recruitment",
+    "statement_zh": "祥子与喵梦交涉，以交换条件达成入团。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "ave_mujica_formation",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E446"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "仅记录招募交涉；条件内容待逐句定位。"
+  },
+  {
+    "id": "R042",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "mutsumi",
+    "predicate": "uttered_denial_about",
+    "statement_zh": "在RiNG前的Mortis视频场景中，祥子说出不认识睦的措辞。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "ave_post_dissolution_ring",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E447"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "本边内容为祥子的发言；与青梅竹马R005、旧团关系R006分别按阶段和语境使用。"
+  },
+  {
+    "id": "R043",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "nyamu",
+    "predicate": "commented_on_ambidexterity",
+    "statement_zh": "MyGO第12话，祥子对喵梦说出关于双利手的问句。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep12",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E452"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "发言行为据米澤茜的明确复述；招募交换条件另见R041。"
+  },
+  {
+    "id": "R044",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "soyo",
+    "predicate": "gave_ultimatum",
+    "statement_zh": "MyGO第8话，祥子向爽世作出最后通告。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep08",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E458"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "按本次谈话的行为方向与场景范围使用，逐句内容继续定位。"
+  },
+  {
+    "id": "R045",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "soyo",
+    "object_id": "sakiko",
+    "predicate": "pleaded_for_band_return",
+    "statement_zh": "MyGO第8话，爽世抓住祥子，恳求回到CRYCHIC。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "mygo_ep08",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E459"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "按本次谈话的行为方向与场景范围使用，逐句内容继续定位。"
+  },
+  {
+    "id": "R046",
+    "record_type": "relation",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "object_id": "tomori",
+    "predicate": "led_into_band_singing",
+    "statement_zh": "旧团起点的回顾中，祥子引领灯开始于CRYCHIC唱歌。",
+    "direction": "directed",
+    "relation_kind": "interpersonal",
+    "status": "phase_scoped",
+    "valence": "unspecified",
+    "group_context": null,
+    "valid_time": {
+      "phase": "crychic_beginning",
+      "calendar_start": null,
+      "calendar_end": null,
+      "precision": "relative_phase"
+    },
+    "narrative_scope": "diegetic",
+    "evidence_ids": [
+      "E465"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "notes": "与MyGO第7话应援R034分别按阶段检索；本条未指定披露集数。"
   }
 ]

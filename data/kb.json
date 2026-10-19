@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "丰川祥子标准版结构化知识库",
-    "version": "1.9.0",
-    "as_of": "2026-10-19",
+    "version": "1.16.1",
+    "as_of": "2026-10-20",
     "language": "zh-Hans",
     "subject_id": "sakiko",
     "provenance": {
@@ -10,11 +10,11 @@
       "context_used": "用户提供的有界预览及本次明确请求",
       "full_prior_plan_loaded": false
     },
-    "coverage": "游戏文本阶段完成12项回答样本逐句验收并收尾，音画和待证事项转入长期维护；新增原作4条官方梗概事实、2项逐话索引及3个日文官方来源。后续默认更新仓库，不打包ZIP。",
+    "coverage": "补MyGO第8话爽世的具体发问、祥子引领灯开始旧团歌唱及末话爽世谈旧团记忆；林鼓子对迷路日々的理解单列，补Ave第1、3、5话目录与既有行动回链。",
     "spoiler_policy": "含TV最终话与身份相关剧透；媒介、剧情阶段及证据类别逐条保留。",
     "layer_definitions": {
       "canon": "官方直接资料，以及标明说话人与证据类别的一手主创/声优对已播事件的明确复述；个人解释另入inference。 联动篇另收游戏文本转录中的明示事件/台词，证据状态game_text_transcription，标社区承载及待客户端对照；角色评价保留说话人。",
-      "inference": "编者依据证据作出的解释，必须保留推理与替代解释。",
+      "inference": "编者或署名主创的剧情解释，保留依据、推理与替代阅读，并标明解读者。",
       "fanon": "用户或创作者明确自定的二创设定，单独命名世界线。"
     },
     "default_layers": [
@@ -450,6 +450,22 @@
         "E109"
       ],
       "note": "活动工程部订单署名者；梦内同名角色仍按场景层限定。"
+    },
+    {
+      "id": "anon",
+      "entity_type": "fictional_person",
+      "name_ja": "千早 愛音",
+      "name_zh": "千早爱音",
+      "name_en": "Anon Chihaya",
+      "aliases": [
+        "千早愛音",
+        "爱音",
+        "愛音"
+      ],
+      "evidence_ids": [
+        "E451"
+      ],
+      "note": "中文名为检索用规范化显示名；官方姓名对应由索引核验。"
     }
   ],
   "sources": [
@@ -547,9 +563,9 @@
       "publisher": "BanG Dream! / Bushiroad",
       "authority": "official",
       "verification_status": "indexed_text_verified",
-      "checked_on": "2026-10-19",
+      "checked_on": "2026-10-20",
       "published_on": null,
-      "access_note": "检索返回Introduction及第1–8、13话等可见段落；直接打开抓取错误。本版仅使用已见段落。"
+      "access_note": "检索返回Introduction及第1–8、13话等可见段落；直接打开抓取错误。本版仅使用已见段落。 2026-10-20再核第7话标题／梗概索引；本次独立打开返回404抓取错误，维持indexed_text_verified。 v1.16再核第1、3、5话标题与梗概索引，用于补齐逐话目录和既有记录回链。"
     },
     {
       "id": "S08",
@@ -561,9 +577,9 @@
       "publisher": "BanG Dream! / Bushiroad",
       "authority": "official",
       "verification_status": "indexed_text_verified",
-      "checked_on": "2026-10-19",
+      "checked_on": "2026-10-20",
       "published_on": null,
-      "access_note": "检索工具返回该原始URL下的日文正文；未进行独立页面打开。"
+      "access_note": "2026-10-20再次核对该官方URL的检索索引，第12话标题为It’s my go!!!!!；独立打开本次返回抓取错误，状态保持indexed_text_verified。"
     },
     {
       "id": "S09",
@@ -1964,6 +1980,230 @@
       "checked_on": "2026-10-19",
       "published_on": "2023-07-28",
       "access_note": "已读PDF第2页明确第8话标题、祥子叫出初华及星星对白。补强S08可变故事页的集数定位，沿用F042。"
+    },
+    {
+      "id": "S109",
+      "title": "MyGO编剧绫奈ゆにこ访谈②：表情、爽世与春日影",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "resolved_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "language": "ja",
+      "source_type": "creator_interview",
+      "publisher": "一迅社 / Febri",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": null,
+      "access_note": "实际读取日文正文，明确复述与创作解释分开编录；原片和时间码另行复核。"
+    },
+    {
+      "id": "S110",
+      "title": "MyGO编剧绫奈ゆにこ访谈③：应援、话语与第13话",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_3/",
+      "resolved_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_3/",
+      "language": "ja",
+      "source_type": "creator_interview",
+      "publisher": "一迅社 / Febri",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": null,
+      "access_note": "实际读取日文正文，明确复述与创作解释分开编录；原片和时间码另行复核。"
+    },
+    {
+      "id": "S111",
+      "title": "MyGO爽世役小日向美香访谈：第8话末段谈话",
+      "original_url": "https://febri.jp/topics/bang-dream_mygo_3/",
+      "resolved_url": "https://febri.jp/topics/bang-dream_mygo_3/",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "一迅社 / Febri",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": null,
+      "access_note": "实际读取日文正文，明确复述与创作解释分开编录；原片和时间码另行复核。"
+    },
+    {
+      "id": "S112",
+      "title": "Bushiroad官方note：MyGO第3话梗概",
+      "original_url": "https://note.com/bushiroad_pr/n/n164b4c6846e7",
+      "resolved_url": "https://note.com/bushiroad_pr/n/n164b4c6846e7",
+      "language": "ja",
+      "source_type": "official_blog",
+      "publisher": "株式会社ブシロード / note",
+      "authority": "official",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": "2023-08-28",
+      "access_note": "读取官方账号正文及对应集梗概；只保存摘要与链接，未转载页面图片。"
+    },
+    {
+      "id": "S113",
+      "title": "Bushiroad官方note：MyGO第7话梗概",
+      "original_url": "https://note.com/bushiroad_pr/n/n718a79c0b1f7",
+      "resolved_url": "https://note.com/bushiroad_pr/n/n718a79c0b1f7",
+      "language": "ja",
+      "source_type": "official_blog",
+      "publisher": "株式会社ブシロード / note",
+      "authority": "official",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": "2023-08-28",
+      "access_note": "读取官方账号正文及对应集梗概；只保存摘要与链接，未转载页面图片。"
+    },
+    {
+      "id": "S114",
+      "title": "MyGO第13话官方梗概固定新闻稿",
+      "original_url": "https://bushiroad.com/media/2056fed6a40c9b90",
+      "resolved_url": "https://bushiroad.com/media/2056fed6a40c9b90",
+      "language": "ja",
+      "source_type": "official_press_release",
+      "publisher": "株式会社ブシロード",
+      "authority": "official",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "published_on": "2023-09-01",
+      "access_note": "实际读取官方PDF第2页，第13话标题和打上聚会梗概明确；预告引号对白未署说话人，按目录背景使用。"
+    },
+    {
+      "id": "S115",
+      "title": "柿本広大监督访谈：アニメージュ2025年1月号订正版",
+      "original_url": "https://animageplus.jp/news/detail/96",
+      "resolved_url": "https://animageplus.jp/news/detail/96",
+      "language": "ja",
+      "source_type": "creator_interview",
+      "publisher": "徳間書店 / アニメージュプラス",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2024-12-20",
+      "access_note": "实际读取出版社公布的订正版全文。页面说明原刊为2024-12-10发行的2025年1月号；本库采用2024-12-20在线订正版，未比对原刊逐字差异。仅从柿本回答提取明确复述，提问前提与动机解释分别处理。"
+    },
+    {
+      "id": "S116",
+      "title": "佐々木李子与高尾奏音访谈前编：角色与表演",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1711341102",
+      "resolved_url": "https://www.animatetimes.com/news/details.php?id=1711341102",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "アニメイトタイムズ",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2024-04-01",
+      "access_note": "实际读取第1页高尾奏音回答；CRYCHIC始动及退出、台词归属与表演解释分别编录。网页动态相关文章及第2页现实乐队成员经历不作为角色剧情证据。"
+    },
+    {
+      "id": "S117",
+      "title": "リスアニ！MyGO连载①声优对谈（ライブドア配信全文）",
+      "original_url": "https://news.livedoor.com/article/detail/24582491/",
+      "resolved_url": "https://news.livedoor.com/article/detail/24582491/",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "リスアニ！／ライブドアニュース配信",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-07-09",
+      "access_note": "实际读取署名リスアニ！、采访／文字北野創的配信全文。原发行方URL：https://www.lisani.jp/0000233447/；本次原站返回HTTP 500或抓取失败，实际正文读取位置为original_url所列配信页。权威类别据具名受访者的一手回答；同稿的原站和转载合计一个来源。现实演出经历、提问前提及角色猜测分别处理。"
+    },
+    {
+      "id": "S118",
+      "title": "リスアニ！MyGO连载③羊宮妃那与藤田淳平对谈（ライブドア配信全文）",
+      "original_url": "https://news.livedoor.com/article/detail/24711990/",
+      "resolved_url": "https://news.livedoor.com/article/detail/24711990/",
+      "language": "ja",
+      "source_type": "creator_interview",
+      "publisher": "リスアニ！／ライブドアニュース配信",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-07-28",
+      "access_note": "实际读取署名リスアニ！、采访／文字北野創的配信全文。原发行方URL：https://www.lisani.jp/0000234940/；本次原站返回HTTP 500或抓取失败，实际正文读取位置为original_url所列配信页。权威类别据具名受访者的一手回答；同稿的原站和转载合计一个来源。现实演出经历、提问前提及角色猜测分别处理。"
+    },
+    {
+      "id": "S119",
+      "title": "柿本広大监督长访谈：截至Ave Mujica第9话的制作与人物（第1—3页）",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "resolved_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "language": "ja",
+      "source_type": "creator_interview",
+      "publisher": "アニメイトタイムズ",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2025-03-06",
+      "access_note": "实际读取具名监督回答的第1—3页，同一分页访谈合计一个来源。第2页：https://www.animatetimes.com/news/details.php?id=1741242390&p=2；第3页：https://www.animatetimes.com/news/details.php?id=1741242390&p=3。证据original_url使用文章入口，locator保存实际页码与分页URL。提问前提、具体行为复述和主创解释分别处理，未据访谈补写原片时间码。"
+    },
+    {
+      "id": "S120",
+      "title": "MyGO官方角色页：千早愛音",
+      "original_url": "https://anime.bang-dream.com/mygo/character/anon/",
+      "resolved_url": "https://anime.bang-dream.com/mygo/character/anon/",
+      "language": "ja",
+      "source_type": "official_character",
+      "publisher": "BanG Dream! / Bushiroad",
+      "authority": "official",
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": null,
+      "access_note": "核对官方搜索索引中的千早 愛音及Anon Chihaya姓名对应；直接打开报告抓取失败。本轮仅使用姓名建立场景实体，正文核验另行推进。"
+    },
+    {
+      "id": "S121",
+      "title": "Ave Mujica五位声优首次集合访谈：角色、迷你专辑与0th LIVE",
+      "original_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "resolved_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "リスアニ！",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-09-16",
+      "access_note": "实际读取北野創采访的具名声优回答，第1、2页合计一来源。第2页：https://www.lisani.jp/0000239390/2/?show_more=1。剧情复述与署名解释分别取证，提问中的集数前提另核；现实演出及声优经历保留在材料语境内。第1页原文将CRYCHIC误写为CRYCHIIC，检索实体沿用规范名。"
+    },
+    {
+      "id": "S122",
+      "title": "官方公告：TV动画BanG Dream! Ave Mujica制作中",
+      "original_url": "https://prtimes.jp/main/html/rd/p/000007100.000014827.html",
+      "resolved_url": "https://prtimes.jp/main/html/rd/p/000007100.000014827.html",
+      "language": "ja",
+      "source_type": "official_press_release",
+      "publisher": "株式会社ブシロード / PR TIMES",
+      "authority": "official",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-09-15",
+      "access_note": "实际读取由株式会社ブシロード发布的公告正文；使用其中MyGO于9月14日迎来最终话的说明，补电视播出日期。"
+    },
+    {
+      "id": "S123",
+      "title": "リスアニ！MyGO连载④声优对谈（ライブドア配信全文）",
+      "original_url": "https://news.livedoor.com/article/detail/24798231/",
+      "resolved_url": "https://news.livedoor.com/article/detail/24798231/",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "リスアニ！ / ライブドアニュース",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-08-11",
+      "access_note": "实际读取北野創采访的具名声优配信正文，采用其中小日向美香的第8话复述及署名理解。原发行方URL：https://www.lisani.jp/0000236253/，本次直接打开返回500／抓取错误；同稿按一个来源计算。录音过程与现实演出内容留在材料语境内。"
+    },
+    {
+      "id": "S124",
+      "title": "リスアニ！MyGO连载⑥全员对谈（ライブドア配信全文）",
+      "original_url": "https://news.livedoor.com/article/detail/25017140/",
+      "resolved_url": "https://news.livedoor.com/article/detail/25017140/",
+      "language": "ja",
+      "source_type": "cast_interview",
+      "publisher": "リスアニ！ / ライブドアニュース",
+      "authority": "creator_first_person",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "published_on": "2023-09-15",
+      "access_note": "实际读取北野創采访的具名全员对谈正文。原发行方入口：https://www.lisani.jp/0000239388/，第2页：https://www.lisani.jp/0000239388/2/，本次均返回500；同稿按一个来源计算。明确复述的台词与行为、受访者的猜测、假设性举例、现实演出分别处理。"
     }
   ],
   "evidence": [
@@ -7465,6 +7705,617 @@
       "language": "ja",
       "capture_type": "curated_excerpt_note",
       "independent_full_work_review": false
+    },
+    {
+      "id": "E424",
+      "source_id": "S109",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "locator": "第3话第一人称演出问答·绫奈回答·L28—29",
+      "support_summary_zh": "绫奈复述初次演出后祥子夸赞灯的表情，灯照镜子的场景；对灯惊讶程度的推测另行保留。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E425",
+      "source_id": "S109",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "locator": "第4话校门场景问答·绫奈回答·L35—36",
+      "support_summary_zh": "绫奈复述爽世校门等候、向祥子打招呼后追赶的场景，并称这次接触遭到冷遇。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E426",
+      "source_id": "S109",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "locator": "第8话抓住祥子场景·绫奈回答·L37—38",
+      "support_summary_zh": "绫奈确认第8话爽世抓住祥子的场景；跪地及呈现狼狈感为其解释的演出设计。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E427",
+      "source_id": "S109",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_2/",
+      "locator": "春日影问答·绫奈回答·L50—52",
+      "support_summary_zh": "绫奈将祥子泪水解释为珍视CRYCHIC，并谈到与Ave Mujica结成契机的联系，按署名解读使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E428",
+      "source_id": "S110",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_3/",
+      "locator": "第7话心的呐喊问答·绫奈回答·L51—52",
+      "support_summary_zh": "绫奈复述灯在祥子应援下唱碧天伴走，并说出沿用祥子话语的心的呐喊台词；将话语成为自身之物的解释与动作分开。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E429",
+      "source_id": "S110",
+      "original_url": "https://febri.jp/topics/topics-bang-dream_mygo_6_3/",
+      "locator": "第13话末段问答·绫奈回答·L54—59",
+      "support_summary_zh": "绫奈明确提及祥子在第13话末段说出くそ親父；场景日期及具体家庭行为另待原片。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E430",
+      "source_id": "S111",
+      "original_url": "https://febri.jp/topics/bang-dream_mygo_3/",
+      "locator": "印象最深的剧情场景问答·小日向回答·L45—47",
+      "support_summary_zh": "小日向将爽世与祥子的谈话定位在第8话最后；个人对角色感情的理解另行处理。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E431",
+      "source_id": "S112",
+      "original_url": "https://note.com/bushiroad_pr/n/n164b4c6846e7",
+      "locator": "第3话CRYCHICあらすじ·L36—43",
+      "support_summary_zh": "官方梗概将灯的相遇背景放在初三春天，由白云木花引出；相遇对象在该梗概中以悬念保留。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E432",
+      "source_id": "S113",
+      "original_url": "https://note.com/bushiroad_pr/n/n718a79c0b1f7",
+      "locator": "第7话今日のライブが終わっても梗概·L38—45",
+      "support_summary_zh": "官方页确认第7话标题及灯初演前紧张的背景，未在梗概中展开祥子的具体行为。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E433",
+      "source_id": "S114",
+      "original_url": "https://bushiroad.com/media/2056fed6a40c9b90",
+      "locator": "PDF第2页·#13标题及梗概·L16—18",
+      "support_summary_zh": "官方新闻稿确认第13话标题，记述MyGO在RiNG打上聚会；预告引号对白未署说话人。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-19",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E434",
+      "source_id": "S115",
+      "original_url": "https://animageplus.jp/news/detail/96",
+      "locator": "订正版·MyGO第7话是否为结成契机问答·柿本回答·L78—79",
+      "support_summary_zh": "柿本明确称春日影由祥子作曲，并复述她看到MyGO在现场演唱此曲；歌曲的重要性及动机另存署名解读。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E435",
+      "source_id": "S115",
+      "original_url": "https://animageplus.jp/news/detail/96",
+      "locator": "订正版·退出CRYCHIC问答·柿本回答·L80—81",
+      "support_summary_zh": "柿本明确复述祥子退出CRYCHIC；对不得不离开及失去乐队的心理解释按inference使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E436",
+      "source_id": "S115",
+      "original_url": "https://animageplus.jp/news/detail/96",
+      "locator": "订正版·月地名与艺名问答·柿本回答·L82—83",
+      "support_summary_zh": "柿本说明祥子使用的Oblivionis取自月球地名忘却之湖Lacus Oblivionis；其自我保护解释另列。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E437",
+      "source_id": "S115",
+      "original_url": "https://animageplus.jp/news/detail/96",
+      "locator": "订正版·丧失、遗忘与persona·柿本回答·L79、81、83、85",
+      "support_summary_zh": "柿本把春日影演出后的丧失感、希望遗忘与以Oblivionis身份保护自己联系起来，作为监督署名解释。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E438",
+      "source_id": "S116",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1711341102",
+      "locator": "第1页·祥子如何推动故事问答·高尾回答·L138—140",
+      "support_summary_zh": "高尾明确复述CRYCHIC由祥子发起、她后来退出并组建Ave Mujica；具体招募对白未在此展开。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E439",
+      "source_id": "S116",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1711341102",
+      "locator": "第1页·くそ親父台词问答·高尾回答·L156—158",
+      "support_summary_zh": "高尾明确提及くそ親父台词，并回忆台本把这句话署给祥子，补强F074的说话人归属。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E440",
+      "source_id": "S116",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1711341102",
+      "locator": "第1页·角色变化与表演问答·高尾回答·L149—151",
+      "support_summary_zh": "高尾将后期祥子的外在强势与内在脆弱、表面愤怒与内在悲伤的反差作为演绎重点，按声优署名解读使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E441",
+      "source_id": "S117",
+      "original_url": "https://news.livedoor.com/article/detail/24582491/",
+      "locator": "第3话乐曲问答·羊宮回答·L71",
+      "support_summary_zh": "羊宫明确复述祥子把灯笔记中的话语串连成《人間になりたいうた》；后续歌词感想与此行为分开。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E442",
+      "source_id": "S117",
+      "original_url": "https://news.livedoor.com/article/detail/24582491/",
+      "locator": "第3话印象场景·林鼓子与羊宮回答·L44、48—49",
+      "support_summary_zh": "林回顾第3话春日影演出；羊宫接续复述灯伸手时祥子点头的回应。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E443",
+      "source_id": "S117",
+      "original_url": "https://news.livedoor.com/article/detail/24582491/",
+      "locator": "印象深刻场景·羊宮回答·L52—53",
+      "support_summary_zh": "羊宫明确复述第3话CRYCHIC成员一起去卡拉OK的场景。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E444",
+      "source_id": "S117",
+      "original_url": "https://news.livedoor.com/article/detail/24582491/",
+      "locator": "卡拉OK与沙槌·林鼓子回答·L54—59",
+      "support_summary_zh": "林以自己的一项考察为前提，猜测灯拿沙槌与祥子的影响有关；按署名推断使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E445",
+      "source_id": "S118",
+      "original_url": "https://news.livedoor.com/article/detail/24711990/",
+      "locator": "印象深刻的配乐场景·羊宮回答·L97—101",
+      "support_summary_zh": "羊宫回忆爽世追赶祥子下坡的一幕；这段回答没有标集数，F073第4话定位继续据E425。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E451",
+      "source_id": "S120",
+      "original_url": "https://anime.bang-dream.com/mygo/character/anon/",
+      "locator": "官方角色页搜索索引·姓名栏",
+      "support_summary_zh": "官方角色索引将千早 愛音与Anon Chihaya对应，用于RiNG场景的爱音实体。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E446",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第3页·喵梦人物问答·柿本回答·L129；https://www.animatetimes.com/news/details.php?id=1741242390&p=3",
+      "support_summary_zh": "监督明确复述祥子通过交涉招募喵梦，以交换条件促成加入；话题性、视觉价值及心理判断分开解释。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E447",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第1页·动画师提案问答·柿本回答·L198—200",
+      "support_summary_zh": "监督复述RiNG前祥子看过Mortis走红视频后说睦など、知りません，灯与爱音在楼梯上方的场景；该回答未标具体集数。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E448",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第3页·喵梦人物问答·柿本回答·L129—131；https://www.animatetimes.com/news/details.php?id=1741242390&p=3",
+      "support_summary_zh": "监督解释招募看中喵梦的话题性及视觉作用，并推测喵梦从祥子衣着判断其可能虚张声势，按署名解读使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E449",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第2页·物理距离与心的距离问答·柿本回答·L159—166；https://www.animatetimes.com/news/details.php?id=1741242390&p=2",
+      "support_summary_zh": "监督把祥子与睦距离近却错过变化、解散后爽世与睦更亲近联系起来，作为关系设计的署名解释。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E450",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第1页·动画师提案问答·柿本回答·L198—200",
+      "support_summary_zh": "监督明确将爽世抓住祥子定位在MyGO第8话，并指出Ave Mujica第6话Mortis抓住爽世场景沿用了该镜头角度。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E452",
+      "source_id": "S121",
+      "original_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "locator": "第1页·米澤茜回答·第12话双利手场景·L52",
+      "support_summary_zh": "米澤明确复述第12话祥子对喵梦说出关于双利手的问句；同段声优经历另属现实制作。",
+      "short_original_quote": "あなた両利きですわね？",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E453",
+      "source_id": "S121",
+      "original_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "locator": "第1页·高尾奏音回答·忘れさせて措辞·L30—32",
+      "support_summary_zh": "高尾明确提及祥子使用忘れさせて的措辞；该问答集数出现在提问前提中，证据只取回答确认的措辞。",
+      "short_original_quote": "忘れさせて",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E454",
+      "source_id": "S08",
+      "original_url": "https://anime.bang-dream.com/mygo/story/",
+      "locator": "官方故事页检索索引·#12标题",
+      "support_summary_zh": "官方索引列出MyGO第12话标题It’s my go!!!!!；该证据用于标题编目。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E455",
+      "source_id": "S121",
+      "original_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "locator": "第1页·高尾奏音回答·最终话最后场景·L27",
+      "support_summary_zh": "高尾将祥子关于父亲的台词明确定位为最终话最后场景，为F074补旁证。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E456",
+      "source_id": "S122",
+      "original_url": "https://prtimes.jp/main/html/rd/p/000007100.000014827.html",
+      "locator": "正文·最终话播出说明·L38",
+      "support_summary_zh": "2023-09-15官方公告明确MyGO于9月14日迎来最终话，用于播出日编目。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E457",
+      "source_id": "S121",
+      "original_url": "https://www.lisani.jp/0000239390/?show_more=1",
+      "locator": "第1页·渡瀬结月回答·睦处境与表演·L36—38",
+      "support_summary_zh": "渡瀬把MyGO时期睦的处境理解为夹在祥子与爽世之间，按署名角色解释使用。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E458",
+      "source_id": "S123",
+      "original_url": "https://news.livedoor.com/article/detail/24798231/",
+      "locator": "声优对谈·小日向回答·第8话最后通告·L56—57",
+      "support_summary_zh": "小日向明确复述，第8话爽世收到祥子的最后通告；具体逐句台词另核。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E459",
+      "source_id": "S123",
+      "original_url": "https://news.livedoor.com/article/detail/24798231/",
+      "locator": "声优对谈·小日向回答·第8话抓住与恳求·L59",
+      "support_summary_zh": "小日向复述第8话爽世抓住祥子、恳求回到CRYCHIC的互动。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E460",
+      "source_id": "S123",
+      "original_url": "https://news.livedoor.com/article/detail/24798231/",
+      "locator": "声优对谈·小日向回答·旧团重建期待与演绎·L54—59",
+      "support_summary_zh": "小日向认为爽世一直相信旧团成员都想回来，并以此心态演绎；按署名理解保存。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E461",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第2页·CRYCHIC重聚问答·柿本回答·L197—215；https://www.animatetimes.com/news/details.php?id=1741242390&p=2",
+      "support_summary_zh": "柿本复述重聚演奏现场没有观众；具体第7话定位同时沿既有声优对谈E36。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E462",
+      "source_id": "S119",
+      "original_url": "https://www.animatetimes.com/news/details.php?id=1741242390",
+      "locator": "第2页·CRYCHIC重聚与灯的理解·柿本回答·L199—210；https://www.animatetimes.com/news/details.php?id=1741242390&p=2",
+      "support_summary_zh": "柿本把重聚舞台设计为旧团告别，解释灯的泪水与仍未理解祥子的感受；心理含义单列解读。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E463",
+      "source_id": "S07",
+      "original_url": "https://anime.bang-dream.com/avemujica/story/",
+      "locator": "官方故事页检索索引·#7 Post nubila Phoebus.",
+      "support_summary_zh": "核对Ave第7话官方标题与解散真相、回避联系的梗概，用于逐话编目。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E464",
+      "source_id": "S124",
+      "original_url": "https://news.livedoor.com/article/detail/25017140/",
+      "locator": "小日向回答·第8话谈话中的发问·L74",
+      "support_summary_zh": "小日向明确复述第8话爽世在与祥子谈话时发问为何只有自己；其对其他人意愿及孤独感的理解与该发言分开。",
+      "short_original_quote": "どうして……？私だけなの……？",
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E465",
+      "source_id": "S124",
+      "original_url": "https://news.livedoor.com/article/detail/25017140/",
+      "locator": "羊宮回答·回顾旧团歌唱起点·L86",
+      "support_summary_zh": "羊宮回顾灯在祥子引领下开始于CRYCHIC唱歌的起点。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E466",
+      "source_id": "S124",
+      "original_url": "https://news.livedoor.com/article/detail/25017140/",
+      "locator": "小日向回答·最终话与灯的谈话·L35—39",
+      "support_summary_zh": "小日向明确复述最终话爽世对灯说大概一辈子忘不了CRYCHIC，保存旧团讨论的后续语境。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E467",
+      "source_id": "S124",
+      "original_url": "https://news.livedoor.com/article/detail/25017140/",
+      "locator": "林鼓子回答·迷路日々与双方受伤的理解·L84",
+      "support_summary_zh": "林以推测语气把歌曲中的受伤主题联系到灯无意间伤到祥子、自己也受伤的理解，按署名解读保存。",
+      "short_original_quote": null,
+      "verification_status": "direct_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E468",
+      "source_id": "S07",
+      "original_url": "https://anime.bang-dream.com/avemujica/story/",
+      "locator": "官方故事页检索索引·#1 Sub rosa.",
+      "support_summary_zh": "官方索引核对第1话标题、舞台准备与团内方向分歧，目录回链既有行动。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E469",
+      "source_id": "S07",
+      "original_url": "https://anime.bang-dream.com/avemujica/story/",
+      "locator": "官方故事页检索索引·#3 Quid faciam?",
+      "support_summary_zh": "官方索引核对第3话标题及祥子临场化解睦演奏失误的概况，目录回链既有行动。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
+    },
+    {
+      "id": "E470",
+      "source_id": "S07",
+      "original_url": "https://anime.bang-dream.com/avemujica/story/",
+      "locator": "官方故事页检索索引·#5 Facta fugis, facienda petis.",
+      "support_summary_zh": "官方索引核对第5话标题及全国巡演途中解散、成员回归各自生活的概况。",
+      "short_original_quote": null,
+      "verification_status": "indexed_text_verified",
+      "checked_on": "2026-10-20",
+      "language": "ja",
+      "capture_type": "curated_excerpt_note",
+      "independent_full_work_review": false
     }
   ],
   "facts": [
@@ -8595,9 +9446,10 @@
       "subject_id": "crychic",
       "predicate": "rehearsal_reunion",
       "value": true,
-      "statement_zh": "原声优对谈明确第7话CRYCHIC在排练场重聚演奏。",
+      "statement_zh": "原声优对谈明确Ave第7话CRYCHIC在排练场重聚演奏；监督补充这次演奏现场没有观众。",
       "evidence_ids": [
-        "E36"
+        "E36",
+        "E461"
       ],
       "evidence_status": "primary_interview_explicit",
       "epistemic_scope": "attributed_plot_report",
@@ -8608,7 +9460,7 @@
         "precision": "relative_phase"
       },
       "spoiler": true,
-      "notes": null
+      "notes": "v1.15以监督复述补现场条件，保留声优对谈E36的第7话与排练场定位；告别与人物心理含义另存I015。"
     },
     {
       "id": "F052",
@@ -8983,6 +9835,545 @@
       },
       "spoiler": true,
       "notes": "官方梗概的场景背景或所列对白；原片演出与时间码另行复核。"
+    },
+    {
+      "id": "F069",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "praised_tomori_after_first_live",
+      "value": "tomori_expression",
+      "statement_zh": "编剧绫奈复述MyGO第3话初次演出后，祥子夸赞灯的表情，灯随后照镜子。",
+      "evidence_ids": [
+        "E424"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "一手访谈明确复述的场景；保留说话人与作品集数，原片字幕和时间码待核。"
+    },
+    {
+      "id": "F070",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "encouraged_tomori_performance",
+      "value": "hekiten_bansou",
+      "statement_zh": "编剧绫奈复述MyGO第7话，灯在祥子的应援下唱出了《碧天伴走》。",
+      "evidence_ids": [
+        "E428"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep07",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "一手访谈明确复述的场景；保留说话人与作品集数，原片字幕和时间码待核。"
+    },
+    {
+      "id": "F071",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "tomori",
+      "predicate": "repeated_sakiko_words",
+      "value": "song_as_cry_of_heart",
+      "statement_zh": "编剧绫奈复述MyGO第7话灯说出歌是心的呐喊，沿用了祥子曾给她的话。",
+      "evidence_ids": [
+        "E428"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep07",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "一手访谈明确复述的场景；保留说话人与作品集数，原片字幕和时间码待核。"
+    },
+    {
+      "id": "F072",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "predicate": "clung_to_sakiko",
+      "value": "episode_8_ending",
+      "statement_zh": "编剧绫奈复述MyGO第8话爽世抓住祥子的场景；爽世役小日向美香将两人谈话定位在该话末段。",
+      "evidence_ids": [
+        "E426",
+        "E430",
+        "E450",
+        "E459"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "v1.15补同期小日向对谈E459的抓住与恳求复述，原编剧E426、声优E430和监督E450全部保留。原片字幕和时间码待核。"
+    },
+    {
+      "id": "F073",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "predicate": "followed_sakiko_after_rebuff",
+      "value": "school_gate",
+      "statement_zh": "编剧绫奈复述MyGO第4话，爽世在校门等候祥子、打招呼后追赶她，并将这次接触描述为爽世遭到冷遇。",
+      "evidence_ids": [
+        "E425",
+        "E445"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep04",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "v1.12补羊宫对爽世追赶祥子下坡的回忆E445，保留旧证据E425；第4话定位据绫奈回答，E445本身未标集数。原片字幕和时间码待核。"
+    },
+    {
+      "id": "F074",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "used_expression_about_father",
+      "value": "くそ親父",
+      "statement_zh": "编剧绫奈明确提及MyGO第13话末段祥子说出「くそ親父」；祥子役高尾奏音也确认该台词在台本中署给祥子。",
+      "evidence_ids": [
+        "E429",
+        "E439",
+        "E455"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep13",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "v1.14补2023年高尾访谈E455，明确定位最终话最后场景；保留编剧E429和2024年台本归属复述E439。原片字幕和时间码待核。"
+    },
+    {
+      "id": "F075",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "initiated_band",
+      "value": "crychic",
+      "statement_zh": "祥子役高尾奏音明确复述，CRYCHIC由祥子发起。",
+      "evidence_ids": [
+        "E438"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "crychic_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "发起行为据声优回答；各成员邀请过程待原片定位。"
+    },
+    {
+      "id": "F076",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "quit_band",
+      "value": "crychic",
+      "statement_zh": "监督柿本广大与祥子役高尾奏音均明确复述：祥子后来退出CRYCHIC。",
+      "evidence_ids": [
+        "E435",
+        "E438"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "crychic_departure",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "记录退出行为；内心原因见署名解读。访谈未在这处明确退出发生的披露集数。"
+    },
+    {
+      "id": "F077",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "diegetic_composed_song",
+      "value": "春日影",
+      "statement_zh": "监督柿本广大明确称《春日影》是剧中祥子为CRYCHIC创作的曲子。",
+      "evidence_ids": [
+        "E434"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "crychic_past",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "适用范围为剧中创作归属；现实发行的作词、作曲及编曲署名另按音乐出版资料编录。"
+    },
+    {
+      "id": "F078",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "witnessed_song_performance",
+      "value": "mygo_haruhikage",
+      "statement_zh": "监督在MyGO第7话问答中复述，祥子看到了MyGO现场演唱《春日影》。",
+      "evidence_ids": [
+        "E434"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep07",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "本条记录所见演出；泪水和联系初华并读F042，动机解释见I007与I008。"
+    },
+    {
+      "id": "F079",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "stage_name_origin",
+      "value": {
+        "stage_name": "Oblivionis",
+        "lunar_place": "Lacus Oblivionis",
+        "meaning_zh": "忘却之湖"
+      },
+      "statement_zh": "监督说明祥子的艺名Oblivionis取自月球地名Lacus Oblivionis（忘却之湖）。",
+      "evidence_ids": [
+        "E436"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "ave_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "艺名词源据监督明确说明；采用这一身份的心理解释另存I008。"
+    },
+    {
+      "id": "F080",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "set_notebook_words_to_song",
+      "value": "人間になりたいうた",
+      "statement_zh": "灯役羊宫妃那复述，第3话祥子把灯笔记中的话语串连成《人間になりたいうた》。",
+      "evidence_ids": [
+        "E441"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "记录剧中创作行为及文字来源；保留日文曲名。现实作曲者的制作时长另属作品制作材料。"
+    },
+    {
+      "id": "F081",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "crychic",
+      "predicate": "performed_song_in_flashback",
+      "value": "春日影",
+      "statement_zh": "林鼓子在回顾第3话时明确提及CRYCHIC演奏《春日影》的舞台场景。",
+      "evidence_ids": [
+        "E442"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "和F077的剧中作曲归属、F078的第7话MyGO演出分别保存。"
+    },
+    {
+      "id": "F082",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "nodded_in_response_to_tomori",
+      "value": "haruhikage_live",
+      "statement_zh": "声优对谈回顾第3话《春日影》演出时，羊宫复述灯伸出手，祥子以点头回应。",
+      "evidence_ids": [
+        "E442"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "保留受访者复述的动作；第3话原片与时间码待核。"
+    },
+    {
+      "id": "F083",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "crychic",
+      "predicate": "went_to_karaoke_together",
+      "value": true,
+      "statement_zh": "羊宫明确复述，第3话中CRYCHIC成员一起去卡拉OK。",
+      "evidence_ids": [
+        "E443"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "成员范围并读F041；灯拿沙槌的原因另存林鼓子的猜测I010。"
+    },
+    {
+      "id": "F084",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "negotiated_band_recruitment",
+      "value": "nyamu",
+      "statement_zh": "监督明确复述，祥子与喵梦通过带有交换条件的交涉达成入团。",
+      "evidence_ids": [
+        "E446"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "ave_mujica_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "本条保存交涉行为；具体利益清单、对白和发生话数继续核验，监督对动机的理解另存I011。"
+    },
+    {
+      "id": "F085",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "uttered_denial_after_video",
+      "value": "睦など、知りません",
+      "statement_zh": "监督复述，在RiNG前看过Mortis的走红视频后，祥子说出「睦など、知りません」；灯与爱音在楼梯上方。",
+      "evidence_ids": [
+        "E447"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "ave_post_dissolution_ring",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "按祥子的场景发言使用。Mortis保持该段原称，人物／人格层次随场景说明；具体集数与原片时间码待核。"
+    },
+    {
+      "id": "F086",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "commented_on_nyamu_ambidexterity",
+      "value": "nyamu_ambidexterity",
+      "statement_zh": "米澤茜明确复述MyGO第12话，祥子对喵梦说「あなた両利きですわね？」（你是双利手吧？）。",
+      "evidence_ids": [
+        "E452"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep12",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "保存祥子的当场发言及受访者明确给出的集数；原片字幕和时间码待核。招募交涉整体另见F084/R041/T023。"
+    },
+    {
+      "id": "F087",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "used_forgetting_expression",
+      "value": "忘れさせて",
+      "statement_zh": "高尾奏音在谈及祥子与初华的问答中，明确提及祥子「忘れさせて」（让我忘记）的措辞。",
+      "evidence_ids": [
+        "E453"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_haruhikage_aftermath",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "本条定位到相关剧情阶段；集数仅见于采访者提问，具体发话位置继续核验。官方第8话梗概中的联系初华背景另见F042。"
+    },
+    {
+      "id": "F088",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "gave_ultimatum_to_soyo",
+      "value": "soyo",
+      "statement_zh": "小日向美香明确复述，MyGO第8话祥子向爽世作出最后通告。",
+      "evidence_ids": [
+        "E458"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "本条保存当场回应及受访者明确集数；最后通告的逐句内容与原片时间码继续核验。"
+    },
+    {
+      "id": "F089",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "predicate": "pleaded_for_crychic_return",
+      "value": "sakiko",
+      "statement_zh": "小日向美香复述，MyGO第8话爽世抓住祥子，恳求回到CRYCHIC。",
+      "evidence_ids": [
+        "E459"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "保留请求主体爽世、对象祥子；声优对爽世相信所有人都想回来的理解另存I014。"
+    },
+    {
+      "id": "F090",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "predicate": "asked_if_only_she_wanted_reunion",
+      "value": "どうして……？私だけなの……？",
+      "statement_zh": "小日向美香复述MyGO第8话与祥子谈话时，爽世说「どうして……？私だけなの……？」（为什么……只有我吗……？）。",
+      "evidence_ids": [
+        "E464"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "本条保存爽世的发问。全员意愿与孤独感按各自发言及署名理解读取；完整原片对白和时间码待核。"
+    },
+    {
+      "id": "F091",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "predicate": "led_tomori_into_crychic_singing",
+      "value": "tomori",
+      "statement_zh": "羊宫妃那回顾，灯在祥子的引领下开始于CRYCHIC唱歌。",
+      "evidence_ids": [
+        "E465"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "crychic_beginning",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "访谈回顾歌唱起点；具体披露集数待定位。原答以手を引っ張ってもらって描述引领，本条保留引领行为的范围。"
+    },
+    {
+      "id": "F092",
+      "record_type": "fact",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "predicate": "told_tomori_crychic_memory_endures",
+      "value": "crychic",
+      "statement_zh": "小日向美香复述MyGO最终话，爽世向灯表示自己大概一辈子也忘不了CRYCHIC。",
+      "evidence_ids": [
+        "E466"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "epistemic_scope": "attributed_plot_report",
+      "continuity": "tv_anime",
+      "valid_time": {
+        "phase": "mygo_ep13",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "spoiler": true,
+      "notes": "作为讨论旧团关系的后续语境保存，发言人爽世、对象灯。前期恳求见F089/F090，声优对这句台词的成长解释另按材料归属使用。"
     }
   ],
   "relations": [
@@ -9619,7 +11010,8 @@
       },
       "narrative_scope": "diegetic",
       "evidence_ids": [
-        "E12"
+        "E12",
+        "E423"
       ],
       "evidence_status": "official_explicit",
       "notes": null
@@ -9857,6 +11249,346 @@
       ],
       "evidence_status": "official_explicit",
       "notes": "仅适用于剧场版官方人物档案快照；TV集数定位保留待核。"
+    },
+    {
+      "id": "R034",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "tomori",
+      "predicate": "encouraged_performance",
+      "statement_zh": "编剧复述MyGO第7话祥子给予灯演唱应援。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep07",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E428"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+    },
+    {
+      "id": "R035",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "object_id": "sakiko",
+      "predicate": "clung_to",
+      "statement_zh": "编剧复述第8话爽世抓住祥子的互动，声优将谈话定位在末段。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E426",
+        "E430"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+    },
+    {
+      "id": "R036",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "soyo",
+      "predicate": "rebuffed_contact",
+      "statement_zh": "编剧把第4话校门的互动描述为祥子冷遇来找她的爽世。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep04",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E425"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "仅在所述场景生效；明确行为与主创的动机解释分别使用。"
+    },
+    {
+      "id": "R037",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "crychic",
+      "predicate": "initiated_band",
+      "statement_zh": "祥子发起CRYCHIC，声优在一手访谈中明确复述。",
+      "direction": "directed",
+      "relation_kind": "affiliation",
+      "status": "historical_fact",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "crychic_formation",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E438"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "关系边分别保存发起／退出行为；保留R019曾为成员的既有状态。"
+    },
+    {
+      "id": "R038",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "crychic",
+      "predicate": "left_band",
+      "statement_zh": "祥子退出CRYCHIC，监督与声优均有明确复述。",
+      "direction": "directed",
+      "relation_kind": "affiliation",
+      "status": "historical_fact",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "crychic_departure",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E435",
+        "E438"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "关系边分别保存发起／退出行为；保留R019曾为成员的既有状态。"
+    },
+    {
+      "id": "R039",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "tomori",
+      "predicate": "set_words_to_music",
+      "statement_zh": "第3话祥子把灯笔记中的话语写成歌，记录两人的创作互动。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E441"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "灯役在一手访谈中复述的互动，适用于MyGO第3话回顾场景。"
+    },
+    {
+      "id": "R040",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "tomori",
+      "predicate": "nodded_in_response",
+      "statement_zh": "第3话春日影演出中，灯伸手时祥子点头回应。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep03",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E442"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "灯役在一手访谈中复述的互动，适用于MyGO第3话回顾场景。"
+    },
+    {
+      "id": "R041",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "nyamu",
+      "predicate": "negotiated_recruitment",
+      "statement_zh": "祥子与喵梦交涉，以交换条件达成入团。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "ave_mujica_formation",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E446"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "仅记录招募交涉；条件内容待逐句定位。"
+    },
+    {
+      "id": "R042",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "mutsumi",
+      "predicate": "uttered_denial_about",
+      "statement_zh": "在RiNG前的Mortis视频场景中，祥子说出不认识睦的措辞。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "ave_post_dissolution_ring",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E447"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "本边内容为祥子的发言；与青梅竹马R005、旧团关系R006分别按阶段和语境使用。"
+    },
+    {
+      "id": "R043",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "nyamu",
+      "predicate": "commented_on_ambidexterity",
+      "statement_zh": "MyGO第12话，祥子对喵梦说出关于双利手的问句。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep12",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E452"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "发言行为据米澤茜的明确复述；招募交换条件另见R041。"
+    },
+    {
+      "id": "R044",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "soyo",
+      "predicate": "gave_ultimatum",
+      "statement_zh": "MyGO第8话，祥子向爽世作出最后通告。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E458"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "按本次谈话的行为方向与场景范围使用，逐句内容继续定位。"
+    },
+    {
+      "id": "R045",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "soyo",
+      "object_id": "sakiko",
+      "predicate": "pleaded_for_band_return",
+      "statement_zh": "MyGO第8话，爽世抓住祥子，恳求回到CRYCHIC。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E459"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "按本次谈话的行为方向与场景范围使用，逐句内容继续定位。"
+    },
+    {
+      "id": "R046",
+      "record_type": "relation",
+      "layer": "canon",
+      "subject_id": "sakiko",
+      "object_id": "tomori",
+      "predicate": "led_into_band_singing",
+      "statement_zh": "旧团起点的回顾中，祥子引领灯开始于CRYCHIC唱歌。",
+      "direction": "directed",
+      "relation_kind": "interpersonal",
+      "status": "phase_scoped",
+      "valence": "unspecified",
+      "group_context": null,
+      "valid_time": {
+        "phase": "crychic_beginning",
+        "calendar_start": null,
+        "calendar_end": null,
+        "precision": "relative_phase"
+      },
+      "narrative_scope": "diegetic",
+      "evidence_ids": [
+        "E465"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "notes": "与MyGO第7话应援R034分别按阶段检索；本条未指定披露集数。"
     }
   ],
   "timeline": [
@@ -9952,7 +11684,8 @@
       "display_order": 40,
       "title_zh": "《春日影》演出相关眼泪后，祥子叫出初华。",
       "evidence_ids": [
-        "E12"
+        "E12",
+        "E423"
       ],
       "evidence_status": "official_explicit",
       "story_time": {
@@ -10180,7 +11913,8 @@
       "display_order": 105,
       "title_zh": "第7话：CRYCHIC在排练场重聚演奏。",
       "evidence_ids": [
-        "E36"
+        "E36",
+        "E461"
       ],
       "evidence_status": "primary_interview_explicit",
       "story_time": {
@@ -10199,7 +11933,7 @@
       "record_ids": [
         "F051"
       ],
-      "notes": "一手访谈复述定位；原片时间码待补。"
+      "notes": "一手声优访谈定位；v1.15补监督E461关于现场没有观众的说明，告别含义另见I015；原片时间码待补。"
     },
     {
       "id": "T013",
@@ -10312,6 +12046,283 @@
         "F053"
       ],
       "notes": "一手访谈复述定位；原片时间码待补。"
+    },
+    {
+      "id": "T017",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 22,
+      "title_zh": "CRYCHIC初次演出后，祥子夸赞灯的表情。",
+      "evidence_ids": [
+        "E424"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": [
+          "T002"
+        ]
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!",
+        "episode": 3,
+        "timecode": null
+      },
+      "record_ids": [
+        "F069"
+      ],
+      "notes": "一手访谈定位；display_order为阅读排序，剧情日历日期与原片时间码待核。"
+    },
+    {
+      "id": "T018",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 35,
+      "title_zh": "MyGO第7话，灯在祥子应援下演唱并沿用她的话。",
+      "evidence_ids": [
+        "E428"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep07",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!",
+        "episode": 7,
+        "timecode": null
+      },
+      "record_ids": [
+        "F070",
+        "F071"
+      ],
+      "notes": "一手访谈定位；display_order为阅读排序，剧情日历日期与原片时间码待核。"
+    },
+    {
+      "id": "T019",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 18,
+      "title_zh": "祥子发起CRYCHIC。",
+      "evidence_ids": [
+        "E438"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "crychic_formation",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!（一手访谈复述）",
+        "episode": null,
+        "timecode": null
+      },
+      "record_ids": [
+        "F075",
+        "R037"
+      ],
+      "notes": "访谈明确复述；披露集数按回答实际范围，原片时间码待核。"
+    },
+    {
+      "id": "T020",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 36,
+      "title_zh": "MyGO第7话，祥子看到MyGO演唱春日影。",
+      "evidence_ids": [
+        "E434"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep07",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": [
+          "T002"
+        ]
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!（一手访谈复述）",
+        "episode": 7,
+        "timecode": null
+      },
+      "record_ids": [
+        "F078"
+      ],
+      "notes": "访谈明确复述；披露集数按回答实际范围，原片时间码待核。"
+    },
+    {
+      "id": "T021",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 21,
+      "title_zh": "第3话回顾：祥子把灯笔记中的话语写成歌。",
+      "evidence_ids": [
+        "E441"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!",
+        "episode": 3,
+        "timecode": null
+      },
+      "record_ids": [
+        "F080",
+        "R039"
+      ],
+      "notes": "一手访谈复述；display_order仅作阅读排序，明确先后约束留待原片逐场复核。"
+    },
+    {
+      "id": "T022",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 21,
+      "title_zh": "第3话回顾：CRYCHIC演奏春日影，祥子点头回应灯。",
+      "evidence_ids": [
+        "E442"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep03",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "It’s MyGO!!!!!",
+        "episode": 3,
+        "timecode": null
+      },
+      "record_ids": [
+        "F081",
+        "F082",
+        "R040"
+      ],
+      "notes": "一手访谈复述；display_order仅作阅读排序，明确先后约束留待原片逐场复核。"
+    },
+    {
+      "id": "T023",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 49,
+      "title_zh": "组团交涉：祥子与喵梦通过交换条件达成入团。",
+      "evidence_ids": [
+        "E446"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "ave_mujica_formation",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "柿本监督访谈·组团交涉回顾",
+        "episode": null,
+        "timecode": null
+      },
+      "record_ids": [
+        "F084",
+        "R041"
+      ],
+      "notes": "阅读排序置于组建概况之前；访谈未明确该段披露集数，具体日期与时间码待核。"
+    },
+    {
+      "id": "T024",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 49,
+      "title_zh": "MyGO第12话：祥子向喵梦提及双利手。",
+      "evidence_ids": [
+        "E452"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep12",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "BanG Dream! It’s MyGO!!!!!",
+        "episode": 12,
+        "timecode": null
+      },
+      "record_ids": [
+        "F086",
+        "R043"
+      ],
+      "notes": "集数由米澤茜明确复述。display_order为阅读排序，剧情日期与原片时间码待核。"
+    },
+    {
+      "id": "T025",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 45,
+      "title_zh": "MyGO第8话：爽世恳求重返旧团，祥子作出最后通告。",
+      "evidence_ids": [
+        "E458",
+        "E459"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "BanG Dream! It’s MyGO!!!!!",
+        "episode": 8,
+        "timecode": null
+      },
+      "record_ids": [
+        "F072",
+        "F088",
+        "F089",
+        "R044",
+        "R045"
+      ],
+      "notes": "汇集同次谈话的请求与回应；标题按阅读组织，场景内逐句先后和时间码继续核验。"
+    },
+    {
+      "id": "T026",
+      "record_type": "event",
+      "layer": "canon",
+      "display_order": 19,
+      "title_zh": "旧团歌唱起点：祥子引领灯在CRYCHIC开始唱歌。",
+      "evidence_ids": [
+        "E465"
+      ],
+      "evidence_status": "primary_interview_explicit",
+      "story_time": {
+        "phase": "crychic_beginning",
+        "calendar_date": null,
+        "precision": "relative_phase",
+        "after_event_ids": []
+      },
+      "reveal": {
+        "work": "MyGO声优全员对谈·旧团歌唱起点回顾",
+        "episode": null,
+        "timecode": null
+      },
+      "record_ids": [
+        "F091",
+        "R046"
+      ],
+      "notes": "声优回顾中的引领行为；阅读排序位于旧团初期，剧情日历和原片披露位置待核。"
     }
   ],
   "inferences": [
@@ -10467,6 +12478,260 @@
         "calendar_date": null,
         "precision": "relative_phase"
       }
+    },
+    {
+      "id": "I007",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "绫奈将春日影场景中祥子的泪水解读为她珍视CRYCHIC，并将其与Ave Mujica结成契机联系起来。",
+      "evidence_ids": [
+        "E427",
+        "E423"
+      ],
+      "basis_record_ids": [
+        "F042",
+        "F068"
+      ],
+      "rationale": "保留编剧对泪水及乐队结成动因的解释，和官方梗概中的流泪、叫出初华及爽世反应并读。",
+      "alternative_reading": "可沿祥子的家庭处境及后续行动继续分析结成动机；本条只呈现绫奈在该问答中的理解。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_ep07_to_ave_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "绫奈ゆにこ（系列构成／脚本）"
+    },
+    {
+      "id": "I008",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "柿本将祥子以Oblivionis身份站上舞台理解为：面对失去CRYCHIC与春日影的痛苦，尝试借遗忘和新身份保护自己。",
+      "evidence_ids": [
+        "E437"
+      ],
+      "basis_record_ids": [
+        "F076",
+        "F077",
+        "F078",
+        "F079",
+        "F042"
+      ],
+      "rationale": "监督把现场演出带来的丧失感、希望遗忘和persona联系起来；保留其解读者身份。",
+      "alternative_reading": "可另按家庭变故、生活目标和后续行动分析组团动机，并与绫奈的I007分作者阅读。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_ep07_to_ave_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "柿本広大（监督；2024-12-20订正版）"
+    },
+    {
+      "id": "I009",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "高尾奏音把祥子转变后的表演重点理解为外在强势与内在脆弱、表面愤怒与内在悲伤之间的反差。",
+      "evidence_ids": [
+        "E440"
+      ],
+      "basis_record_ids": [
+        "F073",
+        "F074",
+        "F076"
+      ],
+      "rationale": "声优明确描述演绎时关注的外在与内心差异；现有拒绝接触和末段措辞作为可检索场景背景。",
+      "alternative_reading": "具体场景的感情可结合当时对白和行动逐项分析，本条保留高尾的整体表演理解。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_post_departure",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "高尾奏音（祥子役）"
+    },
+    {
+      "id": "I010",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "tomori",
+      "statement_zh": "林鼓子猜测，灯在卡拉OK拿沙槌的习惯可能与她和祥子、CRYCHIC一起去卡拉OK的经历有关。",
+      "evidence_ids": [
+        "E444"
+      ],
+      "basis_record_ids": [
+        "F083"
+      ],
+      "rationale": "林把这段话明确称为自己的一项考察，并以可能的邀请语举例；保留假设性质。",
+      "alternative_reading": "习惯的形成原因继续结合原片场景核验；此条呈现林的猜测。",
+      "strength": "limited",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_ep03_karaoke_interpretation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "林鼓子（立希役；访谈中明确称为考察）"
+    },
+    {
+      "id": "I011",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "柿本将祥子招募喵梦解释为看重其话题性和视觉表现，以交涉促成加入；并推测喵梦已从祥子的衣着判断她可能在虚张声势。",
+      "evidence_ids": [
+        "E448"
+      ],
+      "basis_record_ids": [
+        "F084",
+        "R041"
+      ],
+      "rationale": "把招募行为与监督对双方判断的解释分开，保留原答中对喵梦识破衣着的推测语气。",
+      "alternative_reading": "实际交涉条件和双方即时反应继续从原片核验，逐项比较监督的解释。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "ave_mujica_formation",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "柿本広大（监督；2025-03-06访谈）"
+    },
+    {
+      "id": "I012",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "柿本用距离解释祥子与睦的关系变化：近距离相处时反而错过变化，乐队解散后爽世与睦走得更近。",
+      "evidence_ids": [
+        "E449"
+      ],
+      "basis_record_ids": [
+        "F035",
+        "F039",
+        "F072",
+        "R005"
+      ],
+      "rationale": "监督在物理距离与心的距离问答中讨论这组人物关系；原有相识、回避及抓住互动作为检索背景。",
+      "alternative_reading": "可结合各次接触时的对白与知情变化继续分析，保留这是监督的关系设计理解。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "ave_post_dissolution",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "柿本広大（监督；2025-03-06访谈）"
+    },
+    {
+      "id": "I013",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "mutsumi",
+      "statement_zh": "渡瀬结月将MyGO时期睦的处境理解为夹在祥子与爽世之间。",
+      "evidence_ids": [
+        "E457"
+      ],
+      "basis_record_ids": [
+        "F072",
+        "F073",
+        "R035",
+        "R036"
+      ],
+      "rationale": "受访者谈到睦的处境和少台词表演；祥子与爽世的接触、抓住和回应记录作为阅读背景。",
+      "alternative_reading": "结合睦在各次请求与回应中的具体行动，继续检验这项概括的场景适用范围。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_relationship_tension",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "渡瀬結月（睦役；2023-09-16访谈）"
+    },
+    {
+      "id": "I014",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "soyo",
+      "statement_zh": "小日向美香认为爽世一直相信CRYCHIC成员都想回来，因此演绎第8话恳求时带着能恢复旧团的期待。",
+      "evidence_ids": [
+        "E460"
+      ],
+      "basis_record_ids": [
+        "F072",
+        "F088",
+        "F089",
+        "R044",
+        "R045"
+      ],
+      "rationale": "受访者明确区分了自己的角色理解与最后通告、抓住、恳求等可复述的行为。",
+      "alternative_reading": "逐人意愿仍沿各人的发言与行为核对；本条保存爽世役的理解视角。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_ep08",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "小日向美香（爽世役；2023-08-11访谈）"
+    },
+    {
+      "id": "I015",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "sakiko",
+      "statement_zh": "柿本将Ave第7话CRYCHIC重聚舞台设计为旧团告别；他把灯的泪水与同伴已改变的感受联系起来，并认为灯在这次舞台意识到仍未理解祥子。",
+      "evidence_ids": [
+        "E462"
+      ],
+      "basis_record_ids": [
+        "F051",
+        "T012",
+        "F034",
+        "F035"
+      ],
+      "rationale": "监督在重聚、落泪与歌曲问答中明确解释设计意图及人物内心，现场无观众的信息另补入F051。",
+      "alternative_reading": "同篇也认为睦仍期待继续CRYCHIC，阅读时保留人物之间的差别。",
+      "strength": "moderate",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "ave_ep07_context",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "柿本広大（监督；2025-03-06访谈）"
+    },
+    {
+      "id": "I016",
+      "record_type": "interpretation",
+      "layer": "inference",
+      "subject_id": "tomori",
+      "statement_zh": "林鼓子推测，《迷路日々》的受伤主题可以联系到灯无意间伤到祥子、自己也因此受伤的经历。",
+      "evidence_ids": [
+        "E467"
+      ],
+      "basis_record_ids": [
+        "F078",
+        "F042",
+        "F068"
+      ],
+      "rationale": "受访者以多分、と思うんです表达个人理解，并把这一读法与立希保护灯却也伤到灯的视角并列。",
+      "alternative_reading": "歌曲也可结合立希与灯的关系阅读，引用本条时保留林鼓子的推测语气与说话人。",
+      "strength": "limited",
+      "evidence_status": "curator_reasoning",
+      "valid_time": {
+        "phase": "mygo_ep12_song_context",
+        "calendar_date": null,
+        "precision": "relative_phase"
+      },
+      "interpretation_author": "林鼓子（立希役；2023-09-15访谈）"
     }
   ],
   "fanon": [],
@@ -10668,7 +12933,8 @@
         "A001",
         "A002"
       ],
-      "runtime_precision": "catalog_minutes"
+      "runtime_precision": "catalog_minutes",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP10",
@@ -10699,7 +12965,8 @@
         "A001",
         "A002"
       ],
-      "runtime_precision": "catalog_minutes"
+      "runtime_precision": "catalog_minutes",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP11",
@@ -10733,7 +13000,8 @@
         "A001",
         "A002"
       ],
-      "runtime_precision": "catalog_minutes"
+      "runtime_precision": "catalog_minutes",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP12",
@@ -10760,7 +13028,8 @@
         "A001",
         "A002"
       ],
-      "runtime_precision": "catalog_minutes"
+      "runtime_precision": "catalog_minutes",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP13",
@@ -10793,7 +13062,8 @@
         "A001",
         "A002"
       ],
-      "runtime_precision": "catalog_minutes"
+      "runtime_precision": "catalog_minutes",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP04",
@@ -10817,7 +13087,8 @@
       "catalog_duration_minutes": null,
       "playback_link_evidence_ids": [],
       "access_audit_ids": [],
-      "runtime_precision": "not_reviewed"
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
     },
     {
       "id": "EP06",
@@ -10838,7 +13109,283 @@
       "catalog_duration_minutes": null,
       "playback_link_evidence_ids": [],
       "access_audit_ids": [],
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
+    },
+    {
+      "id": "MYGO03",
+      "work_id": "bang_dream_its_mygo",
+      "episode": 3,
+      "title": "CRYCHIC",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E424",
+        "E431",
+        "E441",
+        "E442",
+        "E443"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F069",
+        "T017",
+        "F080",
+        "F081",
+        "F082",
+        "F083",
+        "R039",
+        "R040",
+        "T021",
+        "T022"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
       "runtime_precision": "not_reviewed"
+    },
+    {
+      "id": "MYGO07",
+      "work_id": "bang_dream_its_mygo",
+      "episode": 7,
+      "title": "今日のライブが終わっても",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E428",
+        "E432",
+        "E434"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F070",
+        "F071",
+        "R034",
+        "T018",
+        "F078",
+        "T020"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed"
+    },
+    {
+      "id": "MYGO08",
+      "work_id": "bang_dream_its_mygo",
+      "episode": 8,
+      "title": "どうして",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E423",
+        "E426",
+        "E430",
+        "E450",
+        "E458",
+        "E459",
+        "E464"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F042",
+        "F067",
+        "F068",
+        "F072",
+        "R024",
+        "R035",
+        "T004",
+        "F088",
+        "F089",
+        "R044",
+        "R045",
+        "T025",
+        "F090"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed"
+    },
+    {
+      "id": "MYGO13",
+      "work_id": "bang_dream_its_mygo",
+      "episode": 13,
+      "title": "信じられるのは我が身ひとつ",
+      "announced_broadcast_date": "2023-09-14",
+      "press_release_date": "2023-09-01",
+      "evidence_ids": [
+        "E429",
+        "E433",
+        "E439",
+        "E455",
+        "E456",
+        "E466"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F074",
+        "F092"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed"
+    },
+    {
+      "id": "MYGO12",
+      "work_id": "bang_dream_its_mygo",
+      "episode": 12,
+      "title": "It’s my go!!!!!",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E452",
+        "E454"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F086",
+        "R043",
+        "T024"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed"
+    },
+    {
+      "id": "EP07",
+      "episode": 7,
+      "title": "Post nubila Phoebus.",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E463",
+        "E36",
+        "E461"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F034",
+        "F035",
+        "F051",
+        "T012"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
+    },
+    {
+      "id": "EP01",
+      "episode": 1,
+      "title": "Sub rosa.",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E468",
+        "E42"
+      ],
+      "plot_evidence_level": "primary_interview_retelling",
+      "related_record_ids": [
+        "F028",
+        "F029",
+        "F057"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
+    },
+    {
+      "id": "EP03",
+      "episode": 3,
+      "title": "Quid faciam?",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E469",
+        "E09"
+      ],
+      "plot_evidence_level": "official_synopsis",
+      "related_record_ids": [
+        "F031",
+        "T008"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
+    },
+    {
+      "id": "EP05",
+      "episode": 5,
+      "title": "Facta fugis, facienda petis.",
+      "announced_broadcast_date": null,
+      "press_release_date": null,
+      "evidence_ids": [
+        "E470",
+        "E10"
+      ],
+      "plot_evidence_level": "official_synopsis",
+      "related_record_ids": [
+        "F032",
+        "T009"
+      ],
+      "official_playback_url": null,
+      "subtitle_version": null,
+      "timecode_start": null,
+      "timecode_end": null,
+      "full_episode_reviewed": false,
+      "catalog_duration_minutes": null,
+      "playback_link_evidence_ids": [],
+      "access_audit_ids": [],
+      "runtime_precision": "not_reviewed",
+      "work_id": "bang_dream_ave_mujica"
     }
   ],
   "source_issues": [
@@ -29717,6 +32264,728 @@
       "review_note_zh": "档案、语音、来信分别归属材料及说话人；后续合奏保留提议。",
       "reviewed_on": "2026-10-19",
       "review_status": "passed",
+      "default_retrieval_eligible": false
+    }
+  ],
+  "original_question_index": [
+    {
+      "id": "BQ001",
+      "question_zh": "祥子在CRYCHIC初演后怎样鼓励灯？",
+      "keywords": [
+        "初演",
+        "表情",
+        "镜子"
+      ],
+      "record_ids": [
+        "F069",
+        "T017"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ002",
+      "question_zh": "第7话祥子的应援与灯唱歌有什么联系？",
+      "keywords": [
+        "应援",
+        "碧天伴走",
+        "心的呐喊"
+      ],
+      "record_ids": [
+        "F070",
+        "F071",
+        "R034",
+        "T018"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ003",
+      "question_zh": "爽世在第8话末段怎样接触祥子？",
+      "keywords": [
+        "爽世",
+        "抓住",
+        "末段"
+      ],
+      "record_ids": [
+        "F072",
+        "R035"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ004",
+      "question_zh": "校门等祥子是第几话，爽世后来怎样做？",
+      "keywords": [
+        "校门",
+        "等候",
+        "追赶"
+      ],
+      "record_ids": [
+        "F073",
+        "R036"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ005",
+      "question_zh": "第13话祥子说了什么关于父亲的话？",
+      "keywords": [
+        "父亲",
+        "末段",
+        "くそ親父"
+      ],
+      "record_ids": [
+        "F074"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ006",
+      "question_zh": "祥子听到春日影后与初华发生什么互动？",
+      "keywords": [
+        "春日影",
+        "初华",
+        "星星"
+      ],
+      "record_ids": [
+        "F042",
+        "F067",
+        "R024",
+        "T004"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ007",
+      "question_zh": "编剧怎样解释祥子的眼泪与Ave Mujica结成？",
+      "keywords": [
+        "编剧",
+        "泪水",
+        "结成动机"
+      ],
+      "record_ids": [
+        "F042",
+        "F068",
+        "I007"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ008",
+      "question_zh": "祥子在CRYCHIC承担什么职责？",
+      "keywords": [
+        "CRYCHIC",
+        "键盘",
+        "作曲"
+      ],
+      "record_ids": [
+        "F016",
+        "F017",
+        "F018",
+        "F041"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ009",
+      "question_zh": "CRYCHIC是谁发起的？",
+      "keywords": [
+        "发起",
+        "组团",
+        "创立",
+        "CRYCHIC"
+      ],
+      "record_ids": [
+        "F075",
+        "R037",
+        "T019"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ010",
+      "question_zh": "祥子是主动退出CRYCHIC的吗？",
+      "keywords": [
+        "退出",
+        "离队",
+        "CRYCHIC"
+      ],
+      "record_ids": [
+        "F076",
+        "R038"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ011",
+      "question_zh": "春日影在剧情里是谁作曲？",
+      "keywords": [
+        "春日影",
+        "剧中",
+        "作曲",
+        "创作"
+      ],
+      "record_ids": [
+        "F077",
+        "F018"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ012",
+      "question_zh": "第7话祥子看到MyGO演唱了什么？",
+      "keywords": [
+        "第7话",
+        "现场",
+        "春日影",
+        "看到"
+      ],
+      "record_ids": [
+        "F078",
+        "T020",
+        "F042"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ013",
+      "question_zh": "Oblivionis这个艺名来自哪里？",
+      "keywords": [
+        "艺名",
+        "Oblivionis",
+        "忘却之湖",
+        "Lacus"
+      ],
+      "record_ids": [
+        "F079"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ014",
+      "question_zh": "监督如何理解祥子希望遗忘以及使用新身份？",
+      "keywords": [
+        "监督",
+        "遗忘",
+        "persona",
+        "新身份"
+      ],
+      "record_ids": [
+        "F076",
+        "F078",
+        "F079",
+        "I008"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ015",
+      "question_zh": "声优怎样演绎祥子强势与脆弱的反差？",
+      "keywords": [
+        "声优",
+        "强势",
+        "脆弱",
+        "愤怒",
+        "悲伤",
+        "演绎"
+      ],
+      "record_ids": [
+        "F073",
+        "F074",
+        "I009"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ016",
+      "question_zh": "祥子怎样把灯的笔记变成歌？",
+      "keywords": [
+        "笔记",
+        "人間になりたいうた",
+        "人间",
+        "串连",
+        "作曲"
+      ],
+      "record_ids": [
+        "F080",
+        "R039",
+        "T021"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ017",
+      "question_zh": "第3话CRYCHIC演出的是什么歌？",
+      "keywords": [
+        "第3话",
+        "CRYCHIC",
+        "春日影",
+        "演出"
+      ],
+      "record_ids": [
+        "F081",
+        "T022"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ018",
+      "question_zh": "春日影演出中祥子怎样回应伸手的灯？",
+      "keywords": [
+        "伸手",
+        "点头",
+        "回应",
+        "春日影"
+      ],
+      "record_ids": [
+        "F082",
+        "R040",
+        "T022"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ019",
+      "question_zh": "CRYCHIC一起去卡拉OK是哪段回忆？",
+      "keywords": [
+        "卡拉OK",
+        "KTV",
+        "一起",
+        "第3话"
+      ],
+      "record_ids": [
+        "F083"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ020",
+      "question_zh": "灯拿沙槌和祥子有什么关系，谁提出了这种解释？",
+      "keywords": [
+        "沙槌",
+        "习惯",
+        "林鼓子",
+        "猜测"
+      ],
+      "record_ids": [
+        "F083",
+        "I010"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ021",
+      "question_zh": "爽世追赶祥子下坡的访谈依据是什么？",
+      "keywords": [
+        "下坡",
+        "追赶",
+        "校门",
+        "羊宫"
+      ],
+      "record_ids": [
+        "F073",
+        "R036"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ022",
+      "question_zh": "祥子怎样招募喵梦，监督明确复述了哪些行为？",
+      "keywords": [
+        "招募",
+        "喵梦",
+        "若麦",
+        "交涉",
+        "交换条件",
+        "入团",
+        "加入乐队",
+        "谈妥"
+      ],
+      "record_ids": [
+        "F084",
+        "R041",
+        "T023"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ023",
+      "question_zh": "招募喵梦是看重什么，谁提出了这个解释？",
+      "keywords": [
+        "招募",
+        "话题性",
+        "视觉",
+        "监督",
+        "动机"
+      ],
+      "record_ids": [
+        "F084",
+        "I011"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ024",
+      "question_zh": "祥子看过Mortis走红视频后在RiNG前说了什么？",
+      "keywords": [
+        "RiNG",
+        "Mortis",
+        "视频",
+        "不认识睦"
+      ],
+      "record_ids": [
+        "F085",
+        "R042"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ025",
+      "question_zh": "这句关于睦的话与青梅竹马关系怎样分别使用？",
+      "keywords": [
+        "睦など",
+        "发言",
+        "青梅竹马",
+        "关系"
+      ],
+      "record_ids": [
+        "F085",
+        "R042",
+        "F039",
+        "R005"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ026",
+      "question_zh": "监督怎样解释祥子、睦和爽世之间的距离变化？",
+      "keywords": [
+        "监督",
+        "距离",
+        "变化",
+        "爽世",
+        "睦"
+      ],
+      "record_ids": [
+        "F035",
+        "F072",
+        "I012"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ027",
+      "question_zh": "第8话爽世抓住祥子的场景还有哪些一手证据？",
+      "keywords": [
+        "第8话",
+        "抓住",
+        "镜头",
+        "柿本"
+      ],
+      "record_ids": [
+        "F072",
+        "R035"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ028",
+      "question_zh": "第12话祥子对喵梦提到双利手时说了什么？",
+      "keywords": [
+        "第12话",
+        "第十二集",
+        "喵梦",
+        "若麦",
+        "双利手",
+        "両利き",
+        "左右手"
+      ],
+      "record_ids": [
+        "F086",
+        "R043",
+        "T024"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ029",
+      "question_zh": "招募交涉中哪一句话已有明确的集数复述？",
+      "keywords": [
+        "招募",
+        "集数",
+        "米澤",
+        "问句",
+        "十二话"
+      ],
+      "record_ids": [
+        "F086",
+        "R043",
+        "F084"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ030",
+      "question_zh": "高尾明确提到祥子哪句让我忘记的措辞？",
+      "keywords": [
+        "忘れさせて",
+        "让我忘记",
+        "高尾",
+        "初华",
+        "措辞"
+      ],
+      "record_ids": [
+        "F087",
+        "F042"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ031",
+      "question_zh": "睦夹在祥子和爽世之间是谁的角色理解？",
+      "keywords": [
+        "渡瀬",
+        "夹在中间",
+        "左右为难",
+        "睦",
+        "爽世",
+        "板挟み"
+      ],
+      "record_ids": [
+        "I013",
+        "F072",
+        "F073"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ032",
+      "question_zh": "第13话最后关于父亲的台词有哪些一手旁证？",
+      "keywords": [
+        "第13话",
+        "末话",
+        "最后",
+        "父亲",
+        "ただいま",
+        "くそ親父",
+        "高尾"
+      ],
+      "record_ids": [
+        "F074"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ033",
+      "question_zh": "第8话祥子向爽世的最后通告有哪些一手依据？",
+      "keywords": [
+        "第8话",
+        "第八集",
+        "最后通告",
+        "小日向",
+        "回应"
+      ],
+      "record_ids": [
+        "F088",
+        "R044",
+        "T025"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ034",
+      "question_zh": "爽世抓住祥子时提出了什么请求？",
+      "keywords": [
+        "爽世",
+        "抓住",
+        "恳求",
+        "请求",
+        "旧团",
+        "复活",
+        "重返"
+      ],
+      "record_ids": [
+        "F089",
+        "R045",
+        "F072"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ035",
+      "question_zh": "这次恳求与最后通告的方向分别是什么？",
+      "keywords": [
+        "第8话",
+        "方向",
+        "请求",
+        "回应",
+        "爽世",
+        "祥子"
+      ],
+      "record_ids": [
+        "F088",
+        "F089",
+        "R044",
+        "R045"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ036",
+      "question_zh": "谁认为旧团成员都想回来，声优怎样演绎这个期待？",
+      "keywords": [
+        "小日向",
+        "都想回来",
+        "灯",
+        "立希",
+        "期待",
+        "CRYCHIC"
+      ],
+      "record_ids": [
+        "I014",
+        "F088",
+        "F089"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ037",
+      "question_zh": "Ave第7话旧团重聚演奏现场有观众吗？",
+      "keywords": [
+        "Ave",
+        "第7话",
+        "重聚",
+        "排练场",
+        "观众",
+        "无观众"
+      ],
+      "record_ids": [
+        "F051",
+        "T012"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ038",
+      "question_zh": "监督怎样理解重聚告别、灯的泪水及她对祥子的理解？",
+      "keywords": [
+        "监督",
+        "柿本",
+        "第7话",
+        "告别",
+        "落泪",
+        "理解祥子"
+      ],
+      "record_ids": [
+        "F051",
+        "I015"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ039",
+      "question_zh": "爽世在第8话与祥子谈话时有没有问过只有自己吗？",
+      "keywords": [
+        "第8话",
+        "只有我",
+        "私だけなの",
+        "发问",
+        "爽世",
+        "祥子"
+      ],
+      "record_ids": [
+        "F090",
+        "F089",
+        "F088"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ040",
+      "question_zh": "第8话爽世的这个问句该由谁来归属？",
+      "keywords": [
+        "谁说的",
+        "为什么",
+        "第8话",
+        "私だけ",
+        "小日向"
+      ],
+      "record_ids": [
+        "F090"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ041",
+      "question_zh": "灯最初在谁的引领下开始于CRYCHIC唱歌？",
+      "keywords": [
+        "最初",
+        "旧团",
+        "引领",
+        "唱歌",
+        "灯",
+        "祥子"
+      ],
+      "record_ids": [
+        "F091",
+        "R046",
+        "T026"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ042",
+      "question_zh": "第13话爽世怎样向灯谈CRYCHIC的记忆？",
+      "keywords": [
+        "最终话",
+        "第13话",
+        "一辈子",
+        "忘不了",
+        "记忆",
+        "爽世",
+        "灯"
+      ],
+      "record_ids": [
+        "F092",
+        "F090",
+        "F089"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ043",
+      "question_zh": "林鼓子怎样理解迷路日々中灯与祥子都受伤的主题？",
+      "keywords": [
+        "林鼓子",
+        "迷路日々",
+        "受伤",
+        "无意",
+        "灯",
+        "祥子"
+      ],
+      "record_ids": [
+        "I016",
+        "F078",
+        "F042"
+      ],
+      "default_retrieval_eligible": false
+    },
+    {
+      "id": "BQ044",
+      "question_zh": "旧团最初的引领与第7话应援应怎样分阶段检索？",
+      "keywords": [
+        "起点",
+        "第7话",
+        "应援",
+        "引领",
+        "CRYCHIC"
+      ],
+      "record_ids": [
+        "F091",
+        "R046",
+        "F070",
+        "R034"
+      ],
       "default_retrieval_eligible": false
     }
   ]

@@ -27,7 +27,8 @@
       "A001",
       "A002"
     ],
-    "runtime_precision": "catalog_minutes"
+    "runtime_precision": "catalog_minutes",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP10",
@@ -58,7 +59,8 @@
       "A001",
       "A002"
     ],
-    "runtime_precision": "catalog_minutes"
+    "runtime_precision": "catalog_minutes",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP11",
@@ -92,7 +94,8 @@
       "A001",
       "A002"
     ],
-    "runtime_precision": "catalog_minutes"
+    "runtime_precision": "catalog_minutes",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP12",
@@ -119,7 +122,8 @@
       "A001",
       "A002"
     ],
-    "runtime_precision": "catalog_minutes"
+    "runtime_precision": "catalog_minutes",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP13",
@@ -152,7 +156,8 @@
       "A001",
       "A002"
     ],
-    "runtime_precision": "catalog_minutes"
+    "runtime_precision": "catalog_minutes",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP04",
@@ -176,7 +181,8 @@
     "catalog_duration_minutes": null,
     "playback_link_evidence_ids": [],
     "access_audit_ids": [],
-    "runtime_precision": "not_reviewed"
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
   },
   {
     "id": "EP06",
@@ -197,6 +203,282 @@
     "catalog_duration_minutes": null,
     "playback_link_evidence_ids": [],
     "access_audit_ids": [],
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
+  },
+  {
+    "id": "MYGO03",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 3,
+    "title": "CRYCHIC",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E424",
+      "E431",
+      "E441",
+      "E442",
+      "E443"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F069",
+      "T017",
+      "F080",
+      "F081",
+      "F082",
+      "F083",
+      "R039",
+      "R040",
+      "T021",
+      "T022"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
     "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "MYGO07",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 7,
+    "title": "今日のライブが終わっても",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E428",
+      "E432",
+      "E434"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F070",
+      "F071",
+      "R034",
+      "T018",
+      "F078",
+      "T020"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "MYGO08",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 8,
+    "title": "どうして",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E423",
+      "E426",
+      "E430",
+      "E450",
+      "E458",
+      "E459",
+      "E464"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F042",
+      "F067",
+      "F068",
+      "F072",
+      "R024",
+      "R035",
+      "T004",
+      "F088",
+      "F089",
+      "R044",
+      "R045",
+      "T025",
+      "F090"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "MYGO13",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 13,
+    "title": "信じられるのは我が身ひとつ",
+    "announced_broadcast_date": "2023-09-14",
+    "press_release_date": "2023-09-01",
+    "evidence_ids": [
+      "E429",
+      "E433",
+      "E439",
+      "E455",
+      "E456",
+      "E466"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F074",
+      "F092"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "MYGO12",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 12,
+    "title": "It’s my go!!!!!",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E452",
+      "E454"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F086",
+      "R043",
+      "T024"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
+  },
+  {
+    "id": "EP07",
+    "episode": 7,
+    "title": "Post nubila Phoebus.",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E463",
+      "E36",
+      "E461"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F034",
+      "F035",
+      "F051",
+      "T012"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
+  },
+  {
+    "id": "EP01",
+    "episode": 1,
+    "title": "Sub rosa.",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E468",
+      "E42"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F028",
+      "F029",
+      "F057"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
+  },
+  {
+    "id": "EP03",
+    "episode": 3,
+    "title": "Quid faciam?",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E469",
+      "E09"
+    ],
+    "plot_evidence_level": "official_synopsis",
+    "related_record_ids": [
+      "F031",
+      "T008"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
+  },
+  {
+    "id": "EP05",
+    "episode": 5,
+    "title": "Facta fugis, facienda petis.",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E470",
+      "E10"
+    ],
+    "plot_evidence_level": "official_synopsis",
+    "related_record_ids": [
+      "F032",
+      "T009"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed",
+    "work_id": "bang_dream_ave_mujica"
   }
 ]

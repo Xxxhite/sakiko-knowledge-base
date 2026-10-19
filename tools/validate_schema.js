@@ -35,13 +35,17 @@ for (const mutate of [
   x => { delete x.game_discussion_guides[0].answer_outline[0].record_ids; },
   x => { x.game_answer_reviews[0].default_retrieval_eligible = true; },
   x => { delete x.game_answer_reviews[0].answer_sentences[0].record_ids; },
-  x => { x.episode_catalog.find(r => r.id === 'EP04').catalog_duration_minutes = 24; }
+  x => { x.episode_catalog.find(r => r.id === 'EP04').catalog_duration_minutes = 24; },
+  x => { delete x.episode_catalog[0].work_id; },
+  x => { x.episode_catalog.find(r => r.id === 'MYGO13').work_id = 'bang_dream_ave_mujica'; },
+  x => { x.episode_catalog.find(r => r.id === 'EP13').work_id = 'bang_dream_its_mygo'; },
+  x => { x.original_question_index[0].default_retrieval_eligible = true; }
 ]) {
   const bad = JSON.parse(JSON.stringify(kb)); mutate(bad);
   if (validate(bad)) throw new Error('Negative schema check unexpectedly accepted invalid record.');
 }
 const result = {status:'passed', schema_draft:'Draft-07', engine:'Ajv '+require('ajv/package.json').version,
-  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:25};
+  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:29};
 if (process.argv.includes('--write-report')) {
   fs.mkdirSync(path.join(root, 'validation'), {recursive:true});
   fs.writeFileSync(path.join(root, 'validation/schema.json'), JSON.stringify(result,null,2)+'\n');
