@@ -329,12 +329,15 @@
       "E439",
       "E455",
       "E456",
-      "E466"
+      "E466",
+      "E476"
     ],
     "plot_evidence_level": "primary_interview_retelling",
     "related_record_ids": [
       "F074",
-      "F092"
+      "F092",
+      "F094",
+      "T027"
     ],
     "official_playback_url": null,
     "subtitle_version": null,
@@ -410,13 +413,24 @@
     "press_release_date": null,
     "evidence_ids": [
       "E468",
-      "E42"
+      "E42",
+      "E482",
+      "E483",
+      "E484"
     ],
     "plot_evidence_level": "primary_interview_retelling",
     "related_record_ids": [
       "F028",
       "F029",
-      "F057"
+      "F057",
+      "F023",
+      "F097",
+      "F098",
+      "R048",
+      "T029",
+      "T030",
+      "T031",
+      "I022"
     ],
     "official_playback_url": null,
     "subtitle_version": null,
@@ -437,12 +451,16 @@
     "press_release_date": null,
     "evidence_ids": [
       "E469",
-      "E09"
+      "E09",
+      "E485",
+      "E487"
     ],
-    "plot_evidence_level": "official_synopsis",
+    "plot_evidence_level": "primary_interview_retelling",
     "related_record_ids": [
       "F031",
-      "T008"
+      "T008",
+      "F099",
+      "I023"
     ],
     "official_playback_url": null,
     "subtitle_version": null,
@@ -459,16 +477,18 @@
     "id": "EP05",
     "episode": 5,
     "title": "Facta fugis, facienda petis.",
-    "announced_broadcast_date": null,
-    "press_release_date": null,
+    "announced_broadcast_date": "2025-01-30",
+    "press_release_date": "2025-01-28",
     "evidence_ids": [
       "E470",
-      "E10"
+      "E10",
+      "E471"
     ],
     "plot_evidence_level": "official_synopsis",
     "related_record_ids": [
       "F032",
-      "T009"
+      "T009",
+      "F093"
     ],
     "official_playback_url": null,
     "subtitle_version": null,
@@ -480,5 +500,34 @@
     "access_audit_ids": [],
     "runtime_precision": "not_reviewed",
     "work_id": "bang_dream_ave_mujica"
+  },
+  {
+    "id": "MYGO10",
+    "work_id": "bang_dream_its_mygo",
+    "episode": 10,
+    "title": "ずっと迷子",
+    "announced_broadcast_date": null,
+    "press_release_date": null,
+    "evidence_ids": [
+      "E480",
+      "E477",
+      "E481"
+    ],
+    "plot_evidence_level": "primary_interview_retelling",
+    "related_record_ids": [
+      "F095",
+      "F096",
+      "R047",
+      "T028"
+    ],
+    "official_playback_url": null,
+    "subtitle_version": null,
+    "timecode_start": null,
+    "timecode_end": null,
+    "full_episode_reviewed": false,
+    "catalog_duration_minutes": null,
+    "playback_link_evidence_ids": [],
+    "access_audit_ids": [],
+    "runtime_precision": "not_reviewed"
   }
 ]

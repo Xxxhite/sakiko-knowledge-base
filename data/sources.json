@@ -109,7 +109,7 @@
     "verification_status": "indexed_text_verified",
     "checked_on": "2026-10-20",
     "published_on": null,
-    "access_note": "2026-10-20再次核对该官方URL的检索索引，第12话标题为It’s my go!!!!!；独立打开本次返回抓取错误，状态保持indexed_text_verified。"
+    "access_note": "2026-10-20再次核对该官方URL的检索索引，第12话标题为It’s my go!!!!!；独立打开本次返回抓取错误，状态保持indexed_text_verified。 v1.18再核官方URL下第10话ずっと迷子及灯在星象馆遇见初华的梗概索引，保存E480，取得状态仍为indexed_text_verified。"
   },
   {
     "id": "S09",
@@ -1621,7 +1621,7 @@
     "verification_status": "direct_text_verified",
     "checked_on": "2026-10-20",
     "published_on": "2024-04-01",
-    "access_note": "实际读取第1页高尾奏音回答；CRYCHIC始动及退出、台词归属与表演解释分别编录。网页动态相关文章及第2页现实乐队成员经历不作为角色剧情证据。"
+    "access_note": "实际读取第1页高尾奏音回答；CRYCHIC始动及退出、台词归属与表演解释分别编录。网页动态相关文章及第2页现实乐队成员经历不作为角色剧情证据。 v1.18补读第1页佐々木介绍初华并复述向灯谈歌与言语的段落，新增E481。"
   },
   {
     "id": "S117",
@@ -1734,5 +1734,89 @@
     "checked_on": "2026-10-20",
     "published_on": "2023-09-15",
     "access_note": "实际读取北野創采访的具名全员对谈正文。原发行方入口：https://www.lisani.jp/0000239388/，第2页：https://www.lisani.jp/0000239388/2/，本次均返回500；同稿按一个来源计算。明确复述的台词与行为、受访者的猜测、假设性举例、现实演出分别处理。"
+  },
+  {
+    "id": "S125",
+    "title": "Ave Mujica第5话先行梗概及播出公告",
+    "original_url": "https://bushiroad.com/media/3b6e9654952430ac",
+    "resolved_url": "https://bushiroad.com/media/3b6e9654952430ac",
+    "language": "ja",
+    "source_type": "official_press_release",
+    "publisher": "株式会社ブシロード",
+    "authority": "official",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2025-01-28",
+    "access_note": "实际读取3页日文PDF的可提取正文。第1页公告1月30日播出，第2页为第5话梗概；本次未检查图片细节。正文只述成员回到各自生活，具体住处、动作与对白继续逐场景核验。"
+  },
+  {
+    "id": "S126",
+    "title": "高尾奏音：书店联动纪念访谈与祥子的音乐表达",
+    "original_url": "https://hon-hikidashi.jp/event/53117/",
+    "resolved_url": "https://hon-hikidashi.jp/event/53117/",
+    "language": "ja",
+    "source_type": "cast_interview",
+    "publisher": "ほんのひきだし / 日本出版販売",
+    "authority": "creator_first_person",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2025-01-31",
+    "access_note": "实际读取编辑部具名高尾奏音访谈的正文。只采用她对祥子音乐表达的署名理解；声优本人去餐厅、钢琴演奏与读书经历保持现实语境。"
+  },
+  {
+    "id": "S127",
+    "title": "渡瀬结月、冈田梦以、米澤茜谈首张单曲与动画舞台",
+    "original_url": "https://www.lisani.jp/0000256138/",
+    "resolved_url": "https://www.lisani.jp/0000256138/",
+    "language": "ja",
+    "source_type": "cast_interview",
+    "publisher": "リスアニ！",
+    "authority": "creator_first_person",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2024-04-25",
+    "access_note": "实际读取北野創具名访谈第2页：https://www.lisani.jp/0000256138/2/。渡瀬在回顾现实1st LIVE时明确复述动画第13话同名曲舞台；现实场次及幕间演出继续保留其现实语境。同一分页文章为一个来源。"
+  },
+  {
+    "id": "S128",
+    "title": "立石凛与林鼓子谈爱音、立希及Ave Mujica的存在",
+    "original_url": "https://www.animatetimes.com/news/details.php?id=1707447433",
+    "resolved_url": "https://www.animatetimes.com/news/details.php?id=1707447433",
+    "language": "ja",
+    "source_type": "cast_interview",
+    "publisher": "アニメイトタイムズ",
+    "authority": "creator_first_person",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2024-02-14",
+    "access_note": "实际读取具名访谈第2页：https://www.animatetimes.com/news/details.php?id=1707447433&p=2。林鼓子谈立希憧憬祥子及作曲时的比较，按声优角色理解编录；对未来反应的假设保留在访谈语境。同一分页文章为一个来源。"
+  },
+  {
+    "id": "S129",
+    "title": "佐々木李子与松本拓辉谈Ave Mujica舞台、音乐及人物背景",
+    "original_url": "https://realsound.jp/movie/2025/03/post-1971636.html",
+    "resolved_url": "https://realsound.jp/movie/2025/03/post-1971636.html",
+    "language": "ja",
+    "source_type": "cast_interview",
+    "publisher": "Real Sound 映画部",
+    "authority": "creator_first_person",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2025-03-28",
+    "access_note": "实际读取徳田要太取材、ホワイト健构成的PR访谈第1—3页；实际使用第3页：https://realsound.jp/movie/2025/03/post-1971636_3.html。佐々木明确复述祥子的祖父也是初华的父亲。声优获知设定的录音时间与剧情披露集数分别处理；现实音乐制作与现场演出不作为TV动作记录。同稿一来源。"
+  },
+  {
+    "id": "S130",
+    "title": "高尾奏音、渡瀬结月与豊田穂乃花：Ave第1—3话与录音对谈",
+    "original_url": "https://www.lisani.jp/0000274367/",
+    "resolved_url": "https://www.lisani.jp/0000274367/3/?show_more=1",
+    "language": "ja",
+    "source_type": "cast_interview",
+    "publisher": "リスアニ！ / リスパレ！",
+    "authority": "creator_first_person",
+    "verification_status": "direct_text_verified",
+    "checked_on": "2026-10-20",
+    "published_on": "2025-01-17",
+    "access_note": "实际读取入口署名及北野創采访的第3页：https://www.lisani.jp/0000274367/3/?show_more=1；本次第1／2页show_more路径抓取失败。按同一分页文章一来源编录。明确场景复述、录音经历及声优解释分开；对谈范围为当时播出的第1—3话。"
   }
 ]

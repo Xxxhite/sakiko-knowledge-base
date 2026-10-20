@@ -39,13 +39,17 @@ for (const mutate of [
   x => { delete x.episode_catalog[0].work_id; },
   x => { x.episode_catalog.find(r => r.id === 'MYGO13').work_id = 'bang_dream_ave_mujica'; },
   x => { x.episode_catalog.find(r => r.id === 'EP13').work_id = 'bang_dream_its_mygo'; },
-  x => { x.original_question_index[0].default_retrieval_eligible = true; }
+  x => { x.original_question_index[0].default_retrieval_eligible = true; },
+  x => { delete x.original_question_index.find(r => r.answer_review).answer_review.answer_sentences[0].record_ids; },
+  x => { x.original_question_index.find(r => r.answer_review).answer_review.answer_sentences[0].layer = 'fanon'; },
+  x => { x.original_question_index.find(r => r.answer_review).answer_review.review_method = 'independent_full_work_review'; },
+  x => { x.original_question_index.find(r => r.answer_review).answer_review.answer_sentences[0].review_result = 'unchecked'; }
 ]) {
   const bad = JSON.parse(JSON.stringify(kb)); mutate(bad);
   if (validate(bad)) throw new Error('Negative schema check unexpectedly accepted invalid record.');
 }
 const result = {status:'passed', schema_draft:'Draft-07', engine:'Ajv '+require('ajv/package.json').version,
-  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:29};
+  schema_meta_validation:'passed', total_database_validation:'passed', negative_checks:33};
 if (process.argv.includes('--write-report')) {
   fs.mkdirSync(path.join(root, 'validation'), {recursive:true});
   fs.writeFileSync(path.join(root, 'validation/schema.json'), JSON.stringify(result,null,2)+'\n');

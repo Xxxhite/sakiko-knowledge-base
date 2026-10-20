@@ -1492,22 +1492,25 @@
     "record_id": "F047",
     "collection": "facts",
     "layer": "canon",
-    "text": "冈田梦以的一手访谈复述明确丰川定治是祥子的祖父。",
+    "text": "冈田梦以的一手访谈复述明确丰川定治是祥子的祖父。 v1.18补初华役佐々木李子的亲属复述旁证。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "source_ids": [
-      "S25"
+      "S25",
+      "S129"
     ],
     "source_urls": [
-      "https://www.billboard-japan.com/special/detail/4816"
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://realsound.jp/movie/2025/03/post-1971636.html"
     ],
     "evidence_modes": [
       "direct_text_verified"
     ],
     "direct_only_eligible": true,
     "phase": "family_backstory",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "evidence_status": "primary_interview_explicit",
     "source_authorities": [
       "creator_first_person"
@@ -1524,22 +1527,25 @@
     "record_id": "F048",
     "collection": "facts",
     "layer": "canon",
-    "text": "同一访谈把丰川定治称为初华（乐队成员）的父亲。",
+    "text": "同一访谈把丰川定治称为初华（乐队成员）的父亲。 v1.18补初华役佐々木李子的亲属复述旁证。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "source_ids": [
-      "S25"
+      "S25",
+      "S129"
     ],
     "source_urls": [
-      "https://www.billboard-japan.com/special/detail/4816"
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://realsound.jp/movie/2025/03/post-1971636.html"
     ],
     "evidence_modes": [
       "direct_text_verified"
     ],
     "direct_only_eligible": true,
     "phase": "family_backstory",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "evidence_status": "primary_interview_explicit",
     "source_authorities": [
       "creator_first_person"
@@ -2892,22 +2898,25 @@
     "record_id": "R025",
     "collection": "relations",
     "layer": "canon",
-    "text": "声优原访谈明确祥子与丰川定治为祖孙。",
+    "text": "声优原访谈明确祥子与丰川定治为祖孙。 v1.18补初华役佐々木李子的亲属复述旁证。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "source_ids": [
-      "S25"
+      "S25",
+      "S129"
     ],
     "source_urls": [
-      "https://www.billboard-japan.com/special/detail/4816"
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://realsound.jp/movie/2025/03/post-1971636.html"
     ],
     "evidence_modes": [
       "direct_text_verified"
     ],
     "direct_only_eligible": true,
     "phase": "family_backstory",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "evidence_status": "primary_interview_explicit",
     "source_authorities": [
       "creator_first_person"
@@ -2924,22 +2933,25 @@
     "record_id": "R026",
     "collection": "relations",
     "layer": "canon",
-    "text": "声优原访谈明确初华（乐队成员）与丰川定治为父女。",
+    "text": "声优原访谈明确初华（乐队成员）与丰川定治为父女。 v1.18补初华役佐々木李子的亲属复述旁证。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "source_ids": [
-      "S25"
+      "S25",
+      "S129"
     ],
     "source_urls": [
-      "https://www.billboard-japan.com/special/detail/4816"
+      "https://www.billboard-japan.com/special/detail/4816",
+      "https://realsound.jp/movie/2025/03/post-1971636.html"
     ],
     "evidence_modes": [
       "direct_text_verified"
     ],
     "direct_only_eligible": true,
     "phase": "family_backstory",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "evidence_status": "primary_interview_explicit",
     "source_authorities": [
       "creator_first_person"
@@ -3771,25 +3783,28 @@
     "record_id": "I004",
     "collection": "inferences",
     "layer": "inference",
-    "text": "由访谈记述的父女与祖孙关系，可推出初华/初音处在祥子的叔姨辈。 推理：同一丰川定治分别被称为初华的父亲与祥子的祖父，按一般家系推导为长一辈亲属。 其他解释：母系/父系分支、同父异母与具体称谓需结合第11话原片；本条保留为基于一手复述的关系推导。",
+    "text": "由访谈记述的父女与祖孙关系，可推出初华/初音处在祥子的叔姨辈。 推理：同一丰川定治分别被称为初华的父亲与祥子的祖父，按一般家系推导为长一辈亲属。 其他解释：母系/父系分支、同父异母与具体称谓需结合第11话原片；本条保留为基于一手复述的关系推导。 v1.18补初华役佐々木李子的亲属复述旁证。",
     "evidence_ids": [
       "E32",
-      "E28"
+      "E28",
+      "E479"
     ],
     "source_ids": [
       "S25",
-      "S03"
+      "S03",
+      "S129"
     ],
     "source_urls": [
       "https://www.billboard-japan.com/special/detail/4816",
-      "https://anime.bang-dream.com/avemujica/character/uika/"
+      "https://anime.bang-dream.com/avemujica/character/uika/",
+      "https://realsound.jp/movie/2025/03/post-1971636.html"
     ],
     "evidence_modes": [
       "direct_text_verified"
     ],
     "direct_only_eligible": true,
     "phase": "family_backstory",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-20",
     "evidence_status": "curator_reasoning",
     "source_authorities": [
       "creator_first_person",
@@ -5823,6 +5838,687 @@
     ],
     "source_urls": [
       "https://news.livedoor.com/article/detail/25017140/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F093",
+    "record_id": "F093",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "ave_ep05_context",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "Ave第5话官方梗概记述，全国巡演途中解散后，成员回到各自的生活。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E471"
+    ],
+    "source_ids": [
+      "S125"
+    ],
+    "source_urls": [
+      "https://bushiroad.com/media/3b6e9654952430ac"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
+  },
+  {
+    "id": "C_I017",
+    "record_id": "I017",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "ave_ep07_context",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "tomori",
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime",
+    "text": "柿本将《人間になりたいうたⅡ》联系到灯仍不了解祥子、却继续思考她的心情。 解读者：柿本广大（监督；2025-03-06访谈第2页）。推理：监督说明歌词委托的方向，并以自己对灯的理解解释第7话重聚后的心情，属于署名创作意图与角色解释。 其他阅读：歌词也可结合灯持续想成为人类的主题阅读；歌曲呈现、创作要求与祥子本人的想法分别引用。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E472"
+    ],
+    "source_ids": [
+      "S119"
+    ],
+    "source_urls": [
+      "https://www.animatetimes.com/news/details.php?id=1741242390"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I018",
+    "record_id": "I018",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "ave_reunion_context",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "taki",
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime",
+    "text": "柿本认为立希也珍惜CRYCHIC及成员，并把她不愿再与祥子组团的态度解释为旧团破裂后的别扭与自我保护。 解读者：柿本广大（监督；2025-03-06访谈第3页）。推理：监督在对比海铃和立希时解释她对旧团的投入、重建关系的困难及态度形成，按监督的心理理解单列。 其他阅读：具体互动仍可按发生阶段分别讨论；本条概括监督对立希的理解。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E473"
+    ],
+    "source_ids": [
+      "S119"
+    ],
+    "source_urls": [
+      "https://www.animatetimes.com/news/details.php?id=1741242390"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I019",
+    "record_id": "I019",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "character_art_appreciation",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "sakiko",
+      "tomori"
+    ],
+    "continuity": "tv_anime",
+    "text": "柿本把祥子识别他人才能的审美眼光，与她从小接触多种艺术的成长环境联系起来。 解读者：柿本广大（监督；2025-03-06访谈第2页）。推理：监督从艺术经验与才能识别的关联解释祥子，并与立希、爽世及睦母亲作对照。 其他阅读：讨论具体创作互动时仍可直接引用F080；本条保存成长环境与鉴赏力之间的署名解释。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E474"
+    ],
+    "source_ids": [
+      "S119"
+    ],
+    "source_urls": [
+      "https://www.animatetimes.com/news/details.php?id=1741242390"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I020",
+    "record_id": "I020",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "character_music_expression",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "高尾奏音认为祥子在处境顺利或艰难时，都会把自己的情感寄托于音乐。 解读者：高尾奏音（祥子役；2025-01-31访谈）。推理：高尾以个人印象谈祥子的表达方式，再与自己的钢琴演奏体验类比，属于声优对角色的理解。 其他阅读：可以从作曲、钢琴与舞台分别阅读这种表达；声优自身的餐厅、读书和练琴经历按现实材料使用。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E475"
+    ],
+    "source_ids": [
+      "S126"
+    ],
+    "source_urls": [
+      "https://hon-hikidashi.jp/event/53117/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F094",
+    "record_id": "F094",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "mygo_ep13",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "渡瀬结月在回顾现实1st LIVE时，明确复述MyGO第13话Ave Mujica披露同名曲的舞台。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E476"
+    ],
+    "source_ids": [
+      "S127"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000256138/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F095",
+    "record_id": "F095",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "mygo_ep10",
+    "evidence_status": "official_explicit",
+    "entity_ids": [
+      "tomori",
+      "uika"
+    ],
+    "continuity": "tv_anime",
+    "text": "MyGO第10话官方梗概记述，灯在星象馆遇见初华。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E480"
+    ],
+    "source_ids": [
+      "S08"
+    ],
+    "source_urls": [
+      "https://anime.bang-dream.com/mygo/story/"
+    ],
+    "evidence_modes": [
+      "indexed_text_verified"
+    ],
+    "direct_only_eligible": false,
+    "source_authorities": [
+      "official"
+    ],
+    "official_only_eligible": true
+  },
+  {
+    "id": "C_F096",
+    "record_id": "F096",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "mygo_ep10",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "uika",
+      "tomori"
+    ],
+    "continuity": "tv_anime",
+    "text": "佐々木李子复述，MyGO第10话星象馆交谈中，初华向灯说歌能传达心意；另一访谈补充了超越言语、传达不易说清之事的措辞。 发言人：初华；对象：灯；场所：星象馆／天文馆。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E477",
+      "E481"
+    ],
+    "source_ids": [
+      "S121",
+      "S116"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000239390/?show_more=1",
+      "https://www.animatetimes.com/news/details.php?id=1711341102"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_R047",
+    "record_id": "R047",
+    "collection": "relations",
+    "layer": "canon",
+    "phase": "mygo_ep10",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "uika",
+      "tomori"
+    ],
+    "continuity": "tv_anime",
+    "text": "MyGO第10话星象馆交谈中，初华向灯谈歌能传达心意，为灯鼓劲。 发言人：初华；对象：灯；场所：星象馆／天文馆。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E477",
+      "E481"
+    ],
+    "source_ids": [
+      "S121",
+      "S116"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000239390/?show_more=1",
+      "https://www.animatetimes.com/news/details.php?id=1711341102"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_T027",
+    "record_id": "T027",
+    "collection": "timeline",
+    "layer": "canon",
+    "phase": "mygo_ep13",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "ave_mujica",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "MyGO第13话：Ave Mujica披露同名曲的舞台。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E476"
+    ],
+    "source_ids": [
+      "S127"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000256138/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_T028",
+    "record_id": "T028",
+    "collection": "timeline",
+    "layer": "canon",
+    "phase": "mygo_ep10",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "uika",
+      "tomori"
+    ],
+    "continuity": "tv_anime",
+    "text": "MyGO第10话：初华在星象馆向灯谈歌能传达心意。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E477",
+      "E481"
+    ],
+    "source_ids": [
+      "S121",
+      "S116"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000239390/?show_more=1",
+      "https://www.animatetimes.com/news/details.php?id=1711341102"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I021",
+    "record_id": "I021",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "mygo_composition_context",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "taki",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "林鼓子认为祥子是立希潜意识中的憧憬对象；立希不愿承认，却在作曲时想到祥子并为比较而烦恼。 解读者：林鼓子（立希役；2024-02-14访谈第2页）。推理：林鼓子从自己演绎立希的视角说明她的复杂心境，将憧憬、比较和烦恼联系起来，保存声优的角色理解。 其他阅读：与柿本关于旧团破裂和自我保护的I018并读时分别保留作者、访谈时间及讨论阶段。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E478"
+    ],
+    "source_ids": [
+      "S128"
+    ],
+    "source_urls": [
+      "https://www.animatetimes.com/news/details.php?id=1707447433"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F097",
+    "record_id": "F097",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "ave_ep01_backstory",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "father",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "高尾奏音复述，Ave第1话有父亲向祥子扔东西的场景。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E483"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F098",
+    "record_id": "F098",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "crychic_withdrawal_aftermath",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime",
+    "text": "高尾奏音在Ave第1话回顾中，明确提及祥子刚退出CRYCHIC后的哭泣场景。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E484"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_F099",
+    "record_id": "F099",
+    "collection": "facts",
+    "layer": "canon",
+    "phase": "ave_ep03_inner_world",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "mutsumi",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "渡瀬结月复述，Ave第3话睦的深层世界画面中，睦持伞站在大哭的祥子身后。 叙事层：睦的深层世界／内心世界画面。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E485"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_R048",
+    "record_id": "R048",
+    "collection": "relations",
+    "layer": "canon",
+    "phase": "ave_ep01_backstory",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "father",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "Ave第1话回顾中，父亲向祥子扔东西。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E483"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_T029",
+    "record_id": "T029",
+    "collection": "timeline",
+    "layer": "canon",
+    "phase": "crychic_withdrawal_aftermath",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "sakiko",
+      "crychic"
+    ],
+    "continuity": "tv_anime",
+    "text": "退团之后：祥子的哭泣场景在Ave第1话呈现。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E484"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_T030",
+    "record_id": "T030",
+    "collection": "timeline",
+    "layer": "canon",
+    "phase": "ave_ep01_backstory",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "father",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "Ave第1话背景：父亲向祥子扔东西。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E483"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_T031",
+    "record_id": "T031",
+    "collection": "timeline",
+    "layer": "canon",
+    "phase": "family_backstory",
+    "evidence_status": "primary_interview_explicit",
+    "entity_ids": [
+      "sakiko",
+      "mother"
+    ],
+    "continuity": "tv_anime",
+    "text": "家庭背景：Ave第1话呈现祥子母亲去世的场景。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E482"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I022",
+    "record_id": "I022",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "ave_ep01_interpretation",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "高尾奏音将祥子难以向周围开口的原因，理解为她不想给别人添麻烦的温柔。 解读者：高尾奏音（祥子役；2025-01-17对谈第3页）。推理：高尾在回顾第1话家庭背景与哭泣场景时，提出自己的角色动机理解。 其他阅读：具体请求与回应仍按各场景记录使用；本条保存高尾在此对谈中的理解。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E486"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
+    ],
+    "evidence_modes": [
+      "direct_text_verified"
+    ],
+    "direct_only_eligible": true,
+    "source_authorities": [
+      "creator_first_person"
+    ],
+    "official_only_eligible": false
+  },
+  {
+    "id": "C_I023",
+    "record_id": "I023",
+    "collection": "inferences",
+    "layer": "inference",
+    "phase": "ave_ep03_inner_world",
+    "evidence_status": "curator_reasoning",
+    "entity_ids": [
+      "mutsumi",
+      "sakiko"
+    ],
+    "continuity": "tv_anime",
+    "text": "渡瀬结月推测睦是唯一了解祥子境遇与退团时心情的人，并据此理解第3话的持伞画面。 解读者：渡瀬结月（睦役；2025-01-17对谈第3页）。推理：渡瀬以多分和と思っていて表达对睦知情范围及画面意义的推测，对谈时已播范围为第1—3话。 其他阅读：可结合睦与祥子的关系阅读这一画面；各人物实际知道哪些情况仍按相应场景证据检索。",
+    "as_of": "2026-10-20",
+    "evidence_ids": [
+      "E487"
+    ],
+    "source_ids": [
+      "S130"
+    ],
+    "source_urls": [
+      "https://www.lisani.jp/0000274367/"
     ],
     "evidence_modes": [
       "direct_text_verified"

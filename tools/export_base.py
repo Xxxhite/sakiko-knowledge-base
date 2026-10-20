@@ -75,6 +75,23 @@ def main():
     for row in kb['original_question_index']:
         lines.append(f"| {row['id']} | {row['question_zh']} | {', '.join(row['record_ids'])} |")
     md('原作_剧情问答索引.md',lines)
+    reviewed = [r for r in kb['original_question_index'] if r.get('answer_review')]
+    lines = [f"# 原作问答验收 · v{kb['metadata']['version']}\n",
+        f"{len(reviewed)}个实际回答、{sum(len(r['answer_review']['answer_sentences']) for r in reviewed)}句逐句复核。样本保存在original_question_index.answer_review，随JSON／JSONL导出，排除事实检索。\n",
+        '方法：同一编者对照所引记录及证据定位，检查人物、阶段、发言人与分层；程序检查引用闭合和来源资格。含原作整体剧透，按各句所列作品与阶段使用。\n',
+        '核验范围：既有记录及本轮取得的日文正文；原片、字幕和时间码沿用证据的实际状态。场景缺口统一见[下一步清单](下一步补充清单.md)。\n']
+    content = {r['id']: r for name in ('facts','relations','timeline','inferences') for r in kb[name]}
+    for row in reviewed:
+        review = row['answer_review']
+        lines += [f"## {row['id']} · {row['question_zh']}\n"]
+        for number, sentence in enumerate(review['answer_sentences'], 1):
+            ids = sentence['record_ids']
+            eids = list(dict.fromkeys(e for rid in ids for e in content[rid]['evidence_ids']))
+            lines += [f"{number}. **{sentence['layer']}**：{sentence['text_zh']}（依据：{', '.join(ids)}）\n",
+                      '   来源：'+citations(eids)+'。\n']
+        lines += [f"复核：{review['review_status']}；{review['reviewed_on']}；{review['review_method']}。\n",
+                  review['review_note_zh']+'\n']
+    md('原作_问答验收.md',lines)
     print('Exported original facts, relations, timeline, interpretations, episodes and question views.')
 
 

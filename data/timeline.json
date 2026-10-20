@@ -730,5 +730,140 @@
       "R046"
     ],
     "notes": "声优回顾中的引领行为；阅读排序位于旧团初期，剧情日历和原片披露位置待核。"
+  },
+  {
+    "id": "T027",
+    "record_type": "event",
+    "layer": "canon",
+    "display_order": 69,
+    "title_zh": "MyGO第13话：Ave Mujica披露同名曲的舞台。",
+    "evidence_ids": [
+      "E476"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "story_time": {
+      "phase": "mygo_ep13",
+      "calendar_date": null,
+      "precision": "relative_phase",
+      "after_event_ids": []
+    },
+    "reveal": {
+      "work": "It’s MyGO!!!!!（一手访谈复述）",
+      "episode": 13,
+      "timecode": null
+    },
+    "record_ids": [
+      "F094"
+    ],
+    "notes": "与本话家庭末段F074分开保存；display_order为阅读排序，未补原片内部先后约束。"
+  },
+  {
+    "id": "T028",
+    "record_type": "event",
+    "layer": "canon",
+    "display_order": 48,
+    "title_zh": "MyGO第10话：初华在星象馆向灯谈歌能传达心意。",
+    "evidence_ids": [
+      "E477",
+      "E481"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "story_time": {
+      "phase": "mygo_ep10",
+      "calendar_date": null,
+      "precision": "relative_phase",
+      "after_event_ids": []
+    },
+    "reveal": {
+      "work": "It’s MyGO!!!!!（一手访谈复述）",
+      "episode": 10,
+      "timecode": null
+    },
+    "record_ids": [
+      "F095",
+      "F096",
+      "R047"
+    ],
+    "notes": "实际主体初华与灯；E477明确话数与场所，官方梗概的索引证据见F095/E480。原片时间码待核。"
+  },
+  {
+    "id": "T029",
+    "record_type": "event",
+    "layer": "canon",
+    "display_order": 32,
+    "title_zh": "退团之后：祥子的哭泣场景在Ave第1话呈现。",
+    "evidence_ids": [
+      "E484"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "story_time": {
+      "phase": "crychic_withdrawal_aftermath",
+      "calendar_date": null,
+      "precision": "relative_phase",
+      "after_event_ids": []
+    },
+    "reveal": {
+      "work": "BanG Dream! Ave Mujica（一手访谈复述）",
+      "episode": 1,
+      "timecode": null
+    },
+    "record_ids": [
+      "F098",
+      "F076"
+    ],
+    "notes": "退团之后的相对定位据高尾复述；F076是退出行为的既有记录。剧情时间与第1话披露位置分开，display_order为阅读排序。"
+  },
+  {
+    "id": "T030",
+    "record_type": "event",
+    "layer": "canon",
+    "display_order": 31,
+    "title_zh": "Ave第1话背景：父亲向祥子扔东西。",
+    "evidence_ids": [
+      "E483"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "story_time": {
+      "phase": "ave_ep01_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase",
+      "after_event_ids": []
+    },
+    "reveal": {
+      "work": "BanG Dream! Ave Mujica（一手访谈复述）",
+      "episode": 1,
+      "timecode": null
+    },
+    "record_ids": [
+      "F097",
+      "R048"
+    ],
+    "notes": "来源未给该行为与其他家庭变故的完整先后，未设after_event_ids；第1话是披露位置。"
+  },
+  {
+    "id": "T031",
+    "record_type": "event",
+    "layer": "canon",
+    "display_order": 29,
+    "title_zh": "家庭背景：Ave第1话呈现祥子母亲去世的场景。",
+    "evidence_ids": [
+      "E482"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "story_time": {
+      "phase": "family_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase",
+      "after_event_ids": []
+    },
+    "reveal": {
+      "work": "BanG Dream! Ave Mujica（一手访谈复述）",
+      "episode": 1,
+      "timecode": null
+    },
+    "record_ids": [
+      "F023"
+    ],
+    "notes": "F023继续保留官方新闻稿E14与official_explicit；本事件单独保存声优复述的TV第1话场景定位。"
   }
 ]

@@ -1040,7 +1040,8 @@
     "value": "sadaharu",
     "statement_zh": "冈田梦以的一手访谈复述明确丰川定治是祥子的祖父。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "evidence_status": "primary_interview_explicit",
     "epistemic_scope": "attributed_plot_report",
@@ -1051,7 +1052,7 @@
       "precision": "relative_phase"
     },
     "spoiler": true,
-    "notes": "出处为声优复述；未在本轮播放原集并建立时间码。"
+    "notes": "出处为声优复述；未在本轮播放原集并建立时间码。 v1.18补初华役佐々木李子在S129的亲属复述E479，旧E32保留；谱系分支及姐妹身份方向按既有待核任务处理。"
   },
   {
     "id": "F048",
@@ -1062,7 +1063,8 @@
     "value": "sadaharu",
     "statement_zh": "同一访谈把丰川定治称为初华（乐队成员）的父亲。",
     "evidence_ids": [
-      "E32"
+      "E32",
+      "E479"
     ],
     "evidence_status": "primary_interview_explicit",
     "epistemic_scope": "attributed_plot_report",
@@ -1073,7 +1075,7 @@
       "precision": "relative_phase"
     },
     "spoiler": true,
-    "notes": null
+    "notes": " v1.18补初华役佐々木李子在S129的亲属复述E479，旧E32保留；谱系分支及姐妹身份方向按既有待核任务处理。"
   },
   {
     "id": "F049",
@@ -2054,5 +2056,160 @@
     },
     "spoiler": true,
     "notes": "作为讨论旧团关系的后续语境保存，发言人爽世、对象灯。前期恳求见F089/F090，声优对这句台词的成长解释另按材料归属使用。"
+  },
+  {
+    "id": "F093",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "members_return_to_separate_lives_after_breakup",
+    "value": true,
+    "statement_zh": "Ave第5话官方梗概记述，全国巡演途中解散后，成员回到各自的生活。",
+    "evidence_ids": [
+      "E471"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep05_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "概括成员去向；祥子的具体居住变化、父亲相关行动和对白待取得相应场景证据后拆录。"
+  },
+  {
+    "id": "F094",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "ave_mujica",
+    "predicate": "performed_eponymous_song_mygo_ep13",
+    "value": "Ave Mujica",
+    "statement_zh": "渡瀬结月在回顾现实1st LIVE时，明确复述MyGO第13话Ave Mujica披露同名曲的舞台。",
+    "evidence_ids": [
+      "E476"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep13",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "仅取动画舞台与歌曲的复述；现实1st LIVE的曲序、道具及新增幕间演出按现实公演使用。舞台串场全文与个别动作继续补原片。"
+  },
+  {
+    "id": "F095",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "tomori",
+    "predicate": "met_uika_at_planetarium",
+    "value": "uika",
+    "statement_zh": "MyGO第10话官方梗概记述，灯在星象馆遇见初华。",
+    "evidence_ids": [
+      "E480"
+    ],
+    "evidence_status": "official_explicit",
+    "epistemic_scope": "story_summary",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep10",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "属于讨论祥子、初华与灯关系时的关联背景；本段实际人物为灯与初华。官方梗概核验为检索索引。"
+  },
+  {
+    "id": "F096",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "uika",
+    "predicate": "told_tomori_song_can_communicate",
+    "value": "tomori",
+    "statement_zh": "佐々木李子复述，MyGO第10话星象馆交谈中，初华向灯说歌能传达心意；另一访谈补充了超越言语、传达不易说清之事的措辞。",
+    "evidence_ids": [
+      "E477",
+      "E481"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "mygo_ep10",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "发言人初华、对象灯。第10话及星象馆定位据E477，较完整措辞据E481。官方梗概写詩（うた），声优复述写歌；保留各来源写法。祥子第8话叫出初华作为相邻阅读背景，未建立委托或因果关系。"
+  },
+  {
+    "id": "F097",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "father",
+    "predicate": "threw_object_at",
+    "value": "sakiko",
+    "statement_zh": "高尾奏音复述，Ave第1话有父亲向祥子扔东西的场景。",
+    "evidence_ids": [
+      "E483"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep01_backstory",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "行为主体父亲，对象祥子；物品种类及原片时间码待定位。"
+  },
+  {
+    "id": "F098",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "sakiko",
+    "predicate": "cried_after_leaving_crychic",
+    "value": true,
+    "statement_zh": "高尾奏音在Ave第1话回顾中，明确提及祥子刚退出CRYCHIC后的哭泣场景。",
+    "evidence_ids": [
+      "E484"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "crychic_withdrawal_aftermath",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "剧情阶段为退团之后，披露作品和集数见T029。声优按要求哭泣及制作方选取片段属于现实录音过程。"
+  },
+  {
+    "id": "F099",
+    "record_type": "fact",
+    "layer": "canon",
+    "subject_id": "mutsumi",
+    "predicate": "inner_world_umbrella_scene",
+    "value": "held_umbrella_behind_crying_sakiko",
+    "statement_zh": "渡瀬结月复述，Ave第3话睦的深层世界画面中，睦持伞站在大哭的祥子身后。",
+    "evidence_ids": [
+      "E485"
+    ],
+    "evidence_status": "primary_interview_explicit",
+    "epistemic_scope": "attributed_plot_report",
+    "continuity": "tv_anime",
+    "valid_time": {
+      "phase": "ave_ep03_inner_world",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "spoiler": true,
+    "notes": "保存睦深层世界中的画面表现；知情范围和画面心理含义另见署名推测I023。"
   }
 ]

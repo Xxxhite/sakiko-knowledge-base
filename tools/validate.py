@@ -22,6 +22,10 @@ def validate():
     for p in json_paths: load(p)
     checks.append({'check':'strict_json_parse','result':'passed','files':len(json_paths)})
     kb=load(ROOT/'data/kb.json')
+    package=load(ROOT/'package.json')
+    lock=load(ROOT/'package-lock.json')
+    assert package['version']==lock['version']==lock['packages']['']['version']==kb['metadata']['version'], 'repository version mismatch'
+    checks.append({'check':'repository_version_consistency','result':'passed','version':kb['metadata']['version']})
     mapping={'entities':'entities','sources':'sources','evidence':'evidence','facts':'canon_facts',
              'relations':'relations','timeline':'timeline','inferences':'inference','fanon':'fanon','research_queue':'research_queue','episode_catalog':'episode_catalog','source_issues':'source_issues','candidate_claims':'candidate_claims','scene_reviews':'scene_reviews','access_audit':'access_audit','game_story_records':'game_story_records','game_interpretations':'game_interpretations','game_question_index':'game_question_index','game_relations':'game_relations','game_lore_records':'game_lore_records'}
     mapping['game_scene_coverage']='game_scene_coverage'
@@ -92,6 +96,22 @@ def validate():
     for tid in timeline: visit(tid,set())
     checks.append({'check':'timeline_references_and_acyclic_order','result':'passed'})
     chunks=load(ROOT/'data/retrieval_chunks.json')
+    original_records={r['id']:r for name in ('facts','relations','timeline','inferences') for r in kb[name]}
+    for question in kb['original_question_index']:
+        review=question.get('answer_review')
+        if not review:
+            continue
+        assert review['review_status']=='passed' and review['review_method']=='single_editor_evidence_check'
+        assert not question['default_retrieval_eligible']
+        for sentence in review['answer_sentences']:
+            assert sentence['text_zh'] and sentence['record_ids'] and sentence['review_result']=='supported'
+            assert set(sentence['record_ids']).issubset(question['record_ids']), 'answer outside question navigation'
+            assert all(rid in original_records for rid in sentence['record_ids']), 'answer references a non-original record'
+            layers={original_records[rid]['layer'] for rid in sentence['record_ids']}
+            assert sentence['layer'] in ('canon','inference')
+            assert (layers=={'canon'} if sentence['layer']=='canon' else 'inference' in layers), 'answer layer mismatch'
+    checks.append({'check':'original_answer_sentence_references_and_layers','result':'passed',
+        'answers':sum(bool(q.get('answer_review')) for q in kb['original_question_index'])})
     rows=[json.loads(x) for x in (ROOT/'jsonl/retrieval_chunks.jsonl').read_text(encoding='utf-8').splitlines()]
     assert chunks==rows
     assert len(chunks)==sum(len(kb[k]) for k in ['facts','relations','timeline','inferences'])

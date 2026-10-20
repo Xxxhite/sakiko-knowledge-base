@@ -15,3 +15,9 @@ v1.9新增game_answer_reviews（第24集合）及metadata.maintenance。逐话�
 v1.10新增original_question_index（第25集合）及逐话work_id；EP与MYGO前缀分别绑定对应作品，公告日期允许null。跨作品同号集数的区分、主创复述与解读分层、原作查询由check_v110.py检查。统一验证12项，schema反例29项。v1.11扩展订正版、剧中作曲范围、分作者解读与22项原作自然问法；v1.12沿用schema，扩展转载取得路径、沙槌假设隔离、集数写法归一与30项原作自然问法。
 
 v1.13沿用schema，扩展分页来源、交涉行为／动机分层、角色发言及既有关系保留的检查；原作自然问法38项，总查询／导航发现132项。
+
+## 当前结构与验证
+
+主库仍有25个集合。v1.17加入original_question_index可选answer_review，保存逐句text_zh、record_ids、layer和复核方法，随导航排除事实检索。字段结构由schema约束，引用与句子分层由Python检查。当前12项统一工具、188项查询／导航发现和33项schema反例；上面的版本段落为历史扩展记录。
+
+仓库版本由data/kb.json的metadata.version、package.json及package-lock.json根版本共同保存；tools/validate.py检查一致性。Skill展示信息独立位于agents/openai.yaml。当前数据版本及安装方式见[README](../README.md)。

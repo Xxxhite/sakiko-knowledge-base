@@ -82,7 +82,8 @@
     "statement_zh": "由访谈记述的父女与祖孙关系，可推出初华/初音处在祥子的叔姨辈。",
     "evidence_ids": [
       "E32",
-      "E28"
+      "E28",
+      "E479"
     ],
     "basis_record_ids": [
       "F047",
@@ -405,5 +406,175 @@
       "precision": "relative_phase"
     },
     "interpretation_author": "林鼓子（立希役；2023-09-15访谈）"
+  },
+  {
+    "id": "I017",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "tomori",
+    "statement_zh": "柿本将《人間になりたいうたⅡ》联系到灯仍不了解祥子、却继续思考她的心情。",
+    "evidence_ids": [
+      "E472"
+    ],
+    "basis_record_ids": [
+      "F051",
+      "F091"
+    ],
+    "rationale": "监督说明歌词委托的方向，并以自己对灯的理解解释第7话重聚后的心情，属于署名创作意图与角色解释。",
+    "alternative_reading": "歌词也可结合灯持续想成为人类的主题阅读；歌曲呈现、创作要求与祥子本人的想法分别引用。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "ave_ep07_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "柿本广大（监督；2025-03-06访谈第2页）"
+  },
+  {
+    "id": "I018",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "taki",
+    "statement_zh": "柿本认为立希也珍惜CRYCHIC及成员，并把她不愿再与祥子组团的态度解释为旧团破裂后的别扭与自我保护。",
+    "evidence_ids": [
+      "E473"
+    ],
+    "basis_record_ids": [
+      "F041",
+      "F076"
+    ],
+    "rationale": "监督在对比海铃和立希时解释她对旧团的投入、重建关系的困难及态度形成，按监督的心理理解单列。",
+    "alternative_reading": "具体互动仍可按发生阶段分别讨论；本条概括监督对立希的理解。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "ave_reunion_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "柿本广大（监督；2025-03-06访谈第3页）"
+  },
+  {
+    "id": "I019",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "sakiko",
+    "statement_zh": "柿本把祥子识别他人才能的审美眼光，与她从小接触多种艺术的成长环境联系起来。",
+    "evidence_ids": [
+      "E474"
+    ],
+    "basis_record_ids": [
+      "F011",
+      "F080"
+    ],
+    "rationale": "监督从艺术经验与才能识别的关联解释祥子，并与立希、爽世及睦母亲作对照。",
+    "alternative_reading": "讨论具体创作互动时仍可直接引用F080；本条保存成长环境与鉴赏力之间的署名解释。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "character_art_appreciation",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "柿本广大（监督；2025-03-06访谈第2页）"
+  },
+  {
+    "id": "I020",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "sakiko",
+    "statement_zh": "高尾奏音认为祥子在处境顺利或艰难时，都会把自己的情感寄托于音乐。",
+    "evidence_ids": [
+      "E475"
+    ],
+    "basis_record_ids": [
+      "F019",
+      "F022"
+    ],
+    "rationale": "高尾以个人印象谈祥子的表达方式，再与自己的钢琴演奏体验类比，属于声优对角色的理解。",
+    "alternative_reading": "可以从作曲、钢琴与舞台分别阅读这种表达；声优自身的餐厅、读书和练琴经历按现实材料使用。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "character_music_expression",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "高尾奏音（祥子役；2025-01-31访谈）"
+  },
+  {
+    "id": "I021",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "taki",
+    "statement_zh": "林鼓子认为祥子是立希潜意识中的憧憬对象；立希不愿承认，却在作曲时想到祥子并为比较而烦恼。",
+    "evidence_ids": [
+      "E478"
+    ],
+    "basis_record_ids": [
+      "F018",
+      "F041",
+      "R014"
+    ],
+    "rationale": "林鼓子从自己演绎立希的视角说明她的复杂心境，将憧憬、比较和烦恼联系起来，保存声优的角色理解。",
+    "alternative_reading": "与柿本关于旧团破裂和自我保护的I018并读时分别保留作者、访谈时间及讨论阶段。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "mygo_composition_context",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "林鼓子（立希役；2024-02-14访谈第2页）"
+  },
+  {
+    "id": "I022",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "sakiko",
+    "statement_zh": "高尾奏音将祥子难以向周围开口的原因，理解为她不想给别人添麻烦的温柔。",
+    "evidence_ids": [
+      "E486"
+    ],
+    "basis_record_ids": [
+      "F097",
+      "F098"
+    ],
+    "rationale": "高尾在回顾第1话家庭背景与哭泣场景时，提出自己的角色动机理解。",
+    "alternative_reading": "具体请求与回应仍按各场景记录使用；本条保存高尾在此对谈中的理解。",
+    "strength": "moderate",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "ave_ep01_interpretation",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "高尾奏音（祥子役；2025-01-17对谈第3页）"
+  },
+  {
+    "id": "I023",
+    "record_type": "interpretation",
+    "layer": "inference",
+    "subject_id": "mutsumi",
+    "statement_zh": "渡瀬结月推测睦是唯一了解祥子境遇与退团时心情的人，并据此理解第3话的持伞画面。",
+    "evidence_ids": [
+      "E487"
+    ],
+    "basis_record_ids": [
+      "F099",
+      "F076",
+      "F023"
+    ],
+    "rationale": "渡瀬以多分和と思っていて表达对睦知情范围及画面意义的推测，对谈时已播范围为第1—3话。",
+    "alternative_reading": "可结合睦与祥子的关系阅读这一画面；各人物实际知道哪些情况仍按相应场景证据检索。",
+    "strength": "limited",
+    "evidence_status": "curator_reasoning",
+    "valid_time": {
+      "phase": "ave_ep03_inner_world",
+      "calendar_date": null,
+      "precision": "relative_phase"
+    },
+    "interpretation_author": "渡瀬结月（睦役；2025-01-17对谈第3页）"
   }
 ]

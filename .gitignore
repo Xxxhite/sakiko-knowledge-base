@@ -1,6 +1,8 @@
 # Local editor settings
 .idea/
 .vscode/
+/.agents/
+/.codex/
 *.iml
 
 # Dependencies and caches
@@ -29,6 +31,7 @@ __pycache__/
 /dist/
 /build/
 *.zip
+*.7z
 *.log
 *.tmp
 *.bak

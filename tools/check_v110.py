@@ -61,7 +61,7 @@ check('Only-me question remains Soyo utterance',facts['F090']['subject_id']=='so
 check('Early singing and later encouragement keep distinct phases',facts['F091']['valid_time']['phase']=='crychic_beginning' and facts['F070']['valid_time']['phase']=='mygo_ep07' and next(r for r in kb['timeline'] if r['id']=='T026')['reveal']['episode'] is None)
 check('Final memory line keeps its actual speaker and addressee',facts['F092']['subject_id']=='soyo' and facts['F092']['valid_time']['phase']=='mygo_ep13' and '向灯' in facts['F092']['statement_zh'] and evidence['E466']['source_id']=='S124')
 check('Song reading remains tentative and attributed',next(r for r in kb['inferences'] if r['id']=='I016')['strength']=='limited' and next(r for r in kb['inferences'] if r['id']=='I016')['interpretation_author'].startswith('林鼓子') and all('E467' not in r['evidence_ids'] for r in kb['facts']))
-check('Early Ave catalog entries separate synopsis and primary scene evidence',next(r for r in kb['episode_catalog'] if r['id']=='EP01')['evidence_ids']==['E468','E42'] and all(next(r for r in kb['episode_catalog'] if r['id']==i)['plot_evidence_level']=='official_synopsis' for i in ['EP03','EP05']) and all(evidence[i]['verification_status']=='indexed_text_verified' for i in ['E468','E469','E470']))
+check('Early Ave catalog preserves synopsis evidence while adding primary scenes',{'E468','E42','E482','E483','E484'}.issubset(next(r for r in kb['episode_catalog'] if r['id']=='EP01')['evidence_ids']) and next(r for r in kb['episode_catalog'] if r['id']=='EP03')['plot_evidence_level']=='primary_interview_retelling' and next(r for r in kb['episode_catalog'] if r['id']=='EP05')['plot_evidence_level']=='official_synopsis' and all(evidence[i]['verification_status']=='indexed_text_verified' for i in ['E468','E469','E470']))
 interpretations={r['id']:r for r in kb['inferences']}
 check('Director and actor readings keep separate authors',interpretations['I008']['interpretation_author'].startswith('柿本') and interpretations['I009']['interpretation_author'].startswith('高尾') and all(byid[r]['layer']=='inference' and '解读者：' in byid[r]['text'] for r in ['I008','I009']))
 check('Founding and departure have directed phase-specific edges',all(next(r for r in kb['relations'] if r['id']==rid)['subject_id']=='sakiko' and next(r for r in kb['relations'] if r['id']==rid)['object_id']=='crychic' for rid in ['R037','R038']) and next(r for r in kb['relations'] if r['id']=='R037')['valid_time']['phase']!=next(r for r in kb['relations'] if r['id']=='R038')['valid_time']['phase'])
@@ -135,6 +135,34 @@ cases=[
  ('林鼓子如何解读迷路日々中灯无意伤到祥子','I016',True),
  ('歌曲里双方受伤的解释是谁的理解','I016',True),
  ('CRYCHIC刚开始的引领和第7话应援有什么区别','R046',False),
+ ('第五话解散以后成员回到什么生活','F093',False),
+ ('全国巡演中断后各自的生活','F093',False),
+ ('监督怎么理解人間になりたいうたⅡ与祥子','I017',True),
+ ('灯不了解祥子却想继续思考她','I017',True),
+ ('立希珍惜旧团却不愿再和小祥组团是谁的理解','I018',True),
+ ('柿本如何解释立希对祥子的别扭与自我保护','I018',True),
+ ('小祥识别他人才能的审美眼光与成长环境','I019',True),
+ ('高尾认为祥子在顺境逆境中如何寄托情感','I020',True),
+ ('MyGO第十三话新乐队唱的同名曲','F094',False),
+ ('MyGO第13集Ave Mujica舞台歌曲','F094',False),
+ ('第十话灯在星象馆见到谁','F095',False),
+ ('第10话灯和初华在哪里相遇','F095',False),
+ ('初华跟灯说歌能传达心意是哪一段','F096',False),
+ ('天文馆那段是谁向灯谈超越言语的表达','F096',False),
+ ('林鼓子如何解释立希对祥子的憧憬','I021',True),
+ ('作曲时想到祥子并为比较而烦恼是谁的理解','I021',True),
+ ('初华役佐々木也复述了祥子祖父关系吗','F047',False),
+ ('佐佐木关于初华父亲是定治的家系旁证','F048',False),
+ ('Ave第一话父亲向祥子扔了东西吗','F097',False),
+ ('她爸爸对她投掷物品的场景','R048',False),
+ ('退出CRYCHIC之后她哭了是哪段回顾','F098',False),
+ ('高尾说退团直后的哭泣在哪一话披露','T029',False),
+ ('母亲去世的场景定位在哪一集','T031',False),
+ ('睦拿伞站在大哭祥子身后是哪层画面','F099',False),
+ ('第三话睦深层世界持伞的画面','F099',False),
+ ('高尾为何觉得她不想给别人添麻烦而难开口','I022',True),
+ ('睦是唯一知道祥子境遇的人是谁的推测','I023',True),
+ ('渡瀬怎么理解睦知道她退团心情和伞的关系','I023',True),
 ]
 outcomes=[]
 for query,rid,inference in cases:
@@ -149,6 +177,14 @@ check('Official fixed synopsis remains searchable','F067' in {r['record_id'] for
 check('Direct-only retains actually read interviews','F069' in {r['record_id'] for r in search('初演 表情 镜子',direct=True)})
 phase_rows=search('照镜子',phase='mygo_ep03')
 check('Phase filter separates the two episode threes','F069' in {r['record_id'] for r in phase_rows} and all(r['phase'].startswith('mygo_ep03') for r in phase_rows) and 'F031' not in {r['record_id'] for r in phase_rows})
+check('Planetarium utterance keeps Uika as speaker and Tomori as listener',facts['F096']['subject_id']=='uika' and facts['F096']['value']=='tomori' and next(r for r in kb['relations'] if r['id']=='R047')['subject_id']=='uika' and next(r for r in kb['relations'] if r['id']=='R047')['object_id']=='tomori')
+check('Planetarium official index and attributed dialogue keep distinct evidence modes',facts['F095']['evidence_status']=='official_explicit' and evidence['E480']['verification_status']=='indexed_text_verified' and facts['F096']['evidence_status']=='primary_interview_explicit' and all(evidence[e]['verification_status']=='direct_text_verified' for e in facts['F096']['evidence_ids']))
+check('New family corroboration retains earlier evidence and genealogy inference',all({'E32','E479'}.issubset(next(r for r in kb[n] if r['id']==rid)['evidence_ids']) for n,rid in [('facts','F047'),('facts','F048'),('relations','R025'),('relations','R026')]) and byid['I004']['layer']=='inference' and 'E479' in byid['I004']['evidence_ids'])
+check('Voice actor reading remains opt in',next(r for r in kb['inferences'] if r['id']=='I021')['interpretation_author'].startswith('林鼓子') and 'I021' not in {r['record_id'] for r in search('立希 祥子 憧憬',limit=1000)})
+check('Family scene retains father-to-daughter direction',facts['F097']['subject_id']=='father' and facts['F097']['value']=='sakiko' and next(r for r in kb['relations'] if r['id']=='R048')['object_id']=='sakiko')
+check('Umbrella scene retains inner-world scope',facts['F099']['valid_time']['phase']=='ave_ep03_inner_world' and '深层世界' in byid['F099']['text'] and byid['F099']['layer']=='canon')
+check('Exclusive knowledge is an attributed tentative reading',interpretations['I023']['strength']=='limited' and interpretations['I023']['interpretation_author'].startswith('渡瀬') and all('E487' not in r['evidence_ids'] for r in kb['facts']) and 'I023' not in {r['record_id'] for r in search('睦 唯一 知情',limit=1000)})
+check('Official death fact preserves its own evidence qualification',facts['F023']['evidence_ids']==['E14'] and facts['F023']['evidence_status']=='official_explicit' and next(r for r in kb['timeline'] if r['id']=='T031')['evidence_ids']==['E482'])
 identity_rows=search('祥子',limit=100)
 check('A pure character-name query returns cited records',bool(identity_rows) and all(r['citations'] and all(c['locator'] and c['original_url']==sources[c['source_id']]['original_url'] for c in r['citations']) for r in identity_rows))
 result=dict(status='passed',checks=checks,cases=outcomes,scope='Primary interview attribution, distinct work episode identities and original-work local retrieval.')

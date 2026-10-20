@@ -2,7 +2,7 @@
 
 面向剧情讨论与检索的丰川祥子资料库，覆盖 BanG Dream! 原作和《明日方舟》联动《无忧梦呓》。提供可直接阅读的 Markdown、程序读取的 JSON、检索导入的 JSONL，以及本地中文检索工具。
 
-资料版本 **1.16.1**，核验基线 **2026-10-20**。含 TV 动画结局、身份信息和《无忧梦呓》结局剧透。
+资料版本 **1.19.1**，核验基线 **2026-10-20**。含 TV 动画结局、身份信息和《无忧梦呓》结局剧透。
 
 ## 直接使用
 
@@ -20,13 +20,16 @@
 $sakiko-knowledge-base 祥子为什么没有立刻带睦离开？请给出场景与来源。
 ```
 
-Skill 默认检索 canon，分析时可追加署名 inference。检索仅需 Python；维护规则见 AGENTS.md。安装版是快照，后续更新仓库后需刷新安装版本。文件规范参考[官方 Skills 文档](https://learn.chatgpt.com/docs/build-skills)。
+Skill默认检索canon，分析时可追加署名inference。展示信息位于agents/openai.yaml，检索仅需Python。仓库与安装副本各自保存版本；[安装与更新说明](docs/Skill安装与更新.md)介绍版本比较及刷新，维护规则见[AGENTS.md](AGENTS.md)。
 
 ### 阅读剧情资料
 
+- [Ave第1话家庭场景与第3话深层世界画面](markdown/原作_Ave前段家庭与深层世界.md)
+- [MyGO第10话星象馆交谈与第13话同名曲舞台](markdown/原作_星象馆与同名曲舞台.md)
 - [旧团请求与告别：第8话恳求、第7话重聚](markdown/原作_旧团请求与告别.md)
 - [招募交涉与关系转折](markdown/原作_招募与关系转折.md)
 - [MyGO第3话：场景与证据](markdown/原作_MyGO第3话_场景与证据.md)
+- [原作实际问答验收：24个回答、42句逐句复核](markdown/原作_问答验收.md)
 - [原作剧情问答导航](markdown/原作_剧情问答索引.md)、[MyGO重点话数覆盖与待补场景](markdown/原作_MyGO四话覆盖.md)
 - [祥子在联动主线中的表现](markdown/明日方舟_祥子剧情表现.md)
 - [档案、模组、语音与活动附加文本](markdown/明日方舟_档案模组与语音.md)
@@ -63,8 +66,8 @@ python -X utf8 tools/search_game.py "母亲" --max-stage SS-7-END
 | 使用范围 | 导入文件 | 片段数 |
 | --- | --- | ---: |
 | 《明日方舟》联动 | [game_retrieval_chunks.jsonl](jsonl/game_retrieval_chunks.jsonl) | 193 |
-| BanG Dream! 基础资料与联动合并 | [retrieval_combined.jsonl](jsonl/retrieval_combined.jsonl) | 373 |
-| BanG Dream! 基础资料 | [retrieval_chunks.jsonl](jsonl/retrieval_chunks.jsonl) | 180 |
+| BanG Dream! 基础资料与联动合并 | [retrieval_combined.jsonl](jsonl/retrieval_combined.jsonl) | 394 |
+| BanG Dream! 基础资料 | [retrieval_chunks.jsonl](jsonl/retrieval_chunks.jsonl) | 201 |
 
 按需要选择一套，避免重复导入。默认筛选 `layer=canon`，分析时显式开启 `inference`；保留来源、世界线、梦境层、说话人、剧透进度和关联上下文。具体平台的检索与上下文注入按该平台配置。
 
@@ -89,7 +92,8 @@ python -X utf8 tools/search_game.py "母亲" --max-stage SS-7-END
 | `markdown/` | 可阅读的事实、关系、剧情和来源文档 |
 | `schema/` | Draft-07 JSON Schema |
 | `docs/` | 编录、核验、字段及使用规则 |
-| `tools/` | 检索与验证工具 |
+| `tools/` | 检索、导出与验证工具 |
+| `SKILL.md`、`agents/openai.yaml` | Skill检索指引与展示信息 |
 | `AGENTS.md` | 维护说明和后续工作交接 |
 | `SHA256SUMS.txt` | 仓库交付文件的 SHA-256 校验清单 |
 
@@ -102,7 +106,7 @@ npm ci
 npm test
 ```
 
-完整十二项工具检查覆盖严格 JSON、JSONL 镜像、ID 与引用、三层隔离、场景归属、检索过滤、160 项查询／导航发现用例以及 schema 的 29 项反例。依赖已通过 `package-lock.json` 锁定；检查默认只读。
+完整十二项工具检查覆盖严格 JSON、JSONL 镜像、ID 与引用、三层隔离、场景归属、检索过滤、188项查询／导航发现用例以及schema的33项反例；同时检查主库与依赖清单版本一致。依赖已通过 `package-lock.json` 锁定；检查默认只读。
 
 仅检查资料完整性可运行：
 
@@ -110,9 +114,9 @@ npm test
 python -B -X utf8 tools/validate.py
 ```
 
-更新联动主数据后，可运行 `python -B -X utf8 tools/export_game.py` 同步分集合镜像、联动／合并检索和主线阅读视图；基础检索的人工编录标签另行维护。刷新校验清单后再运行验证。
+更新主数据后，运行`python -B -X utf8 tools/export_game.py`同步25个集合镜像、联动／合并检索和原作／联动阅读视图；基础检索的人工编录标签与证据链另行维护。刷新校验清单后再运行验证。
 
-维护规则见 [AGENTS.md](AGENTS.md)，变更见 [CHANGELOG.md](CHANGELOG.md)，后续内容见[补充清单](markdown/下一步补充清单.md)。本地 IDE 配置、依赖、缓存、工作文件、生成报告和 ZIP 归档由忽略规则排除。
+维护规则见 [AGENTS.md](AGENTS.md)，变更见 [CHANGELOG.md](CHANGELOG.md)，后续内容见[补充清单](markdown/下一步补充清单.md)。本地IDE配置、隐藏的.agents／.codex配置、依赖、缓存、采集、生成报告和归档由忽略规则排除。agents/openai.yaml随Skill交付。
 
 原始作品与转录原文的权利归相关权利方；本库提供结构化摘要、必要短引文与来源链接。
 
@@ -136,7 +140,7 @@ python -X utf8 tools/context_game.py --record AKL009 --material module_story --l
 
 游戏文本部分已完成12个实际回答样本、30句逐句核对，按剧情讨论检索用途收尾。主线99条、补充材料89条、联动片段193条保持；客户端、音频、赠礼过程与匿名听众转入长期维护。回答样本保存在独立管理集合game_answer_reviews，附证据引用和复核说明。
 
-当前重点为BanG Dream!原作：本轮补第8话爽世的具体问句、祥子引领灯开始旧团歌唱及末话爽世谈旧团记忆。林鼓子的歌曲解读独立署名；新增Ave第1、3、5话目录，回链既有场景。新增3条事实、1条关系、1项时间线、1条解读和6项导航。原作事实92条、关系46条、时间线26条、解读16条，基础检索180条、合并373条。后续见原作补充进度与补充清单。
+当前重点为BanG Dream!原作：本轮取得高尾、渡瀬的第1—3话对谈，补父亲向祥子扔东西、退团后哭泣、母亲去世的披露位置及睦深层世界的持伞画面；开口困难和知情范围的声优解释单列inference。原作事实99条、关系48条、时间线31条、解读23条、导航61项；24个实际回答共42句已逐句复核。基础检索201条、联动193条、合并394条。家庭选择、现场救场及完整交涉继续逐场景补录。
 
 ## 原作本地检索
 
@@ -150,3 +154,9 @@ python -X utf8 tools/search_base.py "照镜子" --phase mygo_ep03
 ```
 
 支持中文关键词／双字片段、人物别名、集数写法归一（如第三集／第3话）、分层、官方／正文来源、continuity及phase前缀筛选，结果带原始URL与证据定位。使用original_question_index辅助排序，导航自身排除事实片段。MyGO和Ave Mujica均属于tv_anime，指定集数可用mygo_ep03或ave_ep03等phase前缀区分。
+
+## 仓库交付
+
+v1.19.1整理Skill与维护文档，剧情数据沿用v1.19.0。版本同步于主库metadata、package.json及package-lock.json；数据范围与未完成场景见[原作进度](markdown/原作_补充进度.md)。
+
+维护成果默认保留本地供用户检查，提交和推送按明确授权执行。SHA256SUMS.txt列出交付文件；校验清单自身随仓库交付。历史版说明保留原数据及日期，当前版本以本README和主库metadata为准。
